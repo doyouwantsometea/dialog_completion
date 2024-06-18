@@ -1,0 +1,4 @@
+{
+  "header": "Below is an excerpt from a conversation {topic}between a teacher and a {level}student. Some part of the dialogue is missing, marked out as {missing part}. Please fill in the missing dialogue.\n\n",
+  "footer_format": "Please fill in the missing dialogue in JSON format:\n{\"missing part\": }"
+}
