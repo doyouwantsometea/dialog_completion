@@ -1,3 +1,5 @@
 .DS_Store
+key.json
+llm_cache
 WikiDialog
 WIRED
