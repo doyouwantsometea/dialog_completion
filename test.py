@@ -25,12 +25,25 @@ def filter_utternace(df: pd.DataFrame,
                      utterance_length: int = 30,
                      window: int = 2):
     # print(len(df))
-    df_filter = df[df['role'] == role][df['turn_num_tokens'] > utterance_length]
+
+    parsed_dialogue = str()
+
+    df_filter = df[df.role == role][df.turn_num_tokens > utterance_length]
     for i in df_filter.index:
         start = i - window if window <= i else 0
         end = i + 1 + window if i + 1 + window <= len(df) else len(df)
         print(df[start:end])
 
+        for index, row in df[start:end].iterrows():
+            parsed_dialogue += f'{row.role}:'
+            if index == i:
+                parsed_dialogue += ' {missing part}\n'
+            else:
+                for sentence in row.turn:
+                    parsed_dialogue += f' {sentence}'
+                parsed_dialogue += '\n'
+
+    print(parsed_dialogue)
 
 filter_utternace(df)
 
