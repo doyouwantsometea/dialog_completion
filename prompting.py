@@ -44,7 +44,8 @@ class Prompter(object):
 
     def build_prompt(self,
                      topic: str = '',
-                     level: str = '',
+                     explainer: str = ' teacher',
+                     explainee: str = ' student',
                      footer_idx: int = 0) -> str:
         """
         Build full prompt based on prompting configuration and footer sample index.
@@ -60,7 +61,8 @@ class Prompter(object):
         prompt += self.cfg['header']
         
         prompt = prompt.replace('{topic}', topic)
-        prompt = prompt.replace('{level}', level)
+        prompt = prompt.replace('{explainer}', explainer)
+        prompt = prompt.replace('{explainee}', explainee)
         
         # TODO: fill in missing part
 
