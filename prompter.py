@@ -17,7 +17,7 @@ class Prompter(object):
     """
     Class to build full prompts based on a prompting configuration.
     """
-    def __init__(self, prompt_cfg_filename: str, task: str):
+    def __init__(self, prompt_cfg_filename: str):
         """
         Initialize Prompter instance using a prompting configuration file.
         :param prompt_cfg_filename: Name of the prompting configuration file.
@@ -25,15 +25,15 @@ class Prompter(object):
         """
         super().__init__()
         # load prompting configuration:
-        self.cfg = load_prompt_config(prompt_cfg_filename, task)
+        self.cfg = load_prompt_config(prompt_cfg_filename)
 
-    def __call__(self, footer_idx: int = 0):
+    def __call__(self, dialogue):
         """
         Convenience method passing all arguments to build_prompt() method.
         :param footer_idx: Sample index for prompt footer data.
         :return: Fully built prompt string based on prompting configuration.
         """
-        return self.build_prompt(footer_idx=footer_idx)
+        return self.build_prompt(dialogue=dialogue)
 
     # not sure if this is needed here
     def build_one_shot_prompt(self):
@@ -43,10 +43,10 @@ class Prompter(object):
         return prompt
 
     def build_prompt(self,
+                     dialogue: str,
                      topic: str = '',
                      explainer: str = ' teacher',
-                     explainee: str = ' student',
-                     footer_idx: int = 0) -> str:
+                     explainee: str = ' student') -> str:
         """
         Build full prompt based on prompting configuration and footer sample index.
         :param topic: Mentioning topic of explanatory dialogue in the prompt (optional).
@@ -65,11 +65,11 @@ class Prompter(object):
         prompt = prompt.replace('{explainer}', explainer)
         prompt = prompt.replace('{explainee}', explainee)
         
-        # TODO: fill in missing part
+        prompt += f'{dialogue}\n'
 
         # add footer:
         prompt += self.cfg['footer']
-
+        print(prompt)
         return prompt
 
 

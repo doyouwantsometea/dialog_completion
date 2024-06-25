@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 from data_loader import DataLoader
+from prompter import Prompter
 
 
 for root, dirs, files in os.walk('WIRED/data/corpus_dialogs'):
@@ -63,16 +64,21 @@ for root, dirs, files in os.walk('WIRED/data/corpus_dialogs'):
 
 #     return parsed_dialogue
 
-data_loader = DataLoader(path = 'WIRED/data/corpus_dialogs/blackhole_3.json',
-                         role = 'Explainer',
-                         utterance_len = 30,
-                         window = 2,
-                         replace = True)
+data_loader = DataLoader(path='WIRED/data/corpus_dialogs/blackhole_3.json',
+                         role='Explainer',
+                         utterance_len=30,
+                         window=2,
+                         replace=True)
 
-index_list = DataLoader.filter_utternace(data_loader)
+prompter = Prompter(prompt_cfg_filename='prompts.json')
+
+
+
+index_list = data_loader.filter_utternace()
 for index in index_list:
-    parsed_diaolgue = DataLoader.parse_diaolgue(data_loader, index=index)
-    print(parsed_diaolgue)
+    diaolgue = data_loader.parse_diaolgue(index=index)
+    # print(diaolgue)
+    prompter.build_prompt(diaolgue)
 # text = str()
 
 # for utterance in df[2]['dialog']:
