@@ -50,7 +50,8 @@ class Prompter(object):
         """
         Build full prompt based on prompting configuration and footer sample index.
         :param topic: Mentioning topic of explanatory dialogue in the prompt (optional).
-        :param level: Mentioning level of expertise of explanee in the prompt (optional).
+        :param explainer: Description of the explaner participating in the dialogue.
+        :param explainee: Description of the explanee participating in the dialogue.
         :param footer_idx: Sample index for prompt footer data.
         :return: Fully built prompt string based on prompting configuration.
         """

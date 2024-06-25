@@ -13,44 +13,61 @@ for root, dirs, files in os.walk('WIRED/data/corpus_dialogs'):
 
 df = pd.read_json('WIRED/data/corpus_dialogs/blackhole_3.json').reset_index(drop=True)
 # print(df.reset_index(drop=True))
-print(df.columns)
+# print(df.columns)
 # print(df['turn']) # utterances
 # print(df['turn_num_tokens']) # length of speech
-print(df[df['role'] == 'Explainer'][df['turn_num_tokens'] > 30].index)
+# print(df[df['role'] == 'Explainer'][df['turn_num_tokens'] > 30].index)
 
 
 
 def filter_utternace(df: pd.DataFrame,
                      role: str = 'Explainer',
-                     utterance_length: int = 30,
-                     window: int = 2):
-    # print(len(df))
+                     utterance_len: int = 30):
+    """
+    Filter utterances with the given conditions.
+    :param df: Dataframe of loaded WIRED data.
+    :param role: Speaker of the desired utterances (Explainer / Explainee).
+    :param utterance_len: Minimum token numbers of the desired utterances.
+    :return: List of indexes that point toward utterances in the dataframe.
+    """
+    df_filter = df[(df.role == role) & (df.turn_num_tokens > utterance_len)]
+    return df_filter.index
 
 
-    df_filter = df[(df.role == role) & (df.turn_num_tokens > utterance_length)]
-    for i in df_filter.index:
-        start = i - window if window <= i else 0
-        end = i + 1 + window if i + 1 + window <= len(df) else len(df)
-        print(df[start:end])
+def parse_diaolgue(df: pd.DataFrame,
+                   index: str,
+                   window: str = 2,
+                   replace: bool = True):
+    """
+    Parse utterances into dialogue segment for prompting.
+    :param df: Dataframe of loaded WIRED data.
+    :param index: Index of the filtered utterance.
+    :param window: Number of prior and following utterances to be included in the dialogue segment.
+    :param replace: Whether to replace the filtered utterance with {missing part} placeholder.
+    :return: Dialogue string that can be prompted.
+    """
+    start = index - window if window <= index else 0
+    end = index + 1 + window if index + 1 + window <= len(df) else len(df)
+    print(df[start:end])
 
-        
-        parsed_dialogue = str()
-        
-        for index, row in df[start:end].iterrows():
-            parsed_dialogue += f'{row.role}:'
-            if index == i:
-                parsed_dialogue += ' {missing part}\n'
-            else:
-                for sentence in row.turn:
-                    parsed_dialogue += f' {sentence}'
-                parsed_dialogue += '\n'
+    parsed_dialogue = str()
+    
+    for i, r in df[start:end].iterrows():
+        parsed_dialogue += f'{r.role}:'
+        if i == index and replace:
+            parsed_dialogue += ' {missing part}\n'
+        else:
+            for sentence in r.turn:
+                parsed_dialogue += f' {sentence}'
+            parsed_dialogue += '\n'
 
-        print(parsed_dialogue)
-        print('-----')
-
-filter_utternace(df)
+    return parsed_dialogue
 
 
+index_list = filter_utternace(df, utterance_len=50)
+for index in index_list:
+    parsed_diaolgue = parse_diaolgue(df, index=index)
+    print(parsed_diaolgue)
 # text = str()
 
 # for utterance in df[2]['dialog']:
