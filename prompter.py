@@ -46,13 +46,14 @@ class Prompter(object):
                      dialogue: str,
                      topic: str = '',
                      explainer: str = ' teacher',
-                     explainee: str = ' student') -> str:
+                     explainee: str = ' student',
+                     instruction: str = '') -> str:
         """
         Build full prompt based on prompting configuration and footer sample index.
         :param topic: Mentioning topic of explanatory dialogue in the prompt (optional).
         :param explainer: Description of the explaner participating in the dialogue.
         :param explainee: Description of the explanee participating in the dialogue.
-        :param footer_idx: Sample index for prompt footer data.
+        :param instruction: Perturbation for tuning model-generated dialogue.
         :return: Fully built prompt string based on prompting configuration.
         """
         
@@ -66,6 +67,8 @@ class Prompter(object):
         prompt = prompt.replace('{explainee}', explainee)
         
         prompt += f'{dialogue}\n'
+
+        #TODO: prompt += instruction
 
         # add footer:
         prompt += self.cfg['footer']
