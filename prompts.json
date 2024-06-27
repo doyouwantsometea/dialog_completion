@@ -1,5 +1,5 @@
 {
-  "header": "Below is an excerpt from a conversation {topic}between a{expainer} and a{explainee}. Some part of the dialogue is missing, marked out as {missing part}. Please fill in the missing dialogue.\n\n",
+  "header": "Below is an excerpt from a conversation {topic}between a{explainer} and a{explainee}. Some part of the dialogue is missing, marked out as {missing part}. Please fill in the missing utterance based on the given dialogue context.\n\n",
   "instruction": "",
   "footer": "Please fill in the missing dialogue in JSON format:\n{\"missing part\": }"
 }
