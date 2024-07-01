@@ -4,6 +4,7 @@ import sys
 import requests
 from time import sleep
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from langchain_huggingface import HuggingFaceEndpoint, HuggingFacePipeline
 
 
 # path for downloading LLMs
@@ -51,7 +52,7 @@ def load_hf_llm(model_id: str, api_token: str):
     return model, tokenizer
 
 
-def llm_query(prompt: str,
+def api_query(prompt: str,
               n_tokens: int = 128,
               retry_delay: int = 2,
               max_retries: int = 10,
@@ -83,13 +84,11 @@ def llm_query(prompt: str,
         # check for expected text generation response code:
         if f'{response}' == '<Response [200]>':
             if verbose:
-                print('Got proper response!')
+                print('HF API responding.')
             proper_response = True
         else:
             if verbose:
-                print('Improper response from HF API!')
-                print('Response: ', response)
-                print('Response content: ', response.content)
+                print(f'Improper response from HF API.\nResponse: {response}\nResponse content: {response.content}')
             if n_retries <= max_retries:
                 if verbose:
                     print(f'Waiting {retry_delay}s to retry...')
@@ -97,7 +96,20 @@ def llm_query(prompt: str,
                 sleep(retry_delay)
                 n_retries += 1
             else:
-                sys.exit(f'Maximum number of retries ({n_retries}) reached, stopping API requests! Check API '
-                         f'availability and API access token.')
+                sys.exit(f'Maximum number of retries ({n_retries}) reached, stopping API requests.\nCheck API availability and API access token.')
 
     return json.loads(response.content.decode('utf-8'))[0]['generated_text']
+
+
+def load_hf_llm(model_id: str, api_token: str):
+    model = AutoModelForCausalLM.from_pretrained(model_id,
+                                                 cache_dir='llm_cache',
+                                                 device_map='auto',
+                                                 token=api_token)
+    tokenizer = AutoTokenizer.from_pretrained(model_id,
+                                              cache_dir='llm_cache',
+                                              device_map='auto',
+                                              token=api_token)
+    return model, tokenizer
+
+
