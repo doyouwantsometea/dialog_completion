@@ -11,7 +11,7 @@ class DataLoader(object):
     def __init__(self,
                  path: str,
                  role: str = 'Explainer',
-                 utterance_len: int = 30,
+                 utterance_len: int = 100,
                  window: int = 2,
                  replace: bool = True):
         """
