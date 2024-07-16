@@ -47,20 +47,22 @@ class DataLoader(object):
         """
         start = index - self.window if self.window <= index else 0
         end = index + 1 + self.window if index + 1 + self.window <= len(self.df) else len(self.df)
-        print(self.df[start:end])
+        # print(self.df[start:end])
 
+        target_utterance = str()
         parsed_dialogue = str()
         
         for i, r in self.df[start:end].iterrows():
+            if i == index:
+                target_utterance = ' '.join(r.turn).rstrip()
+
             parsed_dialogue += f'{r.role}:'
             if i == index and self.replace:
                 parsed_dialogue += ' {missing part}\n'
             else:
-                for sentence in r.turn:
-                    parsed_dialogue += f' {sentence}'
-                parsed_dialogue += '\n'
+                parsed_dialogue += ' ' + ' '.join(r.turn) + '\n'
 
-        return parsed_dialogue
+        return target_utterance, parsed_dialogue
     
 
 

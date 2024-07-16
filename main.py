@@ -46,6 +46,8 @@ if __name__ == "__main__":
     
     args = build_arguments()
     
+    df = pd.DataFrame(columns=['file', 'utterance_len', 'role', 'window', 'index',
+                               'target_utterance', 'dialogue', 'model', 'model_output'])
 
     prompter = Prompter(prompt_cfg_filename='prompts.json')
 
@@ -67,11 +69,14 @@ if __name__ == "__main__":
             
             index_list = data_loader.filter_utternace()
             for index in index_list:
-                diaolgue = data_loader.parse_diaolgue(index=index)
+                target_utterance, diaolgue = data_loader.parse_diaolgue(index=index)
                 # print(diaolgue)
                 prompt = prompter.build_prompt(diaolgue)
-
-
+                print(prompt)
 
                 model_loader.prompt(prompt)
+
+                new_row = {
+
+                }
     
