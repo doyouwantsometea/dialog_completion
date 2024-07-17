@@ -69,6 +69,9 @@ if __name__ == "__main__":
                                      replace=True)
             
             index_list = data_loader.filter_utternace()
+            topic = data_loader.get_topic()
+            explainer, explainee = data_loader.get_dialog_lvl()
+            
             for index in index_list:
                 target_utterance, diaolgue = data_loader.parse_diaolgue(index=index)
                 # print(diaolgue)

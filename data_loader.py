@@ -30,6 +30,29 @@ class DataLoader(object):
         self.window = window
         self.replace = replace
     
+    def get_topic(self) -> str:
+        """
+        Parse dialogue topic.
+        :return: Dialogue topic.
+        """
+        return self.df.loc[0, 'topic'].replace('_', ' ') + ' '
+
+    def get_dialog_lvl(self) -> tuple:
+        """
+        Parse dialogue expertise level.
+        :return: Tuple that indicates expertise level of explainer and explainee.
+        """
+        mapping = {
+            'child': (' teacher', ' child'),
+            'teenager': (' teacher', ' teenager'),
+            'undergrad': (' professor', ' college student'),
+            'grad': (' professor', ' graduate student'),
+            'colleague': ('n expert', 'nother expert')
+        }
+        
+        level = self.df.loc[0, 'dialog_lvl']
+        return mapping[level]
+    
     def filter_utternace(self) -> list:
         """
         Filter utterances with the given conditions.
@@ -64,9 +87,6 @@ class DataLoader(object):
 
         return target_utterance, parsed_dialogue
     
-
-
-
 
 
 if __name__ == "__main__":

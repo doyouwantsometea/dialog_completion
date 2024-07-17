@@ -137,9 +137,14 @@ class ModelLoader(object):
         if self.local:
             model_inputs = self.tokenizer([prompt], return_tensors='pt').to(self.device)
             self.model.to(self.device)
-            generated_ids = self.model.generate(**model_inputs, max_new_tokens=256, do_sample=True)
+            generated_ids = self.model.generate(**model_inputs, max_new_tokens=512, do_sample=True)
             raw_output = self.tokenizer.batch_decode(generated_ids)[0]
         else:
             raw_output = self.api_query(prompt=prompt)
 
         return raw_output
+    
+
+
+if __name__ == "__main__":
+    pass
