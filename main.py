@@ -5,10 +5,11 @@ from argparse import ArgumentParser
 from data_loader import DataLoader
 from prompter import Prompter
 from model_loader import ModelLoader
+from utils import extract_json
 
 
 
-def build_arguments():
+def arguments():
 
     parser = ArgumentParser()
 
@@ -44,7 +45,7 @@ def build_arguments():
 
 if __name__ == "__main__":
     
-    args = build_arguments()
+    args = arguments()
     
     df = pd.DataFrame(columns=['file', 'utterance_len', 'role', 'window', 'index',
                                'target_utterance', 'dialogue', 'model', 'model_output'])
@@ -74,9 +75,28 @@ if __name__ == "__main__":
                 prompt = prompter.build_prompt(diaolgue)
                 print(prompt)
 
-                model_loader.prompt(prompt)
+                raw_output = model_loader.prompt(prompt).replace(prompt, '')
 
+
+                json_output = extract_json(raw_output)
+                
+                if not json_output:
+                    continue
+                
+                model_output = json_output['missing part']
+                
                 new_row = {
-
+                    'file': file,
+                    'utterance_len': args.utterance_len,
+                    'role': args.role,
+                    'window': args.window,
+                    'index': index,
+                    'target_utterance': target_utterance,
+                    'dialogue': diaolgue,
+                    'model': args.model,
+                    'model_output': model_output
                 }
+
+                df.loc[len(df)] = new_row
+                print(df.head())
     
