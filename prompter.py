@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+from utils import trim_after_placeholder
 
 
 def load_prompt_config(config_name: str) -> dict:
@@ -47,12 +48,14 @@ class Prompter(object):
                      topic: str = '',
                      explainer: str = 'n explainer',
                      explainee: str = 'n explainee',
+                     footer_context: bool = False,
                      instruction: str = '') -> str:
         """
         Build full prompt based on prompting configuration and footer sample index.
         :param topic: Mentioning topic of explanatory dialogue in the prompt (optional).
         :param explainer: Description of the explaner participating in the dialogue.
         :param explainee: Description of the explanee participating in the dialogue.
+        :param footer_context: Whether provide dialogue context in the footer.
         :param instruction: Perturbation for tuning model-generated dialogue.
         :return: Fully built prompt string based on prompting configuration.
         """
@@ -61,18 +64,21 @@ class Prompter(object):
         
         # add header
         prompt += self.cfg['header']
+        prompt = prompt.replace('{topic}', topic).replace('{explainer}', explainer).replace('{explainee}', explainee)
         
-        prompt = prompt.replace('{topic}', topic)
-        prompt = prompt.replace('{explainer}', explainer)
-        prompt = prompt.replace('{explainee}', explainee)
-        
+        # dialogue
         prompt += f'{dialogue}\n'
 
         #TODO: prompt += instruction
 
         # add footer:
-        prompt += self.cfg['footer']
-        print(prompt)
+        if footer_context:
+            prompt += self.cfg['footer_w_context']
+            prompt += trim_after_placeholder(text=dialogue,
+                                             placeholder='{missing part}')
+        else:
+            prompt += self.cfg['footer']
+        
         return prompt
 
 

@@ -35,7 +35,8 @@ class DataLoader(object):
         Parse dialogue topic.
         :return: Dialogue topic.
         """
-        return self.df.loc[0, 'topic'].replace('_', ' ') + ' '
+        topic = self.df.loc[0, 'topic'].replace('_', ' ')
+        return f'about {topic} '
 
     def get_dialog_lvl(self) -> tuple:
         """

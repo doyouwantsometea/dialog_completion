@@ -3,7 +3,7 @@ import re
 
 
 
-def extract_json(text):
+def extract_json(text: str):
     # Regular expression to match a JSON-formatted string
     json_pattern = r'\{.*?\}'
     
@@ -19,3 +19,15 @@ def extract_json(text):
         except json.JSONDecodeError:
             return None
     return None
+
+
+def trim_after_placeholder(text: str,
+                           placeholder: str):
+
+    index = text.find(placeholder)
+
+    # Trim everything after the key phrase
+    if index != -1:
+        return text[:index + len(placeholder)].replace(placeholder, '{"missing_part": }')
+    else:
+        return None

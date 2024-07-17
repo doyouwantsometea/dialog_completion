@@ -29,6 +29,18 @@ def arguments():
                         type=int, default=2,
                         help='Number of utterances prior to and following the target utterance. (Default=2)')
     
+    parser.add_argument('--topic', dest='topic',
+                        action='store_true',
+                        help='Include topic in the prompt.')
+    
+    parser.add_argument('--roles', dest='roles',
+                        action='store_true',
+                        help='Specify speaker roles in the prompt.')
+     
+    parser.add_argument('--context', dest='context',
+                        action='store_true',
+                        help='Incorporate dialogue context in prompt footer.')
+    
     parser.add_argument('-m', dest='model',
                         type=str, required=True,
                         help='Name of large language model to be loaded via HuggingFace API.')
@@ -48,7 +60,8 @@ if __name__ == "__main__":
     args = arguments()
     
     df = pd.DataFrame(columns=['file', 'utterance_len', 'role', 'window', 'index',
-                               'target_utterance', 'dialogue', 'model', 'model_output'])
+                               'target_utterance', 'dialogue', 'model', 'topic',
+                               'explainer', 'explainee', 'footer_context', 'model_output'])
 
     prompter = Prompter(prompt_cfg_filename='prompts.json')
 
@@ -71,16 +84,24 @@ if __name__ == "__main__":
             index_list = data_loader.filter_utternace()
             topic = data_loader.get_topic()
             explainer, explainee = data_loader.get_dialog_lvl()
-            
+
             for index in index_list:
                 target_utterance, diaolgue = data_loader.parse_diaolgue(index=index)
-                # print(diaolgue)
-                prompt = prompter.build_prompt(diaolgue)
-                print(prompt)
+
+                # prepare arguments for building prompts
+                kwargs = {}
+                if args.topic:
+                    kwargs['topic'] = topic
+                if args.roles:
+                    kwargs['explainer'] = explainer
+                    kwargs['explainee'] = explainee
+                if args.context:
+                    kwargs['footer_context'] = True
+
+                prompt = prompter.build_prompt(diaolgue, **kwargs)
 
                 raw_output = model_loader.prompt(prompt).replace(prompt, '')
-
-
+                print(raw_output)
                 json_output = extract_json(raw_output)
                 
                 if not json_output:
@@ -97,6 +118,10 @@ if __name__ == "__main__":
                     'target_utterance': target_utterance,
                     'dialogue': diaolgue,
                     'model': args.model,
+                    'topic': topic if args.topic else None,
+                    'explainer': explainer if args.roles else None,
+                    'explainee': explainee if args.roles else None,
+                    'footer_context': True if args.context else False, 
                     'model_output': model_output
                 }
 
