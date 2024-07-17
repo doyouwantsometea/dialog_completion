@@ -45,8 +45,8 @@ class Prompter(object):
     def build_prompt(self,
                      dialogue: str,
                      topic: str = '',
-                     explainer: str = ' teacher',
-                     explainee: str = ' student',
+                     explainer: str = 'n explainer',
+                     explainee: str = 'n explainee',
                      instruction: str = '') -> str:
         """
         Build full prompt based on prompting configuration and footer sample index.
