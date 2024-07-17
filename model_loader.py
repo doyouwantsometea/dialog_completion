@@ -16,7 +16,7 @@ os.environ['HF_HOME'] = './llm_cache'
 def model_to_hf_id(model: str):
     
     supported_models = {
-        'mistralai': ['Mistral-7B-Instruct-v0.2', 'Mixtral-8x7B-Instruct-v0.1'],
+        'mistralai': ['Mistral-7B-Instruct-v0.3', 'Mixtral-8x7B-Instruct-v0.1'],
         'ybelkada': ['Mixtral-8x7B-Instruct-v0.1-bnb-4bit'],
         'openchat': ['openchat-3.5-0106'],
         'meta-llama': ['Meta-Llama-3-8B-Instruct']
