@@ -42,7 +42,11 @@ def load_hf_interface(model_id: str):
     return url, key
 
 
-def load_hf_llm(model_id: str, api_token: str):
+def load_hf_llm(model_id: str):
+    # accessing HF API
+    with open('key.json', 'r') as f:
+        api_token = json.loads(f.read())['HuggingFace']
+
     model = AutoModelForCausalLM.from_pretrained(model_id,
                                                  cache_dir='llm_cache',
                                                  device_map='auto',
