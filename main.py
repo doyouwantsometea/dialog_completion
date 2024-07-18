@@ -33,7 +33,7 @@ def arguments():
                         action='store_true',
                         help='Include topic in the prompt.')
     
-    parser.add_argument('--roles', dest='roles',
+    parser.add_argument('--speakers', dest='speakers',
                         action='store_true',
                         help='Specify speaker roles in the prompt.')
      
@@ -92,7 +92,7 @@ if __name__ == "__main__":
                 kwargs = {}
                 if args.topic:
                     kwargs['topic'] = topic
-                if args.roles:
+                if args.speakers:
                     kwargs['explainer'] = explainer
                     kwargs['explainee'] = explainee
                 if args.context:
@@ -121,8 +121,8 @@ if __name__ == "__main__":
                     'dialogue': diaolgue,
                     'model': args.model,
                     'topic': topic if args.topic else None,
-                    'explainer': explainer if args.roles else None,
-                    'explainee': explainee if args.roles else None,
+                    'explainer': explainer if args.speakers else None,
+                    'explainee': explainee if args.speakers else None,
                     'footer_context': True if args.context else False, 
                     'model_output': model_output
                 }
@@ -130,5 +130,15 @@ if __name__ == "__main__":
                 df.loc[len(df)] = new_row
                 print(df.head())
         
-    os.makedirs('results/WIRED', exist_ok=True)
-    df.to_json('results/WIRED/test.json')
+    os.makedirs('results', exist_ok=True)
+
+    optional_args = [f'{"topic" if args.topic else ""}',
+                     f'{"speakers" if args.speakers else ""}',
+                     f'{"context" if args.context else ""}']
+    file_name_suffix = str()
+    for arg in optional_args:
+        if arg != '':
+            file_name_suffix += f'_{arg}'
+
+    file_name = f'WIRED_{args.model}_l{args.utterance_len}_w{args.window}'
+    df.to_json(f'results/{file_name}{file_name_suffix}.json')
