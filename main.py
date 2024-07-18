@@ -99,7 +99,9 @@ if __name__ == "__main__":
                     kwargs['footer_context'] = True
 
                 prompt = prompter.build_prompt(diaolgue, **kwargs)
-
+                
+                print(prompt)
+                
                 raw_output = model_loader.prompt(prompt).replace(prompt, '')
                 print(raw_output)
                 json_output = extract_json(raw_output)
@@ -107,7 +109,7 @@ if __name__ == "__main__":
                 if not json_output:
                     continue
                 
-                model_output = json_output['missing part']
+                model_output = json_output.get('missing part', None)
                 
                 new_row = {
                     'file': file,
@@ -127,4 +129,6 @@ if __name__ == "__main__":
 
                 df.loc[len(df)] = new_row
                 print(df.head())
-    
+        
+    os.makedirs('results/WIRED', exist_ok=True)
+    df.to_json('results/WIRED/test.json')
