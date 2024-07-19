@@ -42,10 +42,7 @@ def load_hf_interface(model_id: str):
     return url, key
 
 
-def load_hf_llm(model_id: str):
-    # accessing HF API
-    with open('key.json', 'r') as f:
-        api_token = json.loads(f.read())['HuggingFace']
+def load_hf_llm(model_id: str, api_token: str):
 
     model = AutoModelForCausalLM.from_pretrained(model_id,
                                                  cache_dir='llm_cache',
@@ -66,20 +63,20 @@ class ModelLoader(object):
                  model_name: str,
                  local: bool):
         """
-        Initialize Prompter instance using a prompting configuration file.
-        :param prompt_cfg_filename: Name of the prompting configuration file.
-        :param task: Task name to be prompting configuration file.
+        Initialize ModelLoader for accessing a designated LLM.
+        :param model_name: Name of the LLM to be accessed.
+        :param local: Whether to download the LLM to local device.
         """
         super().__init__()
 
         self.model_id = model_to_hf_id(model_name)
+        self.url, self.key = load_hf_interface(self.model_id)
+        
         self.local = local
-
         if self.local:
             self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
-            self.model, self.tokenizer = load_hf_llm(self.model_id)
-        else:
-            self.url, self.key = load_hf_interface(self.model_id)
+            self.model, self.tokenizer = load_hf_llm(model_id=self.model_id,
+                                                     api_token=self.key)
 
 
     def api_query(self,
@@ -138,6 +135,7 @@ class ModelLoader(object):
 
     def prompt(self,
                prompt: str):
+        
         if self.local:
             model_inputs = self.tokenizer([prompt], return_tensors='pt').to(self.device)
             self.model.to(self.device)
