@@ -19,7 +19,7 @@ def model_to_hf_id(model: str):
         'mistralai': ['Mistral-7B-Instruct-v0.3', 'Mixtral-8x7B-Instruct-v0.1'],
         'ybelkada': ['Mixtral-8x7B-Instruct-v0.1-bnb-4bit'],
         'openchat': ['openchat-3.5-0106'],
-        'meta-llama': ['Meta-Llama-3-8B-Instruct']
+        'meta-llama': ['Meta-Llama-3.1-8B-Instruct']
     }
     
     print(f'Supported models: {[value for values in supported_models.values() for value in values]}')
