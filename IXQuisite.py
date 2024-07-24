@@ -16,12 +16,11 @@ class IXQuisite():
     def __init__(self,
                  datapoint: dict,
                  original_dialog: bool,
-                 r: int=3):
+                 r: int=4):
         
         self.datapoint = datapoint
         # self.text = self.txt2list()  # historical reasons mainly but also for adaptation
         # self.teaching_turn = self.bio2string()
-        print(self.datapoint)
         # self.i = self.datapoint.index
         # self.topic = self.datapoint['topic']
         # self.lvl = self.datapoint['student_role']
@@ -220,7 +219,7 @@ if __name__ == "__main__":
 
         ts = IXQuisite(datapoint=row.to_dict(),
                        original_dialog=False,
-                       r=3)
+                       r=4)
         # i = ts.i
         # print(i)
         # output_json['topic'][index] = ts.topic
@@ -232,6 +231,7 @@ if __name__ == "__main__":
         output_json['reading_grade'][index] = ts.reading_grade()
         output_json['adaptation'][index] = ts.adaptation()
         # output_json['teaching_model'][i] = ts.teaching_model()
+        print(output_json)
 
     # out = pd.DataFrame.from_dict(output_json).to_csv('testsuite_v4.csv')
     print(output_json)
