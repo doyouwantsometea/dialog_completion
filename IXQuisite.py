@@ -1,12 +1,10 @@
 import itertools
-import nltk
 import re
-import pandas as pd
-from pprint import pprint
 import readability
 import spacy
-from statistics import fmean
 import textstat
+import pandas as pd
+from statistics import fmean
 from tqdm import tqdm
 
 NLP = spacy.load('en_core_web_md')
@@ -19,11 +17,7 @@ class IXQuisite():
                  r: int=4):
         
         self.datapoint = datapoint
-        # self.text = self.txt2list()  # historical reasons mainly but also for adaptation
-        # self.teaching_turn = self.bio2string()
-        # self.i = self.datapoint.index
-        # self.topic = self.datapoint['topic']
-        # self.lvl = self.datapoint['student_role']
+
         self.utterance = self.datapoint['model_output']
         self.reference = self.datapoint['target_utterance']
         self.dialogue = self.datapoint['dialogue']
@@ -39,50 +33,9 @@ class IXQuisite():
         self.words = self.readability_res['sentence info']['words']
         
         self.r = r
-    
-    
-    # def txt2list(self):
-    #     # in each dialogue, the first line is a general
-    #     # description of the dialogue, and the second
-    #     # line is empty
-    #     return self.datapoint['text'].split('\n')[2:]
-    
-    
-    # def bio2string(self):
-    #     # collect teaching acts in turn
-    #     bio = self.datapoint['final_bio']
-    #     # first sieve
-    #     seq = str()
-    #     previous = str()
-    #     for item in bio:
-    #         current = item[1][:3] if item[1] != 0 else item[0]
-    #         if current != previous:
-    #             seq += current
-    #             seq += ' '
-    #         previous = current
-    #     # remove unnecessary tags
-    #     seq = seq.replace('O ', '')
-    #     seq = seq.replace('T09 ', '').replace('T10 ', '')
-    #     # second sieve
-    #     seq2 = str()
-    #     previous = str()
-    #     for item in seq.split(' '):
-    #         if item != previous:
-    #             seq2 += item
-    #             seq2 += ' '
-    #         previous = item
-    #     return seq2
-    
+
     
     def raw_updated(self, original_dialog=False):
-        # raw_text = str()
-        # toberemoved = {'Explainer: ', 'Explainee: '}
-        # for sentence in self.text:
-        #     for item in toberemoved:
-        #         sentence = sentence.replace(item, '')
-        #         raw_text += sentence
-        # raw_text = self.dialogue
-        # print(self.dialogue)
         if original_dialog:
             raw_text = self.dialogue.replace('{missing part}', self.reference)
         else:
@@ -162,31 +115,6 @@ class IXQuisite():
         for a, b in itertools.combinations(self.nouns, 2):
             similarities.append(NLP(a).similarity(NLP(b)))
         return self.apply_rounding(fmean(similarities))
-        
- 
-    # def teaching_model(self):
-    #     # using inverse edit distance.
-    #     # teaching acts should ideally come in the right order:
-    #     return self.apply_rounding(1 / nltk.edit_distance(
-    #                                 "T01 T02 T03 T04 T05 T06 T07 T08",
-    #                                 self.teaching_turn))
-        
-    
-    # DEPRECATED
-    # def readability_2(self):
-    #     # readability grades: Flesch Reading Ease
-    #     return self.apply_rounding(textstat.flesch_reading_ease(self.raw_text) 
-    #                                / 100)
-
-    # DEPRECATED
-    # def adaptation(self):
-    #     # TODO run again
-    #     # count of question marks on the explainee side (!)
-    #     question_marks = 0
-    #     for utterance in self.text:
-    #         if utterance[0] != 'E': # removes explainer!
-    #             question_marks += utterance.count('?')
-    #     return self.apply_rounding(question_marks / len(self.token))
     
     
  
