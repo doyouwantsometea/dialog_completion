@@ -120,50 +120,63 @@ class IXQuisite():
             similarities.append(NLP(a).similarity(NLP(b)))
         return self.apply_rounding(fmean(similarities))
     
+
+    def get_scores(self):
+
+        scores = dict()
+
+        scores['minimal_explanations'] = self.minimal_explanations()
+        scores['lexical_complexity'] = self.lexical_complexity()
+        scores['synonym_density'] = self.synonym_density()
+        scores['coherence'] = self.coherence()
+        scores['reading_grade'] = self.reading_grade()
+        scores['adaptation'] = self.adaptation()
+
+        return scores
     
  
 
 if __name__ == "__main__":
-    
+    pass
     # Prepare output file
-    output_json = {
-        # 'topic': dict(),
-        # 'lvl': dict(),
-        'minimal_explanations': dict(),
-        'lexical_complexity': dict(),
-        'synonym_density': dict(),
-        'coherence': dict(),
-        'reading_grade': dict(),
-        'adaptation': dict(),
-        # 'teaching_model': dict()
-        }
+    # output_json = {
+    #     # 'topic': dict(),
+    #     # 'lvl': dict(),
+    #     'minimal_explanations': dict(),
+    #     'lexical_complexity': dict(),
+    #     'synonym_density': dict(),
+    #     'coherence': dict(),
+    #     'reading_grade': dict(),
+    #     'adaptation': dict(),
+    #     # 'teaching_model': dict()
+    #     }
     
-    # Open and preprocess input files
-    # file_path = '../../data/final_annotation/ta_full.jsonl'
-    # file_path = 'WIRED/data/corpus_dialogs/blackhole_3.json'
-    file_path = 'results/WIRED_Meta-Llama-3-8B-Instruct_l60_w2.json'
-    ta_data = pd.read_json(path_or_buf=file_path)
+    # # Open and preprocess input files
+    # # file_path = '../../data/final_annotation/ta_full.jsonl'
+    # # file_path = 'WIRED/data/corpus_dialogs/blackhole_3.json'
+    # file_path = 'results/WIRED_Meta-Llama-3-8B-Instruct_l60_w2.json'
+    # ta_data = pd.read_json(path_or_buf=file_path)
     
-    print(ta_data.head())
-    # Index(['id', 'topic', 'student_role', 'text', 'final_bio'], dtype='object')
-    # for index, row in ta_data.iterrows():
-    for index, row in tqdm(ta_data.iterrows(), total=ta_data.shape[0], desc=f'Processing DF'):
+    # print(ta_data.head())
+    # # Index(['id', 'topic', 'student_role', 'text', 'final_bio'], dtype='object')
+    # # for index, row in ta_data.iterrows():
+    # for index, row in tqdm(ta_data.iterrows(), total=ta_data.shape[0], desc=f'Processing DF'):
 
-        ts = IXQuisite(datapoint=row.to_dict(),
-                       original_dialog=False,
-                       r=4)
-        # i = ts.i
-        # print(i)
-        # output_json['topic'][index] = ts.topic
-        # output_json['lvl'][index] = ts.lvl
-        output_json['minimal_explanations'][index] = ts.minimal_explanations()
-        output_json['lexical_complexity'][index] = ts.lexical_complexity()
-        output_json['synonym_density'][index] = ts.synonym_density()
-        output_json['coherence'][index] = ts.coherence()
-        output_json['reading_grade'][index] = ts.reading_grade()
-        output_json['adaptation'][index] = ts.adaptation()
-        # output_json['teaching_model'][i] = ts.teaching_model()
-        print(output_json)
+    #     ts = IXQuisite(datapoint=row.to_dict(),
+    #                    original_dialog=False,
+    #                    r=4)
+    #     # i = ts.i
+    #     # print(i)
+    #     # output_json['topic'][index] = ts.topic
+    #     # output_json['lvl'][index] = ts.lvl
+    #     output_json['minimal_explanations'][index] = ts.minimal_explanations()
+    #     output_json['lexical_complexity'][index] = ts.lexical_complexity()
+    #     output_json['synonym_density'][index] = ts.synonym_density()
+    #     output_json['coherence'][index] = ts.coherence()
+    #     output_json['reading_grade'][index] = ts.reading_grade()
+    #     output_json['adaptation'][index] = ts.adaptation()
+    #     # output_json['teaching_model'][i] = ts.teaching_model()
+    #     print(output_json)
 
-    # out = pd.DataFrame.from_dict(output_json).to_csv('testsuite_v4.csv')
-    print(output_json)
+    # # out = pd.DataFrame.from_dict(output_json).to_csv('testsuite_v4.csv')
+    # print(output_json)
