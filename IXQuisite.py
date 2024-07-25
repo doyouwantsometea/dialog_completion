@@ -5,6 +5,7 @@ import spacy
 import textstat
 import pandas as pd
 from statistics import fmean
+from utils import flatten_dialogue
 from tqdm import tqdm
 
 NLP = spacy.load('en_core_web_md')
@@ -23,7 +24,10 @@ class IXQuisite():
         self.dialogue = self.datapoint['dialogue']
 
         # print(self.utterance)
-        self.raw_text = self.raw_updated(original_dialog=original_dialog)
+        self.raw_text = flatten_dialogue(dialogue=self.dialogue,
+                                         reference=self.reference,
+                                         utterance=self.utterance,
+                                         original_dialog=original_dialog)
         
         self.token, self.pos = self.preprocessing(self.raw_text)
         self.nouns = self.noun_extraction()
@@ -35,15 +39,15 @@ class IXQuisite():
         self.r = r
 
     
-    def raw_updated(self, original_dialog=False):
-        if original_dialog:
-            raw_text = self.dialogue.replace('{missing part}', self.reference)
-        else:
-            raw_text = self.dialogue.replace('{missing part}', self.utterance)
+    # def flatten_dialogue(self, original_dialog=False):
+    #     if original_dialog:
+    #         raw_text = self.dialogue.replace('{missing part}', self.reference)
+    #     else:
+    #         raw_text = self.dialogue.replace('{missing part}', self.utterance)
         
-        raw_text = re.sub(r'\n?Explainer:', '<|endoftext|>', raw_text)
+    #     raw_text = re.sub(r'\n?(Explainer|Explainee):', '<|endoftext|>', raw_text)
         
-        return raw_text
+    #     return raw_text
     
     
     def preprocessing(self, txt):  # can be different things
@@ -143,7 +147,7 @@ if __name__ == "__main__":
     print(ta_data.head())
     # Index(['id', 'topic', 'student_role', 'text', 'final_bio'], dtype='object')
     # for index, row in ta_data.iterrows():
-    for index, row in tqdm(ta_data.iterrows(),  total=ta_data.shape[0], desc=f'Processing DF'):
+    for index, row in tqdm(ta_data.iterrows(), total=ta_data.shape[0], desc=f'Processing DF'):
 
         ts = IXQuisite(datapoint=row.to_dict(),
                        original_dialog=False,

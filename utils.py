@@ -31,3 +31,17 @@ def trim_after_placeholder(text: str,
         return text[:index + len(placeholder)].replace(placeholder, '{"missing_part": }')
     else:
         return None
+
+
+def flatten_dialogue(dialogue: str,
+                     reference: str,
+                     utterance: str,
+                     original_dialog: bool=False):
+        if original_dialog:
+            raw_text = dialogue.replace('{missing part}', reference)
+        else:
+            raw_text = dialogue.replace('{missing part}', utterance)
+        
+        raw_text = re.sub(r'\n?(Explainer|Explainee):', '<|endoftext|>', raw_text)
+        
+        return raw_text

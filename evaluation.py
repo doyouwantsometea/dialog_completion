@@ -4,6 +4,7 @@ import pandas as pd
 from tqdm import tqdm
 from argparse import ArgumentParser
 from IXQuisite import IXQuisite
+from utils import flatten_dialogue
 
 
 def arguments():
@@ -42,6 +43,11 @@ if __name__ == "__main__":
                 
                 if args.FED:
                     conversation = str()
+                    conversation = flatten_dialogue(dialogue=row.dialogue,
+                                                    reference=row.target_utterance,
+                                                    utterance=row.model_output,
+                                                    original_dialog=False)
+
                     scores = fed.evaluate(conversation, model, tokenizer)
                 
                 
