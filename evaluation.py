@@ -31,7 +31,7 @@ if __name__ == "__main__":
         model, tokenizer = fed.load_models('microsoft/DialoGPT-large')
 
 
-    for root, dirs, files in os.walk('results'):
+    for root, dirs, files in os.walk('data/results'):
         for file in files:
             
             df = pd.read_json(os.path.join(root, file))

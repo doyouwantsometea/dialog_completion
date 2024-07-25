@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
 
 
-    for root, dirs, files in os.walk('WIRED/data/corpus_dialogs'):
+    for root, dirs, files in os.walk('data/WIRED/data/corpus_dialogs'):
         for file in tqdm(files):
             # print(file)
             # df = pd.read_json(os.path.join(root, file))
@@ -141,4 +141,4 @@ if __name__ == "__main__":
             file_name_suffix += f'_{arg}'
 
     file_name = f'WIRED_{args.model}_l{args.utterance_len}_w{args.window}'
-    df.to_json(f'results/{file_name}{file_name_suffix}.json')
+    df.to_json(f'data/results/{file_name}{file_name_suffix}.json')

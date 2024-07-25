@@ -1,9 +1,7 @@
 __pycache__
 .DS_Store
+data
 fed.py
 IXQuisite-main
 key.json
 llm_cache
-results
-WikiDialog
-WIRED
