@@ -130,7 +130,7 @@ if __name__ == "__main__":
                 df.loc[len(df)] = new_row
                 print(df.head())
         
-    os.makedirs('results', exist_ok=True)
+    os.makedirs('data/results', exist_ok=True)
 
     optional_args = [f'{"topic" if args.topic else ""}',
                      f'{"speakers" if args.speakers else ""}',
