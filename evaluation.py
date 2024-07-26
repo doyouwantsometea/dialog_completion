@@ -66,7 +66,11 @@ if __name__ == "__main__":
                                    total=df.shape[0],
                                    desc=f'Processing DF'):
 
-                if len(row.model_output.split(' ')) < 10:
+                if row.isna().any():
+                    print('Skipping empty instance.')
+                    continue
+                if not row.model_output or len(row.model_output.split(' ')) < 10:
+                    print('Skipping instance owing to short model output.')
                     continue
 
                 if args.FED:
