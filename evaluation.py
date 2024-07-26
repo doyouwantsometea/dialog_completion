@@ -6,6 +6,9 @@ from argparse import ArgumentParser
 from IXQuisite import IXQuisite
 from utils import flatten_dialogue
 
+# path for downloading LLMs
+os.makedirs('llm_cache', exist_ok=True)
+os.environ['HF_HOME'] = './llm_cache'
 
 def arguments():
 
