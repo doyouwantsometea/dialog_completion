@@ -77,6 +77,7 @@ if __name__ == "__main__":
                                                     original_dialog=False)
 
                     scores = fed.evaluate(conversation, model, tokenizer)
+                    print(scores)
 
                     conversation_original = flatten_dialogue(dialogue=row.dialogue,
                                                              reference=row.target_utterance,
@@ -84,6 +85,7 @@ if __name__ == "__main__":
                                                              original_dialog=True)
 
                     scores_original = fed.evaluate(conversation_original, model, tokenizer)
+                    print(scores_original)
 
                     row['interesting'] = round(scores['interesting'] * 100, 4)
                     row['engaging'] = round(scores['engaging'] * 100, 4)
@@ -130,12 +132,14 @@ if __name__ == "__main__":
                                    original_dialog=False,
                                    r=4)
                     scores = ts.get_scores()
+                    print(scores)
 
                     ts_original = IXQuisite(datapoint=row.to_dict(),
                                             original_dialog=True,
                                             r=4)
                     
                     scores_original = ts.get_scores()
+                    print(scores_original)
 
 
                     row['minimal_explanations'] = scores['minimal_explanations']
