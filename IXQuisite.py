@@ -98,7 +98,7 @@ class IXQuisite():
             if similarity >= 0.5: 
                 synonyms.append(noun)
         
-        if self.nouns == 0:
+        if len(self.nouns) == 0:
             return None
         else:
             return self.apply_rounding(len(synonyms) / len(self.nouns))
