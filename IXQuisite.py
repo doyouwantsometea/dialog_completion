@@ -118,7 +118,10 @@ class IXQuisite():
         similarities = list()
         for a, b in itertools.combinations(self.nouns, 2):
             similarities.append(NLP(a).similarity(NLP(b)))
-        return self.apply_rounding(fmean(similarities))
+        if len(similarities) == 0:
+            return None
+        else:
+            return self.apply_rounding(fmean(similarities))
     
 
     def get_scores(self):
