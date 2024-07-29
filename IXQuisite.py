@@ -97,7 +97,11 @@ class IXQuisite():
             similarity = topic.similarity(NLP(noun))
             if similarity >= 0.5: 
                 synonyms.append(noun)
-        return self.apply_rounding(len(synonyms) / len(self.nouns))
+        
+        if self.nouns == 0:
+            return None
+        else:
+            return self.apply_rounding(len(synonyms) / len(self.nouns))
         
     
     def coherence(self):
