@@ -65,9 +65,9 @@ if __name__ == "__main__":
             for index, row in tqdm(df.iterrows(),
                                    total=df.shape[0],
                                    desc=f'Processing DF'):
-                print(row)
-                if not row.model_output:
-                    print('Skipping instance owing to empty model output.')
+                print(row.model_output)
+                if not isinstance(row.model_output, str):
+                    print('Skipping instance owing to empty or improper model output.')
                     continue
 
                 if args.FED:
