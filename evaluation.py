@@ -138,7 +138,7 @@ if __name__ == "__main__":
                                             original_dialog=True,
                                             r=4)
                     
-                    scores_original = ts.get_scores()
+                    scores_original = ts_original.get_scores()
                     print(scores_original)
 
 
