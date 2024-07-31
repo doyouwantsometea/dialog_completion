@@ -8,7 +8,7 @@ from utils import flatten_dialogue
 
 # path for downloading LLMs
 os.makedirs('llm_cache', exist_ok=True)
-os.environ['HF_HOME'] = './llm_cache'
+os.environ['HF_HOME'] = 'llm_cache'
 
 def arguments():
 

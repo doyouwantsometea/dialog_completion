@@ -9,7 +9,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # path for downloading LLMs
 os.makedirs('llm_cache', exist_ok=True)
-os.environ['HF_HOME'] = './llm_cache'
+os.environ['HF_HOME'] = 'llm_cache'
 
 
 

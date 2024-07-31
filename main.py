@@ -47,7 +47,7 @@ def arguments():
     
     parser.add_argument('--local', dest='local',
                         action='store_true',
-                        help='Load LLM to local device from HuggingFace API.')
+                        help='Download LLM to local device from HuggingFace.')
 
     return parser.parse_args()
 
