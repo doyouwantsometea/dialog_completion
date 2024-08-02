@@ -17,7 +17,7 @@ def arguments():
     #                     type=str, required=True,
     #                     help='Dataset name to be loaded and processed.')
     
-    parser.add_argument('-l', dest='utterance_len',
+    parser.add_argument('-l', dest='turn_len',
                         type=int, default=100,
                         help='Minimum token number of utternace to be filled in. (Default=100)')
     
@@ -27,7 +27,7 @@ def arguments():
 
     parser.add_argument('-w', dest='window',
                         type=int, default=2,
-                        help='Number of utterances prior to and following the target utterance. (Default=2)')
+                        help='Number of turns prior to and following the target turn. (Default=2)')
     
     parser.add_argument('--topic', dest='topic',
                         action='store_true',
@@ -59,8 +59,8 @@ if __name__ == "__main__":
     
     args = arguments()
     
-    df = pd.DataFrame(columns=['file', 'utterance_len', 'role', 'window', 'index',
-                               'target_utterance', 'dialogue', 'model', 'topic',
+    df = pd.DataFrame(columns=['file', 'turn_len', 'role', 'window', 'index',
+                               'target_turn', 'dialogue', 'model', 'topic',
                                'explainer', 'explainee', 'footer_context', 'model_output'])
 
     prompter = Prompter(prompt_cfg_filename='prompts.json')
@@ -77,16 +77,16 @@ if __name__ == "__main__":
 
             data_loader = DataLoader(path=os.path.join(root, file),
                                      role=args.role,
-                                     utterance_len=args.utterance_len,
+                                     turn_len=args.turn_len,
                                      window=args.window,
                                      replace=True)
             
-            index_list = data_loader.filter_utternace()
+            index_list = data_loader.filter_turn()
             topic = data_loader.get_topic()
             explainer, explainee = data_loader.get_dialog_lvl()
 
             for index in index_list:
-                target_utterance, diaolgue = data_loader.parse_diaolgue(index=index)
+                target_turn, diaolgue = data_loader.parse_diaolgue(index=index)
 
                 # prepare arguments for building prompts
                 kwargs = {}
@@ -113,11 +113,11 @@ if __name__ == "__main__":
                 
                 new_row = {
                     'file': file,
-                    'utterance_len': args.utterance_len,
+                    'turn_len': args.turn_len,
                     'role': args.role,
                     'window': args.window,
                     'index': index,
-                    'target_utterance': target_utterance,
+                    'target_turn': target_turn,
                     'dialogue': diaolgue,
                     'model': args.model,
                     'topic': topic if args.topic else None,
@@ -140,5 +140,5 @@ if __name__ == "__main__":
         if arg != '':
             file_name_suffix += f'_{arg}'
 
-    file_name = f'WIRED_{args.model}_l{args.utterance_len}_w{args.window}'
+    file_name = f'WIRED_{args.model}_l{args.turn_len}_w{args.window}'
     df.to_json(f'data/results/{file_name}{file_name_suffix}.json')

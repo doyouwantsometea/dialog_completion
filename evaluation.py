@@ -72,16 +72,16 @@ if __name__ == "__main__":
 
                 if args.FED:
                     conversation = flatten_dialogue(dialogue=row.dialogue,
-                                                    reference=row.target_utterance,
-                                                    utterance=row.model_output,
+                                                    reference=row.target_turn,
+                                                    model_turn=row.model_output,
                                                     original_dialog=False)
 
                     scores = fed.evaluate(conversation, model, tokenizer)
                     print(scores)
 
                     conversation_original = flatten_dialogue(dialogue=row.dialogue,
-                                                             reference=row.target_utterance,
-                                                             utterance=row.model_output,
+                                                             reference=row.target_turn,
+                                                             model_turn=row.model_output,
                                                              original_dialog=True)
 
                     scores_original = fed.evaluate(conversation_original, model, tokenizer)

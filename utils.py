@@ -35,12 +35,12 @@ def trim_after_placeholder(text: str,
 
 def flatten_dialogue(dialogue: str,
                      reference: str,
-                     utterance: str,
+                     model_turn: str,
                      original_dialog: bool=False):
         if original_dialog:
             raw_text = dialogue.replace('{missing part}', reference)
         else:
-            raw_text = dialogue.replace('{missing part}', utterance)
+            raw_text = dialogue.replace('{missing part}', model_turn)
         
         raw_text = re.sub(r'\n?(Explainer|Explainee):', '<|endoftext|>', raw_text)
         
