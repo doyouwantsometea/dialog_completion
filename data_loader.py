@@ -1,4 +1,6 @@
+import gzip
 import pandas as pd
+from io import BytesIO
 
 
 def load_data_file(path: str):
@@ -64,15 +66,15 @@ class DataLoader(object):
     
     def parse_diaolgue(self,
                        index: int,
-                       following_context: bool) -> str:
+                       open_end: bool) -> str:
         """
         Parse turns into dialogue segment for prompting.
         :param index: Index of the filtered turn.
-        :param following_context: Whether to incorporate turns occuring after the target turn.
+        :param open_end: Remove the turns occuring after the target turn.
         :return: Dialogue string that can be applied to the prompt.
         """
         start = index - self.window if self.window <= index else 0
-        if following_context:
+        if open_end:
             end = index + 1
         else:
             end = index + 1 + self.window if index + 1 + self.window <= len(self.df) else len(self.df)

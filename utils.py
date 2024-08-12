@@ -45,3 +45,7 @@ def flatten_dialogue(dialogue: str,
         raw_text = re.sub(r'\n?(Explainer|Explainee):', '<|endoftext|>', raw_text)
         
         return raw_text
+
+
+def remove_training_set(files):
+    return [file for file in files if 'validation' in file]

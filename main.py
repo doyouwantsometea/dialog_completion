@@ -5,7 +5,7 @@ from argparse import ArgumentParser
 from data_loader import DataLoader
 from prompter import Prompter
 from model_loader import ModelLoader
-from utils import extract_json
+from utils import extract_json, remove_training_set
 
 
 
@@ -41,6 +41,14 @@ def arguments():
                         action='store_true',
                         help='Incorporate dialogue context in prompt footer.')
     
+    parser.add_argument('--open_end', dest='open_end',
+                        action='store_true',
+                        help='Remove the tunrs occuring after the target turn.')
+    
+    parser.add_argument('-d', dest='dataset',
+                        type=str, required=True,
+                        help='Dataset. Currently available options: WIRED, WikiDialog.')
+
     parser.add_argument('-m', dest='model',
                         type=str, required=True,
                         help='Name of large language model to be loaded via HuggingFace API.')
@@ -69,8 +77,21 @@ if __name__ == "__main__":
                                local=args.local)
 
 
+    if args.dataset == 'WIRED':
+        path = 'data/WIRED/data/corpus_dialogs'
+    elif args.dataset == 'WikiDialog':
+        path = 'data/WikiDialog'
+    else:
+        raise ValueError('Invalid dataset.')
+    
+    print(os.walk(path))
 
-    for root, dirs, files in os.walk('data/WIRED/data/corpus_dialogs'):
+
+    for root, dirs, files in os.walk(path):
+        print(len(files))
+        files = remove_training_set(files)
+        print(files)
+
         for file in tqdm(files):
             # print(file)
             # df = pd.read_json(os.path.join(root, file))
@@ -86,7 +107,8 @@ if __name__ == "__main__":
             explainer, explainee = data_loader.get_dialog_lvl()
 
             for index in index_list:
-                target_turn, diaolgue = data_loader.parse_diaolgue(index=index)
+                target_turn, diaolgue = data_loader.parse_diaolgue(index=index,
+                                                                   open_end=args.open_end)
 
                 # prepare arguments for building prompts
                 kwargs = {}
@@ -134,11 +156,12 @@ if __name__ == "__main__":
 
     optional_args = [f'{"topic" if args.topic else ""}',
                      f'{"speakers" if args.speakers else ""}',
-                     f'{"context" if args.context else ""}']
+                     f'{"context" if args.context else ""}',
+                     f'{"openend" if args.open_end else ""}']
     file_name_suffix = str()
     for arg in optional_args:
         if arg != '':
             file_name_suffix += f'_{arg}'
 
-    file_name = f'WIRED_{args.model}_l{args.turn_len}_w{args.window}'
+    file_name = f'{args.dataset}_{args.model}_l{args.turn_len}_w{args.window}'
     df.to_json(f'data/results/{file_name}{file_name_suffix}.json')
