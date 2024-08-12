@@ -48,4 +48,4 @@ def flatten_dialogue(dialogue: str,
 
 
 def remove_training_set(files):
-    return [file for file in files if 'validation' in file]
+    return [file for file in files if 'train' not in file]

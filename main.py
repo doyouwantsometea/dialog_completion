@@ -88,15 +88,19 @@ if __name__ == "__main__":
 
 
     for root, dirs, files in os.walk(path):
-        print(len(files))
+        # print(len(files))
         files = remove_training_set(files)
-        print(files)
+        # print(files)
 
         for file in tqdm(files):
+
+            if file == '.DS_Store':
+                continue
             # print(file)
             # df = pd.read_json(os.path.join(root, file))
 
-            data_loader = DataLoader(path=os.path.join(root, file),
+            data_loader = DataLoader(dataset=args.dataset,
+                                     path=os.path.join(root, file),
                                      role=args.role,
                                      turn_len=args.turn_len,
                                      window=args.window,
