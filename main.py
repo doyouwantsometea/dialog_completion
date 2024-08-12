@@ -80,7 +80,7 @@ if __name__ == "__main__":
     if args.dataset == 'WIRED':
         path = 'data/WIRED/data/corpus_dialogs'
     elif args.dataset == 'WikiDialog':
-        path = 'data/WikiDialog'
+        path = 'data/WikiDialog/processed'
     else:
         raise ValueError('Invalid dataset.')
     
@@ -89,13 +89,10 @@ if __name__ == "__main__":
 
     for root, dirs, files in os.walk(path):
         # print(len(files))
-        files = remove_training_set(files)
+        # files = remove_training_set(files)
         # print(files)
 
         for file in tqdm(files):
-
-            if file == '.DS_Store':
-                continue
             # print(file)
             # df = pd.read_json(os.path.join(root, file))
 

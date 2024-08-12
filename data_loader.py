@@ -1,6 +1,4 @@
-import gzip
 import pandas as pd
-from io import BytesIO
 
 
 def load_data_file(path: str):
@@ -11,6 +9,7 @@ def load_data_file(path: str):
 class DataLoader(object):
 
     def __init__(self,
+                 dataset: str,
                  path: str,
                  role: str = 'Explainer',
                  turn_len: int = 100,
@@ -25,7 +24,7 @@ class DataLoader(object):
         :param replace: Whether to replace the filtered turn with {missing part} placeholder.
         """
         super().__init__()
-        # load prompting configuration:
+        self.dataset = dataset
         self.df = load_data_file(path)
         self.role = role
         self.turn_len = turn_len
@@ -50,7 +49,8 @@ class DataLoader(object):
             'teenager': (' teacher', ' teenager'),
             'undergrad': (' professor', ' college student'),
             'grad': (' professor', ' graduate student'),
-            'colleague': ('n expert', 'nother expert')
+            'colleague': ('n expert', 'nother expert'),
+            'model': (' explainer model', ' explainee model')
         }
         
         level = self.df.loc[0, 'dialog_lvl']
@@ -84,6 +84,7 @@ class DataLoader(object):
         parsed_dialogue = str()
         
         for i, r in self.df[start:end].iterrows():
+            print(r.turn)
             if i == index:
                 target_turn = ' '.join(r.turn).rstrip()
 
@@ -91,7 +92,10 @@ class DataLoader(object):
             if i == index and self.replace:
                 parsed_dialogue += ' {missing part}\n'
             else:
-                parsed_dialogue += ' ' + ' '.join(r.turn) + '\n'
+                if self.dataset == 'WIRED':
+                    parsed_dialogue += f' {" ".join(r.turn)}\n'
+                if self.dataset == 'WikiDialog':
+                    parsed_dialogue += f' {r.turn}\n'
 
         return target_turn, parsed_dialogue
     
