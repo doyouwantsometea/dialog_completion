@@ -47,7 +47,7 @@ def arguments():
     
     parser.add_argument('-d', dest='dataset',
                         type=str, required=True,
-                        help='Dataset. Currently available options: WIRED, WikiDialog.')
+                        help='Dataset. Currently available options: WIRED, WikiDialog, ELI5.')
 
     parser.add_argument('-m', dest='model',
                         type=str, required=True,
@@ -77,12 +77,25 @@ if __name__ == "__main__":
                                local=args.local)
 
 
-    if args.dataset == 'WIRED':
-        path = 'data/WIRED/data/corpus_dialogs'
-    elif args.dataset == 'WikiDialog':
-        path = 'data/WikiDialog/processed'
-    else:
+    dataset_paths = {
+        'WIRED': 'data/WIRED/data/corpus_dialogs',
+        'WikiDialog': 'data/WikiDialog/processed',
+        'ELI5': 'data/ELI5/processed'
+    }
+
+    # Get the path based on the dataset
+    path = dataset_paths.get(args.dataset)
+    if not path:
         raise ValueError('Invalid dataset.')
+    
+    # if args.dataset == 'WIRED':
+    #     path = 'data/WIRED/data/corpus_dialogs'
+    # elif args.dataset == 'WikiDialog':
+    #     path = 'data/WikiDialog/processed'
+    # elif args.dataset == 'ELI5':
+    #     path = 'data/ELI5/processed'
+    # else:
+    #     raise ValueError('Invalid dataset.')
     
     print(os.walk(path))
 

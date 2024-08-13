@@ -36,8 +36,11 @@ class DataLoader(object):
         Parse dialogue topic.
         :return: Dialogue topic.
         """
-        topic = self.df.loc[0, 'topic'].replace('_', ' ')
-        return f'about {topic} '
+        if self.df.loc[0, 'topic'] == 'N/A':
+            return ''
+        else:
+            topic = self.df.loc[0, 'topic'].replace('_', ' ')
+            return f'about {topic} '
 
     def get_dialog_lvl(self) -> tuple:
         """
@@ -50,7 +53,8 @@ class DataLoader(object):
             'undergrad': (' professor', ' college student'),
             'grad': (' professor', ' graduate student'),
             'colleague': ('n expert', 'nother expert'),
-            'model': (' explainer model', ' explainee model')
+            'model': (' explainer model', ' explainee model'),
+            'eli5': (' explainer', ' explainee')
         }
         
         level = self.df.loc[0, 'dialog_lvl']
@@ -94,7 +98,8 @@ class DataLoader(object):
             else:
                 if self.dataset == 'WIRED':
                     parsed_dialogue += f' {" ".join(r.turn)}\n'
-                if self.dataset == 'WikiDialog':
+                # if self.dataset == 'WikiDialog':
+                else:
                     parsed_dialogue += f' {r.turn}\n'
 
         return target_turn, parsed_dialogue
