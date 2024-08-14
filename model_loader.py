@@ -3,6 +3,7 @@ import os
 import sys
 import requests
 import torch
+from openai import OpenAI
 from time import sleep
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -42,6 +43,13 @@ def load_hf_interface(model_id: str):
     return url, key
 
 
+def load_openai_interface(model_id: str):
+    # accessing OpenAI API
+    with open('key.json', 'r') as f:
+        key = json.loads(f.read())['OpenAI']
+    return key
+
+
 def load_hf_llm(model_id: str, api_token: str):
 
     model = AutoModelForCausalLM.from_pretrained(model_id,
@@ -57,13 +65,13 @@ def load_hf_llm(model_id: str, api_token: str):
 
 
 
-class ModelLoader(object):
+class HFModelLoader(object):
 
     def __init__(self,
                  model_name: str,
                  local: bool):
         """
-        Initialize ModelLoader for accessing a designated LLM.
+        Initialize HFModelLoader for accessing a designated LLM.
         :param model_name: Name of the LLM to be accessed.
         :param local: Whether to download the LLM to local device.
         """
@@ -146,6 +154,34 @@ class ModelLoader(object):
 
         return raw_output
     
+
+
+class OpenAIModelLoader(object):
+
+    def __init__(self,
+                 model_name: str):
+        """
+        Initialize OpanAIModelLoader for accessing a designated LLM.
+        :param model_name: Name of the LLM to be accessed.
+        """
+        super().__init__()
+
+        self.model = model_name
+        self.self.key = load_openai_interface()
+
+
+    def prompt(self,
+               prompt: str):
+        
+        client = OpenAI(api_key=self.key)
+
+        completion = client.chat.completions.create(
+            model=self.model,
+            messages=[{'role': 'user', 'content': prompt}]
+        )
+
+        print(completion)
+
 
 
 if __name__ == "__main__":
