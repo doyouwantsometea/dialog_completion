@@ -4,9 +4,23 @@ from tqdm import tqdm
 from argparse import ArgumentParser
 from data_loader import DataLoader
 from prompter import Prompter
-from model_loader import ModelLoader
+from model_loader import HFModelLoader, OpenAIModelLoader
 from utils import extract_json, remove_training_set
 
+
+def dataset_to_path(dataset: str):
+    
+    dataset_paths = {
+        'WIRED': 'data/WIRED/data/corpus_dialogs',
+        'WikiDialog': 'data/WikiDialog/processed',
+        'ELI5': 'data/ELI5/processed'
+    }
+
+    path = dataset_paths.get(dataset)
+    if not path:
+        raise ValueError('Invalid dataset.')
+    
+    return path
 
 
 def arguments():
@@ -51,11 +65,11 @@ def arguments():
 
     parser.add_argument('-m', dest='model',
                         type=str, required=True,
-                        help='Name of large language model to be loaded via HuggingFace API.')
+                        help='Name of large language model to be loaded via HuggingFace or OpenAI API.')
     
     parser.add_argument('--local', dest='local',
                         action='store_true',
-                        help='Download LLM to local device from HuggingFace.')
+                        help='Download LLM to local device from HuggingFace. (Not applicable to OpenAI models.)')
 
     return parser.parse_args()
 
@@ -73,32 +87,15 @@ if __name__ == "__main__":
 
     prompter = Prompter(prompt_cfg_filename='prompts.json')
 
-    model_loader = ModelLoader(model_name=args.model,
-                               local=args.local)
+    if 'gpt' in args.model:
+        model_loader = OpenAIModelLoader(model_name=args.model)
+    else:
+        model_loader = HFModelLoader(model_name=args.model,
+                                     local=args.local)
 
 
-    dataset_paths = {
-        'WIRED': 'data/WIRED/data/corpus_dialogs',
-        'WikiDialog': 'data/WikiDialog/processed',
-        'ELI5': 'data/ELI5/processed'
-    }
 
-    # Get the path based on the dataset
-    path = dataset_paths.get(args.dataset)
-    if not path:
-        raise ValueError('Invalid dataset.')
-    
-    # if args.dataset == 'WIRED':
-    #     path = 'data/WIRED/data/corpus_dialogs'
-    # elif args.dataset == 'WikiDialog':
-    #     path = 'data/WikiDialog/processed'
-    # elif args.dataset == 'ELI5':
-    #     path = 'data/ELI5/processed'
-    # else:
-    #     raise ValueError('Invalid dataset.')
-    
-    print(os.walk(path))
-
+    path = dataset_to_path(args.dataset)    
 
     for root, dirs, files in os.walk(path):
         # print(len(files))
@@ -139,14 +136,15 @@ if __name__ == "__main__":
                 print(prompt)
                 
                 raw_output = model_loader.prompt(prompt).replace(prompt, '')
-                print(raw_output)
+                # print(raw_output)
                 json_output = extract_json(raw_output)
                 
                 if not json_output:
                     continue
                 
                 model_output = json_output.get('missing part', None)
-                
+                # print(model_output)
+
                 new_row = {
                     'file': file,
                     'turn_len': args.turn_len,
