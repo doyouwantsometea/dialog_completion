@@ -3,7 +3,7 @@ import os
 import sys
 import requests
 import torch
-from openai import OpenAI
+# from openai import OpenAI
 from time import sleep
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -156,31 +156,31 @@ class HFModelLoader(object):
     
 
 
-class OpenAIModelLoader(object):
+# class OpenAIModelLoader(object):
 
-    def __init__(self,
-                 model_name: str):
-        """
-        Initialize OpanAIModelLoader for accessing a designated LLM.
-        :param model_name: Name of the LLM to be accessed.
-        """
-        super().__init__()
+#     def __init__(self,
+#                  model_name: str):
+#         """
+#         Initialize OpanAIModelLoader for accessing a designated LLM.
+#         :param model_name: Name of the LLM to be accessed.
+#         """
+#         super().__init__()
 
-        self.model = model_name
-        self.self.key = load_openai_interface()
+#         self.model = model_name
+#         self.self.key = load_openai_interface()
 
 
-    def prompt(self,
-               prompt: str):
+#     def prompt(self,
+#                prompt: str):
         
-        client = OpenAI(api_key=self.key)
+#         client = OpenAI(api_key=self.key)
 
-        completion = client.chat.completions.create(
-            model=self.model,
-            messages=[{'role': 'user', 'content': prompt}]
-        )
+#         completion = client.chat.completions.create(
+#             model=self.model,
+#             messages=[{'role': 'user', 'content': prompt}]
+#         )
 
-        print(completion)
+#         print(completion)
 
 
 
