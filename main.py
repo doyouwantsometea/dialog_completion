@@ -4,7 +4,8 @@ from tqdm import tqdm
 from argparse import ArgumentParser
 from data_loader import DataLoader
 from prompter import Prompter
-from model_loader import HFModelLoader, OpenAIModelLoader
+# from model_loader import HFModelLoader, OpenAIModelLoader
+from model_loader import HFModelLoader
 from utils import extract_json, remove_training_set
 
 
