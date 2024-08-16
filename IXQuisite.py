@@ -20,7 +20,7 @@ class IXQuisite():
         self.datapoint = datapoint
 
         self.utterance = self.datapoint['model_output']
-        self.reference = self.datapoint['target_utterance']
+        self.reference = self.datapoint['target_turn']
         self.dialogue = self.datapoint['dialogue']
 
         # print(self.utterance)
