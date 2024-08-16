@@ -26,7 +26,7 @@ class IXQuisite():
         # print(self.utterance)
         self.raw_text = flatten_dialogue(dialogue=self.dialogue,
                                          reference=self.reference,
-                                         utterance=self.utterance,
+                                         model_turn=self.utterance,
                                          original_dialog=original_dialog)
         
         self.token, self.pos = self.preprocessing(self.raw_text)
