@@ -26,7 +26,7 @@ for index, row in tqdm(df.iterrows(), total=len(df)):
         # print(turn)
         processed_df.at[len(processed_df), 'dialog_lvl'] = 'eli5'
         processed_df.at[len(processed_df)-1, 'role'] = turn['author'].capitalize()
-        processed_df.at[len(processed_df)-1, 'turn'] = turn['text']
+        processed_df.at[len(processed_df)-1, 'turn'] = turn['text'].replace('\n', ' ')
         processed_df.at[len(processed_df)-1, 'turn_num_tokens'] = len(turn['text'].split(' '))
         processed_df.at[len(processed_df)-1, 'topic'] = 'N/A'
     
