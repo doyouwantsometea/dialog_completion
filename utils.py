@@ -5,7 +5,7 @@ import re
 
 def extract_json(text: str):
     # Regular expression to match a JSON-formatted string
-    json_pattern = r'\{.*?\}'
+    json_pattern = r'\{(?:[^{}]|(?R))*\}'
     
     # Find the JSON string in the text
     match = re.search(json_pattern, text, re.DOTALL)

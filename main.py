@@ -137,14 +137,14 @@ if __name__ == "__main__":
                 print(prompt)
                 
                 raw_output = model_loader.prompt(prompt).replace(prompt, '')
-                # print(raw_output)
+                print(raw_output)
                 json_output = extract_json(raw_output)
-                
+                print(json_output)
                 if not json_output:
                     continue
                 
                 model_output = json_output.get('missing part', None)
-                # print(model_output)
+                print(model_output)
 
                 new_row = {
                     'file': file,
