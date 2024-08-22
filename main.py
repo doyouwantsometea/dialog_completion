@@ -137,9 +137,9 @@ if __name__ == "__main__":
                 print(prompt)
                 
                 raw_output = model_loader.prompt(prompt).replace(prompt, '')
-                print(raw_output)
+                # print(raw_output)
                 json_output = extract_json(raw_output)
-                print(json_output)
+                # print(json_output)
                 if not json_output:
                     continue
                 

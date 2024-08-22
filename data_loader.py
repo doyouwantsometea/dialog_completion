@@ -88,7 +88,7 @@ class DataLoader(object):
         parsed_dialogue = str()
         
         for i, r in self.df[start:end].iterrows():
-            print(r.turn)
+            # print(r.turn)
             if i == index:
                 target_turn = ' '.join(r.turn).rstrip()
 
