@@ -177,4 +177,4 @@ if __name__ == "__main__":
             file_name_suffix += f'_{arg}'
 
     file_name = f'{args.dataset}_{args.model}_l{args.turn_len}_w{args.window}'
-    df.to_json(f'data/results/{file_name}{file_name_suffix}.json', force_ascii=False)
+    df.to_json(f'data/results/{file_name}{file_name_suffix}.json')
