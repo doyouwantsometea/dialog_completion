@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from tqdm import tqdm
+from random import sample
 
 
 id_1 = 10
@@ -35,3 +36,8 @@ for index, row in tqdm(df.iterrows(), total=len(df)):
         # print(index)
     # print(processed_df.head())
     processed_df.to_json(os.path.join(target_dir, f'ELI5_processed_{id_1}{id_2}{index}.json'))
+
+
+files = os.listdir(target_dir)
+for file in sample(files, len(files)-85):
+    os.remove(os.path.join(target_dir, file))

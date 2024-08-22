@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from tqdm import tqdm
+from random import sample
 from nltk import word_tokenize, pos_tag, ne_chunk
 
 
@@ -39,3 +40,8 @@ for index, row in tqdm(df.iterrows(), total=len(df)):
     processed_df.to_json(os.path.join(target_dir, f'WikiDialog_processed_{index}.json'))
 
 print(f'Skipped {skipped_files_short} short dialogues and {skipped_files_name} dialogues about particular people.')
+
+
+files = os.listdir(target_dir)
+for file in sample(files, len(files)-255):
+    os.remove(os.path.join(target_dir, file))
