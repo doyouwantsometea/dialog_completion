@@ -2,7 +2,7 @@
 export PYTHONPATH="${PYTHONPATH}:${PWD}/src"
 
 model='Meta-Llama-3.1-8B-Instruct'
-dataset='WIRED'
+dataset='ELI5'
 
 python3 main.py -d "$dataset" -m "$model" -l 30 --local
 python3 main.py -d "$dataset" -m "$model" -l 30 --local --open_end
