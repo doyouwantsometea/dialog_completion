@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 export PYTHONPATH="${PYTHONPATH}:${PWD}/src"
 
-model='Mistral-7B-Instruct-v0.3'
+model='Meta-Llama-3.1-8B-Instruct'
 dataset='WikiDialog'
 
 python3 main.py -d "$dataset" -m "$model" -l 30 --local
