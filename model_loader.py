@@ -4,6 +4,7 @@ import sys
 import requests
 import torch
 # from openai import OpenAI
+from anthropic import Anthropic
 from time import sleep
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -17,14 +18,13 @@ os.environ['HF_HOME'] = 'llm_cache'
 def model_to_hf_id(model: str):
     
     supported_models = {
-        'mistralai': ['Mistral-7B-Instruct-v0.3', 'Mixtral-8x7B-Instruct-v0.1'],
-        'ybelkada': ['Mixtral-8x7B-Instruct-v0.1-bnb-4bit'],
-        'openchat': ['openchat-3.5-0106'],
+        'mistralai': ['Mistral-7B-Instruct-v0.3'],
         'meta-llama': ['Meta-Llama-3-8B-Instruct', 'Meta-Llama-3.1-8B-Instruct']
     }
     
-    print(f'Supported models: {[value for values in supported_models.values() for value in values]}')
+    print(f'Supported open LLMs: {[value for values in supported_models.values() for value in values]}')
     
+    # checkpoint for model availability
     try:
         for key, values in supported_models.items():
             if model in values:
@@ -43,10 +43,26 @@ def load_hf_interface(model_id: str):
     return url, key
 
 
-def load_openai_interface(model_id: str):
-    # accessing OpenAI API
+def load_anthropic_interface(model: str):
+
+    supported_models = {
+        'claude-3': ['claude-3-haiku-20240307', 'claude-3-sonnet-20240229', 'claude-3-opus-20240229'],
+        'claude-3.5': ['claude-3-5-sonnet-20240620']
+    }
+    
+    print(f'Supported Claude variants: {[value for values in supported_models.values() for value in values]}')
+
+    # checkpoint for model availability
+    try:
+        for key, values in supported_models.items():
+            if model in values:
+                pass
+    except:
+        raise ValueError('Invalid model. Please choose among the supported models.')
+    
+    # access token for Anthropic API
     with open('key.json', 'r') as f:
-        key = json.loads(f.read())['OpenAI']
+        key = json.loads(f.read())['Anthropic']
     return key
 
 
@@ -156,31 +172,34 @@ class HFModelLoader(object):
     
 
 
-# class OpenAIModelLoader(object):
+class AnthropicModelLoader(object):
 
-#     def __init__(self,
-#                  model_name: str):
-#         """
-#         Initialize OpanAIModelLoader for accessing a designated LLM.
-#         :param model_name: Name of the LLM to be accessed.
-#         """
-#         super().__init__()
+    def __init__(self,
+                 model_name: str):
+        """
+        Initialize AnthropicModelLoader for accessing a designated LLM.
+        :param model_name: Name of the LLM to be accessed.
+        """
+        super().__init__()
 
-#         self.model = model_name
-#         self.self.key = load_openai_interface()
+        self.model = model_name
+        self.key = load_anthropic_interface(model=self.model)
 
 
-#     def prompt(self,
-#                prompt: str):
+    def prompt(self,
+               prompt: str):
         
-#         client = OpenAI(api_key=self.key)
+        client = Anthropic(api_key=self.key)
 
-#         completion = client.chat.completions.create(
-#             model=self.model,
-#             messages=[{'role': 'user', 'content': prompt}]
-#         )
+        message = client.messages.create(
+            model=self.model,
+            max_tokens=100,
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
 
-#         print(completion)
+        return message.content[0].text
 
 
 

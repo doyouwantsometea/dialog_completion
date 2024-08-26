@@ -4,8 +4,7 @@ from tqdm import tqdm
 from argparse import ArgumentParser
 from data_loader import DataLoader
 from prompter import Prompter
-# from model_loader import HFModelLoader, OpenAIModelLoader
-from model_loader import HFModelLoader
+from model_loader import HFModelLoader, AnthropicModelLoader
 from utils import extract_json, remove_training_set
 
 
@@ -88,8 +87,9 @@ if __name__ == "__main__":
 
     prompter = Prompter(prompt_cfg_filename='prompts.json')
 
-    if 'gpt' in args.model:
-        model_loader = OpenAIModelLoader(model_name=args.model)
+    if 'claude' in args.model:
+        model_loader = AnthropicModelLoader(model_name=args.model)
+        pass
     else:
         model_loader = HFModelLoader(model_name=args.model,
                                      local=args.local)
