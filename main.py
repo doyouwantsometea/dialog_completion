@@ -27,10 +27,18 @@ def arguments():
 
     parser = ArgumentParser()
 
-    # parser.add_argument('-d', dest='dataset',
-    #                     type=str, required=True,
-    #                     help='Dataset name to be loaded and processed.')
+    parser.add_argument('-d', dest='dataset',
+                        type=str, required=True,
+                        help='Dataset to be loaded and processed. Currently available options: WIRED, WikiDialog, ELI5.')
     
+    parser.add_argument('-m', dest='model',
+                        type=str, required=True,
+                        help='Name of large language model to be loaded via HuggingFace or Anthropic API.')
+    
+    parser.add_argument('--local', dest='local',
+                        action='store_true',
+                        help='Download LLM to local device from HuggingFace. (Not applicable to OpenAI models.)')
+
     parser.add_argument('-l', dest='turn_len',
                         type=int, default=100,
                         help='Minimum token number of utternace to be filled in. (Default=100)')
@@ -59,18 +67,6 @@ def arguments():
                         action='store_true',
                         help='Remove the tunrs occuring after the target turn.')
     
-    parser.add_argument('-d', dest='dataset',
-                        type=str, required=True,
-                        help='Dataset. Currently available options: WIRED, WikiDialog, ELI5.')
-
-    parser.add_argument('-m', dest='model',
-                        type=str, required=True,
-                        help='Name of large language model to be loaded via HuggingFace or OpenAI API.')
-    
-    parser.add_argument('--local', dest='local',
-                        action='store_true',
-                        help='Download LLM to local device from HuggingFace. (Not applicable to OpenAI models.)')
-
     return parser.parse_args()
 
 

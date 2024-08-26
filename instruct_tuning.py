@@ -1,7 +1,24 @@
-import heapq
 import pandas as pd
+from argparse import ArgumentParser
 from utils import get_worst_features
 
+
+
+def arguments():
+
+    parser = ArgumentParser()
+
+    return parser.parse_args()
+
+
+
+
+
+if __name__ == "__main__":
+    
+    # args = arguments()
+
+    pass
 
 df = pd.read_json('data/evaluated_results/WIRED/WIRED_Meta-Llama-3.1-8B-Instruct_l30_w2_eval.json')
 
@@ -46,3 +63,6 @@ print(df[dif_features].head())
 # print(get_worst_features(df[0:1], 3))
 
 df['worst_features'] = df[dif_features].apply(get_worst_features, n=2, axis=1)
+
+
+print(df.at[0, 'dialogue'].replace('{missing part}', f'<model-generated> {df.at[0, "model_output"]} </model-generated>'))
