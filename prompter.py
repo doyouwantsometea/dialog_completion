@@ -3,14 +3,15 @@ import pandas as pd
 from utils import trim_after_placeholder
 
 
-def load_prompt_config(config_name: str) -> dict:
+def load_prompt_config(config_name: str,
+                       task: str) -> dict:
     """
     Load a prompting configuration file.
     :param config_name: Name of the prompting configuration file.
     :return: Dictionary prompting configuration of the given task.
     """
     with open(config_name, 'r', encoding='utf-8') as config_file:
-        config = json.load(config_file)
+        config = json.load(config_file)['task']
     return config
 
 
@@ -18,7 +19,9 @@ class Prompter(object):
     """
     Class to build full prompts based on a prompting configuration.
     """
-    def __init__(self, prompt_cfg_filename: str):
+    def __init__(self,
+                 prompt_cfg_filename: str,
+                 task: str):
         """
         Initialize Prompter instance using a prompting configuration file.
         :param prompt_cfg_filename: Name of the prompting configuration file.
@@ -26,7 +29,7 @@ class Prompter(object):
         """
         super().__init__()
         # load prompting configuration:
-        self.cfg = load_prompt_config(prompt_cfg_filename)
+        self.cfg = load_prompt_config(prompt_cfg_filename, task)
 
     def __call__(self, dialogue):
         """

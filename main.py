@@ -81,7 +81,7 @@ if __name__ == "__main__":
                                'target_turn', 'dialogue', 'model', 'topic',
                                'explainer', 'explainee', 'footer_context', 'model_output'])
 
-    prompter = Prompter(prompt_cfg_filename='prompts.json')
+    prompter = Prompter(prompt_cfg_filename='prompts.json', task='task')
 
     if 'claude' in args.model:
         model_loader = AnthropicModelLoader(model_name=args.model)

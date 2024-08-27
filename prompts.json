@@ -1,6 +1,14 @@
 {
-  "header": "Below is an excerpt from a conversation {topic}between a{explainer} and a{explainee}. Some part of the dialogue is missing, marked out as {missing part}. Please fill in the missing turn based on the given dialogue context.\n\n",
-  "instruction": "",
-  "footer": "Please fill in the missing dialogue in JSON format:\n{\"missing part\": }",
-  "footer_w_context": "Now, please follow the context, fill in the missing dialogue, and return the filled-in turn in JSON format:\n"
+  "task": {
+    "header": "Below is an excerpt from a conversation {topic}between a{explainer} and a{explainee}. Some part of the dialogue is missing, marked out as {missing part}. Please fill in the missing turn based on the given dialogue context.\n\n",
+    "instruction": "",
+    "footer": "Please fill in the missing dialogue in JSON format:\n{\"missing part\": }",
+    "footer_w_context": "Now, please follow the context, fill in the missing dialogue, and return the filled-in turn in JSON format:\n"
+  },
+  "tuning": {
+    "header": "You're editing and improving the output of a LLM on a dialogue completion task. Below is an an excerpt from a conversation, with one model-filled-in turn marked out between <model-generated> and </model-generated>. Please improve this turn, considering that the outcome was reported to appear unappealing, misunderstand the conversational context, and deviate from the topic.\n\n",
+    "instruction": "",
+    "footer": "Please revise the model-filled-in turn in JSON format:\n{\"revised turn\": }",
+    "footer_w_context": "Now, please follow the context, fill in the missing dialogue, and return the revised turn in JSON format:\n"
+  }
 }
