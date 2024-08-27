@@ -85,7 +85,6 @@ if __name__ == "__main__":
 
     if 'claude' in args.model:
         model_loader = AnthropicModelLoader(model_name=args.model)
-        pass
     else:
         model_loader = HFModelLoader(model_name=args.model,
                                      local=args.local)
