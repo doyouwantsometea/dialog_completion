@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 export PYTHONPATH="${PYTHONPATH}:${PWD}/src"
 
-model='Meta-Llama-3.1-8B-Instruct'
-dataset='WikiDialog'
+model='claude-3-haiku-20240307'
+dataset='WIRED'
 
 python3 main.py -d "$dataset" -m "$model" -l 30 --local
 python3 main.py -d "$dataset" -m "$model" -l 30 --local --open_end
