@@ -37,7 +37,10 @@ if __name__ == "__main__":
     for root, dirs, files in os.walk('data/results'):
         for file in files:
             
-            df = pd.read_json(os.path.join(root, file))
+            try:
+                df = pd.read_json(os.path.join(root, file))
+            except:
+                continue
             
             new_col = []
             if args.FED:
