@@ -15,12 +15,14 @@ def process_feature_stat(df: pd.DataFrame,
     df[f'{feature}-dif'] = (df[f'{feature}'] - df[f'{feature}-original']) / combined_std
 
 
-def feature_to_description(worst_features: list):
+def feature_to_description(worst_features: list,
+                           original_prompt: bool = False):
     description = str()
+    conj = 'or' if original_prompt else 'and'
     for i, feature in enumerate(worst_features):
         # print(instructions.get(feature[0].split('-')[0]))
         if i+1 == len(worst_features):
-            description += f' and {instructions.get(feature[0].split("-")[0])}.'
+            description += f' {conj} {instructions.get(feature[0].split("-")[0])}.'
         else:
             description += f' {instructions.get(feature[0].split("-")[0])},'
     print(description)
@@ -152,7 +154,9 @@ if __name__ == "__main__":
         else:
             dialogue = row.dialogue.replace('{missing part}', f'<model-generated> {row.model_output} </model-generated>')
 
-        prompt = prompter.build_prompt(dialogue)
-        print(prompt)
         print(row.worst_features)
-        description = feature_to_description(row.worst_features)
+        description = feature_to_description(worst_features=row.worst_features,
+                                             original_prompt=args.original_prompt)
+        prompt = prompter.build_prompt(dialogue=dialogue,
+                                       instruction=description)
+        print(prompt)

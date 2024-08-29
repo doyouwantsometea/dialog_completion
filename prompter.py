@@ -65,14 +65,16 @@ class Prompter(object):
         
         prompt = str()
         
+        # parse instruction
+        if len(instruction) > 0:
+            instruction = self.cfg['instruction'] + instruction
+
         # add header
         prompt += self.cfg['header']
-        prompt = prompt.replace('{topic}', topic).replace('{explainer}', explainer).replace('{explainee}', explainee)
+        prompt = prompt.replace('{topic}', topic).replace('{explainer}', explainer).replace('{explainee}', explainee).replace('{instruction}', instruction)
         
         # dialogue
         prompt += f'{dialogue}\n'
-
-        #TODO: prompt += instruction
 
         # add footer:
         if footer_context:
