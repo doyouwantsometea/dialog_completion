@@ -11,7 +11,7 @@ def load_prompt_config(config_name: str,
     :return: Dictionary prompting configuration of the given task.
     """
     with open(config_name, 'r', encoding='utf-8') as config_file:
-        config = json.load(config_file)['task']
+        config = json.load(config_file)[task]
     return config
 
 
