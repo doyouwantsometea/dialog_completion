@@ -40,7 +40,7 @@ def get_instructions():
     instructions = {
         # FED
         # dialogue-level
-        'interesting': ('appear boring', 'intersting'),
+        'interesting': ('appear boring', 'interesting'),
         'engaging': ('appear unappealing', 'engaging'),
         'specific': ('appear out of scope', 'topic-specific'),
         'relevant': ('appear irrelevant', 'topic-relevant'),
@@ -50,10 +50,10 @@ def get_instructions():
         'fluent': ('be poorly phrased', 'fluent'),
         # turn-level
         'coherent': ('deviate from the topic', 'coherent'),
-        'error recovery': ('appear errorneous', 'self-corrective'),
+        'error recovery': ('appear erroneous', 'self-corrective'),
         'consistent': ('disagree with previous utterances', 'consistent'),
         'diverse': ('include too much repetition', 'lexically diverse'),
-        'depth': ('appear superficial', 'depth'),
+        'depth': ('appear superficial', 'in-depth'),
         'likeable': ('appear unfriendly', 'likeable'),
         'understand': ('misunderstand the other speaker', 'perceptive'),
         'flexible': ('adapt poorly to the conversation flow', 'flexible'),
