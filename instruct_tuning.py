@@ -17,15 +17,21 @@ def process_feature_stat(df: pd.DataFrame,
 
 def feature_to_description(worst_features: list,
                            original_prompt: bool = False):
-    description = str()
+    
+    desc_neg = str()
+    desc_pos = str()
+
     conj = 'or' if original_prompt else 'and'
     for i, feature in enumerate(worst_features):
         # print(instructions.get(feature[0].split('-')[0]))
         if i+1 == len(worst_features):
-            description += f' {conj} {instructions.get(feature[0].split("-")[0])}.'
+            desc_neg += f' {conj} {instructions.get(feature[0].split("-")[0])[0]},'
+            desc_pos += f' and {instructions.get(feature[0].split("-")[0])[1]}.'
         else:
-            description += f' {instructions.get(feature[0].split("-")[0])},'
-    print(description)
+            desc_neg += f' {instructions.get(feature[0].split("-")[0])[0]},'
+            desc_pos += f' {instructions.get(feature[0].split("-")[0])[1]},'
+    
+    description = f'{desc_neg} so that the conversation becomes more{desc_pos}'
     return description
 
 
@@ -34,32 +40,32 @@ def get_instructions():
     instructions = {
         # FED
         # dialogue-level
-        'interesting': 'appear boring',
-        'engaging': 'appear unappealing',
-        'specific': 'appear out of scope',
-        'relevant': 'appear irrelevant',
-        'correct': 'misunderstand the conversational context',
-        'semantically appropriate': 'make little sense',
-        'understandable': 'be hardly understandable',
-        'fluent': 'be poorly phrased',
+        'interesting': ('appear boring', 'intersting'),
+        'engaging': ('appear unappealing', 'engaging'),
+        'specific': ('appear out of scope', 'topic-specific'),
+        'relevant': ('appear irrelevant', 'topic-relevant'),
+        'correct': ('misunderstand the conversational context', 'correct'),
+        'semantically appropriate': ('make little sense', 'semantically appropriate'),
+        'understandable': ('be hardly understandable', 'understandable'),
+        'fluent': ('be poorly phrased', 'fluent'),
         # turn-level
-        'coherent': 'deviate from the topic',
-        'error recovery': 'appear errorneous',
-        'consistent': 'disagree with previous utterances',
-        'diverse': 'include too much repetition',
-        'depth': 'appear superficial',
-        'likeable': 'appear unfriendly',
-        'understand': 'misunderstand the other speaker',
-        'flexible': 'adapt poorly to the conversation flow',
-        'informative': 'provide too little information',
-        'inquisitive': 'appear indifferent',
+        'coherent': ('deviate from the topic', 'coherent'),
+        'error recovery': ('appear errorneous', 'self-corrective'),
+        'consistent': ('disagree with previous utterances', 'consistent'),
+        'diverse': ('include too much repetition', 'lexically diverse'),
+        'depth': ('appear superficial', 'depth'),
+        'likeable': ('appear unfriendly', 'likeable'),
+        'understand': ('misunderstand the other speaker', 'perceptive'),
+        'flexible': ('adapt poorly to the conversation flow', 'flexible'),
+        'informative': ('provide too little information', 'informative'),
+        'inquisitive': ('appear indifferent', 'inquisitive'),
         # IXQuisite
-        'minimal_explanations': 'mention too many named entities',
-        'lexical_complexity': 'incorporate difficult word usage',
-        'synonym_density': 'paraphrase too little',
-        'coherence': 'introduce poor dialogue flow',
-        'reading_grade': 'appear too hard to understand',
-        'adaptation': 'emphasize the same things too much'
+        'minimal_explanations': ('mention too many named entities', 'accessible'),
+        'lexical_complexity': ('incorporate difficult word usage', 'colloquial'),
+        'synonym_density': ('paraphrase too little', 'lexically diverse'),
+        'coherence': ('introduce poor dialogue flow', 'coherent'),
+        'reading_grade': ('appear too hard to understand', 'plain'),
+        'adaptation': ('emphasize the same things too much', 'adaptive')
     }
 
     return instructions
