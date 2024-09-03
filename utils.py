@@ -1,5 +1,7 @@
 import json
 import re
+import heapq
+import pandas as pd
 
 
 
@@ -49,3 +51,8 @@ def flatten_dialogue(dialogue: str,
 
 def remove_training_set(files):
     return [file for file in files if 'train' not in file]
+
+
+def get_worst_features(row, n):
+    pairs = zip(row.index, row.values)
+    return heapq.nsmallest(n, pairs, key=lambda x: x[1])
