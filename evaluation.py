@@ -14,6 +14,10 @@ def arguments():
 
     parser = ArgumentParser()
 
+    parser.add_argument('-d', dest='dataset',
+                        type=str, required=True,
+                        help='Dataset to be evaluated. Currently available options: WIRED, WikiDialog, ELI5.')
+    
     parser.add_argument('--fed', dest='FED',
                         action='store_true',
                         help='Minimum token number of utternace to be filled in. (Default=100)')
@@ -37,8 +41,8 @@ if __name__ == "__main__":
     if args.FED:
         model, tokenizer = fed.load_models('microsoft/DialoGPT-large')
 
-    path = 'data/tuned_results' if args.tuned else 'data/results'
-    for root, dirs, files in os.walk('data/results'):
+    path = f'data/tuned_results/{args.dataset}' if args.tuned else f'data/results{args.dataset}'
+    for root, dirs, files in os.walk(path):
         for file in files:
             
             df = pd.read_json(os.path.join(root, file))
@@ -166,6 +170,6 @@ if __name__ == "__main__":
 
                     print(df.head()) 
             
-            os.makedirs('data/evaluated_results', exist_ok=True)
+            os.makedirs(f'data/evaluated_results/{args.dataset}', exist_ok=True)
 
             df.to_json(f'data/evaluated_results/{file.split(".json")[0]}_eval.json')

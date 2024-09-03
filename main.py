@@ -37,7 +37,7 @@ def arguments():
     
     parser.add_argument('--local', dest='local',
                         action='store_true',
-                        help='Download LLM to local device from HuggingFace. (Not applicable to OpenAI models.)')
+                        help='Download LLM to local device from HuggingFace. (Not applicable to Anthropic models.)')
 
     parser.add_argument('-l', dest='turn_len',
                         type=int, default=100,
@@ -160,7 +160,7 @@ if __name__ == "__main__":
                 df.loc[len(df)] = new_row
                 print(df.head())
         
-    os.makedirs('data/results', exist_ok=True)
+    os.makedirs(f'data/results/{args.dataset}', exist_ok=True)
 
     optional_args = [f'{"topic" if args.topic else ""}',
                      f'{"speakers" if args.speakers else ""}',
@@ -172,4 +172,4 @@ if __name__ == "__main__":
             file_name_suffix += f'_{arg}'
 
     file_name = f'{args.dataset}_{args.model}_l{args.turn_len}_w{args.window}'
-    df.to_json(f'data/results/{file_name}{file_name_suffix}.json')
+    df.to_json(f'data/results/{args.dataset}/{file_name}{file_name_suffix}.json')

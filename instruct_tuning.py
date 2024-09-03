@@ -77,6 +77,10 @@ def arguments():
 
     parser = ArgumentParser()
 
+    parser.add_argument('-d', dest='dataset',
+                        type=str, required=True,
+                        help='Dataset to instruct-tuned. Currently available options: WIRED, WikiDialog, ELI5.')
+    
     parser.add_argument('-n', dest='num_feature',
                         type=int, default=3,
                         help='Number of features to be tuned with instructions.')
@@ -114,7 +118,7 @@ if __name__ == "__main__":
     features = list(instructions.keys())
     dif_features = [f'{feature}-dif' for feature in features]
 
-    for root, dirs, files in os.walk('data/evaluated_results'):
+    for root, dirs, files in os.walk(f'data/evaluated_results/{args.dataset}'):
         # filter files with the model's output
         for file in (f for f in files if args.model == f.split('_')[1]):
             print(file)
@@ -177,5 +181,5 @@ if __name__ == "__main__":
                 df.at[index, 'tuned_output'] = model_output
                 print(df.head())
         
-        os.makedirs('data/tuned_results', exist_ok=True)
-        df.to_json(f'data/tuned_results/{file.split(".json")[0]}_tuned.json')
+        os.makedirs(f'data/tuned_results/{args.dataset}', exist_ok=True)
+        df.to_json(f'data/tuned_results/{args.dataset}/{file.split(".json")[0]}_tuned.json')
