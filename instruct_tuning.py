@@ -182,5 +182,5 @@ if __name__ == "__main__":
                 df.at[index, 'tuned_output'] = model_output
                 print(df.head())
         
-        os.makedirs(f'data/tuned_results/{args.dataset}', exist_ok=True)
-        df.to_json(f'data/tuned_results/{args.dataset}/{file.split(".json")[0]}_{"tuned_original" if args.original_prompt else "tuned"}.json')
+            os.makedirs(f'data/tuned_results/{args.dataset}', exist_ok=True)
+            df.to_json(f'data/tuned_results/{args.dataset}/{file.split(".json")[0]}_{"tuned_original" if args.original_prompt else "tuned"}.json')
