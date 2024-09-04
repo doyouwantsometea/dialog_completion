@@ -80,10 +80,14 @@ if __name__ == "__main__":
                     print('Skipping instance owing to empty or improper model output.')
                     continue
 
+                if args.tuned and not isinstance(row.tuned_output, str):
+                    print('Skipping instance owing to empty or improper tuned output.')
+                    continue
+
                 if args.FED:
                     conversation = flatten_dialogue(dialogue=row.dialogue,
                                                     reference=row.target_turn,
-                                                    model_turn=row.model_output,
+                                                    model_turn=row.tuned_output if args.tuned else row.model_output,
                                                     original_dialog=False)
 
                     scores = fed.evaluate(conversation, model, tokenizer)
@@ -111,9 +115,9 @@ if __name__ == "__main__":
                     
                     if not args.tuned:
                         conversation_original = flatten_dialogue(dialogue=row.dialogue,
-                                                                reference=row.target_turn,
-                                                                model_turn=row.model_output,
-                                                                original_dialog=True)
+                                                                 reference=row.target_turn,
+                                                                 model_turn=row.model_output,
+                                                                 original_dialog=True)
 
                         scores_original = fed.evaluate(conversation_original, model, tokenizer)
                         print(scores_original)
@@ -142,6 +146,7 @@ if __name__ == "__main__":
                 if args.IXQuisite:
                     ts = IXQuisite(datapoint=row.to_dict(),
                                    original_dialog=False,
+                                   tuned=args.tuned,
                                    r=4)
                     scores = ts.get_scores()
                     print(scores)

@@ -15,11 +15,12 @@ class IXQuisite():
     def __init__(self,
                  datapoint: dict,
                  original_dialog: bool,
+                 tuned: bool,
                  r: int=4):
         
         self.datapoint = datapoint
 
-        self.utterance = self.datapoint['model_output']
+        self.utterance = self.datapoint['tuned_output'] if tuned else self.datapoint['model_output']
         self.reference = self.datapoint['target_turn']
         self.dialogue = self.datapoint['dialogue']
 
