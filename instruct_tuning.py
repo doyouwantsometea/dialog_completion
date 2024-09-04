@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+from tqdm import tqdm
 from argparse import ArgumentParser
 from prompter import Prompter
 from model_loader import HFModelLoader, AnthropicModelLoader
@@ -155,7 +156,7 @@ if __name__ == "__main__":
             prompter = Prompter(prompt_cfg_filename='prompts.json',
                                 task='task' if args.original_prompt else 'tuning')
             
-            for index, row in df.iterrows():
+            for index, row in tqdm(df.iterrows()):
                 
                 if args.original_prompt:
                     dialogue = row.dialogue
