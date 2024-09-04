@@ -175,11 +175,11 @@ if __name__ == "__main__":
                 # print(json_output)
                 if not json_output:
                     continue
-                        
-                model_output = json_output.get('revised turn', None)
+                
+                model_output = json_output.get('revised turn' if args.original_prompt else 'missing part', None)
                 print(model_output)
                 df.at[index, 'tuned_output'] = model_output
                 print(df.head())
         
         os.makedirs(f'data/tuned_results/{args.dataset}', exist_ok=True)
-        df.to_json(f'data/tuned_results/{args.dataset}/{file.split(".json")[0]}_tuned.json')
+        df.to_json(f'data/tuned_results/{args.dataset}/{file.split(".json")[0]}_{'tuned_original' if args.original_prompt else 'tuned'}.json')
