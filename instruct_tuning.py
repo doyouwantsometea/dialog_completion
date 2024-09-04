@@ -177,7 +177,7 @@ if __name__ == "__main__":
                 if not json_output:
                     continue
                 
-                model_output = json_output.get('revised turn' if args.original_prompt else 'missing part', None)
+                model_output = json_output.get('missing part' if args.original_prompt else 'revised turn', None)
                 print(model_output)
                 df.at[index, 'tuned_output'] = model_output
                 print(df.head())
