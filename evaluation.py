@@ -41,7 +41,7 @@ if __name__ == "__main__":
     if args.FED:
         model, tokenizer = fed.load_models('microsoft/DialoGPT-large')
 
-    path = f'data/tuned_results/{args.dataset}' if args.tuned else f'data/results{args.dataset}'
+    path = f'data/tuned_results/{args.dataset}' if args.tuned else f'data/results/{args.dataset}'
     for root, dirs, files in os.walk(path):
         for file in files:
             
@@ -93,27 +93,28 @@ if __name__ == "__main__":
                     scores = fed.evaluate(conversation, model, tokenizer)
                     print(scores)
 
-                    df.at[index, 'interesting'] = round(scores['interesting'] * 100, 4)
-                    df.at[index, 'engaging'] = round(scores['engaging'] * 100, 4)
-                    df.at[index, 'specific'] = round(scores['specific'] * 100, 4)
-                    df.at[index, 'relevant'] = round(scores['relevant'], 4)
-                    df.at[index, 'correct'] = round(scores['correct'], 4)
-                    df.at[index, 'semantically appropriate'] = round(scores['semantically appropriate'] * 100, 4)
-                    df.at[index, 'understandable'] = round(scores['understandable'] * 100, 4)
-                    df.at[index, 'fluent'] = round(scores['fluent'] * 100, 4)
-                    df.at[index, 'coherent'] = round(scores['coherent'], 4)
-                    df.at[index, 'error recovery'] = round(scores['error recovery'], 4)
-                    df.at[index, 'consistent'] = round(scores['consistent'], 4)
-                    df.at[index, 'diverse'] = round(scores['diverse'], 4)
-                    df.at[index, 'depth'] = round(scores['depth'], 4)
-                    df.at[index, 'likeable'] = round(scores['likeable'] * 100, 4)
-                    df.at[index, 'understand'] = round(scores['understand'], 4)
-                    df.at[index, 'flexible'] = round(scores['flexible'] * 100, 4)
-                    df.at[index, 'informative'] = round(scores['informative'] * 100, 4)
-                    df.at[index, 'inquisitive'] = round(scores['inquisitive'] * 100, 4)
                     
+                    if args.tuned:
+                        df.at[index, 'interesting-tuned'] = round(scores['interesting'] * 100, 4)
+                        df.at[index, 'engaging-tuned'] = round(scores['engaging'] * 100, 4)
+                        df.at[index, 'specific-tuned'] = round(scores['specific'] * 100, 4)
+                        df.at[index, 'relevant-tuned'] = round(scores['relevant'], 4)
+                        df.at[index, 'correct-tuned'] = round(scores['correct'], 4)
+                        df.at[index, 'semantically appropriate-tuned'] = round(scores['semantically appropriate'] * 100, 4)
+                        df.at[index, 'understandable-tuned'] = round(scores['understandable'] * 100, 4)
+                        df.at[index, 'fluent-tuned'] = round(scores['fluent'] * 100, 4)
+                        df.at[index, 'coherent-tuned'] = round(scores['coherent'], 4)
+                        df.at[index, 'error recovery-tuned'] = round(scores['error recovery'], 4)
+                        df.at[index, 'consistent-tuned'] = round(scores['consistent'], 4)
+                        df.at[index, 'diverse-tuned'] = round(scores['diverse'], 4)
+                        df.at[index, 'depth-tuned'] = round(scores['depth'], 4)
+                        df.at[index, 'likeable-tuned'] = round(scores['likeable'] * 100, 4)
+                        df.at[index, 'understand-tuned'] = round(scores['understand'], 4)
+                        df.at[index, 'flexible-tuned'] = round(scores['flexible'] * 100, 4)
+                        df.at[index, 'informative-tuned'] = round(scores['informative'] * 100, 4)
+                        df.at[index, 'inquisitive-tuned'] = round(scores['inquisitive'] * 100, 4)
                     
-                    if not args.tuned:
+                    else:
                         conversation_original = flatten_dialogue(dialogue=row.dialogue,
                                                                  reference=row.target_turn,
                                                                  model_turn=row.model_output,
@@ -121,6 +122,25 @@ if __name__ == "__main__":
 
                         scores_original = fed.evaluate(conversation_original, model, tokenizer)
                         print(scores_original)
+
+                        df.at[index, 'interesting'] = round(scores['interesting'] * 100, 4)
+                        df.at[index, 'engaging'] = round(scores['engaging'] * 100, 4)
+                        df.at[index, 'specific'] = round(scores['specific'] * 100, 4)
+                        df.at[index, 'relevant'] = round(scores['relevant'], 4)
+                        df.at[index, 'correct'] = round(scores['correct'], 4)
+                        df.at[index, 'semantically appropriate'] = round(scores['semantically appropriate'] * 100, 4)
+                        df.at[index, 'understandable'] = round(scores['understandable'] * 100, 4)
+                        df.at[index, 'fluent'] = round(scores['fluent'] * 100, 4)
+                        df.at[index, 'coherent'] = round(scores['coherent'], 4)
+                        df.at[index, 'error recovery'] = round(scores['error recovery'], 4)
+                        df.at[index, 'consistent'] = round(scores['consistent'], 4)
+                        df.at[index, 'diverse'] = round(scores['diverse'], 4)
+                        df.at[index, 'depth'] = round(scores['depth'], 4)
+                        df.at[index, 'likeable'] = round(scores['likeable'] * 100, 4)
+                        df.at[index, 'understand'] = round(scores['understand'], 4)
+                        df.at[index, 'flexible'] = round(scores['flexible'] * 100, 4)
+                        df.at[index, 'informative'] = round(scores['informative'] * 100, 4)
+                        df.at[index, 'inquisitive'] = round(scores['inquisitive'] * 100, 4)
 
                         df.at[index, 'interesting-original'] = round(scores_original['interesting'] * 100, 4)
                         df.at[index, 'engaging-original'] = round(scores_original['engaging'] * 100, 4)
@@ -151,20 +171,29 @@ if __name__ == "__main__":
                     scores = ts.get_scores()
                     print(scores)
 
-                    df.at[index, 'minimal_explanations'] = scores['minimal_explanations']
-                    df.at[index, 'lexical_complexity'] = scores['lexical_complexity']
-                    df.at[index, 'synonym_density'] = scores['synonym_density']
-                    df.at[index, 'coherence'] = scores['coherence']
-                    df.at[index, 'reading_grade'] = scores['reading_grade']
-                    df.at[index, 'adaptation'] = scores['adaptation']
                     
-                    if not args.tuned:
+                    if args.tuned:
+                        df.at[index, 'minimal_explanations-tuned'] = scores['minimal_explanations']
+                        df.at[index, 'lexical_complexity-tuned'] = scores['lexical_complexity']
+                        df.at[index, 'synonym_density-tuned'] = scores['synonym_density']
+                        df.at[index, 'coherence-tuned'] = scores['coherence']
+                        df.at[index, 'reading_grade-tuned'] = scores['reading_grade']
+                        df.at[index, 'adaptation-tuned'] = scores['adaptation']
+                    
+                    else: 
                         ts_original = IXQuisite(datapoint=row.to_dict(),
                                                 original_dialog=True,
                                                 r=4)
                         
                         scores_original = ts_original.get_scores()
                         print(scores_original)
+                        
+                        df.at[index, 'minimal_explanations'] = scores['minimal_explanations']
+                        df.at[index, 'lexical_complexity'] = scores['lexical_complexity']
+                        df.at[index, 'synonym_density'] = scores['synonym_density']
+                        df.at[index, 'coherence'] = scores['coherence']
+                        df.at[index, 'reading_grade'] = scores['reading_grade']
+                        df.at[index, 'adaptation'] = scores['adaptation']
 
                         df.at[index, 'minimal_explanations-original'] = scores_original['minimal_explanations']
                         df.at[index, 'lexical_complexity-original'] = scores_original['lexical_complexity']
