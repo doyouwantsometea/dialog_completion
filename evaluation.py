@@ -49,11 +49,19 @@ if __name__ == "__main__":
             
             new_col = []
             if args.FED:
-                new_col.extend(['interesting', 'engaging', 'specific', 'relevant',
-                    'correct', 'semantically appropriate', 'understandable', 'fluent',
-                    'coherent', 'error recovery', 'consistent', 'diverse', 'depth',
-                    'likeable', 'understand', 'flexible', 'informative', 'inquisitive'])
-                if not args.tuned:
+                if args.tuned:
+                    new_col.extend(['interesting-tuned', 'engaging-tuned',
+                        'specific-tuned', 'relevant-tuned', 'correct-tuned',
+                        'semantically appropriate-tuned', 'understandable-tuned',
+                        'fluent-tuned', 'coherent-tuned', 'error recovery-tuned',
+                        'consistent-tuned', 'diverse-tuned', 'depth-tuned',
+                        'likeable-tuned', 'understand-tuned', 'flexible-tuned',
+                        'informative-tuned', 'inquisitive-tuned'])
+                else:
+                    new_col.extend(['interesting', 'engaging', 'specific', 'relevant',
+                        'correct', 'semantically appropriate', 'understandable', 'fluent',
+                        'coherent', 'error recovery', 'consistent', 'diverse', 'depth',
+                        'likeable', 'understand', 'flexible', 'informative', 'inquisitive'])
                     new_col.extend(['interesting-original', 'engaging-original',
                         'specific-original','relevant-original', 'correct-original',
                         'semantically appropriate-original', 'understandable-original',
@@ -62,12 +70,16 @@ if __name__ == "__main__":
                         'likeable-original', 'understand-original', 'flexible-original',
                         'informative-original', 'inquisitive-original'])
             if args.IXQuisite:
-                new_col.extend(['minimal_explanations', 'lexical_complexity',
-                    'synonym_density', 'coherence', 'reading_grade', 'adaptation'])
-                if not args.tuned:
-                    new_col.extend(['minimal_explanations-original',
-                        'lexical_complexity-original', 'synonym_density-original',
-                        'coherence-original', 'reading_grade-original', 'adaptation-original'])
+                if args.tuned:
+                    new_col.extend(['minimal_explanations-tuned', 'lexical_complexity-tuned',
+                        'synonym_density-tuned', 'coherence-tuned', 'reading_grade-tuned',
+                        'adaptation-tuned'])
+                else:
+                    new_col.extend(['minimal_explanations', 'lexical_complexity',
+                        'synonym_density', 'coherence', 'reading_grade', 'adaptation',
+                        'minimal_explanations-original', 'lexical_complexity-original',
+                        'synonym_density-original', 'coherence-original',
+                        'reading_grade-original', 'adaptation-original'])
                 
             df[new_col] = None
 
