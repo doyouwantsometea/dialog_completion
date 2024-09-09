@@ -80,7 +80,7 @@ if __name__ == "__main__":
     df = pd.DataFrame(columns=['file', 'turn_len', 'role', 'window', 'index',
                                'target_turn', 'dialogue', 'model', 'topic',
                                'explainer', 'explainee', 'footer_context', 'model_output'])
-
+    
     prompter = Prompter(prompt_cfg_filename='prompts.json', task='task')
 
     if 'claude' in args.model:

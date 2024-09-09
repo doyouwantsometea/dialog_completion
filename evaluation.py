@@ -195,6 +195,7 @@ if __name__ == "__main__":
                     else: 
                         ts_original = IXQuisite(datapoint=row.to_dict(),
                                                 original_dialog=True,
+                                                tuned=args.tuned,
                                                 r=4)
                         
                         scores_original = ts_original.get_scores()
@@ -213,9 +214,6 @@ if __name__ == "__main__":
                         df.at[index, 'coherence-original'] = scores_original['coherence']
                         df.at[index, 'reading_grade-original'] = scores_original['reading_grade']
                         df.at[index, 'adaptation-original'] = scores_original['adaptation']
-
-                    print(df.head()) 
             
             os.makedirs(f'data/evaluated_results/{args.dataset}', exist_ok=True)
-
-            df.to_json(f'data/evaluated_results/{file.split(".json")[0]}_eval.json')
+            df.to_json(f'data/evaluated_results/{args.dataset}/{file.split(".json")[0]}_eval.json')
