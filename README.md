@@ -24,10 +24,28 @@ python3 main.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -l 80 -w 3 --topic --spea
 ## Evaluation
 
 ```
-python3 evaluation.py --fed --ixquisite
+python3 evaluation.py -d WIRED --fed --ixquisite
 ```
 
 **Arguments:**
 
-`--fed`: Use FED to evaluate the results.</br>
-`--ixquisite`: Use IXQuisite to evaluate the results.
+`-d`: (required) dataset; currently available options: WIRED, WikiDialog, ELI5</br>
+`--fed`: apply FED to evaluating the results.</br>
+`--ixquisite`: apply IXQuisite to evaluating the results.</br>
+`--tuned`: evaluate tuned dialogues; otherwise evaluate task outputs.</br>
+
+## Instruct-tuning
+
+```
+python3 instruct_tuning.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -n 3
+```
+
+**Arguments:**
+
+`-d`: (required) dataset; currently available options: WIRED, WikiDialog, ELI5</br>
+`-m`: (required) model; currently available options:
+</br>*Open LLMs:* Mistral-7B-Instruct-v0.3, Meta-Llama-3-8B-Instruct, Meta-Llama-3.1-8B-Instruct
+</br>*Claude:* claude-3-haiku-20240307, claude-3-sonnet-20240229, claude-3-opus-20240229, claude-3-5-sonnet-20240620</br>
+`--local`: download LLM to local device (only applicable to HuggingFace models)</br>
+`-n`: number of worst-performing features.</br>
+`--original_prompt`: adapt the prompt for the dialogue completion task; otherwise use a different structure for tuning.</br>
