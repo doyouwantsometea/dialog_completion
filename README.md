@@ -1,6 +1,12 @@
 # Evaluating LLM-generated Explanatory Utterances through Dialogue Completion
 
+Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory Utterances through Dialogue Completion*, to be submitted and defensed in winter semester 2024/25 at Universität Potsdam for the degree program in Cognitive Systems.
+
+The processed files are stored under `data/`. Owing to the scattered source, data processing lacks a unified pipeline; separate files can nevertheless be accessed under `preprocess/`.
+
 ## LLM inference for dialogue completion
+
+This step performs the dialogue completion task. Follow the example terminal command line and adjust the experimental variables as described below:
 
 ```
 python3 main.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -l 80 -w 3 --topic --speakers
@@ -21,7 +27,12 @@ python3 main.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -l 80 -w 3 --topic --spea
 `--context`: incorporate dialogue context again in the prompt footer</br>
 `--open_end`: remove the tunrs following the target turn in the prompt</br>
 
+The output of this step can be found under `data/results/{dataset}`, with arguments appended to the file name.
+
 ## Evaluation
+
+The script for evaluation iterates through all the files under `data/results/{dataset}` or `data/tuned_results/{dataset}`, depending on whether the argument `--tuned` is used. In case only some files are to be evaluated, remove the unnecessary ones from the directory.</br>
+Here's an example of the command line:
 
 ```
 python3 evaluation.py -d WIRED --fed --ixquisite
@@ -34,7 +45,11 @@ python3 evaluation.py -d WIRED --fed --ixquisite
 `--ixquisite`: apply IXQuisite to evaluating the results.</br>
 `--tuned`: evaluate tuned dialogues; otherwise evaluate task outputs.</br>
 
+The output are stored under `data/evaluated_results/{dataset}`.
+
 ## Instruct-tuning
+
+This step iterates through all the files under `data/evaluated_results/{dataset}`. Before running the script, remove (if any) unnecessary files from the directory, particularly considering that evaluation and instruct-tuning can be executed recursively.
 
 ```
 python3 instruct_tuning.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -n 3
@@ -49,3 +64,5 @@ python3 instruct_tuning.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -n 3
 `--local`: download LLM to local device (only applicable to HuggingFace models)</br>
 `-n`: number of worst-performing features.</br>
 `--original_prompt`: adapt the prompt for the dialogue completion task; otherwise use a different structure for tuning.</br>
+
+The output can be found under `data/tuned_results/{dataset}`.
