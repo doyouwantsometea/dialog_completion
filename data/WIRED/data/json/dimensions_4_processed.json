@@ -1,0 +1,227 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Do you like science? Is that something you think about?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I do."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Sean] What kind of science?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I like biology and computer science."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "All right, you're in the wrong place. [laughs] We're not gonna be talking about biology or computer science. So we wanna talk about the idea of dimensions. Do you know what dimension is? How we would define dimensions?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I guess, I don't know how to exactly define it, but I know, like the first four."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right, you know the difference between like one dimension two dimensions, three dimensions, et cetera. So let's do a little experiment here. So there's one dimension. I'll give that to you. Now, here's your task. I'm going to give you another dimension, and I'm gonna ask hold those two things at right angles to each other. It's easy to do. Yeah, so there's no trick here."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[laughing] Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm not trying to fool you here. Okay. Now this is going to be slightly trickier. I'm going to give you this. I want you to hold all three of them at right angles to all the others at the same time."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Um ..."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There you go. So what that's doing is when you had just two that was describing a two dimensional plane, right? Like the two things pick out a plane, the three things pick out all three dimensional space. I'm gonna give you one more, and I'm gonna ask you to hold that fourth one so that it's at a right angle to all the other three at the same time."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Um ..."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "All right, now I am tricking you. It can't be done. Yeah. Right? You can't do it. So we just experimentally proved that space is three dimensional. That's sort of what it means to be three dimensional, that there are three different directions you can move in and there's not four or five or six directions you can move in."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There you go. Three dimensional space, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Sean] So, have you thought about using coordinates in three dimensions?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I was actually doing SAT prep."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There you go. [laughing]"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It showed like the X Y and Z axis as well."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right. So that's exactly what these would be. Have you heard that there are other coordinate systems other than XYX?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, we could also say how far we are away from the center, just the distance. And then the angle that our little line makes with let's say the X axis."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So that's a different way of giving you two numbers and locating yourself, and we call those polar coordinates. It's a different coordinate system. What we want to do as physicists is look for extra dimensions. Can you imagine, can you think of any way that there could be extra dimensions?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Time?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Time. Yes, Einstein said that we can think of time as a fourth dimension, and that's a very fascinating thing that we could talk about all by itself. But what about space? What about the solar system? Like, if you wanted to tell me where a certain star was in the sky, do you know how we do that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have no idea."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's exactly the same thing as latitude and longitude but we put coordinates on the sky."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So astronomers call them right ascension and declination, which are two terrible words, but basically you've seen on the globe where you draw latitude and longitude, what it looks like."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Juliana] Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Sean] And sort of the peels of an orange kind of thing, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Juliana] Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you can define something as, well you know, how high above a certain location on earth it is, but the earth is rotating and revolving around the sun so we have to define separate celestial coordinates."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, there's like how many dimension would there be?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We don't know. You know, the optimistic view is that there are six, but the thing is, some of them might be really, really, really, really, really small, like way too small for us to ever see."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And some of them might be medium sized that hopefully we can see."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, okay. So since it's all theoretical, like this could not be three dimensional."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely right. And this is sort of the state of uncertainty that physicists are stuck living in."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh. [laughs]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know, honestly out there, if you go out onto campus and talk to the physicists, half of them will say probably extra dimensions exist, and half of them say no, that's just nonsense."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh. [laughs]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Sean] We really don't know."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, after all this."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Juliana] Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Someone comes up to you on the street and says what's a dimension?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, man. I mean, I guess what I've learned today is just that there are not just three dimensions or at least we think, I mean everything's theoretical. It's all just really kind of confusing."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right, and you know, if they're still bugging you you can just like give them some sticks and ask them to put them together."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Sean] And that would shut them up."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                }
+            ],
+            "topic": "dimensions",
+            "level": "teenager",
+            "youtube_link": "https://youtu.be/3KC32Vymo0Q"
+        }
+    }
+]

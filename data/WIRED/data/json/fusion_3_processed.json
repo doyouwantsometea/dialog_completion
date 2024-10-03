@@ -1,0 +1,135 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What's your name, tell me a little bit about yourself."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm Amelia, I'm nine years old. I'm in third grade, and my favorite subject at school is definitely science."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So my son is five years old. And he asked me what kind of science I do. And I said fusion. And I said I put a star in a jar. Does that make sense?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No. [laughs]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a good answer. Because it sounds a little ridiculous, right? How can we put a star in a jar? Well, we're not actually gonna put the sun, which is a star, inside a jar, but instead we're gonna take the same kind of material that the sun is made out of, and we're going to hold it for a really long time in some kind of container. So fusion is about bringing things together. That's what fusing means. When those fusion reactions occur, a new particle is created, and energy is also released. Do you know what an atom is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "All right, so an atom is what everything in our world is made of. And at the very center of the atom is what we call a nucleus. And inside that nucleus is a proton. We want to take those protons and push them together to make them combine and release energy, fusion energy, that we can use to make electricity. And there's a lot of different energies and forces that we have to think about. Have you heard of gravity?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, okay. So that is a big important fundamental force. So another fun force to talk about that's important for fusion, you're familiar with electricity?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right, and so there's also electric forces, electrostatic forces, and you've heard of static electricity. So now let's see about static electricity lifting my hair up."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We can move this white strand, it's like hanging down. The balloon took on the force from like your hair and put in here, and I'll just like move it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There you go, yeah! And so if we want to take those protons and push them together to make them combine and release energy, fusion energy, that we can use to make electricity, then we have to actually overcome that strong electrostatic force that just want to make those balls bounce off of each other. There's another force which you might be familiar with, which is like a magnetic force."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We just learned about that. Our teacher showed us putting one magnet on, and then flipping the other one around, and it made it the top one kind of bounce."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And I was also thinking on how can it do that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know, scientists are still studying exactly how magnetism works, right? It'll still be there for you to tackle when you become a scientist. Have you ever seen one of these games?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "With the iron filing. So if you take this and you take the magnetic end, maybe you can show us what's gonna happen with it. While you move around those iron filings with the magnet, you're totally in control of that material. You're pushing, you're pulling it, you're moving it around. And so you're using this magnetic force to also do something useful for you. Have you learned about the states of matter?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Tell me about that."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So we were in second grade, and she put a picture on the board, three states of matter, she showed us a picture of ice, a picture of water, and a picture of gas."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Did you learn that there's also a fourth state of matter?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "When you heat up a gas, you create a plasma. A plasma is the fourth state of matter. The plasma I study is actually invisible."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's gonna be hard science, you can't see it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And the plasmas I work with are so hot that I can't see with my eyes, but it's light that I can measure it with very, very special instruments."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What kinda instruments? Because instruments we use play music."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a really great point."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How do you keep the invisible plasmas, because they're invisible? Do you keep 'em in one spot so you always know where they are."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, we absolutely do. We hold it inside the container with the magnetic fields. So you didn't have to actually touch the iron filings in the toy to move them around. You could pass the magnetic field through the plastic and control them with it. So it's the same thing. We don't have to touch this very, very hot plasma to control it and hold it in place because we use magnetic fields. You are so smart. I'm so glad that science is your favorite subject."
+                }
+            ],
+            "topic": "fusion",
+            "level": "child",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-mit-professor-explains-nuclear-fusion-in-5-levels-of-difficulty?c=series"
+        }
+    }
+]

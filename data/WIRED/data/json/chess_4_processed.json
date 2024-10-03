@@ -1,0 +1,127 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "How long have you been playing chess?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I played a little bit of chess growing up against my brothers, but ever since the Queen's Gambit show came out, that's I think when I downloaded the app and started playing against friends for fun."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So chess is separated into three games, obviously. You have your opening, which is the early stage of the game. Then we have the middle game, right? The most confusing, mysterious side of the game, and the end game where there's no pieces remaining on the board. You gotta have to know how to convert positions, defend positions, understand how to play the game with only five pieces remaining or something like that. So for you, what do you struggle with the most?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I would say I really struggle in the mid game. I feel like I've developed most of my pieces, try to control the center, but at a certain point, I'm a little bit stuck on like, okay, now what? What do I do?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So I'm going to look up your account. We're gonna pick a game and we're gonna analyze it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Sounds good."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In all middle games where we have this mix of tactics, which are immediate gain or immediate loss, depending on if we're getting hit with a tactic or playing one, and strategic chess. I just want you to tell me, who do you think has a better position here and by how much?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "To me right now, it feels pretty even. Like there's no major vulnerabilities from both sides, but I guess the white pieces, the pieces are a little bit more developed, I would say."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Everything you just said is 100% accurate. So that's one of those baseline pieces of information that we need for the middle game. I have the two bishops. How can I activate one of my bishops? You have a little plan you could actually implement right now that would make one of your bishops extremely strong. You think you can find it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If I had to guess, I think it'd probably moving this bishop here."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, you definitely want to get the the bishop out, but you don't wanna move it just yet. So how do you do that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I am not sure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "This is how we unlock the intermediate level, which is this move. That move looks like it's disconnecting from the whole board, right? It's a move totally on the edge, but nobody is gonna stop your bishop from going to that diagonal, and then you're threatening a tactic. You're threatening a skewer. You would hit my queen and my rook. Stronger piece in front, weaker peace in back, and then you would be guaranteed to win some material. Just like little pattern recognition in the middle game. So for the future, you're gonna have a game where your opponent makes the same trade early, right? They trade their dark-squared bishop, and you can activate it like that, but in this game, you focused on the center, which was totally fine also."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe one question I have is like, as I'm also looking at this position, just trying to understand like, okay, what is my opponent trying to do here?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "One thing to always monitor in every chess middle game is does my opponent have a pawn break? Can my opponent strike somewhere with a pawn that would open up the board? If you have a low risk position, your position's just nice and comfortably better, you don't want chaos."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "guess maybe they would try to advance their middle pawn."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. Yes. And this move is actually very annoying for white because not only am I now targeting things in your center, what else have I changed just by moving this pawn?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Now there bishop is activated."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. Another thing for middle game. So we just keep adding to that bucket of knowledge. Pawn breaks for the opponent, and then, every time something moves, like a pawn, we have to look around. What else is now opening up? And we wanna get to a situation where you knew this move was gonna happen, and the next I'm gonna come here, and then now what can I do? I can bring both my rooks, and now I have no problems, right? Now I have both knights, queen, rooks. So we need to get to a point where we see that coming, and we're not just focusing on our own plans, but that's not always easy. So with a pawn here, that disrupts my plan, right? Because now this move fails to-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, respond to the skewer."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. As you're trying to improve your middle game, one question you always have to ask yourself is, Is that trade good for me? Is it good for my opponent? It's not checkers. You don't have to take me, and I don't have to take you. So we can do something called keeping the tension. We're just having a staring contest here among the pawns. So I'm gonna ask you, do you think it's better for black to capture this pawn or keep the tension? Just slide the rook over and threaten to push the pawn here, which would be a tactic and a fork."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If I was black, I would advance the pawn because I think knowing that the black has two knights and I have two bishops, they would want more of a closed game."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, but before we advance, we need to prepare it, right? Because you push it now, these two would win that trade. So yeah, rookie 8 is a very good move. You used kind of like a heuristic, right? Well, black has two knights. So black prefers the position closed because decide what the bishops wants to be able to see the whole board. Yes, exactly, but your opponent disagreed with you and took this pawn because that's just what intermediate players do. They see they can take something. Pawn for pawn. What the heck? Like, sure, and you did this. Now what does this move change in the white position?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So that opened up the diagonal for my dark square bishop."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yep, here, yeah, and what else? What else did that move open up?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It opened up the E file for us."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, exactly. So now in the snap of your fingers, you can get your bishop out and the rook, two things that a move ago were just totally blocked in by a pawn, exactly. So in the middle game, trades are either good or bad for you and for your opponent."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You know, I'm in the mid game right now, but what do I need to do or learn in order to take it up another level to a more advanced player style?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a lot of practice and analysis. Really, an advanced chess player was not born an advanced chess player. They have probably hundreds, if not thousands of more games in their mind, in their past, in their history that they've analyzed, that they've studied. It's like any athlete, you know? I put my weight on this foot, and so I wasn't able to hit the shot back that well. So the next time that that happens, I'm gonna be more prepared."
+                }
+            ],
+            "topic": "chess",
+            "level": "teenager",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-chess?c=series"
+        }
+    }
+]

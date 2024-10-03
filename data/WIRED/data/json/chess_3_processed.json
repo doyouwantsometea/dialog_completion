@@ -1,0 +1,155 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "I'm Levy Rozman. You might know me as Gotham Chess. Today I've been challenged with the task of explaining chess in five levels of increasing difficulty. Chess is an absolutely fascinating game. Think of it as a language. It's completely timeless. It's been around for thousands of years. It's also completExpert explaining chess to a novice"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "A lot of people who are gonna watch this video have never played chess before. How would you explain chess to them?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I would start off with the basics by teaching them how to move the pieces, make the pawns, knights, queens, bishops, kings."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What's the goal of the whole game?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, the goal of the game is trap the king and attack it at the same time."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. So it can't run away."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. Exactly."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And also take all of their pieces."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "For me, I would describe chess as a lot of what you said, and also, it's a mix of really quick plans like tactics and then things that can take four, five, six, seven moves like a plan, like a strategy. So let's practice. In this position, I had the white pieces. You're playing on my side. My opponent was playing with the black pieces. So we switched a little bit. So if I said, Hey, you get three moves in a row, can you come up with a plan?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think I could. If I have three moves in a row, I'd probably checkmate them with rook H3, queen H4, and then queen takes H7, checkmate."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm very happy that's the first plan that you came up with, right? You can bring your queen out this way or the rook. You can start with both, and then you come here and then you checkmate. But I did say white gets three moves in a row, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But that's how we have to think about plans, right? We have to think about, Okay, well if I get a couple of moves in a row, what would I like to accomplish? What does my opponent want to do? So I'm not just gonna sit here and get checkmated hopefully. Right? So what do you think I want to do in this position?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think my king is on a bad scale right now, so maybe you are trying to like trade and then somehow get an attack on my king."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Oh, you're saying like if I take this pawn, maybe in the future I'll try to open up this diagonal. See, that's very good vision. There's some pieces in the way, but yes. In chess, you have to always keep an eye on what can possibly open. Do you know how you can tell whether a position is closed or open?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Usually when a position is closed, pieces are more squished together."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The easiest way by far to figure out if a position is closed is how many pawns do we each have? Right now, it's eight. So think of it like a fence, right? So if you and your neighbor have a full fence, you can't really see each other, but if there's only four pawns, that means somebody probably knocked down half of the fence, right? So if we start picking up all these pawns, then the position is more open. So this would be a closed position. This type of strategy would be called an attacking strategy 'cause you found a way to get your queen and rook down this line against my king. Before we even talk about what tactic is here, who does it look like is winning this game?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think white's winning."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. Why do you think so?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, the black king is very exposed into the white side of the board, and like the white king is a bit more safe."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, you're 100% right 'cause in chess, the two most important things we have to think about are who has more material, but then, like you said, who has the weaker king? And I would say my king has gone way too far, right? So there's a tactic here for what?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe. Is it bishop takes upon on E4?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So that's like immediately you get a reward, but I'll give you a hint. The best way to start looking for a tactic, always look for a check first. Do you have a way to attack my king?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes. Rook, H1."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So exactly. You would give me that check. Now where can my king go? Let's just try to think."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Your king can go to king G4."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, that's my only move. So I would go here. Now what else is on that diagonal?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The rook."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. And which of your pieces can-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The bishop."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The bishop. So do you know what this type of tactic is called?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A skewer?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. Well done. And then I would take the pawn."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And then I would take the rook."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And then you would take the rook. Now the funny thing is you are now totally winning, right? But as we know in chess, maybe one day white will make a mistake in the future. So there's no point for black to surrender here, but this is definitely a really good start."
+                }
+            ],
+            "topic": "chess",
+            "level": "child",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-chess?c=series"
+        }
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Try look over there and concentrate on his face over there. Can you see me waving my hand without turning your eyes?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Alright, so, at some point, you can probably see it right now? So without moving your eyes, this is kind of hard, tell me how many fingers I'm holding up?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Uh, three?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You can just barely tell. And you can see that even, like if you hold out your hand and you focus on your hand, then your foot would be blurry because there's that difference there. And you can change between that, like you can then focus on your foot and your hand gets blurry. Because your eyes can see different amounts of detail in different places. So we're hoping in the future, that hardware can be like that. Where we can make a display that puts lots of detail right where you're looking. And every time you look someplace else, it moves the detail over to there. So we don't need to render a hundred times as much as we've got right now. Figuring out where you're looking is a pretty hard problem. What we try to go about this, is by taking a camera and looking at people's eyes and then try to figure out is the eye looking over here or up here. We're working hard on stuff like this right now so we hopefully can have a virtual reality that's as detailed and realistic feeling as the reality that we've actually got around us. But its going to be a long time before we get to where we can really fool people."
+                }
+            ],
+            "topic": "virtual_reality",
+            "level": "teenager",
+            "youtube_link": "https://youtu.be/akveRNY6Ulw"
+        }
+    }
+]

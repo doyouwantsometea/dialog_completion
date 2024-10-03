@@ -1,0 +1,59 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What got you interested in studying black holes?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The way I got really interested in this field is I actually first came to Caltech as a summer student, and I started working in this research group called the NuSTAR Group. Right now I'm doing my PhD in the field of active galactic nuclei, which are the most luminous compact objects in the universe, and it's because of the extreme accretion that we're seeing onto these super massive black holes. We don't have such a simple picture, that this central black hole is surrounded by this donut shaped torus of material, and that all these different classes of AGN simply arise from a viewing angle effect of this torus, as a very oversimplified geometry, and this--"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Which is, by the way, what, when I was just starting out in graduate school, that was the hot new thing, so."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That was, it was like, oh, wow, this might be it, and then, but very early on, it was, as I just started my, it was basically my second year of graduate school, it was like, uh, this is not that simple."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It isn't."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know, everybody's been just coming at it from different wavelengths at the optical infrared, and, but definitely the X-rays has been one of those things where it's like, oh, finally."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And we've come a long way by seeing a wider range of the spectrum, we can elucidate more about the circumnuclear geometry, and there's just been so much progress made with all these new spectral models that we use to fit AGN spectra, and the different types of classes of AGN, like type one and type two are believed to be just a viewing angle effect of seeing this torus at different angles."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It does seem to be that it may not even, in parts, it may not be even connected to this tiny, little torus at all because part of the work that I did, and others have done, is that type twos preferentially live in different kinds of galaxies than type ones, which should not in any way have to do with something such a small scale. They tend to be in smaller bulged, SB and SC type spiral galaxies. So there's something also having to do with environment that gets you to be a type two, and you can still maybe, timing wise, but there's something else that's going on on a larger scale because the type of the AGN should not really correspond to the host galaxy, but it seems to. And that was one of the things that we were finding out, and that was one of the early little ideas that the, individually, just as the torus model, the unified model, can't explain everything that we were observing at the time. But it is one of those things that it's, they're super luminous, they're all over the place, and we don't have a really good picture of it, which makes it exciting to study."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, and I think, you know, pushing towards the future, that, like, this whole multi-messenger era, and like, you know, utilizing all the different wavelength telescopes that we can is really the way to go. We cannot just build up a picture purely from X-rays alone, or purely from infrared, and, you know, I think there should be increased effort to try and have more coordinated observations with the different telescopes, like NuSTAR--"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Oh, that makes sense, but it's always so difficult to get that."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It is, and it's difficult to even just coordinate, you know, soft X-ray and hard X-ray telescopes together, like, getting, you know, time for both simultaneous, you know, say, Chandra observations, and NuSTAR observations, or (mumbles) and NuSTAR. It's a difficult thing, but, you know, I think we really need to get a clear picture, to be looking at wavelengths, of course."
+                }
+            ],
+            "topic": "blackhole",
+            "level": "grad",
+            "youtube_link": "https://youtu.be/rUvFbJYWGDA"
+        }
+    }
+]

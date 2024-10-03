@@ -1,0 +1,47 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "We're gonna talk about blockchain technology. Have you heard of blockchain?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've heard of the words blockchain, but I'm not sure I know what it is."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "When we were much smaller societies, you and I could trade in our community pretty easily. As the distance in our trade grew, we ended up inventing institutions, right? If you Uber or you use Airbnb or you use Amazon even, these are just digital marketplaces and platforms that help us facilitate an exchange of value. But today, we actually have a technology that allows us to trade one to one but at scale, and it's called blockchain technology. There is some kind of interface for it. You could have an app, or you could use a computer to do it, but instead of there being a company in the middle that's helping you make that transaction, it's a bunch of software code."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so it's being run by all of these different computers that have like a node. So they're all running the same software and guaranteeing your transactions as they happen."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I mean, I would assume this technology is taking away business or activity from these middlemen."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In some cases, yeah, it is. And a lot of people in the financial industry, in particular, are looking at it from the banking side of how do we use this technology to trade things like Bitcoin or other tokens that are easier to use instead of today's currency. A lot of people think about blockchain as Bitcoin because it's sort of in the news a lot, and it's this new cryptocurrency. And it's kind of exciting. But we're actually seeing a lot more use cases for blockchain that aren't around the currency side. They're more around, how do you take any asset and be able to trade that using this same technology."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is there a mechanism for verifying that person A is a legitimate seller or producer of the item?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So today, a lot of people are working on how to create identity structures that leverage blockchains. And one of the tools for doing that is being able to cryptographically sign for a given attribute. So your government could sign that you have a US passport or a university could sign that you are a currently enrolled student. And you could then dole out that information and control it yourself and be able to show people those certifications on an as needed basis."
+                }
+            ],
+            "topic": "blockchain",
+            "level": "undergrad",
+            "youtube_link": "https://youtu.be/hYip_Vuv8J0"
+        }
+    }
+]

@@ -1,0 +1,115 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "I am in soft condensed matter physics, and my research kind of dips into material science, but I feel like people are always asking me about fusion."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What are they asking you about fusion?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So usually people ask me like, do you think that we'll ever really replace all of our other energy sources with fusion?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think that it actually has a lot of mystery around it, because the fuel for fusion is a plasma, and we don't experience plasmas on earth in our everyday life."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "They exist in space, at the event horizon of a black hole, in the solar wind, in our sun, or very rapid events, like lightning is also sort of a very weakly ionized plasma. Even among plasmas there are so many different kinds of plasmas. There are low temperature, higher density plasmas. There are of course the astrophysical plasmas, and space plasmas, and then there are fusion plasmas. They are predominantly fully ionized plasmas. They are also plasmas where we have a certain ability to basically kick up micro-instabilities."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So they're plasmas which are held in a stable enough state by strong external magnetic fields confining the plasma into a donut shape. And this has a lot of advantages for us, because charged particles want to follow the magnetic field lines. But things start to get really interesting when we're no longer thinking about individual particle motions in the plasma. And instead we start to think about collective effects."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's never occupied any space in my mind to think about what happens when you have something so high temperature and like precisely confined, and now you have to deal with presumably turbulence."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Plus magnetic fields. When we start thinking about turbulence in the plasma, we can no longer even think about the plasma as a single fluid. Instead we have to consider electron fluid and ion fluid separately. We have to use a full blown kinetic equation to explain how this state of matter is behaving. Because we have collisions. So we have to add collisions back in to understand and track how all the particles are moving, and how these collective motions, this turbulence can get kicked up. So that's pretty intractable, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I mean if people talk about simulating that system and following those particles, it's probably gonna take millions and millions of years on even the fastest supercomputer."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Uh-huh."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So one really big advance in plasma theory over the last I'd say three or four decades has been the development of a gyrokinetic theory that we use to model the micro-turbulence in the plasma and get that under control. And the reason it's so important to get the turbulence under control and understand it is because turbulence is the primary heat loss mechanism. the primary way that heat is transported from hot to cold across confining field lines in a magnetic confinement system. Being able to study it, measure it and predict how it's going to behave is really one of the big hurdles to overcome."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Could you say the name of the model again?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely, so it's a gyrokinetic model."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Gyrokinetic."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And we talked about how challenging it would be to follow every particle in space and know its position, and know its velocity at all times. So what gyrokinetics actually does as a theory is it takes advantage of the fact that when we drop a charged particle into a strong external magnetic field, the Lorentz force bends that particle's trajectory into a helix. And so now if we know that wherever the field line is going that particle is following it in this helical, in this corkscrew trajectory, we can say aha, I no longer have to worry about following that particle's velocity around in a circle, 'cause at every point in time I know it's going in a circle."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So we average that out, we do a gyro average, because the motion is typically called a gyro frequency. That's how fast it goes around the field line."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And it has a particular radius of that helix called the gyro radius, because it's just gyrating. So what we know from studying the plasma and making direct measurements of the turbulence and also what comes from the simulations is the scale size of the turbulence is about 5 to 10 gyro radii."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You said that density and temperature fluctuations are what drive these these turbulent flows that end up reducing your heat transport. Is there anything that can be done to minimize those density and heat fluctuations, or is that just like down to the statistics of things?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I love the way you framed it, because originally like in the '60s and '70s, people did not think that micro-turbulence would even be a problem. But as we started to make more and more measurements and build higher and higher basically performing devices, we started to see nothing is matching the expected performance. And that's because people thought that Coulomb collisions between the particles, just interactions of charged particles, would dominate cross-field transport, right? What happens with turbulence is it in enhances the transport of particles, because now we're not just talking about this random walk of collisions, we're talking about conduction, convection, eddy, structures, microstructures, flow generation, very complex soup of activity."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Turbulence for me like really hits on one of the most beautiful parts about physics. Like it's so complex. And that's what makes it like visually beautiful. That's what makes it mathematically interesting, and it's also what keeps us so puzzled about it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, turbulence is beautiful and so fun to study."
+                }
+            ],
+            "topic": "fusion",
+            "level": "grad",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-mit-professor-explains-nuclear-fusion-in-5-levels-of-difficulty?c=series"
+        }
+    }
+]

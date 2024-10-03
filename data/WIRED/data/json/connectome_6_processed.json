@@ -1,0 +1,71 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "It's a large scale attempt to understand the wiring map of the brain, essentially."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, great."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think that it's definitely needed."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Huh."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Understanding the anatomy of the brain is definitely important but, it doesn't necessarily tell us everything about the function, there's some sort of temporal order from neuron to neuron and region to region that we may not be able to pick up."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "This is where it gets really crazy. Could we simulate that map inside a computer and would that computer then be thinking like that original brain from which we made the map?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I mean that's not the person, I mean, having a representation of someone's neural network is just that, it's just a representation of the neural network."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Huh."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I mean."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Because there's more to you in here than just information passing between neurons."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'd like to think so."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Huh. It would be like if you simulated a hurricane. Imagine we could keep track of every variable of a hurricane. Ever. Wind speed, every water molecule, et cetera, et cetera. Temperature. And we put that inside a super-fast computer and we simulated it, right? I don't think anyone would think that the inside of the computer would get wet. Even though we had simulated the hurricane perfectly, that wetness is consciousness, it's what we are. Is it ethical to imagine mapping a male brain versus a female brain to look for differences between those, to explain alleged behavioral differences between them?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Every single person is different and so it should be okay to map every single person's brain. I mean I understand that there are, that it's very sensitive, you know?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Wait, what do you think is sensitive?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mapping an Indian brain versus a Caucasian brain, or, politically I think that people may have some issue with mapping out what causes or what makes a difference between different types of people."
+                }
+            ],
+            "topic": "connectome",
+            "level": "grad",
+            "youtube_link": "https://youtu.be/opqIa5Jiwuw"
+        }
+    }
+]

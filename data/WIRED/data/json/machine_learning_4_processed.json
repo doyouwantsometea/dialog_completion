@@ -1,0 +1,123 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "Hello."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Hi. Are you a student, Lucy?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, I just finished ninth grade."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Congratulations."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Thank you. It's very exciting."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Have you ever heard of machine learning before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm going to assume that it means humans being able to teach machines or robots how to learn themselves?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right. When we teach machines to learn from data, to build a model from that data or a representation of that, and then to make a prediction. One of the places we often find machine learning in the real world is in things like recommendation systems. So do you have an artist that you really like?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, Melanie Martinez."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So I'm gonna look up Melanie Martinez. And it says here, If you like Melanie Martinez, one of the other songs you might like is by Au/Ra. Do you know who that is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I do not."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So let's listen to a hint of this song."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "All right. So why do you think Spotify might've recommended that song?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, I know that in Melanie Martinez's music, she used a lot of the filtered voice to make it sound very deep and low and that song had that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And that's actually a really interesting thing to think about because that creepy vibe is something that you can perceive and I can perceive, but it's actually really hard to describe to a machine. What do you think might go into that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Pitch of the music. If it's really low or if it's super high, it could know that. What can the machine understand?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a great question. The machine can understand whatever we tell it to understand. So there might be a person thinking about things, like the pitch or the pacing or the tone, or sometimes machines can figure out things about music or images or videos that we don't tell it to discover, but that it can learn from looking at a lot of different examples. Why do you think companies might use machine learning?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, I think things like Facebook or Instagram, they probably use it to target ads."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Sometimes, the ads you see are really uncanny. And I think that's because they're based on so much data. They know where you live. They know where your device is. It's also important to realize that people in aggregate are actually pretty predictable. Like when we talk to each other, we like to talk about the novel things, like here, we're having this conversation. We don't do this every day. But we probably still eat breakfast. We're gonna eat lunch. We're gonna eat dinner. You probably are going to the same home you go to most of the time. And so, they're able to take that data that we already give them and make predictions based on that as to what ads they should show us."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, you're saying I give them enough data as it is about what I might be talking about or thinking about that they can read my mind,"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Hilary laughs]"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "but just use the data that I've already given them. And it almost seems like they're watching us."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right. To do machine learning, we use something called algorithms. Have you heard of algorithms before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A set of steps or a process carried out to complete something?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So do you think that we've been able to teach machines enough so that they can do things that even we can't do? And on the opposite side of that, do you think there are things that we can do that a machine might never be able to do?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So there are things that machines are really great at that humans are actually not great at. And imagine watching every video posted to TikTok every day. So we just don't have enough time to do that at the rate at which we can actually watch those videos. But a machine can analyze all of them and then make recommendations to us. And then thinking about things that machines are bad at and people are good at, people are really great with only one or two examples of learning something new and incorporating that into our model of the world to make good decisions. Whereas machines often need tens of thousands of examples, and that's not even getting into things like good judgment because we care about people, because we can imagine a future that we want to live in that doesn't exist today. And that's something that is still uniquely human. Machines are great at predicting based on what they've seen in the past, but they're not creative. They're not going to invent. They're not gonna, you know, really change where we're gonna go. That's up to us."
+                }
+            ],
+            "topic": "machine_learning",
+            "level": "teenager",
+            "youtube_link": "https://youtu.be/5q87K1WaoFI"
+        }
+    }
+]

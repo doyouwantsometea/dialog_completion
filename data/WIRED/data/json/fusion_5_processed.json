@@ -1,0 +1,87 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So what have you heard about fusion already before today?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The impeding joke is that, you know, we've looked forward to fusion for a long time, but you're not exactly, you're not in there yet. But if we do ever get there, it would solve a lot of our energy problems in a dramatic way."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you have any idea about any of the challenges? Like why has it taken us so long to get to fusion?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Making a star on earth is not easy."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So we are trying to bring a star to earth. We are not going to be using hydrogen the way our star in our solar system, our sun, uses hydrogen to make helium and generates fusion energy that way. Instead on earth we're gonna be using isotopes of hydrogen, deuterium and tritium. What do you know about charged particles? If I want to try and push two positively charged particles together, two protons together, what do you think is gonna happen?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "They repel each other and they don't like being close together, so they push back by that force."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Or we're gonna call the pushback a Coulomb interaction, or a Coulomb collision. So you can sort of imagine if I were to take a deuteron and a triton, and so those are the positively charged ions of deuterium and tritium, and I try and combine them together, those two positively charged particles just sort of bounce off of each other. So we have to give them enormous amounts of energy, and it has to do with getting up to very high temperatures. So we're talking about over 100 million degrees Celsius. And we typically put that into an energy unit that we use a lot in plasma physics called an electron vault. And so we describe being up at 100 million degrees that we're at sort of 15 kiloelectron volts."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Uh huh."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So that's very, very hot temperature. But the other thing we need is a lot of particles. That's the density. We are able to combine a deuteron and a triton in a fusion reaction at lower temperatures, at lower energies than other fuel. And this has to do with some very nice properties of the deuteron and the triton that when we get them close enough to one another to fuse, there's actually a resonance which is predicted by quantum mechanics, and that really helps have a little bump up in the cross section for the deuterium-tritium fusion reaction."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Compared to just hydrogen."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, exactly, exactly. That little bump up is good for us. Because it means that we have a higher probability of getting the deuterium and the tritium to fuse than otherwise at those manageable temperatures. And when we say manageable, for fusion scientists, yeah, 50 million, a hundred million, 150 million Celsius."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So the problem you described is that we get to those high temperatures, we have dense plasma, but the problem is the hotter the plasma is, the more likely it is the heat to get sucked out of it by."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely, yeah, absolutely."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So that the plasma itself is not staying hot enough for the time we need it to stay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We've come so far in the study of magnetically confined plasmas, which is what I work on, that we sort of tamed all the other types of major instabilities that would cause loss of the plasma. So you might be asking yourself what is the energy that's coming out of the fusion reaction? So we've got the deuteron and we've got the triton, and so they combine in a fusion reaction, and that produces a neutron and a helium nucleus. But the neutron doesn't have any charge."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, it comes out."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. So it comes right out. And it's the kinetic energy of the neutron. And we want it to interact with our overall energy system. And as it interacts with that material, it heats the material up. It transfers its kinetic energy to this material. Take that thermal energy and run a turbine, run a generator, and convert it into electricity. So once you get to that stage, it starts to look a lot like any other thermal power plant. Whether it's fission or natural gas. So a fusion plant could basically be the plasma core coming in, setting it in place, and driving your thermal system to make electricity. We often call it an alpha particle. And that is a charged particle, right. So it's actually going to stay in the plasma. It's an energetic particle compared to the fuel. So it actually is going to give its kinetic energy back to the fuel via Coulomb collisions. So now they're good, now we like them."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So you get this kind of self-sustaining cycle."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, you you said exactly the right word, self-sustaining."
+                }
+            ],
+            "topic": "fusion",
+            "level": "undergrad",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-mit-professor-explains-nuclear-fusion-in-5-levels-of-difficulty?c=series"
+        }
+    }
+]

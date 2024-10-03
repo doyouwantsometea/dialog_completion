@@ -1,0 +1,59 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Mostly today, I've been talking a lot about what can we do, what's possible. We think might be possible in the next couple of years. But really at the professional level its more the question of wisdom of what should we be doing."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's one of the things we're trying to figure out, from an artist and storytelling perspective, what are the things that will make this meaningfully different from what we're used to, like a television on our wall. And we've been finding a lot of things, aspects of virtual reality that very much do that in my opinion. Things that allow you to feel presence, first and foremost, where you get lost, and you have to remind yourself, this isn't actually happening. And things that ultimately allow you to embody other characters. Things where you can actually change your own self-perception and play with neuro-plasticity and teach yourself things that are bizarre and unique."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "As an engineer of course, I love quantifiable things. I like saying here's my 18 millisecond motion to photon, here's my angular resolution that I'm improving. I'm doing the color-space right. But you can look not too far back where you say we have blu-ray DVDs at this amazing resolution, but more people want to watch Youtube videos at really bad early internet video speeds. Where there are things that if you deliver a value to people then these objective quantities may not be the most important thing. And while we're certainly pushing as hard as we can on lots of these things that make the experience better in potentially every way or maybe just for videos or for different things. I don't think that its necessary. I've commented that I think usually my favorite titles on mobile that are fully synthetic are ones that don't even try, they just go and do light-mapped, black-shaded. And I think its a lovely aesthetic. I think that you don't wind up fighting all of the aliasing. While you get some other titles that, oh we're gonna be high-tech with our specular bump maps with roughness. And you've got aliasing everywhere, and you can't hold frame rate and its all problematic. While some of these that are clearly very synthetic worlds where its nothing but these cartoony flat-shaded things with lighting, but they look and they feel good. And you can buy that you're in that place. And you want to know what's around that monolith over there."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We did a project called Life of Us, which was exactly that mindset. We were let's embrace low-poly aesthetic and just simple vertex shading. And we ended up realizing, you can embody these various creatures and transform yourself. And when you do that with co-presence of another creature, another human, it makes for a totally magical journey. You don't even think for a second, you actually dismiss the whole idea of photo-realism and embrace that reality for what it is. I think it actually helps put you at ease a little bit."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The end goal of reality, of course in computer graphics people chase photo-realistic form for a long time. And basically, we've achieved it. Photo-realism, if you're willing to throw enough discreet path traced rays at things, you can generate photo-realistic views. And we understand the light really well. Of course it still takes a half hour per frame like it always has, or more, to render the different things. So its an understood problem and given infinite computing power we could be doing that in virtual reality. However, a point that I've made to people in recent years is that, we are running out of More's Law. Maybe we'll see some wonderful breakthrough in quantum structures or whatever--"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Or bandwidth, or streaming."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But if we just wind up following the path that we're on, we're gonna get double and quadruple, but we're not gonna get 50 times more powerful than we are right now. We will run into atomic limits on our fabrication. So given that, I'm trying to tell people that, start buying back into optimization, start buying back into thinking a bit more creatively. Because you can't just wait, its not going to get to that point where it really is fixed to those highest degrees just by waiting for computing to be advanced. If we want this to be something used by a billion people then we need it to be lighter, cheaper, more comfortable."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And there's constantly novel UX innovations. Like Google Earth, where the kind of elimination of your periphery as you zoom in and move. And also, giving you the user action to decide where you're going and looking. I'm constantly seeing people coming up with ways to break from the paradigms of actual reality and then introduce mechanisms that work very well."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know there's tons of opportunities for the synthetic case where you want to be able to have your synthetic fantasy world where everybody is a creature that's created by the computer and simulated reasonably. But of course we've got, you know we still don't do people well simulated. That's a hard problem, we've been beating our heads against it for a long time. I do think we're making progress and I wouldn't bet on that being solved in 10 years, but maybe 20 years. Because it is going to take a lot of AI. Its going to take a lot of machine-learning, where its not going to be a matter of us dissecting all the micro-expressions that people do. Its gonna be lets take every youtube video ever made and run it through some enormous learner that's going to figure out how to make people realistic."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Absolutely, there are these crucial thresholds where you pass a technological hurdle and all of a sudden that unlocks a whole world of creative potential. But I think, to your point very much, we need to solve the actual human and social challenges and turn those into opportunities to figure out how this technology fits into our lives."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm still a believer that the magic's out there. We haven't found it yet, so somebody's going to happen upon the formula. I feel like I've felt little pockets of magic."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You can imagine the utility behind this for creating a world or you can imagine the power of a story that would be told to you in this context. And a lot of it is just picking those, putting them together in a meaningful way and then crafting something that's really bigger and intentional. But I've now been joining with real people in virtual reality. I think we also have different levels of connection. Like the audio side is leaps and bounds above in terms of the nuance and personality and humanity. When I hear people laughing and joking and really enjoying something. Soon we'll get into that. We're in macro-gestureland, where I can wave and say thumbs-up. But when we get into micro-gestures and actually getting a sense of facial reactions and other things I think then we'll have a really incredibly rewarding time, spending time with each other."
+                }
+            ],
+            "topic": "virtual_reality",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/akveRNY6Ulw"
+        }
+    }
+]

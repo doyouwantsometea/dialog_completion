@@ -1,0 +1,131 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So have you ever heard of something called a black hole?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What is a black hole?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, it has to do with, a lot with gravity, do you know what gravity is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, not at all."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's what keeps us on the earth."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The reason we're not just flying off the earth is because earth has gravity, so if we throw something up, it comes back down, so that's why when we're walking on the earth, we don't fly off the earth because the earth has gravity, and it keeps us down."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Nice."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The main thing about black hole to remember is that it's just, like I said, how the earth holds you down, the black hole pulls you in, as well. Now, try and take the ball from me, black hole--"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Why do you hold it so tight?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm holding it tight to show you then when you're trying to pull it, a black hole will really hold onto it with its gravity."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I got it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. The main thing is that if something falls into a black hole, it can never get out, it's--"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What about the earth? What if it rolls into it--"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Oh, if the earth rolls into it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It would be bad, we wouldn't be able to get out."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So it could never happen?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's never, not likely to happen, no."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Only in movies, right?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, yeah, definitely in movies, yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, but it's not real because it's just pictures of it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, exactly."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What if I went in there?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The black hole will sort of stretch you out as you're falling in."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It'll, like, stretch my body out?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So what do you think about black holes?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's kind of dangerous."
+                }
+            ],
+            "topic": "blackhole",
+            "level": "child",
+            "youtube_link": "https://youtu.be/rUvFbJYWGDA"
+        }
+    }
+]

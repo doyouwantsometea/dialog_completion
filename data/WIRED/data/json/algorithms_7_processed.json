@@ -1,0 +1,79 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "I'm Chris Wiggins. I'm an associate professor of Applied Mathematics at Columbia. I'm also the chief data scientist of the New York Times. The data science team at the New York Times develops and deploys machine learning for newsroom and business problems. But I would say the things that we do mostly, you don't see, but it might be things like personalization algorithms, or recommending different content. And do data scientists, which is rather distinct from the phrase computer scientists."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do data scientists still think in terms of algorithms as driving a lot of it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh absolutely, yeah. In fact, so in data science and academia, often the role of the algorithm is the optimization algorithm that helps you find the best model or the best description of a data set. And data science and industry, the goal, often it's centered around an algorithm which becomes a data product. So, a data scientist in industry might be developing and deploying the algorithm, which means not only understanding the algorithm and its statistical performance, but also all of the software engineering around systems integration, making sure that that algorithm receives input that's reliable and has output that's useful, as well as I would say the organizational integration, which is how does a community of people like the set of people working at the New York Times integrate that algorithm into their process?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Interesting. And I feel like AI based startups are all the rage and certainly within academia. Are there connections between AI and the world of data science?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, absolutely."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The algorithms that they're in, can you connect those dots for..."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You're right that AI as a field has really exploded. I would say particularly many people experienced a ChatBot that was really, really good. Today, when people say AI, they're often thinking about large language models, or they're thinking about generative AI, or they might be thinking about a ChatBot. One thing to keep in mind is a ChatBot is a special case of generative AI, which is a special case of using large language models, which is a special case of using machine learning generally, which is what most people mean by AI. You may have moments that are what John McCarthy called, Look Ma, no hands, results, where you do some fantastic trick and you're not quite sure how it worked. I think it's still very much early days. Large language models is still in the point of what might be called alchemy and that people are building large language models without a real clear, a priori sense of what the right design is for a right problem. Many people are trying different things out, often in large companies where they can afford to have many people trying things out, seeing what works, publishing that, instantiating it as a product."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And that itself is part of the scientific process I would think too."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, very much. Well, science and engineering, because often you're building a thing and the thing does something amazing. To a large extent we are still looking for basic theoretical results around why deep neural networks generally work. Why are they able to learn so well? They're huge, billions of parameter models and it's difficult for us to interpret how they're able to do what they do."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And is this a good thing, do you think? Or an inevitable thing that we, the programmers, we, the computer scientists, the data scientists who are inventing these things, can't actually explain how they work? Because I feel like friends of mine in industry, even when it's something simple and relatively familiar like auto complete, they can't actually tell me why that name is appearing at the top of the list. Whereas years ago when these algorithms were more deterministic and more procedural, you could even point to the line that made that name bubble up to the top."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Absolutely."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So, is this a good thing, a bad thing, that we're sort of losing control perhaps in some sense of the algorithm?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It has risks. I don't know that I would say that it's good or bad, but I would say there's lots of scientific precedent. There are times when an algorithm works really well and we have finite understanding of why it works or a model works really well and sometimes we have very little understanding of why it works the way it does."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In classes I teach, certainly spend a lot of time on fundamentals, algorithms that have been taught in classes for decades now, whether it's binary search, linear search, bubble sorts, selection sort or the like, but if we're already at the point where I can pull up chat GPT, copy paste a whole bunch of numbers or words and say, Sort these for me, does it really matter how Chat GPT is sorting it? Does it really matter to me as the user how the software is sorting it? Do these fundamentals become more dated and less important do you think?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Now you're talking about the ways in which code and computation is a special case of technology, right? So, for driving a car, you may not necessarily need to know much about organic chemistry, even though the organic chemistry is how the car works. So, you can drive the car and use it in different ways without understanding much about the fundamentals. So, similarly with computation, we're at a point where the computation is so high level, right? You can import scikit-learn and you can go from zero to machine learning in 30 seconds. It's depending on what level you want to understand the technology, where in the stack, so to speak, it's possible to understand it and make wonderful things and advance the world without understanding it at the particular level of somebody who actually might have originally designed the actual optimization algorithm. I should say though, for many of the optimization algorithms, there are cases where an algorithm works really well and we publish a paper, and there's a proof in the paper, and then years later people realize actually that proof was wrong and we're really still not sure why that optimization works, but it works really well or it inspires people to make new optimization algorithms. So, I do think that the goal of understanding algorithms is loosely coupled to our progress and advancing grade algorithms, but they don't always necessarily have to require each other."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And for those students especially, or even adults who are thinking of now steering into computer science, into programming, who were really jazzed about heading in that direction up until, for instance, November of 2022, when all of a sudden for many people it looked like the world was now changing and now maybe this isn't such a promising path, this isn't such a lucrative path anymore. Are LLMs, are tools like ChatGPT reason not to perhaps steer into the field?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Large language models are a particular architecture for predicting, let's say the next word, or a set of tokens more generally. The algorithm comes in when you think about how is that LLM to be trained or also how to be fine tuned. So, the P of GPT is a pre-trained algorithm. The idea is that you train a large language model on some corpus of text, could be encyclopedias, or textbooks, or what have you. And then you might want to fine tune that model around some particular task or some particular subset of texts. So, both of those are examples of training algorithms. So, I would say people's perception of artificial intelligence has really changed a lot in the last six months, particularly around November of 2022 when people experienced a really good ChatBot. The technology though had been around already before. Academics had already been working with ChatGPT-3 before that and GPT-2 and GPT-1. And for many people it sort of opened up this conversation about what is artificial intelligence and what could we do with this? And what are the possible good and bad, right? Like any other piece of technology. Kranzburg's first law of technology, technology is neither good, nor bad, nor is it neutral. Every time we have some new technology, we should think about it's capabilities and the good, and the possible bad."
+                }
+            ],
+            "topic": "algorithms",
+            "level": "colleague",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-algorithm?c=series"
+        }
+    }
+]

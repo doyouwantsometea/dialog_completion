@@ -1,0 +1,71 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "I am currently a fourth year PhD student at NYU. I do robot learning, so that's half and half robotics and machine learning."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Sounds like you've dabbled with quite a few algorithms. So, how does one actually research algorithms or invent algorithms?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The most important way is just trying to think about inefficiencies, and also think about connecting threads. The way I think about it is that algorithm for me is not just about the way of doing something, but it's about doing something efficiently. Learning algorithms are practically everywhere now. Google, I would say for example, is learning every day about like, Oh what articles, what links might be better than others? And re-ranking them. There are recommender systems all around us, right? Like content feeds and social media, or you know, like YouTube or Netflix. What we see is in a large part determined by this kind of learning algorithms."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Nowadays there's a lot of concerns around some applications of machine learning like deep fakes where it can kind of learn how I talk and learn how you talk and even how we look, and generate videos of us. We're doing this for real, but you could imagine a computer synthesizing this conversation eventually."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But how does it even know what I sound like and what I look like, and how to replicate that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "All of this learning algorithms that we talk about, right? A lot, like what goes in there is just lots and lots of data. So, data goes in, something else comes out. What comes out is whatever objective function that you optimize for."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Where is the line between algorithms that play games with and without AI?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think when I started off my undergrad, the current AI machine learning was not very much synonymous."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And even in my undergraduate, in the AI class, they learned a lot of classical algorithms for game plays. Like for example, the A star search, right? That's a very simple example of how you can play a game without having anything learned. This is very much, oh you are at a game state, you just search down, see what are the possibilities and then you pick the best possibility that it can see, versus what you think about when you think about, ah yes, gameplay like the alpha zero for example, or alpha star, or there are a lot of, you know, like fancy new machine learning agents that are even learning very difficult games like Go. And those are learned agents, as in they are getting better as they play more and more games. And as they get more games, they kind of refine their strategy based on the data that I've seen. And once again, this high level abstraction is still the same. You see a lot of data and you'll learn from that. But the question is what is objective function that you're optimizing for? Is it winning this game? Is it forcing a tie or is it, you know, opening a door in a kitchen?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So, if the world is very much focused on supervised, unsupervised reinforcement learning now, what comes next five, ten years, where is the world going?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think that this is just going to be more and more, I don't want to use the word encroachment, but that's what it feels like of algorithms into our everyday life. Like even when I was taking the train here, right? The trains are being routed with algorithms, but this has existed for you know, like 50 years probably. But as I was coming here, as I was checking my phone, those are different algorithms, and you know, they're kind of getting all around us, getting there with us all the time. They're making our life better most places, most cases. And I think that's just going to be a continuation of all of those."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And it feels like they're even in places you wouldn't expect, and there's just so much data about you and me and everyone else online and this data is being mined and analyzed, and influencing things we see and hear it would seem. So, there is sort of a counterpoint which might be good for the marketers, but not necessarily good for you and me as individuals."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We are human beings, but for someone we might be just a pair of eyes who are carrying a wallet, and are there to buy things. But there is so much more potential for these algorithms to just make our life better without changing much about our life."
+                }
+            ],
+            "topic": "algorithms",
+            "level": "grad",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-algorithm?c=series"
+        }
+    }
+]

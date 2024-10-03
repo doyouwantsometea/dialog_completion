@@ -1,0 +1,63 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Maybe a wiring diagram is not sufficient to understand the brain, and it would be crazy to think that that would be sufficient, actually."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If you limit the connectome to be just the wiring diagram without, you know, more information about myelination or glial cells, all types of environmental features that surround the neurons and axons then you have an incomplete picture, no doubt."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Sometimes when people get, they worry about connectomics, I think what they're actually worrying about is that it's the end of the that we used to do neuroscience."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What do you think about memory? Do you think that there's ways of resolving what the substrate of human memory is, you know, is it just LTP and LTD?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm not sure if you had a connectome of a human brain, of an adult human, I would be able to read out memories from that."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You don't think it's just the synaptic weights, like an artificial neural network that's trained to do particular things?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It could absolutely be but without knowing what the weights were before the memory was made."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What if you had a violinist learn a piece of Bach music, could you find those notes somewhere in their brain if they didn't know before?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm a musician and I don't think it's possible. I think that there are too many, you know, so much of it is associative to what you already know."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So and a musician, how much of it do you think is in your hands versus in your brains? Meaning like, you do have connections in your muscles from the nerves that are from your spinal cord, what if some of the learning is there?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Are you still doing EM or?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. We do a lot of X-ray in addition to EM and this is actually, I'm not saying it's the only problem, but it's the only problem that needs to be solved right away, is that the data analysis, right? In fact, I think we calculated that there aren't enough humans ever to map a mouse brain where you collect every connection and et cetera so the problem is to get algorithms to trace, to recognize things in brains the way humans would recognize things in brains, or map things, trace things in brains. It's gonna cost a lot of money to imagine setting the gold standard for the wiring diagram even once and those are the kinds of ethical concerns that I'm worried about."
+                }
+            ],
+            "topic": "connectome",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/opqIa5Jiwuw"
+        }
+    }
+]

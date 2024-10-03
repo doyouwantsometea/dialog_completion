@@ -1,0 +1,43 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "You know an interesting topic is: what are the limits to what we can do with virtual reality? Where I'm pretty pleased with what we have today. What we can show people and say virtual reality, its cool. People get an amazing response from it. But we're still clearly a very, very long ways from reality."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That kinds of notes back to Realism in our history and how Realism was a response to Romanticism. And Realism was meant to capture the mundane, everyday lives of individuals and not idealize any of their activities in any way. And I think that that's really important for virtual reality. I think its kind of rite-of-passage for any kind of our technology to go through."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Mostly in VR we talk about the display and optics, the visual side of things, but we should at least tick off the other senses. And haptics is an interesting thing about virtual reality really doesn't have that aspect of touching things. You can move your hands around, you can do everything but its a disconnected experience because you know you don't have an actual solidity there. And I am pessimistic about progress in haptics technology. Almost all other areas I'm an optimist and I'm excited about what's coming up, but I don't have any brilliant vision about how we're going to revolutionize haptics and make it feel like we're touching the things in the virtual world."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So I've tried the demos, at VRLA there's one that has waves, like audio waves I believe, that come up and then you can put your hands through that and feel the waves whenever you're supposed to be feeling bubbles or any kind of force field or something. And those are pretty interesting. I've seen some pretty interesting things that you can do with audios, you can cut down a lot of the storage I guess and the power that you would need in order to power a huge scene, you can just mimic the sounds of those scenes actually being there and they're not actually. For example, a professor at USC would have the sound of a train drive by without actually rendering the sound. And you would feel like you're deeply immersed in this world without having to have such an expensive scene built around you. So I think those are pretty significant."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, that is one potential quality improvement that is still on the horizon is when we do spatialization, we use HRTF, the Head Relative Transfer Function, to make it sound like its in different places. But usually we just use this one kind of generic, here's your average human, HRTF function. Its possible, that of course, if you are right in the average then its perfect for you. But there's always people off to the extremes, that it doesn't do a very good job at. And there may be better ways to allow people to sample their own perfect HRTF which can improve the audio experience a lot. It all comes down to all these trade-offs."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You know, with display and with resolution, its one of those things where if people have one bad experience they kind of, oh well everything else. Its really difficult to build trust again with people who haven't done VR before but its easy to break off that trust when they have a bad experience."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There was a huge concern about that at Oculus. And the term internally that went around was poisoning the well. They were very, very concerned. I mean for a long time there was a fight about whether gear VR should even be done, because the worry was if we let a product go out, like gear VR that didn't have those things. That if somebody saw it and it was bad, made them sick, made their eyes hurt, then they would be like I'm never going to try VR again. I tried it that time and it was terrible. And there was legitimate arguments about whether it was even a good idea to do that. And it turned out that yes, its obviously better to have all those things, but you can still do something that's valuable for the user without it. Its weird being at the beginning of a medium like this."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right, I'm very excited to see how filmmakers tackle creating content and those things. Especially if they're experienced with traditional medium."
+                }
+            ],
+            "topic": "virtual_reality",
+            "level": "grad",
+            "youtube_link": "https://youtu.be/akveRNY6Ulw"
+        }
+    }
+]

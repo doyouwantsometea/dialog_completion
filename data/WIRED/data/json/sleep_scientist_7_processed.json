@@ -1,0 +1,63 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Good to see you again, Yue."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, good to see you."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Really glad that you could join us. So we've been talking about sleep today, various levels of complexity. But now with you, I really want to talk about what do we know about sleep and the aging brain. Can you tell me a little bit about some of the work that you've been doing in that area?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So I'm a epidemiologist, so we do a lot of work on the epidemiology of sleep and development of neurodegenerative diseases including both Alzheimer's and Parkinson's disease, so ADMPD. We mainly work on population studies. We work on thousands and even millions of population, and we use statistical modeling to find out the association between different sleep disturbances and also genetics related to sleep disturbances and link that to their risk of developing ADMPD."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So how strong is the link?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Our study has found really strong associations looking at these populations, for example, with sleep apnea. We've done one meta-analysis and it's showed that those with sleep apnea, they have a ratio of 1.26, which means that those who have sleep apnea have 26% elevated risk of developing Alzheimer's compared to those without sleep apnea."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So it's interesting, so I also saw that there was also a recent meta-analysis around sleep disturbances and dementia risk, and in that study, they looked about 250,000 people in this meta-analysis, and they followed them around for 10 years, and you know, when they pulled all the samples together, they found there was a 1.2 fold increased risk for developing all caused dementia, so it sounds like both sleep apnea and then maybe sleep disturbances more generally are associated with increased risk for dementia. When I think about that, I think about how sleep lives in the brain, these neurodegenerative diseases live in the brain, and so what do we know about the causality of this? Could it be that individuals who have early onset of say, Alzheimer's, have then poor sleep kind of as a consequence of that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, so I think what's really fascinating is all these bio-directional relationships that's being identified in animal studies especially, showing that sleep changes actually occur very early on in the disease process, so it could be a prodromal stage of Parkinson's, and also in transgenic model of AD, they're already showing a lot of circadian abnormalities in this mouse."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So within dementia risk in particular, Alzheimer's for instance, there are kind of two clear features that seem to be part of the pathology, right? So there's beta-amyloid which accumulates in the brain, and then there's kind of these tangles, this tauopathies, right? And so it sounds like sleep seems to be related to the tauopathies. What about kind of beta-amyloid?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, in the transgenic mouse models of AD, including those expressing human mutant amyloid precursor protein, APP type or both, so that's kind of showing the sleep changes in both of these pathologies."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, so there is this bio-directional piece, but I think perhaps the most exciting thing that happened in the sleep field, at least in my view, has been understanding the role of sleep and its clearance of beta-amyloid in the brain. This idea that sleep is kind of the dishwasher of the brain, it seems like, that you know A betta accumulates as we kind of use energy, and you know it's kind of a waste product, and the idea that if you don't clear it out, that it's going to build up and accumulate."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So the thing I'm most excited about sleep research is, I think, first of all, this complexity of the daytime/nighttime sleep, what sleep is really doing to our body and to our brain, and then is really from the epidemiologic or public health perspective, how we can best use sleep as a tool for the detection and prevention of neurodegeneration in the long-term."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm excited about the future of sleep medicine. I think there are incredible innovations that are happening in the basic sciences, kind of really starting to understand what are the clear biological processes that underly some of these things as they relate to disease risk, and what is the true function of sleep, kind of the why we sleep phenomenon, right?"
+                }
+            ],
+            "topic": "sleep_scientist",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/OB61yG8WDyU"
+        }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "I remember reading your papers when I was a student and we're all trying to create these materials and finding ways to exploit their properties. What I love, and I'm delighted that you're here to talk to us about is how you took inspiration from nature and sort of recognize that nature's figured out a way to both synthesize incredibly complex nanostructures with high functionality and how you sort of were inspired by that to do the research that you're doing now."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Life gave us this toolkit that is already on the nanoscale. So we think that that's a great place to think about making materials on the nano scale and manipulating materials on the nano scale, and wiring them together as well. This abalone shell, you can see the exquisite beautiful colors and structures of it. This is a nano composite material. If you take this and fracture it, and you look at it in a scanning electron microscope, what you'll see is that it's made out of these beautiful tablets. And I studied that as a graduate student. I looked at that and I said, that is completely amazing. You have an organism in the ocean, that takes what's in its environment, which is calcium and carbonate. That's dissolved in the water and templates it into this really exquisite structure. And so you think that's great. Calcium carbonate is great, but what if we wanted to make a solar cell or a another electronic device or a battery, how would you get an organism to do that? And you say, okay, that's a really crazy idea. But is it really that crazy if this abalone, already figured out how to do it, 500 million years ago? So we're saying, okay, abalones build shells. Can viruses build solar cells, can viruses build catalysts? Can they build batteries using the same kind of idea?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's really fascinating work, especially now we're all familiar with the viruses and how they act. And I'm not aware of any viruses that build nanostructures. So how did you come to that? And then how do you actually program a virus to do your bidding?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We work on something called bacteriophages, it's a virus with DNA. This particular bacteriophage called M13 bacteriophage is made up of single stranded DNA and proteins. It's long and thin. So it's 880 nanometers in length, and it's about 9 nanometers in diameter. And so one of the reasons I love it is it spans the nanoscale and almost the micron scale at the same time. Take the single strand DNAs, obviously a model, and you can cut it with molecular scissors. And you can put a new piece of DNA in between. And so you put a small piece of DNA in there that doesn't belong there. And that piece of DNA is going to randomly code for a protein. Now, the next time that that virus is replicated within a bacterial host, it'll be able to put a new protein sequence on the coat, just a short protein sequence on the coat, maybe like 8 or 12 amino acids in length. And just like that abalone is going to grab calcium and build calcium carbonate. We're going to have our viruses build iron phosphate for a battery electrode material or Gallium arsenide or cad sulfide for a semiconductor material."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you've evolved, and I suppose, trained these viruses to build the materials that you want them to build by exposing them to the raw materials and then evolving their function. We're talking about the electronics from nanomaterials. That critical issue that we're facing is how do you go from those single experiments with a single material, understanding its properties, how do you scale that to the billions of devices that you need in a technology? It is a chemistry driven approach. We're not going to grow them exactly where we want them, but to take that one step, and to tie into what you're doing, tt sounds like there could be an area of collaboration where instead of using conventional chemistry, that we can train some of these biological elements to do that work work for us."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Biology is chemistry. Molecules, proteins, and DNA work with all the same kinds of bonding and things that the chemicals that you're gonna be looking for in these processes. It's put together in a way that when a protein or enzyme folds, it almost always folds correctly. That's kind of the beauty of it, the predictable aspect of it encoded in its DNA. If we need to make it the same over and over again, then as long as you have the right DNA sequence, DNA is a beautiful structure on the nanoscale. And there's really, really cool, incredible work on DNA origami, when DNA can fold into just the right structure. And so I can see that as an interface, that would be really cool and interesting in your work. And you can have the virus make the DNA for the DNA origami, and then you use DNA to assemble your beautiful structures."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's really fascinating. You have all these little worker viruses building the materials for you. How are you then applying these materials that you're building?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We started thinking about how can we make an impact in cancer? We do it mostly in imaging technology to look deep inside the body noninvasively with light. And the way that we came about that was through solar cells and batteries. We trained our viruses to pick up carbon nanotubes and hold onto them very, very tightly. And then we'll give a virus a second gene, decode for a protein, to grow, in a case of a battery, a battery electrode material. It allows it to weave together a good electrical conductor and a good ionic conductor at the same time, all within this really, really small space. And the optical properties of these carbon nanotubes are in the wavelength. That is interesting for imaging deep inside the body. We started building a bunch of imaging tools that could image above a thousand nanometers, a wave length. And so this is in [audio distorting] and that's a really special window where you have some optical transparency of tissue in the body. The other gene, we engineered to find ovarian cancer. We developed imaging tools with Harvard Medical School and MIT Lincoln Labs to find tiny ovarian tumors. It's hard to see things less than a centimeter in size with ovarian cancer, just based on the location in the body. But with our imaging system, we could find tumors that were below a millimeter in size, actually."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Looking ahead, 5 years, 10 years, where do you see your own work, and maybe the field more broadly?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The future I'd like to see is environmentally friendly chemistry and materials synthesis. And I think that we're really going that way. If we think about batteries of the future, solar cells of the future, thinking about earth abundant materials and processes that are compatible with the earth and environment."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "One of the things I love about about nanoscience is it tends to break up the silos between those traditional scientific disciplines. My training was in chemistry, but I had to very quickly merged chemistry and physics. And now I see an area where chemistry, physics, and biology are coming together to produce new materials and new technology, and to advance the field forward. And so being in this field, you kind of have to cross pollinate between these different disciplines and kind of advance the field together."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I agree completely. We like to solve problems. Nano bio is the toolkit that we bring a lot. It happens to be a very strong and evolving toolkit. That's another thing that I love about biology is if you can come up with a solution that's not perfect at all to begin with when you're making a battery electrode material or any kind of material you're making, you have evolution on your side to try to make it better and better as a function of time. That can be quite rapid."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So Angela, thank you so much for joining us. And I look forward to seeing more work coming out of your lab in the future."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Thanks for having me, George, it was really fun to interact, and I'm very excited about our future collaborations. Me too. Absolutely."
+                }
+            ],
+            "topic": "nano_technology",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/WW0IIyrq8z4"
+        }
+    }
+]

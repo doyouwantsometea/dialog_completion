@@ -1,0 +1,87 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hey Colin, we already know each other, but why don't you introduce yourself for the people watching?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Hi, I'm Colin O'Flynn. I live in Halifax, Nova Scotia, Canada. I do hardware hacking both in academia at Dalhousie University, and in industry at my startup, NewAE Technology."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What have you been up to? And yeah, what are you working on?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Lately I've been doing, you know, always a little bit of side channel analysis. So what I really do, you know, is all hardware layer. So I've been looking, you know, at some various devices lately, at how susceptible they are to fault attacks, what that sort of means in real life. You know, not just purely the research side, but also how much should you care about it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Maybe a mutual acquaintance of ours, Jasper gave a example of fault injection, and I like to use that as, when I'm trying to explain fault injection, he shows a pinball machine and the pinball machine, obviously the two inputs are the two plungers when you're playing a pinball machine, but fault injection, you can tilt the entire pinball machine, right? You're just introducing some external variable that's outside of the traditional inputs that you're used to and you've now controlled the environment in a advantageous way to the user or the player. Can you give an example of some type of fault injection that you're doing or working on?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "One of them was looking at, like, a little hardware Bitcoin wallet, and you could use fault injection to actually recover secrets from it, and a lot of devices. I mean, the whole idea is pretty cool, right? Because you tell the device, Hey, I want to authenticate, and it's supposed to run some really crazy math that authenticates it, but instead of doing that crazy math and attacking the math, you just attack the check at the end."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We're also scratching the surface of, like, what is possible? It's not necessarily just the system itself and not necessarily that algorithm itself. Like you said, you don't necessarily need to attack the math in some cases. You can just attack that check. And I think something that's been pretty cool is looking at higher energy particles. It's going to be maybe hard to entirely confirm, but I think it'd be really, really cool to actually see. Like, I want to see one of these faults because I haven't seen it myself. And also, how do you know that you've seen it? I've started playing with, like, setting up a cloud chamber. A cloud chamber lets you actually view high energy particles going through sort of like in a small jar with some evaporated alcohol. And I thought it'd be really cool if we put some memory chip in there, like a basic memory chip and we just fill it with some data, but then you put a camera on that area and you just watch. Assuming that there is a high energy particle that actually hits that memory, that should potentially flip the energy state of that bit. The outside microcontrollers should be able to read that and actually say, Oh wait, the data, even though I'm not changing data, I'm only reading data, and we should be able to visibly or optically see it. What I'm wondering is could that be a next area of research? Because I don't think anyone's actually looking at intentionally injecting high energy particles to take over a computer, when really, you know, that's another technique for fault injection, technically speaking."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "This was actually tied into something recently I was looking at, which was, you know, flipping flash and EPROM memory."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You mean flipping bits within flash?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, exactly, right. So flipping it in this sort of flash memory. And so someone's done it with x-rays. There's actually, I forget who now. There's a paper, at least one, and it's just like a little plate they make with like a hole in it to concentrate the x-ray source and it works, so yeah, it's super interesting. Like, one bit in memory means a lot, especially in the flash memory side. Yeah, visualizing it would be cool though."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I've never seen... Maybe call it a verifiable visualization of it, right? We know it's true, you know, you can get skin cancer by going outside and having too many high energy particles hit you, but we've never seen it. And we know it can happen to a computer chip, but I've never seen both."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, so actually, so it's funny you mentioned, like, making it more obvious. I mean, staying on fault injection right now, this is lately what I've been up to. A lot of making a little kind of, you know, like electronics kits of old, right? And you can assemble it all yourself and see how it works. So making something like that for fault injection. So all kind of older logic and stuff like that. So, I mean, it's sort of based on, like, you're presented the little MUX chip. You know, voltage switcher. That sort of idea, using just discreet logic to generate the actual glitch itself. So, but you know, it's part of, I think, this stuff, right? It's like people don't know about it sometimes. Like, even engineers designing systems. It's new to a lot of people."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The thing is, even if you know about that, then there's so many others that someone won't necessarily know about, because there's so many, I guess, potential areas for a fault to occur. Where do you think security is going or new research is going? Are there any new areas you think are coming out or are going to be more interesting, you know, pretty soon?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Fault injection has become pretty interesting. Like, there's been a lot of people poking at that, and I think a lot more products of interest. Side channel still might have a bit of a comeback. Basically, what I kind of see is a lot of the really cool stuff has been in academia because product security hasn't kept up, right? For the longest time, doing these attacks on hardware was pretty straightforward. You didn't need these crazy attacks. It looks like a lot of devices are coming out now that actually have real claims to security, right? More than just a data sheet mentioned. There's actually something behind it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "For me, I think the things that have been recent and super interesting are typically down to physics-level effects that maybe we haven't seen before. I think my mind was blown with the, there was the light commands research, and they were able to modulate sound, although it's purely over light using a laser, they would hit the MEMS microphone, and it was picking that up and was able to then interpret it and essentially take control over light."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm curious of the backstory to how they found that. Because if you told me that, right? So you said like, Hey, Colin, you should test this out. I probably would be like, It probably won't even work. Which is like a lot of side channels. When I first heard about it, you know, working, doing firmware stuff, it was like, Oh, that sounds like it's not gonna work. Like, that sounds impossible. You know, the whole area of hardware hacking, it feels kinda like cheating because, you know, as you said, someone designing the system needs to know about so many different ways, right? So there's so many ways to break the system, and if you're designing them, you need to know all of them, but when you're attacking it, you really need to know one, right? So I can know nothing about, like, how does ECC actually work? You know, I have some vague hand-waving I can tell you about, but if you gave me a pen and told me, like, Okay, write it down, specifically the equations and what they mean and how the point model works and stuff. Right, no idea, but designers are like the other side. It's almost like, I don't wanna say the lazy side of it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's the easier side. I would say my side is the easier side, right? I'm on the offensive side. I want to break into things. Someone on the defense side, they might have, you know, a system was developed and they now need to patch a hundred holes. They patch 99 of them. I only need to find that one."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. There's no downsides is what you're saying."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, only when you get caught."
+                }
+            ],
+            "topic": "hacking",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/d9PqVcgT1kQ"
+        }
+    }
+]

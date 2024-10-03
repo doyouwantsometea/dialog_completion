@@ -1,0 +1,95 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What are you studying right now?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm doing physics and computer science."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So have you spent any time thinking about this weird quality of the laws of physics, that there's no mathematical distinction in the laws between forward in time and backward in time? Is that something you're familiar with?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, and the one thing that really confuses me there, I'm thinking about one of the most basic things we learn, I guess, from Interstellar is that the universe is expanding, or space is expanding."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And so I'm thinking how does that square with gravity and electromagnetism, which is like kind of predicated on the density of charges or masses."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The fact that space expands is perfectly compatible with our understanding of all the forces of nature because all of them continue to operate in a somewhat more subtle way, but we have a beautiful prescription for taking any law that we understand in the simpler context of flat space time and juicing it up so that it works in a curved space time. The more philosophical question is in any of those formulations. If you replace T by -T, and you do it properly in the equations, the equations still work. But if past and future are kind of treated on equal footing in the fundamental equations, why are they so different from the perspective of experience?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And when you're talking about the perspective experience, is that just human subjective experience or actual observation for physics?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, certainly it starts with human subjective experience, but then we are able to elevate it to a more objective description, for instance, when we introduce words like disorder and order, and entropy in the second law of thermodynamics. And the equation, usually the way we say it, is S equals K log W, entropy equals Boltzmann constant times log of a particular quantity, which is ultimately counting the number of distinct configurations that a system can be in. What Boltzmann and others showed is that entropy tends to increase toward the future. But the key word there is tends to increase. So this arrow of time going from the past to the future rests on a curious foundation. It's a statistical foundation, which says that it's more likely for eggs to splatter than unsplatter. It's more likely for glasses to smash than unsmash, but not that it's impossible for things to happen. You just have to wait a really long time for there to be a reasonable chance of it ever taking place."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "When you said that, you know, it's more likely for an egg to smash or for glass to smash, and that's probably because there's so many atoms, so much stuff going on."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But I'm thinking if we zoom in on, like a single thing, I guess, do we have variations that are extremely unintuitive because, you know, things can happen in a way that isn't the statistical average?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If I take a film of that electron, and it's a little fanciful to describe it that language because you know about quantum mechanics and so forth, but I take a film of a little particle moving around, and I show you that film, you'll be really hard-pressed to determine whether I've shown you the film running forward in time or whether I've shown you the film going in reverse time. If I had two, or three, or four,or a gazillion particles into the mix, then it will be much easier for you to determine whether the film is going forward in time or backward in time. But order and disorder don't have much meaning if there's only one particle. And that's why the fundamental laws don't draw a distinction, but the macroscopic experience does, but it raises a key question. Where'd the order of the egg come from? If everything goes toward disorder, how did I get this orderly collection of atoms called an egg? Well, you probably would say from--"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Chicken."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "A chicken. But then I say to you, where'd the chicken come from? And you'd say from an egg. But there's actually some real insight we can draw from this, because if we keep going back with the chicken and egg story, we'll go back through the evolutionary lineage of life, we'll go back to early moments of the sun and the galaxy, and ultimately, the universe, each step taking us to greater and greater order. So we believe that the ultimate source of order is the Big Bang itself. Highly ordered beginning called the Bang, and we have been living through the degradation of that order ever since. We still don't really have a solid explanation for why the Big Bang had to be or was, highly ordered. At the moment, it's really a deep assumption."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Back with Einstein, you know, we wondered, does time change with speed? And that's another change with that before, we didn't think possible, but I guess we found out eventually some of the fanciful ideas. I guess it's just tiny sliver of hope that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, not only did we find that time changes with speed in special relativity, but we also found that time changes with gravity. Einstein showed that the rate at which a clock ticks slows down based upon the stronger gravitational field, or gravitational potential actually, that it is experiencing. I think you mentioned the Interstellar before."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you remember the scene in Interstellar? They're going to a planet that's near a black hole. They go down to the planet, and they spend just a couple hours there, but when they go back to the ship, it's 23 years later on the ship because time is elapsing slowly near the strong gravitational field, comparatively quickly far away. And that's not science fiction, that's actually how time behaves."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've always heard people say, Oh, general relativity, you know, it might not seem applicable. But GPS, due to satellites, we could synchronize those clocks by accounting for relativity."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, but that's even a really, really good point. The GPS would become completely inaccurate in a very short period of time if the satellites weren't taken account of, or the software wasn't taking account of the fact that time elapses differently for the clocks on the satellite compared to the clocks down here on earth. So we walk around with general relativity in our pockets even though most of us perhaps don't really know that."
+                }
+            ],
+            "topic": "time",
+            "level": "undergrad",
+            "youtube_link": "https://www.wired.com/video/watch/theoretical-physicist-explains-time-in-5-levels-of-difficulty?c=series"
+        }
+    }
+]

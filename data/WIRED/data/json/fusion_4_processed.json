@@ -1,0 +1,91 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "What is fusion energy?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The way our sun generates energy is by fusion reactions. It fuses hydrogen, the lightest element we know about, into helium, and that gets fused into heavier and heavier elements. So here on earth we're going to take some special kinds of hydrogen, a special flavor of it if you will, which we call an isotope. And we're going to combine them to create new particles. And we can only get that combination of particles to happen if they are in a plasma. What's your favorite exhibit at the science museum?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I love the lightning show, I think it's so cool."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You probably have learned in school about three states of matter."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Solid, liquid and gas."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely, we take the gas, and we add heat, and we get a plasma. And a plasma is a state of matter where you have an ionized gas. If we break down that gas, and we add enough energy to ionize it, where you can take the electrons and the ions and the atom and separate them, and now there's this soup of charged particles that are moving around, that's the plasma. And it is what creates the beautiful light in lightning. So you've already seen a plasma in fact. So I'm gonna show you this fun demonstration. You've probably seen one of these before, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's so cool."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. So the way this is happening is this glass ball here is a container for our plasma. And we've taken most of the air out of the container, so there's not a lot of particles inside the glass ball, and very, very low temperature plasma. So it's continuously ionizing and then recombining, and becoming neutral again. And we see those energy transitions as the visible light. So if we're gonna put this plasma to use and do something helpful with it, like maybe make some clean electricity, we would have to control it. And another word for controlling it is confining it. So let me turn this off and set it back down. You're probably wondering what is this thing on this table? It's a model of a tokamak, and that's the name of a device that I work on with the goal of creating clean energy. Have you played with magnets in school?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Nods.]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We've learned about how it has to be a positive and negative charge. And we've done those things where you can like put 'em with something in between 'em, and just move one and the other will always follow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "This is all very important to sort of understand how we would create a container that would let us hold a plasma in place and control it. Have you ever played around with an electromagnet in class? It's a coil of wire, much like this big red coil of wire right here. And when we push an electrical current through this wire, it creates a magnetic field that goes around the wire perpendicular. So if you want to know the direction of the magnetic field that's being created by pushing the current through the wire, put your thumb in the direction of the current and then curl your fingers like this. Yeah, and that's the right hand rule. So if we push the current this way we're creating a magnetic field in this perpendicular direction. So if I drive a current in this red wire like this, which direction will the magnetic field go?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Points vertically.]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, exactly, perpendicular. And if I drive the current in this green wire, which direction will it go?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Points counter-clockwise.]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly, yeah, the long way, perpendicular. Now this is a bit of a trickier one. The blue wire is gonna act like a transformer action. And so by changing the current in the blue coil, we are going to be able to run a current in this direction around the tokamak. And now think back to how the wires worked. If I have a current going like this, where's the magnetic field?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That way."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly, back this way, the short way around the tokamak. We can now put together the pieces and understand the three magnetic fields that we need to confine a plasma in our tokamak. So our plasma will be inside this vessel in the shape of a donut."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What could the tokamak be used for in like real life?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm so glad you asked. So what we want to use the tokamak for in real life is to confine a super hot plasma, and we're talking a hundred million, 150 million degrees. Because the plasma is so very hot, the particles have enough energy to interact with one another and fuse. When those fusion reactions occur, we are releasing energy that's inside the nucleus, and we can harness that energy to make clean electricity."
+                }
+            ],
+            "topic": "fusion",
+            "level": "teenager",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-mit-professor-explains-nuclear-fusion-in-5-levels-of-difficulty?c=series"
+        }
+    }
+]

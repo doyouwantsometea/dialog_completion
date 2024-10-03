@@ -1,0 +1,151 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hi."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Hi."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm Hilary, what's your name?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm Brynn."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you know what machine learning means? Have you heard that before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So machine learning is a way that we teach computers to learn things about the world by looking at patterns and looking at examples of things. So can I show you an example of how a machine might learn something?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Sure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Hilary] So is this a dog or a cat?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's a dog."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And this one?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A cat."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And what makes a dog, a dog and a cat, a cat?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, dogs are very playful, I think, more than cats. Cats lick themselves more than dogs, I think."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's true. Do you think, if we look at these pictures, do you think maybe we could say, Well, they both have pointy ears, but the dogs have a different kind of body and the cats like to stand up a little different.? Do you think that makes sense?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What about this one?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A dog. A cat. I think, a cat? Because it's more skinny. And also, its legs are like really tall and its ears are a little pointy."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "This one's a jackal. And it's actually a kind of dog. But you made a good guess. That's what machines do too. They make guesses. Is this a cat or a dog?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Brynn] None."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Hilary] None. What is it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's humans."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And how did you know that it's not a cat or a dog?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because cats and dogs... Because they walk on their paws and their ears are like right here, not right here, and they don't wear watches."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so, you did something pretty amazing there. Because we asked the question, Is it a cat or a dog? And you said, I disagree with your question. It's a human. So machine learning is when we teach machines to make guesses about what things are based on looking at a lot of different examples. And I build products that use machine learning to learn about the world and make guesses about things in the world. When we try to teach machines to recognize things like cats and dogs, it takes a lot of examples. We have to show them tens of thousands or even millions of examples before they can get even close to as good at it as you are. Do you have tests in school?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I have. After every unit, we have a review and then we have a test."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Are those like the practice problems you do before the test?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, just like everything that's gonna be on the test is on the review."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Which means that in the test, you're not seeing any problems that you don't know how to solve. As long as you did all your practice, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So machines work the same way. If you show them a lot of examples and give them practice, they'll learn how to guess. And then when you give them the test, they should be able to do that. So we looked at eight pictures and you were able to answer really quickly. But what would you do if I gave you 10 million examples? Would you be able to do that so quickly?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So one of the differences between people and machines is that people might be a little better at this, but can't look at 10 million different things. So now that we've been talking about machine learning, is this something you want to learn how to do?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Kind of. Because I kind of want to become a spy. And we used to do coding, so I may be kind of good at it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And machine learning is a great way to use all those math skills, all those coding skills, and would be a super cool tool for a spy."
+                }
+            ],
+            "topic": "machine_learning",
+            "level": "child",
+            "youtube_link": "https://youtu.be/5q87K1WaoFI"
+        }
+    }
+]

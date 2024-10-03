@@ -1,0 +1,115 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So what's your major?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Chemical engineering."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What made you choose that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Like any freshman, going into chemical engineering, I was like, I like chemistry! So I'm gonna go into chemical engineering. But luckily I also like all the math and all the science too."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So have you taken a quantum mechanics course?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have. I took that last year."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think to really get deep into nanomaterials and nanoscale devices, you really have to understand to some level, quantum mechanics. What it teaches us as we make these devices smaller and smaller, their properties begin to now depend on the size and the orientation of these devices. There are materials, and you're taking a 2D materials class, you know about this, that are intrinsically thin. As they're grown, as they're fabricated, they're already at the nanoscale and they possess these quantum confinement properties that as a nanotechnologist, you try to exploit. And so the first ones I wanted to talk to you about are quantum dots, have you heard of quantum dots before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So these are typically semiconductors. They can be cadmium selenide cadmium sulfide, zinc selenide and they're small clusters of atoms. They can be from 2 to 10 nanometers. What's interesting about these materials?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, the other day we were talking about the different dimensions you can have of nanotechnology. So all the way from like 0D to 3D. If I remember correctly, my professor labeled it as 0D?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's correct. Yeah. Because of quantum confinement, once you get below this 15 nanometer range, the band gap of the material depends completely on the size of the material. So in bulk materials, if you want to change the band gap, you have to change the material, right? But in these quantum dots specifically, just by changing the size, you can change their band gap. And because their band gap is changing, their optical properties are different. And you can precisely tune the wavelength of light that they emit just by changing their size."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What are the applications of these quantum dots?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There are people that are exploring using these materials for diode lasers. There are companies that are building displays from these materials. And there're even people thinking about if I take these quantum dots, and I change the chemistry on the outside so they stick to specific types of cells or tissue, that I could really do some interesting imaging and therapeutic work to track disease, even maybe to treat disease, if you can very precisely control the chemistry."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How far away is this from being actually used on an industrial level?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The optical applications are in development. The science has really been worked out. The health stuff, because of all of the things you have to consider when you're putting something in someone's body is definitely further out there. For example, some of them are made from cadmium. Cadmium's toxic. You would never put that in someone's body. But there are other materials like gold and silver and titanium dioxide, which are less toxic and people are exploring using those. So have you learned about graphene?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you know what this is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Carbon nanotube?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Carbon nanotube, right. So if you roll up graphene, depending on how you roll it and the angle, you roll it with, it has different properties. So if I roll it one way, it'll act like a metal. If I roll it a different way, it'll act like a semiconductor. The one that gets everyone most excited is that the electrons and holes move very fast through graphene. And so there's a lot of interest in using these for certain types of high-speed electronics. The other interesting application is because it's one atom thin, it's very sensitive to changes in the environment. And so there's a lot of interest in using them as diagnostics. It's on us researchers to find ways to A, control that process and then B, to actually build some sort of interesting technology from them."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So you've been talking about the different ways you can say, roll these nanotubes. So how do you go about building and controlling these nanotubes in terms of their diameter?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You're speaking my language. This is what I spent many years of my life working on. You don't physically roll up graphene. You grow nanotubes by basically taking nanocrystals and you deposit them on a surface. And then you do a CVD process, chemical vapor deposition. So you basically flow in a carbon source, the carbon dissolves in a nanocrystal and then once nanocrystal is saturated, the nanotubes precipitate out of them in tubes. Then you have to develop ways to go into this pile of nanotubes and pull out exactly the ones that you want. So I have to find ways to program them to go exactly in the places that I want. I modify the surface of the nanotube with specific molecules that recognize one type of surface over another. And then I just pattern the surface and the tubes just land exactly where we want them to. And it's still very much in the research stage. The ultimate goal is to build functional high-speed electronics using these new materials."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "In my nanomaterials class, actually just a couple of days ago, we were talking about different applications of nanotechnology and things we know. And we touched on the topic that right now, silicon is down to the smallest level that it can get. And so we have scientists out there researching other materials, to replace silicon."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. 100%. That's right. And that's the motivation for looking at these emerging materials. But I would never bet against the innovation and the creativity in this nano electronic space. Tens of thousands of scientists, every time they hit a barrier, at least historically, as a guide, they have found a way to overcome it. It's a real marvel in ingenuity."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I gotta ask. The lights that are behind you, is that related to the quantum dots that you work with at all?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's just pretty lights. [laughing] But now that you suggested it, these were inspired by the array of quantum dots that we showed earlier. So that's the story I'm going to stick with. [laughing] I like it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, thank you so much. This was all so very interesting."
+                }
+            ],
+            "topic": "nano_technology",
+            "level": "undergrad",
+            "youtube_link": "https://youtu.be/WW0IIyrq8z4"
+        }
+    }
+]

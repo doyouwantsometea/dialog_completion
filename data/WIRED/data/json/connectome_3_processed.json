@@ -1,0 +1,55 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Do you know why we're here today?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because we're talking about science."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, we're gonna talk about science and we're gonna talk about a very specific kinda science, about people who study brains. Do you know what a brain is? What is it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Um, something that helps you remember things."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Definitely. So what we're gonna talk about, this is something that people study in the brain called the connectome."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you know that your body is made up of really tiny things called cells?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Um, yes, I know that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, well there's more cells in your brain, like way more cells, than all the stars we can see. (Daniel gasps) (Bobby laughs) And so what the connectome is, is we'd like to know where every cell in your brain is and how it talks to every other cell in your brain."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That was awesome, Daniel, thank you."
+                }
+            ],
+            "topic": "connectome",
+            "level": "child",
+            "youtube_link": "https://youtu.be/opqIa5Jiwuw"
+        }
+    }
+]

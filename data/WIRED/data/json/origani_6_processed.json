@@ -1,0 +1,107 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Whenever there's a part of a spacecraft that is shaped somewhat like paper, meaning it's big and flat, we can use folding mechanisms from origami to make it smaller."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Telescopes, solar arrays, they need to be packed into a rocket, go up, but then expand in a very controlled, deterministic way when they get up into space."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "These are the building blocks of many, many origami deployable shapes, it's called a degree-4 vertex. It's the number of lines. So in this case, we use solid lines for mountain, we use dash lines for valley. We're going to fold it and use these two to illustrate some important properties of origami mechanisms. It's important in the study of mechanisms to take into account the rigidity. So what we're going to do to help simulate rigidity is to take these rectangles and we're going to fold them over and over so that they just become stiff and rigid."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Grad Student] Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So this is what's called a single degree of freedom mechanism. You have one degree of freedom, I can choose this fold, and then if these are perfectly rigid every other fold angle is fully determined. One of the key behaviors here is that with the smaller angles up here, the two folds that are the same parity and the folds that are of opposite parity move at about the same rate but with this, as we're getting closer to 90 degrees, we find they move at very different rates and then at the end of the motion, the opposite happens. This one is almost folded but this one goes through a much larger motion so the relative speeds differ."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So when we start sticking together vertices like this, if they're individually single degree of freedom then we can make very large mechanisms that open and close but with just one degree of freedom. So, these are examples of a pattern called the Miura-Ori. When you stretch them out they're pretty big."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And they fold flat and a pattern almost exactly like this was used for a solar array for a Japanese mission that flew in 1995."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So then you like fly it up compactly and then once you get up there, there's like some sort of like motorized mechanism, but you only need it on one fold."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, so typically the mechanism will run from corner to corner, to diagonally to opposite corners because then you can stretch it out that way. Notice some differences between the one you have and the one I have in how this one sort of opens out almost evenly but this one opens out more one way and then the other."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. What sort of angle would you want so that they open up the same rate?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Infinitesimally small."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So, sadly, the only way to get them at exactly the same rate is when these are microscopic slivers and then that's not useful."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "For sure, right, right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And it's exactly the difference between the motions of these two vertices. So these angles are closer to right angles and the closer you get to a right angle the more asymmetry there is between the two directions of motion. And then the other difference is how efficiently they pack, so these started at about the same size but when they're flat notice that yours is much more compact. So if I were you making a solar array, I'd say, oh, I want that one. But if I say, well, I want them to open at the same rate, then I want this one."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, it's kind of a trade-off?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There's an engineering trade-off to get them both to work. And there's another place that shows up in deployable structures in a very cool structure. This is a folded tube, it sort of pops out like this but it has this neat property that if you twist it quickly, it changes color. There's a Mars Rover application where they need a sleeve that protects a drill and as the drill goes down, the sleeve is going to collapse and they're using a pattern very much like this."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Interesting."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There are many open mathematical questions and so room for mathematicians, like yourself, to have a big impact on the world of origami and mechanisms. And even though those studies are mathematically interesting, they're going to also have real-world applications in space, solar arrays, drills, telescopes, and more. Any questions or thoughts about this?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If you want to send something to space it probably makes sense to do it compactly, so if you have something that you can fold up and then unfold, just one of the folds, that's going to be probably the easiest way to get something up there and expand it to what it needs to be."
+                }
+            ],
+            "topic": "origani",
+            "level": "grad",
+            "youtube_link": "https://youtu.be/boaqgdcMjmA"
+        }
+    }
+]

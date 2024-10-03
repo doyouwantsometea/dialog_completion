@@ -1,0 +1,139 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hello?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Hello."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What's your name?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Kayla."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "How old are you, Kayla?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I am nine years old."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So if you are nine years old, what does that mean about the earth? How many times has it gone around the sun?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Nine times."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Nine times. So there's a relationship between motion through space, the earth is going through space, and the passage of time. They're kind of connected"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "in some way. But there are differences, right? If I asked you to move through space, you could do it freely, right? Can you get up? And let's see how easy it is to move through space. Can you move over to that location? And can you come back? Anything getting in your way? Easy to do?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yep."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If I were to ask you to sit perfectly still in space, can you do that? I mean, hold perfectly still. That's good. But if I ask you to hold still in time, to not go to the next second or the next second, can you do that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So there's definitely this difference between space and time, some fundamental quality that distinguishes how freely we can move through space"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What do you know about him?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "He has crazy hair."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "He does have crazy hair, and I think I'm maybe heading in that direction actually.He showed us an approach to travel to the future. You want me to tell you how you do it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You build a spaceship. You go out into space really quickly. You turn around and you come back to planet Earth, and he showed us that when you're on that ship, your clock will tick off time more slowly. You will age more slowly. So that journey may only take you, say, a year, six months out and six months back, but you know what? When you step out of the ship, it'll be 100 years into the future or 1,000 years, a million years into the future. Would you do that if you could?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I would probably be dead by then."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "No, you'd be alive, that's the amazing thing. I'd be dead. Everybody else would be dead who stayed on earth, but your body would only age one year, and yet it would be 1,000 years into the future. The question though is, could you get back? And I don't know the answer to that, nobody does. We don't know if you can travel back, but we certainly know that you can travel forward."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Has anyone ever tried to go forward and back?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I don't think so. That same guy with the crazy hair, Albert Einstein, showed that there's actually a limit to how fast things can go. And you know what the limit is? The limit is the speed of light, because light travels 671 million miles per hour, that is fast enough to go around the entire earth seven times in one second. So if we could build a spaceship that would go as fast as light, we'd be able to do what Einstein noted. There's something else that's really curious about time. Things tend to go in one direction, and we call it the arrow of time. It sort of points from the past into what we call the future. If you're to ask me why is there an arrow to time, ask me."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Why is there an arrow to time?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm not really sure. I have some ideas, but I'd say we've still not completely nailed it down. Kayla, what have you learned about time from talking about it here?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That you can't really travel back through time."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And can you travel to the future in principle?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Maybe, that's absolutely right. I think it's unlikely we'll learn how to travel to the past, but it's not been ruled out. That's kind of exciting that it's still at least an open possibility."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                }
+            ],
+            "topic": "time",
+            "level": "child",
+            "youtube_link": "https://www.wired.com/video/watch/theoretical-physicist-explains-time-in-5-levels-of-difficulty?c=series"
+        }
+    }
+]

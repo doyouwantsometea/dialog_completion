@@ -1,0 +1,67 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "[Donna] So you're a college student?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Donna] And what's your major?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm an engineering physics major with a minor in math. I'm in the three, two program for biomedical engineering."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Excellent. I got an engineering physics degree. There you go, something in common. We're here today talking about lasers. So have you have had much exposure to lasers yet at school?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Not yet. I'm really hoping that we will. I think it's super interesting just the field in general because I really do enjoy examining all the calculations and being able to do a little bit more of the math side of physics."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. As opposed to the experimental side and seeing things? Okay so I'm much more, I like to see the things happening. So then the question is, what's so special about making a light that's intense enough to actually possibly blow things up? Certainly we can blow atoms up with the laser hammer and when the laser light comes in and just smacks the electrons right off the atom. And so the question really is how do you make that? Back in the 70s and into the 80s, I know that was a long time ago for you, we had big energy lasers and we had short pulse lasers, we couldn't have big energy, short pulse lasers and actually it was my supervisor and I that figured the way around that and we got something called chirped pulse amplification. Have you heard of chirped pulse amplification by any chance?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Vaguely."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well I brought a little bit of a prop to explain how chirped pulse amplification works. Our short pulses are made of different colors. So I've got a colored slinky here. We probably could've called it stretched pulse amplification but that's kind of boring so we used the word chirped. The word chirped comes around because birds chirp. When the birds are singing, the notes are actually changing audio frequency with time and that's a chirp. The point is is that when all the light is squeezed together like this, it's a short pulse. And that's when it's a hammer because all of the light is now concentrated and you can imagine if this was coming along and also using a lens to focus it small, then all of that light at the focal spot, concentrate. And so that was the laser hammer. So we can't have that in the laser. So the question is what could we do? The fact that it's different colors and different colors because of dispersion, travel different speeds inside material. So we used a long fiber, 1.4 kilometers of fiber but, in fiber, the red colors really haven't got that much in common with the glass atoms and so they spend very little time interacting and they travel fast. The red is going to start traveling faster than the green, faster than the blue and, as you travel down the fiber, next thing you know, you have a long pulse and it's chirped from red at the beginning to blue at the back. And so the frequencies go hoo! Like this okay? So this is a chirped pulse and now it's a long pulse. And so, first this is what we did, we chirped it, we stretched it, then we can safely amplify it because it's not all concentrated and, after we amplify it, then we use something called a compressor and we put all of the colors back together and it was back being a short pulse but a high energy pulse. And then we really had what I like to call a laser hammer. When this laser pulse goes inside, it smacks those electrons right off the atom."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So the laser hammer that you were describing with other types of lasers and the one in the chirped is it still the same premise?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well a lot of lasers and when lasers first came along, they were only single color. Your cat toy, would only be a single color, probably a red one and so that's just one color. And one color means that it has to really be there for the whole time. One color is one wave length of light and so it's just one wave that goes on and on and on. If you want a short pulse, you actually have to have all the colors. And if you can imagine that one point in time, and I like to say it's like a conductor of an orchestra. When you're listening to an orchestra warm up, they sound terrible, they're all playing their own notes. But when the conductor conducts them, they all play different notes but, together, it's beautiful music. So we have something in the laser called a mode locker and it's like the conductor and it says go now. And all the colors will start together but some colors are long wave length and others are shorter. So next thing you know, you have peaks meeting valleys and they cancel each other. And the more colors you can bring in, the faster that happens and the shorter the pulse you can make."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What's the pendant?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The necklace is something that was designed for my Nobel prize. It's sold at the Nobel museum and it is a chirped pulse. So we've been talking a lot about lasers and applications, what have you learned about chirped pulses?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I learned that it all stretches, which is super cool, because red moves the fastest and so it kinda tugs around blue. It really threw me off just how fast. It's hard to imagine things happening that fast. And I also learned how many of the things that I know are lasers. Like how many of the things that I've been looking for, like, the answers to, it is in lasers."
+                }
+            ],
+            "topic": "lasers",
+            "level": "undergrad",
+            "youtube_link": "https://youtu.be/3eTogq7rknQ"
+        }
+    }
+]

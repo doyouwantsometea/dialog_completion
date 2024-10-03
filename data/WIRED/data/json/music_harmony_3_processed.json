@@ -1,0 +1,67 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Bodhi, how's it going?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Good."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Cool. So do you know what harmony is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's when people sing together and it sounds nice."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, that's 100% correct. Have you ever heard a song called Amazing Grace?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a good one. The melody on its own just goes. (hums Amazing Grace) That melody on its own is kind of lonely, right? And no one really knows how it feels. (plays and hums Amazing Grace) So which one did you prefer?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The second one."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Jacob] Awesome. And why did you prefer that one?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because it sounds better."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, ah, that's great. I can decide how I want this melody to feel and the more notes there are, the more exciting it is. That's what musical harmony is. Does that make sense?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You're the best."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Thank you!"
+                }
+            ],
+            "topic": "music_harmony",
+            "level": "child",
+            "youtube_link": "https://youtu.be/eRkgK4jfi6M"
+        }
+    }
+]

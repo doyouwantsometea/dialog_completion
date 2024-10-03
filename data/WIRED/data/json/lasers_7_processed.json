@@ -1,0 +1,175 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "Hello Donna, good to see you."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Good to see you Mike, nice to have you here with me. So we go way back. 1991, the year I got married, I moved across the country, left my husband in New Jersey, to work with you in Livermore."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I remember very much and how hard it was to convince you to travel across the country and work at the lab."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And stay there."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And stay there. [laughing]"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I couldn't convince you to stay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You could not convince me to stay, no."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But you were there long enough to make a big impression and get some good work done."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And I've been talking sort of, started with sort of what is a laser through linear optics, non linear optics, high intensity laser physics, and saying that you know, we're trying to get to that Schwinger limit of 10 to the 29 watts per square centimeter. We're about somewhere just shy of 10 to the 23 I think at this point. But even if we get to 100 petawatts and focus that down to a wavelength, we're not at 10 to the 29. So you're hoping to build the biggest laser."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "At Rochester. But we're still not gonna get to the Schwinger limit, isn't that right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So just a little bit of back history again. After you demonstrated CPA, I was intrigued by how powerful could we make lasers? And then how lasers are wonderful because they allow you to take energy and compress it in space and time. So having high P power is something, it's been a motivator for me for a long time. And so we at the university are making proposals to build two 25 petawatt lasers, maybe 30 petawatt lasers. We'll use them to be able to get combined power of over 10 to the 24 watts per square center. Still far from the Schwinger limit. But we have a trick. We're going to use one of these petawatt lasers to make an electron beam. And this electron beam will be relativistic. We actually think we could make electron beam, maybe even 100s of GeV up to TeV, which would be another Nobel Prize if we did that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right, if you can do that, go for it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And then we will shine that laser onto that electron beam, and the electron's rest frame, we beat the Schwinger limit."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, but that's kind of cheating. That's not getting to 10 to the 29. If you could do it with 100% efficiency that's all we need."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's why I wanna cheat."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's the Nobel Prize winning idea though if we can come up with it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because again, if we're able to do this, with ways I can see today. Right? I can see us doing it today, by just exploiting what we already know and taking it to a limit, then that would be a real motivator, I think, to be able to even take these techniques further. Cheating's not the right exact word as taking advantage of relativity. Take advantage of all physics not just optical physics. So that's why we wanna do it this way."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We have to get into entertainment. When is the high intensity laser gonna get into entertainment so then there's real money?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, yes, well we have Star Trek, we had the photon torpedoes. I always thought they actually knew what you were doing, there's a photon torpedo. Have you ever seen that in--"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Michael] Oh."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I don't like science fiction."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh no, Star Trek had photon torpedoes and they showed bursts of light about this long. It was a CPA, it was a few nanosecond pulse. Didn't say how much energy it carried, and you could see it. I don't know what it was gathering off of but you could see it, so it was a great thing."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So we can either cheat by doing laser accelerating and going into that rest frame."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And that's, like you said, we're stuck a little bit, we're not up to that kind of acceleration, so that would be a Nobel Prize winning possible idea."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Absolutely."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Or we need, going around and giving my talks now, I show how we're plateauing. I showed how there was a plateau, CPA raises it up, but we're sort of starting to plateau again and we need another Nobel Prize winning idea. And so do you think it's on the horizon? Do you see anything out there that really says, oh yeah that's a good way to go? 'Cos we're gonna have to get out to the x-rays right? We can't stay in the visual."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So actually there's a potential ways of doing it with optical or near optical radiation. And there's been a lot of work done in the defense department and so on, how do I combine laser beams together?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And make them act as one coherent source. So one of the things that we'll be doing with our two petawatts, we're going to see if we can actually combine them into a 50. If you can do that, you can begin to imagine doing this with many lasers. Many petawatt lasers of the scale we're talking about. So one could possibly see an exawatt from that. People have been able to combine 10s of lasers together for a coherent source so you have to be able to phase lock them, you have to be able to make their phases be exactly connected and related and be able, as they propagate through all the different optical components, whatever it may be--"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And right across the beam. Don't you think that's gonna be the challenge? 'Cos it's not like our beams are as perfect as we like to think they are."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So that's right so you have to have the aperture size, you have to have them phase locked across the entire aperture. Which will be a great challenge and people have done it, again, with small lasers. The lasers we'll be trying to do is about a 40cm aperture. So we'll begin to start looking at this. And actually wavelength control and then be able to adaptive optics other ways which you can control the uniformity of the phase is something that's been developed in lots of ways now. For defense applications, for science applications. So we will do our best to make use of all these technologies. Lasers I think have progressed so much. Just like the semi conductor did, 'cos there's such a market for it, there were so many different applications for that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay so there's a lot of us working around the world on these high intensity lasers and so, what do you think the real fun is? What do you see the real excitement being?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I remember when laser was first demonstrated 1960, what could we do with this? We already got light. Now we can't live without lasers. My cell phone, that is in my pocket, has billions of transistors. How is that made? With lasers. All of the greatest circuitry is done with lasers. Actually now it's using x-rays, made from laser heated matter. That came out of the laser fusion program."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So it is amazing, the parallels. And optics is used everywhere. We're gonna possibly take over from CERN, we'll just do high energy physics with lasers, we're looking at gravity waves with lasers, we wanna do black holes with lasers, we wanna machine with lasers, we wanna do medicine with lasers. It's everywhere. And now, with the Nobel prize, people are hearing more about it so they know lasers are everywhere."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Michael] I couldn't agree with you more and you winning the Nobel prize has been an inspiration to lots of people. Only three women have won the Nobel prize in physics and only one educated in the United States. You."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There you go."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And I use that every place."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. And only one Canadian. There you go! [laughing]"
+                }
+            ],
+            "topic": "lasers",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/3eTogq7rknQ"
+        }
+    }
+]

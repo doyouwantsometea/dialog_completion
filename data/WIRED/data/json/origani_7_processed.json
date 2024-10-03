@@ -1,0 +1,79 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "I'm Tom Hull, I'm a math professor, a mathematician. I've been doing origami since I was eight years old and studying the mathematics of origami ever since grad school, at least."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The first thing I want to show you is origami in the real world. This is the origami lamp. It comes shipped flat but it folds, clip holds it together. The lamp has LEDs on the inside so when we power it up we get light, we have a lampshade and we get the base."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Why does origami lend itself to, say, this type of application?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Origami applications have in common, is that at some stage the thing is flat and so whenever you need to either start from a flat state and then take it to a 3D state, or conversely, for deployables like space, you want to have it in a fully folded flat state but then take it to a 3D state, or possibly an unfolded flat state. Whenever a flat state is involved, origami is a really effective way of making the transition between those states."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Another aspect of origami and origami mechanisms that has leant itself to many different uses is the fact that it's scalable. When you have an origami crease pattern like the Miura-Ori used in solar panel deployment, the type of motion that you see happening here will happen whether this is on a piece of paper that's small like this, or on a larger scale, or even on a smaller, smaller, smaller, smaller scale. Engineers, in particular robotics engineers, are turning to origami toward designing mechanisms that will either be really big or really, really small. This looks like the most promising way of getting nano robotics to work."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "This is another real-world application but this particular implementation is used to make a wheel for a Rover."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Cool, so this is something that can actually get really, really tiny but then get big and fat and roll."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "New problems arise when we try to make origami out of things other than paper, but also new opportunities. An example here which is a kind of a variant of the Miura-Ori. It's got a three-dimensional structure. If I stretch it one way, it expands the other but because it has these S-bends in the pattern, if you squeeze it, it doesn't go all the way flat. This is a epoxy impregnated aramid fiber and so if I put this fold pattern into it and then compress it and then put a skin on the top and bottom, this becomes incredibly lightweight but incredibly strong."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah!"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Another origami challenge that comes up with these patterns is if we're going to make an aircraft out of this thing we're going to need hundreds of yards of folded origami. We're not going to do it by hand and this might be the new frontier in origami engineering, which is the design of machines that can fold patterns that have applications."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So you're talking about a machine that is actually folding it into this, not just making the creases but actually folding it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, so what goes in as sheet and what comes out is this, or something this wide."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's cool, yeah. What do you see as kind of like the next big breakthrough? Is there anything out there on the horizon that you're just like, oh wow, this is really exciting?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's something we've talked about a little bit that with all the richness of behavior of origami from a flat sheet, it seems like there ought to be an equally rich world of things that don't start flat but are still made from flat sheets of paper."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So like a cone?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Bi-stable properties and you can combine them together with copies of themselves to make cellular structures. They're astonishingly stiff and rigid, useful for mechanics."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The thing that I think I'm the most excited about comes from math mainly. When I look at origami, when I look at all these applications or just all these different origami folds, I see structure. Math is really about patterns. The patterns that we see in origami are reflecting some kind of mathematical structure and we don't quite know yet what all of that structure is and if we can tie a mathematical structure that's already well-studied to something we see happening in origami, then we can use the math tools right away to help solve the engineering problems and the origami problems. And the fact that there's so many applications to this is really making people excited who are working in the area. I'm really excited to see what happens with that in the next five years or so."
+                }
+            ],
+            "topic": "origani",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/boaqgdcMjmA"
+        }
+    }
+]

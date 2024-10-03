@@ -1,0 +1,55 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Do you know what we're gonna talk about today? It's called blockchain."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What's blockchain?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a really good question. It's actually a way that we can trade. Do you know what trade is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mmm-hmm, it's when you take turns doing something. It's when you give up most of what you want, right?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "When you give up most of what you want? Well, sometimes that definitely happens for sure. What if I told you that this is the kind of technology that I work on that means you could trade with any kid all over the world?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Really?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If I could trade with any kid, I would trade, well, I would trade something I don't like so much."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's probably a good idea, maybe somebody else likes it more than you do. So normally, when people trade, they have to go to the store, or they have to know the person so they can get what they asked for. With blockchain, you can make that exact same trade, but you don't need the store, and you don't even necessarily need to know the other person."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Really?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Really."
+                }
+            ],
+            "topic": "blockchain",
+            "level": "child",
+            "youtube_link": "https://youtu.be/hYip_Vuv8J0"
+        }
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hi, are you Bella?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Bella, I'm George, nice to meet you."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Nice to meet you too!"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm a research scientist. Do you like science?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I wanted to talk to you about a specific type of science called nanotechnology. Have you ever heard of this word before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Nhn nhn."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Nano is kind of a funny word, right? It's a word that's used before another word, and it means one billion. What's the smallest object you can think of?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A baby ant?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "A baby ant? Very good. So I have over here a meter stick, let me show it to you. And so that's a meter and if I divide it by 1000, I get a millimeter. So milli just means 1000. There's all these little lines on the ruler. And each of those little lines is one millimeter. So a baby ant is probably a couple of millimeters. So even the thing, that's the smallest thing you can think of, it's a million times bigger than a nanometer. Tiny, tiny, tiny."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Tiny, tiny, tiny, tiny."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If I took this stick and I was to draw 1 billion lines, the distance between those two lines would be one nanometer. So that's really all it is. It's just a measure of size. But it's really, really, really tiny, smaller than anything that we can see with our eyes. The reason why, in nanotechnology, scientists, we care about things that are that small, is because there are objects called atoms. Have you ever heard of atoms before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes. I first heard of them on a show I watched called StoryBots. They're just little things that make up everything on Earth, even earth."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That was a perfect explanation. But what if I told you that scientists invented a special type of microscope that not only lets you see atoms, but also lets you move them around and build things with them. Would you think that would be pretty cool?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah!"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So it's called a scanning tunneling microscope. And not only can you see the atoms, but you can move them around. Atoms are kind of sticky. You can actually build things using this instrument with actual individual atoms. So if I gave you that machine, would you want to make something? Would you want to look at something very carefully?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I would want to make a unicorn out of atoms."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You are definitely a second grader! [laughing] My daughter would probably answer the exact same way. A unicorn would be awesome."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Why do you study stuff so small?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I study it because objects that are that small have really interesting properties. They behave completely different than objects that are big. And because of that, we can build really cool things with them. Like really fast computers, for example, or new types of batteries or new types of solar cells. And a lot of nanotechnology is kind of like playing with Legos. You take these small objects and you put them together to build something new. Something interesting that no one's built before. It's like Legos for scientists."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Cool."
+                }
+            ],
+            "topic": "nano_technology",
+            "level": "child",
+            "youtube_link": "https://youtu.be/WW0IIyrq8z4"
+        }
+    }
+]

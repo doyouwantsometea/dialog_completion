@@ -1,0 +1,135 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Tell me a little bit about yourself. Do you play chess?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So I do play chess. I played as a kid. I remember learning from my grandfather when we lived in India, but I got recently more interested in it when my kid started playing chess in school. In New York, kids play chess at a very young age."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Warms my heart."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And, you know, it gets more and more intense, and he's playing tournaments, and I thought, Let me try to keep up with him. So I realized that I could kind of do it in my work as well because I study AI, and I study computer science in general."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What type of AI? Are we talking chat bots? I don't know the terms."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, there's all kinds. So I try to create what I call human-oriented AI. So I try to use AI to understand human behavior, what makes humans decide and make the decisions that they do. And we thought, Wouldn't it be interesting to try to create an AI that actually tries to play like humans at different levels and tries to mimic their behavior? So that's what we set out to do with Maia."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Generally, the chess board does not care how you feel, I think is how AI plays, right? It's sort of just figuring out the best move."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You're right that AI is trying to play the best way possible, and it's combining this evaluation function with this search. It's powering it with brute force. Like it can do millions of searches a second. I think some of the components of the evaluation function map to some of the things humans do when they look at a chess board, right? When they're thinking about the king being unsafe. Even that emotion you describe, I feel uncomfortable. Like I feel uncomfortable whenever I've castled and I push that G pawn or something. But that feeling translates to some of the components of the evaluation function that Stockfish uses. Humans don't have this luxury of searching millions of nodes a second."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I can't even finish one node without going, Oh, what about the second node?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right, as you get deeper and deeper the tree, it just grows and grows, expands like combinatorially, and it starts getting very confusing, and your evaluation starts getting less and less accurate. You might make mistakes 'cause you might miss something."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And less and less confident, which is an emotion which the computer doesn't feel."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "One thing that we noticed when I was talking with a colleague of mine, his name is Ashton Anderson. He's a professor at University of Toronto. He was in my lab, and we both had this passion for chess, but we realized no one had really used AI to play like a human would play."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think my audience once pulled 92% or below the level of 1,200, but it's really hard to learn chess because you don't get to experience learning content based on people who are your level. Like how did you really deduce how a 1,200 will play?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We used state-of-the-art neural networks like Alpha-Zero and Leela, but we instead try to predict what move a human would make given a board position. These deep neural nets are kind of like black boxes. So we've come up with interesting ways to probe at them to get an idea of, okay, what is actually is going on that is different about this person or different about that person? We had like a style vector for each person. We can compare those, see where you defer, and try to map those back to human understandable chess concepts because that's the key, right? If I just tell you, Oh, they defer in the third number and the fifth number, you'll be like, What does that even mean, right? But if I can tell you, Oh I think this person worries more about their king's safety or sacrifices their center at the cost of protecting their king, or something like that, some kind of trade-off, then you might be able to understand what's going on there. So that's what we're trying to do now with these style vectors, and the fun thing about having numbers representing people is that you can add them together. You can mix them."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "With something like Maia, do you think it's possible to develop some sort of accurate measure? Let's say I'm a 1,200, I have an opening course. I just wanna practice my opening. Can I do it some way against Maia or-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think that's actually a good idea, and I agree with you that it's not something you can easily access today like out with the online tools and the chess platforms that are out there. I play the Caro-Kann, and when I learned it, I started getting afraid of, so when you go, I started getting afraid of"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, the advance."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "the advance, and even more so, at some point, like I always like to get my bishop out 'cause I feel very uncomfortable if I don't, and then eventually something happens. This pawn making its way over here used to scare me, and I never experienced this in any, you know, looking at the openings in because I would not know what to do. I would take it, I would get in trouble, and even if I let them take, I would-"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, you'd have to move your king."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Get to my king, and so I remember hitting all these variations that just scared me."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Onto to E5 on the third move is the most challenging move against the Caro-Kann. It restricts the knight and the main line. So the move is bringing out the bishop, Bringing out the bishop. so you don't get locked. I play that move, but the move that I also added to my toolbox and is the only move I teach now is this move to try to undermine the center. It's not commonly played at the highest level. If you study master games, this is probably one in every six games or something compared to, right? So now we go down a totally different path. We're taking a totally different train to our destination, but just this undermining of the position, you know, splitting up these pawns and then slowly capturing them both, that does wonders at intermediate and early advanced level. This move, despite it being move three, according to databases, already gives black like a 53% chance of winning, which is crazy because normally white is about 52%, right? White just doesn't know what to do about this move."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is that like human empirically, though, based on the games that people are playing?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, like I would say-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is the Stockfish eval like weaker for black?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Computer, Computer will say- after like 12, 13 moves, says white is better."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "White is better, okay, okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right, in practice."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "in practice?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I love this because this is an example of the kind of advice, as you said, in the intermediate and advanced level, that could be appropriate because you're thinking about the human opponent that you're playing. And maybe you wouldn't recommend this at the highest, highest levels, but in that range, I think it could very well be very good advice, and as they get more comfortable with it and understand it, your students, at some point, they might realize, You know what? I've progressed to a point where I don't wanna play that anymore, and they'll change, but for a good part of time, it could be very useful for them."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In 1997, Kasparov lost to Deep Blue. We can say for about 26 years now, AI has been better than humans in chess, but where do we go from here?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Thinking about chess, first of all, I have to hand it to Alpha-Zero and Leela and these other engines because I think they have sometimes given us interesting ideas. They've shown sparks of creativity that have inspired the way humans play, but I agree with you that, right now, you know, you look at the the TCAC competitions, and they're just kind of getting better and better and a little bit better, a little bit better, a little bit more data, maybe a deeper neural network, and, you know, these advances I don't find that interesting. I'm more interested in trying to get better and better at creating human-like presence and human-like avatars when it comes to chess or when it comes to other games. So I feel like, you know, within five years, we'll probably have a lot of human-like entities that we can interact in in virtual settings, not just because of the rise of large language models and the ability to converse and speak and produce text like humans but hopefully the ability to produce actions like humans, too."
+                }
+            ],
+            "topic": "chess",
+            "level": "colleague",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-chess?c=series"
+        }
+    }
+]

@@ -1,0 +1,271 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So, I'm a computer science professor, so I spend a lot of time with computers. How would you define a computer for them?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, a computer is electronic, like a phone but it's a rectangle, and you can type like tick, tick, tick. And you work on it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Nice. Do you know any of the parts that are inside of a computer?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Can I explain a couple of them to you?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So, inside of every computer is some kind of brain and the technical term for that is CPU, or central processing unit. And those are the pieces of hardware that know how to respond to those instructions. Like moving up or down, or left or right, knows how to do math like addition and subtraction. And then there's at least one other type of hardware inside of a computer called memory or RAM, if you've heard of this?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I know of memory because you have to memorize stuff."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, exactly. And computers have even different types of memory. They have what's called RAM, random access memory, which is where your games, where your programs are stored while they're being used. But then it also has a hard drive, or a solid state drive, which is where your data, your high scores, your documents, once you start writing essays and stories in the future."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It stays there."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Stays permanently. So, even if the power goes out, the computer can still remember that information."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's still there because the computer can't just like delete all of the words itself."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Hopefully not."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because your fingers could only do that. Like you have to use your finger to delete all of the stuff."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You have to write."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, have you heard of an algorithm before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes. Algorithm is a list of instructions to tell people what to do or like a robot what to do."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, exactly. It's just step by step instructions for doing something, for solving a problem, for instance."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, so like if you have a bedtime routine, then at first you say, I get dressed, I brush my teeth, I read a little story, and then I go to bed."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "All right. Well how about another algorithm? Like what do you tend to eat for lunch? Any types of sandwiches you like?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I eat peanut butter."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Let me get some supplies from the cupboard here. So, should we make an algorithm together?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Why don't we do it this way? Why don't we pretend like I'm a computer or maybe I'm a robot, so I only understand your instructions and so I want you to feed me, no pun intended, an algorithm. So, step-by-step instructions for solving this problem. But remember, algorithms, you have to be precise, you have to give..."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The right instructions."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The right instructions. Just do it for me. So, step one was what?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Open the bag."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. Opening the bag of bread."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Stop."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Now what?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Grab the bread and put it on the plate."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Grab the bread and put it on the plate."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Take all the bread back and put it back in there."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[laughing] So, that's like an undo command."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Little control Z? Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Take one bread and put it on the plate."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Take the lid off the peanut butter."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, take the lid off the peanut butter."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Put the lid down."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Take the knife."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Take the knife."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Put the blade inside the peanut butter and spread the peanut butter on the bread."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm going to take out some peanut butter and I'm going to spread the peanut butter on the bread."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I put a lot of peanut butter on because I love peanut butter."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Oh, apparently. I thought I was messing with you here..."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, no it's fine."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But I think you're apparently happy with this."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Put the knife down, and then grab one bread and put it on top of the second bread, sideways."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Sideways."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Like put it flat on."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Oh, flat ways, okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And now, done. You're done with your sandwich."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Should we take a delicious bite?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yep. Let's take a bite."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, here we go. What would the next step be here?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Clean all this mess up."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[laughing] Clean all this mess up, right. We made an algorithm, step by step instructions for solving some problem. And if you think about now, how we made peanut butter and jelly sandwiches, sometimes we were imprecise and you didn't give me quite enough information to do the algorithm correctly, and that's why I took out so much bread. Precision, being very, very correct with your instructions is so important in the real world because for instance, when you're using the worldwide web and you're searching for something on Google or Bing..."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You want to do the right thing."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, like if you type in just Google, then you won't find the answer to your question."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Pretty much everything we do in life is an algorithm, even if we don't use that fancy word to describe it. Because you and I are sort of following instructions either that we came up with ourselves or maybe our parents told us how to do these things. And so, those are just algorithms. But when you start using algorithms in computers, that's when you start writing code."
+                }
+            ],
+            "topic": "algorithms",
+            "level": "child",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-algorithm?c=series"
+        }
+    }
+]

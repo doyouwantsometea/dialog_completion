@@ -1,0 +1,63 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So, I think today we're gonna talk about a connectome. Have you ever heard of that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A connectome?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, I don't think so."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Awesome, good. (laughs) It's a map of all the connections between every neuron in your brain. It literally, in a human brain, something like a map of the one quadrillion connections that a hundred billion neurons make with each other."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is this like a map where, that's like an actual visual representation, like using microscopy?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Or just data? Wow, wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm understanding more so that it's these, a mapping of the circuitry, the pathways between neurons that can lead to evidence of patterns in your brain that are common between different people."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We have to use electron microscopes and then what we have been developing a way to slice the brain into really thin slices, use an electron microscope to take a picture of each slice, and then use computers to put it all back. Imagine that we could get a map of every connection, right? And we knew how neurons fire. Do you think we could put that in a computer, that map, and then therefore, that computer should be able to think just like the brain that we extracted it from?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, the computer only communicates with itself in binary so it only has two options, it can only ask itself yes or no questions, but a human brain has an infinity of directions that it can go."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Neurons are also digital. Meaning a Neuron either fires or it doesn't fire, so that's either one or zero. And it's the combination of those ones or zeros that actually produce the 10 thousand different answers that you say."
+                }
+            ],
+            "topic": "connectome",
+            "level": "undergrad",
+            "youtube_link": "https://youtu.be/opqIa5Jiwuw"
+        }
+    }
+]

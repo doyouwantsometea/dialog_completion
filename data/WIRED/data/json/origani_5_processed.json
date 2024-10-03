@@ -1,0 +1,107 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So here's a dragon fly and he's got six legs, four wings."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Here's a spider with eight legs, ants with legs and these, just like the crane, are folded from a single uncut square."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "To figure out how to do that we need to learn a little bit about what makes a point. So, let's come back to the crane. You can probably tell that the corners of the square ended up as points, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a corner, four corners of the square, four points. How would you make one point out of this sheet of paper?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm thinking of, like, a paper airplane."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, exactly. Actually you've discovered something pretty neat because you made your point not from a corner so you've already discovered one of the key insights. Any flap, any point, leg of the ant, takes up a circular region of paper. Here's our boundary. To make your point from an edge you use that much paper and the shape, it's almost a circle. If we take the crane we'll see if the circles are visible in the crane pattern. Here's the crane pattern, and here's a boundary of the wing, and here's the other wing."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The crane has four circles but, actually, there's a little bit of a surprise because what about this? There's a fifth circle, which is like that, but does the crane have a fifth flap in it? Let's refold it and put the wings up. Well, yes, there is, there's another point and that point is the fifth circle of our crane."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And to do that we use a new technique called circle packing in which all of the long features of the design are represented by circles. So, each leg becomes a circle, each wing becomes a circle and things that can be big and thick, like the head or the abdomen, can be points in the middle. Now we have the basic idea of how to design the pattern, we just count the number of legs we want. We want a spider, if it's got let's say eight legs, it's also got an abdomen, that's another point, and it's got a head, so maybe that's 10 points. If we find an arrangement of 10 circles we should be able to fold that into the spider. So in this book, Origami Insects II, it's one of my books and has some patterns, and this is one of them for a flying ladybug and, in fact, it is exactly this flying ladybug. We've got the crease pattern here in the circles and you might now be able to see which circles end up as which parts, knowing that the largest features like the wings are going to be the largest circles, smaller points will be smaller circles. So any thoughts which might be?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, the legs and the antenna would probably have to be these smaller ones, in the middle."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, that's right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[College Student] Oh, this looks like the back 'cause there's a bunch of circles all the way down, like here."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Mm-hmm, exactly. And then the wings?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You've got four big wings which you could see on the ends there and then, I guess, the head."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You've got it, so you are ready to design origami."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Awesome."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Origami artists all around the world now use ideas like this to design, not just insects, but animals, and birds, and all sorts of things that are, I think, unbelievably complex and realistic but most importantly, beautiful."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Wow, that's so impressive. I think I learned how to make one of these paper cranes when I was in third grade but I guess I never unfolded it to actually see where it was coming from. And so now that it's all broken up into circles it makes these super complicated insects and animals and everything seem so much simpler, so that's so cool. I'm pretty excited about it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's so cool."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Thank you so much for telling me about this."
+                }
+            ],
+            "topic": "origani",
+            "level": "undergrad",
+            "youtube_link": "https://youtu.be/boaqgdcMjmA"
+        }
+    }
+]

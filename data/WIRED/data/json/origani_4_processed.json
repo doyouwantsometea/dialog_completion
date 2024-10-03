@@ -1,0 +1,79 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "A lot of origami is animals, birds and things. There's also a branch of origami that is, it's more abstract or geometric, called tessellations. Tessellations, like most origami, are folded from a single sheet of paper but they make patterns, whether it's woven patterns like that, or woven patterns like this. If you hold them up to the light you can see patterns."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The thing that makes them cool is they're sort of like tilings, it looks like you could put this together by cutting little pieces of paper and sliding them together, but they're still one sheet."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "They weren't cut?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There's no cuts in these just folding. We can build these up from smaller building blocks of folds, learn how to fold little pieces and put them together in the same way that a tiling like this looks like it's built up of little pieces. Can you make a fold that starts at the dot that doesn't run all the way across the paper?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How about like that?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Mm-hmm. Each of these folds is peaked like a mountain and we call these mountain folds but if I made it the other way, then it's shaped this way and we call it a valley fold. In all of origami there's just mountains and valleys."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So all the folds are reversible?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So they're all reversible and it turns out that in every origami shape that folds flat, it's going to be either three mountains and a valley or, if we're looking at the backside, three valleys and a mountain, they always differ by two."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a rule of all flat origami no matter how many folds come together at a point and I'm going to show you a building block of tessellations, it's called a twist because that center square, as I unfold it, it twists, it rotates."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Twists?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If I had another twist in the same sheet of paper I could make these folds connect with that, and these folds connect with that. And if I had another one up here, I could make all three. And if I had a square array and all the folds lined up I could make bigger and bigger arrays, like these, because these are just very large twists. In this case it's an octagon rather than a square, but they're arranged in rows and columns. And let's just try going along. All right, there is our tessellation with squares and hexagons. So you have now designed and folded your first origami tessellation and perhaps you can see how just using this idea of building up tiles and small building blocks you could make tessellations as big and complex as you want."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That was cool."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, so what do you think now of origami and tessellations?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Origami, I think, is the folding of paper to make anything in general, from 3D things to flat things and I think origami is about turning simple things into complex things and it's all about patterns."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That is a great definition."
+                }
+            ],
+            "topic": "origani",
+            "level": "teenager",
+            "youtube_link": "https://youtu.be/boaqgdcMjmA"
+        }
+    }
+]

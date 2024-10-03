@@ -1,0 +1,219 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "Hi, my name's Patricia."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Patricia, nice to meet you. Where are you a student at?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I am starting my senior year now at NYU."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Oh nice. And what have you been studying the past few years?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I studied computer science and data science."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If you were chatting with a non-CS, non-data science friend of yours, how would you explain to them what an algorithm is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Some kind of systematic way of solving a problem, or like a set of steps to kind of solve a certain problem you have."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So, you probably recall learning topics like binary search versus linear search, and the like."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So, I've come here complete with a actual chalkboard with some magnetic numbers on it here. How would you tell a friend to sort these?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think one of the first things we learned was something called bubble sort. It was kind of like focusing on smaller bubbles I guess I would say of the problem, like looking at smaller segments rather than the whole thing at once."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What is I think very true about what you're hinting at is that bubble sort really focuses on local, small problems rather than taking a step back trying to fix the whole thing, let's just fix the obvious problems in front of us. So, for instance, when we're trying to get from smallest to largest, and the first two things we see are eight followed by one, this looks like a problem 'cause it's out of order. So, what would be the simplest fix, the least amount of work we can do to at least fix one problem?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Just switch those two numbers 'cause one is obviously smaller than eight."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Perfect. So, we just swap those two then."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You would switch those again."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, so that further improves the situation and you can kind of see it, that the one and the two are now in place. How about eight and six?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Switch it again."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Switch those again. Eight and three?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Switch it again."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And conversely now the one and the two are closer to, and coincidentally are exactly where we want them to be. So, are we done?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, so obviously not, but what could we do now to further improve the situation?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Go through it again but you don't need to check the last one anymore because we know that number is bubbled up to the top."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, because eight has indeed bubbled all the way to the top. So, one and two?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, keep it as is."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, two and six?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Keep it as is."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, six and three?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Then you switch it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, we'll switch or swap those. Six and four?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Swap it again."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, so four, six and seven?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Keep it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. Seven and five?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Swap it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. And then I think per your point, we're pretty darn close. Let's go through once more. One and two?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Keep it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Two three?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Keep it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Three four?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Keep it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Four six?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Keep it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Six five?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And then switch it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "All right, we'll switch this. And now to your point, we don't need to bother with the ones that already bubbled their way up. Now we are a hundred percent sure it's sorted."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And certainly the search engines of the world, Google and Bing and so forth, they probably don't keep webpages in sorted order 'cause that would be a crazy long list when you're just trying to search the data. But there's probably some algorithm underlying what they do and they probably similarly, just like we, do a bit of work upfront to get things organized even if it's not strictly sorted in the same way so that people like you and me and others can find that same information. So, how about social media? Can you envision where the algorithms are in that world?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe for example like TikTok, like the For You page, 'cause those are like recommendations, right? It's sort of like Netflix recommendations except more constant because it's just every video you scroll, it's like that's a new recommendation basically. And it's based on what you've liked previously, what you've saved previously, what you search up. So, I would assume there's some kind of algorithm there kind of figuring out like what to put on your For You page."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely. Just trying to keep you presumably more engaged. So, the better the algorithm is, the better your engagement is, maybe the more money the company then makes on the platform and so forth. So, it all sort of feeds together. But what you're describing really is more artificially intelligent, if I may, because presumably there's not someone at TikTok or any of these social media companies saying, If Patricia likes this post, then show her this post. If she likes this post, then show her this other post. Because the code would sort of grow infinitely long and there's just way too much content for a programmer to be having those kinds of conditionals, those decisions being made behind the scenes. So, it's probably a little more artificially intelligent. And in that sense you have topics like neural networks, and machine learning which really describe taking as input things like what you watch, what you click on, what your friends watch, what they click on, and sort of trying to infer from that instead, what should we show Patricia or her friends next?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, okay. Yeah. Yeah. That makes like the distinction more... Makes more sense now."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Nice. Yeah."
+                }
+            ],
+            "topic": "algorithms",
+            "level": "undergrad",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-algorithm?c=series"
+        }
+    }
+]

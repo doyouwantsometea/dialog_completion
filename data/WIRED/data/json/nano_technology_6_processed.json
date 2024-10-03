@@ -1,0 +1,47 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So you're a graduate student. And so tell me a bit about your work."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've been working on energy storage materials. And the most popular are batteries that we work on. A lot of the revolution that's come in electronics is kind of our model to try and use some nanoscale advances and put them into batteries."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What is it about nanomaterials, that scale and the properties of these materials that make them uniquely promising to incorporate into battery technology?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So for batteries, one of the main constraints when we're designing batteries is trying to maintain or reduce the volume and mass of the components. And nanomaterials are particularly well suited to adding functionality while having this negligible increase in volume. So we get a huge benefit from using nano materials without sacrificing the volume of the battery."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What is it exactly that you're trying to tease out of these materials to improve the battery's performance?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "At first, one of the main things that we did was use nanomaterials to add conductivity. And so carbon anodes and graphene are really good at adding conductivity to batteries. And then in the subsequent years, nanomaterials have been really interesting from things like incorporating sensors into batteries, to increasing the functionality of batteries, having some responsive materials that use things like graphene sheets that are incorporated into a matrix, and then you add a safety functionality to a battery. We're trying to squeeze out almost all the functionality that we can. And as new nano materials are being discovered and there're new properties being discovered, a lot of the time that someone tries to think of a way to translate that into a battery."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Because the materials are so small, they're at the nanoscale, their properties are dominated by quantum mechanics, which means that even slight changes in their size, in their orientation give profound changes in their properties. And while that's very scientifically interesting, and it allows you to tune their properties by making subtle changes, from a technology point of view, it's a bit of a headache in the sense that in technology want to optimize for a property and then repeat that over and over again. So what are some of the challenges that you face in the lab related to working with these materials and then trying to incorporate them into the batteries?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think every step of a process in a battery is something where you have to think about how would this translate to making a battery in terms of the production? One thing that I think is very interesting about the field of nanoscale materials in general, is that how you make the material changes the properties a lot. And so we claim that this 2D material has this property, then tying that to the battery performance is something that's pretty difficult to do. It takes a few steps in between. So we have to think kind of creatively with how we can do that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's actually, I think a very common problem. We can build a device in the lab it could be a transistor, can be a battery. And then you ask the question, okay, so what's the next step? How do we take it from that lab demonstration into a technology? The kind of work that I'm very interested in is developing tools to make the exact type of materials that you want. The tools that we've used in the past for conventional fabrication just don't work with these materials because they're all grown from the bottom up. They're intrinsically small, and you have to find ways to either use chemistry or some other means to get them to assemble into the structures that you want to actually either grow specifically what you want or after you grow them, to pull out the ones that you want. You need to be able to build that same thing over and over again, with the exact same properties. No one institution, no one research lab, no one national lab is gonna solve all of these problems on their own because they are difficult problems. And there is a real important payoff at the end. And it's gonna take all of us, making our contributions to push this field forward."
+                }
+            ],
+            "topic": "nano_technology",
+            "level": "grad",
+            "youtube_link": "https://youtu.be/WW0IIyrq8z4"
+        }
+    }
+]

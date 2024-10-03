@@ -1,0 +1,227 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "You're a string theorist, so tell us what kind of string theory you do, what it means to be a string theorist."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "One of the things that's key in the whole story of string theory is the piece of it that talks about quantum theories of gravity. So I'm very excited about what happens to spacetime, what does it even mean at the quantum level."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Cool, so do you think a lot about extra dimensions in your everyday life?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Uh, yes I do."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so when you think about extra dimensions, you put them together with brains and different fields wrapping around the extra dimensions and so forth, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know, a lot of people, a lot of string theorists, they care a lot about all the different ways in which we could hide the extra dimensions. As someone who cares about cosmology, I wanna start asking why are the extra dimensions small at all? How did that happen? Is this something you think about yourself?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, well ultimately we'd like to understand the observable universe. If string theory turns out to be the thing that the universe cares about, we'd like to know, with all of these possibilities that are in string theory, how do we get the one that looks like the world we live in?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The thing I want to talk about is this paper I wrote with Matt Johnson and Lisa Randall where we realize there's another way to compactify extra dimensions spontaneously, dynamically. If you imagine starting with this big piece of paper you couldn't wrap up everything, but within some region of space you could make a tube."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right? And down there in the tube it looks like your long thing that is compactified in one direction and infinitely extending in the other direction, so there's one less macroscopic dimension of space."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Hmm. Okay, that's nice."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Sean] You think that sounds plausible to you?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It sounds like fun. What I would immediately ask is where do the large dimensions come from in the first place? Is that something you address, or you just assume that all the dimension are large as a starting point?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. So we certainly assume that they're all large as a starting point, and it's worse than that. So in our paper we imagine you start in de Sitter space. You start in a universe with no matter, no anything like that, just empty space but with an energy that is positive and all the dimensions are large."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But where do they come from?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It was always there."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Why?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Why not?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay. [laughing]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well you know, I think that this is again, this is--"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You're replacing one prejudice with a different prejudice."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I would say that we shouldn't be prejudiced one way or the other."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Just a large, ten or 11 dimensions with a cosmological constant doesn't seem like a fundamental starting point. It sounds like there needs to be something to underlie that. But it's a fun scenario."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, so let me tell you a little bit more about the scenario. So you know there are black holes, good? Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've heard of them."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Sean] There are black branes as well."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Indeed."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Why don't you explain to us what a black brane is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well in some ways, it's very much like a black hole in that you have far away from it you have these large just flat dimensions. As you move in, there's something in the interior. It has, itself, higher dimensions, and so because physicists love to joke they thought, well it's like a membrane but it can have many different dimensions. Let's use P to stand in for those number of dimensions, and so they called them P-branes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, I've been trying to explain this to lower levels, and they always look at me like, are you pulling my leg here a little bit? Or is this the real thing that they use? Yes, it is the real thing they use. We study these branes in de Sitter space, and so what we found is that there are black brane solutions which instead of having a singularity inside are non-singular, and stable, and compactified. Is this a familiar thing? I know things like this have been discussed, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. Yeah. So, a lot of the branes that are relevant for studying things to do with anti-de Sitter spacetimes in various dimensions actually start out as these non-singular type brains, and then you find in the core, there's actually an anti-de Sitter spacetime."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right. Imagine that rather than going down to a point, it just asymptotes to some fixed radius that continues infinitely far down there. But then you can ask, okay what about the rest of the universe? You have some sphere, some two dimensions compactified, and the balance between the cosmological constant and the electromagnetic field keeps it at a fixed distance."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right. Good, good."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But then the other dimensions, the transverse dimensions, don't need to be anti-de Sitter. They can have either positive, zero, or negative cosmological constant. So you can basically get any sort of cosmological solution times a compactified sphere."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is it that these have the lowest action of all the things that could possibly, all the possible solutions?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I guess. I mean, maybe you'd think otherwise. Again or maybe you could change my mind, I think that as long as it can happen it will happen some of the time, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay, that's fair."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I mean it's one of the things that could happen, so I mean it obviously, You know, we know--"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's quantum, baby."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's quantum. [laughing] It's a loud, it's of a loud it's gonna happen."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I still laugh from Keanu Reeves I'm afraid. [laughing]"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Someone probably wrote it for him. So it's possible that if you do have this starting point of an empty de Sitter space with positive cosmological constants and fields lying around you inevitably get a multiverse. It just happens, you know, it's just part of quantum nucleation to different things, and then maybe you need to explain why we live in this universe rather than some other one via the anthropic principle or something like that. So how does our kind of, you know, low-tech old fashioned way of making new universes intersect with the kinds of things you'd think about."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, it's interesting because there's a lot of activity going on inspired by things we learned from working in anti-de Sitter space where the cosmological constant has the wrong sign. So you will find that there are a number of papers as many of which you've probably read, probably you've read more of them than I have, which try then to take the different kinds of brains, these extended solutions, and they're many different kinds doing different things, we understand well enough now that we can put them together in various ways. They intersect, they dissolve inside each other, they wrap each other."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "They overlap, they wrap around."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "They overlap, and you do them in all sorts of different ways and show that you can construct four dimensional universes with a cosmological constant of your desire, depending upon how you did the construction."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I know not everyone buys that, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Not everyone buys it. There's a big discussion in the literature right now."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And if we put aside for the second the concerns of our colleagues in other parts of physics, and it's just amongst us chickens, what do you think about the future of cosmology and string theory, and the dynamics of these extra dimensions?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think it's gonna get way more interesting than we're currently able to grapple with right now, and I think there are hints of it. There could be a description of the physics that might be our early universe that is like that molecular description. And then from that emerges flat spacetimes maybe four, maybe some mechanism tells you it's four and not something else. I think that's where we're going."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If the viewers wanted to know more about how spacetime can emerge from quantum mechanics, they could read the graphic novel you just wrote."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right, yes. I wrote and drew a graphic novel called The Dialogues: Conversations About the Nature of Universe."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And I just wrote a book called Something Deeply Hidden about many worlds, quantum mechanics, and how spacetime can emerge from it. Plenty of reading material for the audience out there."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Excellent."
+                }
+            ],
+            "topic": "dimensions",
+            "level": "colleague",
+            "youtube_link": "https://youtu.be/3KC32Vymo0Q"
+        }
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What kind of projects are you working on?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "This is the end of my first year. I'm a PhD student at NYU Tandon School of Engineering. I'm studying security systems and operating systems. So, security for operating systems. I've been mostly working on a project that limits executables' exposure to bugs in the kernel. It's run by professor Justin Cappos there. He found that the majority of bugs that occur in the Linux kernel happen when you're doing things that people don't do that often, the programs don't do that often. So designing a runtime environment that lets you limit what a certain program has access to, but also the things that it does have access to is also limited to those popular paths in the kernel. So it can't access areas that aren't under more scrutiny."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So essentially it's a really, definitely a stripped down operating system, or I guess it's a virtual machine."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Basically, we're creating a user space operating system."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Have you done any work in side channel analysis?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Like, a little bit. I read the Rowhammer paper. I found it really interesting, but it's nothing that I've actually worked with."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So the side channel analysis is really looking not at a vulnerability within a system, but really unintended consequences of what the system is built on. A very simple example of a side channel is putting your ear to the ground to hear if there are horses coming towards you, and the same thing applies to technology. So you can have something like a CPU, it's executing instructions, certain instructions that use a little bit more power, and power is reserved in these capacitors, which are like tiny batteries next to your CPU. And as they're pulling power, there's something in physics called the electrostrictive effect where the capacitor will move in a very, very tiny amount. And then although we can't hear it, the microphone on a mobile device can actually listen to that. If you then listen to that and you say, oh, I see a pattern here, and you can go all the way down and then extract and reveal the full password, the full key, even though it could be argued that the algorithm itself, there's no problem with it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So all memory devices are just, it's just a bunch of gates and they're in rows. They basically all hold different pieces of memory. That's all the gates are. Either they're turned on or they're turned off. So what Rowhammer found was they tested a bunch of different memory devices and found that by doing a certain order of storing things, and then pulling that information back in a certain way in one place would actually flip gates in a different place. So you could actually do a bunch of things to a piece of memory that had nothing to do with something that may be critical in a different place and actually change its contents, and that obviously exposes all sorts of security issues, because that's very hard to predict."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, I suppose the physical adjacency of the underlying transistors and capacitors that are holding that storage. That's crazy. I think the first time I heard of an interesting attack like that was learning about the cold boot attack. Being able to, you know, someone enters their password on their computer and that decrypts their hard drive and then they walk away. Being able to extract that password is really difficult. If I can pull that memory chip out and extract that memory, put it in my own device, except the problem is memory is volatile, so it'll erase as soon as I pull it out. You can take something like canned air, turn it upside down, cool that computer, make it real nice and cool. Then you have a minute or two to pull out the memory, put into your own device, extract the memory, and then you're good. It's such a simple method to really extract something kind of critical. Like Rowhammer, it's such a low level of vulnerability and you could argue that it's not necessarily a vulnerability in the architecture itself, but rather exploitation of physics at that point."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've spent a decent amount of time with this stuff, and in my mind, a lot of that is a nightmare. Over the last year while I was doing some other stuff, I actually designed some microcontroller boards for a company that was doing stuff with, like, a smart watering project. The problems with updating is just, like, that scares me the most. Like, people don't update their own stuff, let alone these, like, devices."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I keep forgetting to update my fridge."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I find myself trying to shy away from owning like smart things."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's pretty challenging if you want to use wireless, right? If you wanna use a wireless router."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I mean, there's obviously essentials, but yeah, no matter what, you can't really avoid any of this."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The risk right now, just during this quarantine, is actually massive now that we think about it, because you might have these legacy systems. You know, they were built 20, 30 years ago, and it's too costly to upgrade, but now you can't actually have a lot of people in a single location, so potentially, they actually do have to now add some sort of remote capabilities to these systems that were never meant to be on the internet. Have you ever had any ethical concerns with the stuff you're interested in or the work you do?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh yeah, for sure. When people find vulnerabilities, I think it's their duty to release those to the public."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Especially now that we're seeing more and more companies who are trying to make it illegal for you to inspect the vehicle that you've purchased, right? Something that you actually own."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I think that's nuts. I'm firmly against that for sure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What if it were illegal? Would you then do it? Fortunately it's not today, right? It hasn't been, you know, despite their attempts, none of that has been passed, but if you had a vehicle and you wanted to inspect it, but all of a sudden, it passed, I mean."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I don't know, probably, yeah. [laughing] I don't think that's hurting anyone,"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But the laws don't always equate to hurting anyone. I ethically think similar to you in that, you know, what is moral to me is as long as I'm not intentionally hurting others, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think we see every day that ethics and the laws aren't necessarily the same thing all the time."
+                }
+            ],
+            "topic": "hacking",
+            "level": "grad",
+            "youtube_link": "https://youtu.be/d9PqVcgT1kQ"
+        }
+    }
+]

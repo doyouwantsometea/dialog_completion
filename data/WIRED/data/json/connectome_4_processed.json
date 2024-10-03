@@ -1,0 +1,43 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainee",
+                    "text": "Connectone?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Connectome."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "To be honest, I have no idea."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's good, that's a great place to start. There are cells in your brain. Those brain cells are connected by wires to each other. Electricity travels down those wires and communicates from one part of the brain to the other part of the brain, and each of those brain cells makes, you know, a thousand connections, it's something like a hundred trillion connections."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Whoa."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In one brain, in your brain. Could I take all of that information and put it inside a computer? Would that computer then be you?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Computers they don't have feelings, they won't have feelings and I think that's one thing that makes the human race strong."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I would say that that map also has your feelings in it because, here's why, your feelings, most neuroscientists think, come from your brain anyway, and amazingly, whether when you feel happy or sad or angry or scared, that's just brain cells communicating with each other."
+                }
+            ],
+            "topic": "connectome",
+            "level": "teenager",
+            "youtube_link": "https://youtu.be/opqIa5Jiwuw"
+        }
+    }
+]

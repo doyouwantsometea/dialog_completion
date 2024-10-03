@@ -1,0 +1,107 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "[Donna] So I understand you're in grad school. Where?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "At NYU."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And what are you studying?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm studying soft matter physics, which involves the physics of squishy stuff. We make microswimmers in the laboratory and we drive them with a laser."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And what kind of laser do you use?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We use a 10 watt laser, it's a fiber laser."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you know a lot about lasers? Or just about the laser that you use."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Not a lot, just a little bit."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. So this is about high intensity lasers. Not only how do you make them, but what was really stopping them being made in both cases is non linear optics. We wanna do something that requires a huge photon density application, and so that's how come we came up with chirped pulse amplification, so that we could stretch the pulse, safely amplify it, then compress it at the end, and then we're ready to do whatever we want at the end. So what do you think the main difference is between the continuous wave laser that you have that runs at 10 watts and a chirped pulse amplifier?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I feel like the continuous laser delivers power at a continuous rate, whereas you want all that power to be delivered in a really, really short time with your amplification."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so we get the power with a lot less energy 'cause its power is energy per unit time. So we aren't depositing much energy in comparison. Can I just ask, 'cause you are using the thermal process of it heating up, but have you ever had the opportunity to use laser tweezers?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have, yeah. We use optical tweezers to trap particles in solution."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And twirl the motors or not twirl the motors?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, I haven't worked with that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You haven't? Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So I was always curious, how much further, like what higher power can we go now?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So chirped pulse amplification took us sort of from, we were at 10 to the 12, but when I was working the 10 to the 12 sort of sat on a football sized field. It was a kilojoule laser with a nanosecond pulse. And we brought it down to something we call tabletop terawatt. So it was the same terawatt but now it was one joule and one picosecond, so it could fit on a basic optical bench like you would have in your lab. We were able to take that up to, I think the record is right around somewhere between 10 to the 22 and 10 to the 23 watts per square centimeter. So then in going forward, one of the holy grails is can we reach 10 to the 29 watts per square centimeter? So we still have six orders. So we've gone from 10 to the 12 to 10 to the 23. So we've done 11 orders, so you think six isn't so much harder. I have to tell you, over time, it's rolling over. We need another Nobel Prize winning idea. But if we get out there, that's where, if you focus the intensity, the energy in that volume is enough to break the vacuum."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We could probably use this to drive chemical reactions at a very, very specific spot. Like if we want to target just a single cell in the body."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. And maybe what, do pump-probe spectroscopy and watch the cell? Or to ionize it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I mean I was thinking more on the lines of if we want to, let's say destroy one cell, like a tumor cell or something like that. So that the neighboring areas are not affected but just the cell burns."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I don't know if people are working on that because I'm not so much in the medical field, but I should look into that and see if that's a possibility. So after hearing about high intensity lasers, can you think about next time you go back to the lab and you're wondering how to do something in the lab with lasers, can you see how short pulses might help you?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think short pulses might help in my experiment in the sense that if I drive my swimmers with a continuous wave as opposed to a pulsed wave, maybe a continuous wave would heat up the sample too much and a pulse laser would deliver power exactly where I need it so that I could run my experiment longer."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's true. Thank you very much."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Thank you, Donna. It was really nice to meet you."
+                }
+            ],
+            "topic": "lasers",
+            "level": "grad",
+            "youtube_link": "https://youtu.be/3eTogq7rknQ"
+        }
+    }
+]

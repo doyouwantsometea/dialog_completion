@@ -1,0 +1,95 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Do you know what computer hacking is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's bad. Like, I'm going into someone's personal account or account, changing some stuff or just stealing some information or your money."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, it's crazy. They're really a lot of bad or malicious hackers out there who are doing just that. They're going into people's accounts and they're stealing money, but there's also another side of computer hacking where there are people who are trying to learn how those bad hackers are actually breaking in to the bank accounts."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Do they, like, return the money? Like, give them their money or something like that?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What they're trying to do is they're trying to even prevent the bad hackers from getting in in the first place."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So they put like a protection account or something."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, exactly. They're looking for ways that they can create protection. It's kind of like the lock on your front door. That lock is to essentially prevent bad people from coming in or people accidentally coming in when they shouldn't. A hacker is essentially looking at a way, how can I get into this lock? But then there are the good ones who are trying to unlock it so that they can tell the company that made the lock, hey, we can actually protect people by making the lock a little harder."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What would they do about the people and the broken lock?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In many cases, they'll send them a new lock. So it's an upgraded, better version. Sometimes that's new features, but sometimes that's bug fixes and ways to protect you as well."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But like, they may get arrested because they might get mistaken."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a very good point. You should definitely make sure that you're obeying the law. They might work with the lock company and say, I'm trying to improve your product. And they're trying to find these holes or problems, and then share that with the company. Even though the good hacker is doing exactly the same thing as the bad hacker, it's the same exact skillset, and you're using the same exact techniques and information to try to break that lock, but your goal as a good hacker is really to help everyone like you and me to make sure that our stuff is protected. So hopefully they don't get in trouble because they're the good guys."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "When did you start doing, like, the good hacking?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I started doing the good hacking when I turned nine years old."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I started going on the computer and playing video games, but I had some ideas of my own, and that's where I started to learn how to hack. I wanted to play with my friends on this video game and just change the way that things look."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But that would be kinda bad, because maybe the creator did it for a reason."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's entirely possible. They may have done it for a reason, but you may have come up with a really good idea that, do you think there are other people who might like the idea that you came up with?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "When you have creative ideas like that, hacking can actually allow you to change the way a system works, and that means you can change a game and how the game is played, and then you can share that with your friends and other people who like that game. Once I started learning how to do it, I found that, things that were harder for me, I could make easier."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Did your parents approve of it?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I don't think my parents knew, but when my parents found out that I was doing it for good, I think they were happy."
+                }
+            ],
+            "topic": "hacking",
+            "level": "child",
+            "youtube_link": "https://youtu.be/d9PqVcgT1kQ"
+        }
+    }
+]

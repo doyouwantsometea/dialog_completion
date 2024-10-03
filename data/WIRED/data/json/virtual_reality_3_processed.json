@@ -1,0 +1,39 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So do you know what virtual reality is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, its simple. Its like a video game except it feels like you're in the video game."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's actually a really good description. The idea is that if you've got a system here that can make you see whatever we want you to see, then we can make you believe that you're anywhere else, like on top of a mountain, or in a dungeon or under the ocean."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Or in Minecraft."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, or in Minecraft. When you look at a TV on the wall there showing like a picture of a mountain or something, how can you tell that its not just a window and there's something else behind it. Because it always doesn't look quite right if you have a static picture of a person on a screen and you move around like this, its not really changing. And its interesting, those are things we have to figure out We need to figure out when you look at something in reality how can you tell whether its real or not. Have you been to a 3-D movie where you put on the little glasses?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So what they do, the trick for that is, if you ever at a theater and you take up the glasses and you look at it, you'll see its blurry where there's actually two pictures that they're showing at the same time. And what those little glasses do, is they let one eye see one picture, and the other eye see a different picture. So then your eyes can say, oh it looks like I'm seeing through the screen or something is floating out in front of it. In the VR headsets, what we do is, there's actually either two screens or one screen split in half, so that it draws a different picture, completely different picture, for each eye. And we make sure that each eye can only see the picture it intended to. And that's what can make things feel like they got this real depth to them, that its something that you could reach out and touch and it doesn't feel like a flat TV screen."
+                }
+            ],
+            "topic": "virtual_reality",
+            "level": "child",
+            "youtube_link": "https://youtu.be/akveRNY6Ulw"
+        }
+    }
+]

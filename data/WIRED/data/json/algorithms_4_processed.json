@@ -1,0 +1,151 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What do you know about algorithms?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Nothing really, at all honestly. I think it's just probably a way to store information in computers."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And I dare say, even though you might not have put this word on it, odds are you executed as a human, multiple algorithms today even before you came here today. Like what were a few things that you did?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I got ready."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. And get ready. What does that mean?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Brushing my teeth, brushing my hair."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Getting dressed."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, so all of those, frankly, if we really dove more deeply, could be broken down into step-by-step instructions. And presumably your mom, your dad, someone in the past sort of programmed you as a human to know what to do. And then after that, as a smart human, you can sort of take it from there and you don't need their help anymore. But that's kind of what we're doing when we program computers. Something maybe even more familiar nowadays, like odds are you have a cell phone. Your contacts or your address book. But let me ask you why that is. Like why does Apple or Google or anyone else bother alphabetizing your contacts?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I just assumed it would be easier to navigate."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What if your friend happened to be at the very bottom of this randomly organized list? Why is that a problem? Like he or she's still there."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I guess it would take a while to get to while you're scrolling."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That, in of itself, is kind of a problem or it's an inefficient solution to the problem. So, it turns out that back in my day, before there were cell phones, everyone's numbers from my schools were literally printed in a book, and everyone in my town and my city, my state was printed in an actual phone book. Even if you've never seen this technology before, how would you propose verbally to find John in this phone book?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Or I would just flip through and just look for the J's I guess."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. So, let me propose that we start that way. I could just start at the beginning and step by step I could just look at each page, looking for John, looking for John. Now even if you've never seen this here technology before, it turns out this is exactly what your phone could be doing in software, like someone from Google or Apple or the like, they could write software that uses a technique in programming known as a loop, and a loop, as the word implies, is just sort of do something again and again. What if instead of starting from the beginning and going one page at a time, what if I, or what if your phone goes like two pages or two names at a time? Would this be correct do you think?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well you could skip over John, I think."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In what sense?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If he's in one of the middle pages that you skipped over."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, so sort of accidentally and frankly with like 50/50 probability, John could get sandwiched in between two pages. But does that mean I have to throw that algorithm out altogether?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe you could use that strategy until you get close to the section and then switch to going one by one."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, that's nice. So, you could kind of like go twice as fast but then kind of pump the brakes as you near your exit on the highway, or in this case near the J section of the book."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And maybe alternatively, if I get to like A, B, C, D, E, F, G, H, I, J, K, if I get to the K section, then I could just double back like one page just to make sure John didn't get sandwiched between those pages. So, the nice thing about that second algorithm is that I'm flying through the phone book like two pages at a time. So, 2, 4, 6, 8, 10, 12. It's not perfect, it's not necessarily correct but it is if I just take one extra step. So, I think it's fixable, but what your phone is probably doing and frankly what I and like my parents and grandparents used to do back in the day was we'd probably go roughly to the middle of the phone book here, and just intuitively, if this is an alphabetized phone book in English, what section am I probably going to find myself in roughly?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "K?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. So, I'm in the K section. Is John going to be to the left or to the right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "To the left."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. So, John is going to be to the left or the right and what we can do here, though your phone does something smarter, is tear the problem in half, throw half of the problem away, being left with just 500 pages now. But what might I next do? I could sort of naively just start at the beginning again, but we've learned to do better. I can go roughly to the middle here."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And you can do it again."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, exactly. So, now maybe I'm in the E section, which is a little to the left. So, John is clearly going to be to the right, so I can again tear the problem poorly in half, throw this half of the problem away, and I claim now that if we started with a thousand pages, now we've gone to 500, 250, now we're really moving quickly."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so, eventually I'm hopefully dramatically left with just one single page at which point John is either on that page or not on that page, and I can call him. Roughly how many steps might this third algorithm take if I started with a thousand pages then went to 500, 250, 125, how many times can you divide 1,000 in half? Maybe?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "10."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's roughly roughly 10. Because in the first algorithm, looking again for someone like Zoe in the worst case might have to go all the way through a thousand pages. But the second algorithm you said was 500, maybe 501, essentially the same thing. So, twice as fast. But this third and final algorithm is sort of fundamentally faster because you're sort of dividing and conquering it in half, in half, in half, not just taking one or two bites out of it out of a time. So, this of course is not how we used to use phone books back in the day since otherwise they'd be single use only. But it is how your phone is actually searching for Zoe, for John, for anyone else, but it's doing it in software."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, that's cool."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So, here we've happened to focus on searching algorithms, looking for John in the phone book. But the technique we just used can indeed be called divide and conquer, where you take a big problem and you divide and conquer it, that is you try to chop it up into smaller, smaller, smaller pieces. A more sophisticated type of algorithm, at least depending on how you implement it, something known as a recursive algorithm. Recursive algorithm is essentially an algorithm that uses itself to solve the exact same problem again and again, but chops it smaller, and smaller, and smaller ultimately."
+                }
+            ],
+            "topic": "algorithms",
+            "level": "teenager",
+            "youtube_link": "https://www.wired.com/video/watch/5-levels-wi-5-levels-algorithm?c=series"
+        }
+    }
+]
