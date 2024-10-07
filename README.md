@@ -2,7 +2,13 @@
 
 Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory Utterances through Dialogue Completion*, to be submitted and defensed in winter semester 2024/25 at Universität Potsdam for the degree program in Cognitive Systems.
 
-The processed files are stored under `data/`. Owing to the scattered source, data processing lacks a unified pipeline; separate files can nevertheless be accessed under `preprocess/`.
+## Setup
+
+**Environment.** Install the libraries from `requirements.txt`.</br></br>
+
+**Data.** The processed files are stored under `data/`. Owing to the scattered source, data processing lacks a unified pipeline; separate files can nevertheless be accessed under `preprocess/`.</br></br>
+
+**LLM API.** Adapt `key.json.template` into a `key.json` file, which contains credentials for loading LLMs via APIs. </br>
 
 ## LLM inference for dialogue completion
 
