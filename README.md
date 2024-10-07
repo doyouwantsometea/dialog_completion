@@ -4,9 +4,9 @@ Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory 
 
 ## Setup
 
-**Environment.** Install the libraries from `requirements.txt`.</br></br>
+**Environment.** Install the libraries from `requirements.txt`.</br>
 
-**Data.** The processed files are stored under `data/`. Owing to the scattered source, data processing lacks a unified pipeline; separate files can nevertheless be accessed under `preprocess/`.</br></br>
+**Data.** The processed files are stored under `data/`. Owing to the scattered source, data processing lacks a unified pipeline; separate files can nevertheless be accessed under `preprocess/`.</br>
 
 **LLM API.** Adapt `key.json.template` into a `key.json` file, which contains credentials for loading LLMs via APIs. </br>
 
@@ -18,9 +18,15 @@ This step performs the dialogue completion task. Follow the example terminal com
 python3 main.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -l 80 -w 3 --topic --speakers
 ```
 
+Alternatively, adapt and execute the shell script:
+
+```
+bash run.sh
+```
+
 **Arguments:**
 
-`-d`: (required) dataset; currently available options: WIRED, WikiDialog, ELI5</br>
+`-d`: (required) dataset; currently available options: WIRED, WikiDialog, ELI5 (__*Note:*__ WIRED *includes data points from* ReWIRED *expansion*)</br>
 `-m`: (required) model; currently available options:
 </br>*Open LLMs:* Mistral-7B-Instruct-v0.3, Meta-Llama-3-8B-Instruct, Meta-Llama-3.1-8B-Instruct
 </br>*Claude:* claude-3-haiku-20240307, claude-3-sonnet-20240229, claude-3-opus-20240229, claude-3-5-sonnet-20240620</br>
