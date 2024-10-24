@@ -1,6 +1,6 @@
 # Evaluating LLM-generated Explanatory Utterances through Dialogue Completion
 
-Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory Utterances through Dialogue Completion*, to be submitted and defensed in winter semester 2024/25 at Universität Potsdam for the degree program in Cognitive Systems.
+Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory Dialogue Turns through Dialogue Completion*, to be submitted and defensed in winter semester 2024/25 at Universität Potsdam for the degree program in Cognitive Systems.
 
 ## Setup
 
