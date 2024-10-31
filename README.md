@@ -1,12 +1,14 @@
 # Evaluating LLM-generated Explanatory Utterances through Dialogue Completion
 
-Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory Dialogue Turns through Dialogue Completion*, to be submitted and defensed in winter semester 2024/25 at Universität Potsdam for the degree program in Cognitive Systems.
+Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory Dialogue Turns through Dialogue Completion*, submitted and defensed in winter semester 2024/25 at Universität Potsdam for the degree program in Cognitive Systems.
+
+The experiments mainly involve instructing LLMs to complete explanatory dialogues, as well as evaluating and tuning model output. Descriptions of each step are provided in detail as below.
 
 ## Setup
 
 **Environment.** Install the libraries from `requirements.txt`.</br>
 
-**Data.** The processed files are stored under `data/`. Owing to the scattered source, data processing lacks a unified pipeline; separate files can nevertheless be accessed under `preprocess/`.</br>
+**Data.** The processed files are stored under `data/`. Three datasets are covered in this work: WIRED/ReWIRED ([Wachsmuth and Alshomary, 2022](https://aclanthology.org/2022.coling-1.27/); [Feldhus et al., 2024](https://dl.acm.org/doi/10.1145/3677525.3678665)), WikiDialog ([Dai et al., 2022](https://proceedings.mlr.press/v162/dai22a.html)), and ELI5-dialogues ([Alshomary et al., 2024](https://aclanthology.org/2024.lrec-main.1007/)), all sampled to a split of similar size. Owing to the scattered source, data processing lacks a unified pipeline; separate files can nevertheless be accessed under `preprocess/`.</br>
 
 **LLM API.** Adapt `key.json.template` into a `key.json` file, which contains credentials for loading LLMs via APIs. </br>
 
@@ -59,7 +61,7 @@ python3 evaluation.py -d WIRED --fed --ixquisite
 
 The output are stored under `data/evaluated_results/{dataset}`.
 
-## Instruct-tuning
+## Instruction-tuning
 
 This step iterates through all the files under `data/evaluated_results/{dataset}`. Before running the script, remove (if any) unnecessary files from the directory, particularly considering that evaluation and instruct-tuning can be executed recursively.
 
