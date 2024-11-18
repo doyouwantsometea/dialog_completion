@@ -12,6 +12,8 @@ The experiments mainly involve instructing LLMs to complete explanatory dialogue
 
 **LLM API.** Adapt `key.json.template` into a `key.json` file, which contains credentials for loading LLMs via APIs. </br>
 
+**FED test suite.** In order to use the FED metrics [Mehri and Ezkenazi, 2020](https://aclanthology.org/2020.sigdial-1.28/), add `fed.py` from [the original repo](https://github.com/Shikib/fed/tree/master) under the root directory. </br>
+
 ## LLM inference for dialogue completion
 
 This step performs the dialogue completion task. Follow the example terminal command line and adjust the experimental variables as described below:
