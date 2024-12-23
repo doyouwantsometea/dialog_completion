@@ -39,8 +39,7 @@ class DataLoader(object):
         if self.df.loc[0, 'topic'] == 'N/A':
             return ''
         else:
-            print('=====', self.df.loc[0, 'topic'])
-            topic = self.df.loc[0, 'topic'].replace('_', ' ')
+            topic = str(self.df.loc[0, 'topic']).replace('_', ' ')
             return f'about {topic} '
 
     def get_dialog_lvl(self) -> tuple:
