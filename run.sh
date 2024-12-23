@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 export PYTHONPATH="${PYTHONPATH}:${PWD}/src"
 
-model='claude-3-haiku-20240307'
+model='Mistral-7B-Instruct-v0.3'
 
 dataset='WIRED'
 # dataset='WikiDialog'
 # dataset='ELI5'
 
 python3 main.py -d "$dataset" -m "$model" -l 30 --local
-# python3 main.py -d "$dataset" -m "$model" -l 30 --local --open_end
-# python3 main.py -d "$dataset" -m "$model" -l 30 --local --topic --speakers
-# python3 main.py -d "$dataset" -m "$model" -l 30 --local --topic --speakers --open_end
+python3 main.py -d "$dataset" -m "$model" -l 30 --local --open_end
+python3 main.py -d "$dataset" -m "$model" -l 30 --local --topic --speakers
+python3 main.py -d "$dataset" -m "$model" -l 30 --local --topic --speakers --open_end
