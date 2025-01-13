@@ -1,8 +1,10 @@
 # Evaluating LLM-generated Explanatory Utterances through Dialogue Completion
 
-Python implementation for Master's Thesis *Evaluating LLM-generated Explanatory Dialogue Turns through Dialogue Completion*, submitted and defensed in winter semester 2024/25 at Universität Potsdam for the degree program in Cognitive Systems.
+Python implementation for paper submission *Evaluating LLM-generated Explanatory Dialogue Turns through Dialogue Completion*.
 
-The experiments mainly involve instructing LLMs to complete explanatory dialogues, as well as evaluating and tuning model output. Descriptions of each step are provided in detail as below.
+The experiments involve instructing LLMs to complete explanatory dialogues, as well as evaluating and tuning model output. Descriptions of each step are provided in detail as below.
+
+Result files of our experiments are available under `data/final_results`.
 
 ## Setup
 
