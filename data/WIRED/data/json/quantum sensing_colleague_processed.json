@@ -1,0 +1,143 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So our topic today is quantum sensing, which you are an expert on. Can you recap for us in your perspective, what is quantum sensing?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[laughs] That's a million dollar or maybe a billion dollar question."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Question, exactly yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think a lot of people in the field have different definitions for it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely, what would you want to be like the smoking gun of a quantum sensor?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Depends on who I'm talking to,"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You know, trying to talk to students and get them excited or, you know, try to talk about the elements of quantum mechanics, I think maybe we could agree that, you know, things that use superposition have a certain degree of quantum mechanics, quantumness involved."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe they should be using elements of quantum computation. So I don't have a strong view on it, but I do think it's an interesting question."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I would tend to agree that I think, in some sense, anything that uses superposition could be a quantum sensor, but then spectroscopy uses superpositions and has been around for 60, 70 years. I think what excites me most now is the idea that can we push the boundaries of how sensitive one can make this technique? How improving sensitivity, specificity, what other limits and we define it better, are there fundamental physical limits?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's where the excitement lies, is when we really start to leverage having, you know, access to individual quantum degrees of freedom, whether that's a single photon or a single spin and in principle then, you could also imagine entangling it and you know, doing some quantum computations on it in order to make it an even better sensor."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So do you think there's a maximum number of spins you can have if I think about a single NV as a register?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right, I mean, people have thought about this, it's an interesting question. You can think about, you have the electron and it's surrounded by some nuclei and you could change the density of those nuclei and so, if it's a lot more dense, then you have a lot more that are strongly coupled."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But you also have a lot more noise."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But I don't know that there's necessarily a limit. I mean, it keeps expanding. I mean, I think that there are some groups that are able to identify, you know, 30, 40 individual nuclear spins around a single electron and control 10 or 15 of them."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So do you think you can integrate multiple NV centers or multiple optical sensors? So are there ways in which you can overcome this question of there's a spot size and that limits how many NVs I can pack into a certain region?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's another great question. A couple of groups actually that are working on trying to read out the spin state of NV centers electrically, instead of optically. If you could do that, then you could pack a whole lot more into a smaller space using tiny electrodes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And you could possibly have them spaced at nanometer scales instead of at micron skills and I think the application there is clearly sensing."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you think they'd retain their coherence times if you pack them in?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, what's limiting the coherence is really local."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Local, right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right, you know, nanometer scale. But it happens to be that most of the time when we try to read them out with light, well then, the trouble is that the defraction limit of light is, you know, hundreds of nanometers and so, then we need them to be apart. But you know, if you have two NV centers that are more than a couple tens of nanometers away from each other, they just don't talk to each other."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Too much isolated, yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. So from that point of view, the technology could be really dense, right? Which is why, you know, some companies or groups are trying to make quantum computers based on spins and semiconductors 'cause they could be really densely integrated using modern technology. But the question for a sensor is, as you say, how do you address it? How do you initialize it? How do you read it out? And is optics the best way to go? And it may not be. If we think about quantum sensing in particular, it really involves understanding materials, solid state materials, chemicals, you know, chemistry, biology, engineering, electrical engineering, optics, photonics, I mean so many different areas. And I think that that's one of the most exciting things about that is the degree to which it's engaging a much larger cross section of scientists. They're the ones that I think are gonna come up with the breakthroughs of saying, oh wait, I could design this molecule to do this thing."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And that I think is gonna make real breakthroughs in the next 10 years, is the fact that we're just having this much larger group of scientists."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right. People bring in very different perspectives into what used to be a very niche field. I remember in physics, you'd only talk to people in your subfield and now we're picking up the phone and talking to people in the different departments, completely different areas and we're forced to learn different languages."
+                }
+            ],
+            "topic": "quantum sensing",
+            "level": "colleague",
+            "youtube_link": null
+        }
+    }
+]

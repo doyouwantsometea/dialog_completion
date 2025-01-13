@@ -1,0 +1,123 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So hey, Jen, it's great to see you again."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Good to see you, Jim."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We're in level five now. So you're the expert-expert. I'm a huge fan of the work that you did in RCP, the Routing Control Platform being a precursor to software-defined networking and the notion that rather than having protocols actually always compute things, that we could compute things in data centers. I'd be interested if you could sort of just reflect back on that time and sort of the beginnings of SDN and where it's come since then."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, and when we were at AT&T, the thing we found most frustrating is AT&T would buy routers, and they would come pre-baked with a set of protocols instead of knobs that you could turn if you wanted to influence how the traffic flowed, and a set of dials you could read to understand what was going on inside the network."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right, you couldn't directly do what you wanted to."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly. And so we started thinking about earlier work that was done in the telephony network, the old telephone network. And there, they had the same problem. And they had the idea of having a computer running a program tell a distributed set of telephony switches what to do. But the idea was like, wow, it was kind of a revelation, like what would that look like if we did that? Not for the whole internet, but at least AT&T's part of the internet. So in other words, use software instead of distributed protocols to to tell the network what to do."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, do you see the softwarization of the internet as a whole happening?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, so far, it hasn't very much. I mean, basically, software-defined networking exists, let's say within a single provider backbone, or a single cloud provider's network or a single campus. There's been some work on doing it at the juncture points between a pair of networks. But one other trend that's happening that makes it more possible is it used to be that to get from one end to the internet to the other, you have access networks getting much closer to, say Google or Microsoft or other large cloud providers, where even, you might only go through two networks"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right, so some people have called that the flattening of the internet, right? I think it used to be on average, you would go through 10 different networks to get from a source to a destination."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right, exactly. And if you take that even further, they're starting to be more edge computing where you might imagine you might have a cell tower connected to a small number of routers, connected directly to a server that's gonna be running the application. In that case, the entire infrastructure might be controlled by a single party."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's totally fascinating to me that we have such an important global infrastructure, and yet, the laws that that govern it tend to be very, very local."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "There are tens of thousands of separately administered networks, and of course, in hundreds of countries. And the fact that it even holds together at all is kind of a miracle."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right, well it holds together because we have standards, and we have protocols that you mentioned."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly, protocol standards for how the equipment talks to one another. And increasingly, certificate authorities that help bootstrap the secure, encrypted and communication between end hosts. So there are a few of these sort of centrally, kind of agreed upon kinds of infrastructure, but for the most part, each network runs itself."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And certainly, we've heard about some countries that impose firewalls that don't let certain kinds of traffic out, or certain kinds of traffic in. So there's no global body that is regulating that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Not really because each country really can have it's own laws and its own norms. And so they can decide, like the Great Firewall of China can decide, they don't wanna let certain content be accessed by the citizens inside that country. So if a country decides they don't wanna answer a request for a particular domain name, they say, Hey, I don't want to let someone know the IP address of this website. They can decide not to let those answers be delivered inside their country. And so encryption plays a role in helping people keep their privacy or prevent surveillance, but it's not perfect. It's often possible, still, to know a fair amount about what people are doing, even if you can't look inside the envelope at the letter that's written."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I mean, even you could just tell that two people are communicating even though the traffic itself is encrypted. So you don't know what they're saying, just even knowing two devices are communicating."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly, and in fact, if you look at say, the sizes of the transfers that they're doing, you may know, hey, I'm talking to Netflix. And by the way, this is the length of the movie I watched. This is the size- "
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you can infer or guess a lot of things."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You're one of the most awesome networking researchers that I know. I'm curious, just to pick your brain, what do you think are some of the hot topics in networking research? Where do you think the field is heading?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I'm excited about the convergence of wireless communications, cellular networks, Wi-Fi with networking and cloud computing. And in particular, we're seeing in edge computing, a convergence of all three. Where you might have a mobile phone or a drone or some other kind of device connecting over the wireless medium directly to a network that connects you directly to the server that might run your application."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you want the computation close to where the endpoint is."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly, and I think that what's now exciting about that is all three of these technologies, wireless, networking and cloud, which are normally three different communities, three different sets of technologies, three different sets of standards or practices, now have to work together in close harmony to be able to service applications that are really critical and that that might be interacting with the physical world in ways where safety is a potential concern."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know, we've had cellular networks now for 20, 30 years. So when we hear about 5G, what's trumpeted the most is the fact that oh, super high bandwidth, right? But I sense that the exciting things are more than just the network being faster."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I agree. It's both the high bandwidth, it's the low delay so that you can have these applications that interact with the physical world and need answers in real-time. It's about having the compute really close so that you can integrate computation and communication. It's about having more coverage."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Coming back again to the softwarization. SDN and softwarization is a maybe a little bit behind the covers, that you wouldn't normally see it as a user going from 3G to 4G to 5G. You just see an increase in speed. But yet, the way the network is now being managed again, I think is bringing the cellular networking world sort of into the internet world in terms of the softwarization-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Completely agree. I think the bringing in of compute and storage is important too. I think when you think just about networking, it really is often just one part of the IT, the information technology ecosystem. Is there's often compute and storage as well. And so, I think now there's an opportunity to have all of those parts of the infrastructure work together towards an even higher level goal. And so I think it's a really exciting time to be in the field 'cause now, the plumbing is getting close to the application in a way that it wasn't before."
+                }
+            ],
+            "topic": "internet",
+            "level": "colleague",
+            "youtube_link": null
+        }
+    }
+]

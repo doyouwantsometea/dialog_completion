@@ -1,0 +1,71 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What are you studying in seventh grade these days?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think we're doing geometry still."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What if I told you that there are shapes where you can't measure the length of the perimeter."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's big, but all of the sides are kind of like, so weird that they wouldn't be able to pinpoint anything specific to add together."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The shape is just super, super complicated."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so you can't actually measure the length."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right? Yeah. So that's already a really good idea of what a fractal is. It has some really, really interesting detail at all, scales that makes it hard to talk about standard quantities like lengths and areas and volumes."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Would a planet or an asteroid be a fractal?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, so if you look at kind of the wrinkly surface of an asteroid, each one of those little wrinkles adds a little bit to the surface area. And so it's really hard to say, what is the area of an asteroid? Let's take a look at a little example of where fractals actually show up in nature. What we're gonna try to do is we're gonna try to say what the length of the coastline of great Britain is. So we're gonna start out with the blue ones, which are spaced further apart. We're gonna ask you to connect the blue pins with a piece of string so we can get a measurement of the coastline. So we have our first measurement of the length of the coastline, and we're gonna do it over again. But this time we're gonna use the white pins, which are spaced closer together. So we measured the coastline again. And what do you think happens?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "There's more in and out. Therefore probably takes more string for this one."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think I agree with you, but I think to really validate our scientific experiment, we should probably compare the length of the string. A lot of extra slack in that pig of string. So what we noticed with great Britain is we were never able to measure it's length. It just kept getting longer and longer. This is called the coastline paradox where there's not really one definite number you can assign to the length of the coastline, but it depends on how you measure it. Like if we kept going to really get this to be accurate, we might have to like actually go down the beach and start measuring these tiny little details along the coastline. But really there's so much detail. We would probably never get a definite answer for how long the coastline is. Fractals also give us a really nice language. We're talking about how smooth or rough some kind of shape is. And actually a lot of people, engineers and scientists use this idea of fractals and this language of fractals to compare different shapes, not in terms of their size, but in terms of their roughness. So based on everything we talked about today, how would you describe a fractal to somebody in your own words?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's a shape, that you can't describe as a shape."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, totally.  Like it's a shape that you can't use sort of the ordinary language that we use to talk about shapes you really need some other ideas or concepts to talk about."
+                }
+            ],
+            "topic": "fractals",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

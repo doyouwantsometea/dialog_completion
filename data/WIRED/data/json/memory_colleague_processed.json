@@ -1,0 +1,87 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Thanks so much for coming, it's great to see you. It's been a while."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It has been awhile, I'm really excited to be here."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It'd be great to just start by talking about your work at the broadest level. To my mind your work has really revolutionized the field of cognitive neuroscience more broadly."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've been really interested in how past understandings of the brain have really focused on, on pinpointing exactly what each piece of the brain does. But I think that there's also a broader conversation happening in the brain, which is between one region and another. So it's actually the pattern of connections between these regions that would allow for the flow of information. But I think the tools that have become widely available now from the physics community and mathematics and computer science are under the umbrella of, of network science. So that is a science of networks, a science of understanding how bits of a system are interconnected with one another. Not just comparing two groups of people or two kinds of two species, but we can ask even within a single person, how does the pattern of connectivity in my brain change as we talk with one another? How does the information flow change? I think a lot about traffic on roadway networks as a good example of this. Which is, you know, we can understand where the roads are and perhaps the roads are relatively fixed. They change over long timescales and it's similar to the brain. We really only create large scale connections over long timescales. But we can alter the traffic on the roadways really easily. And that's similar to what we do in the brain is that we change the way that information is flowing to allow us to respond to our environment."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a great analogy. You know I remember when I first learned of your work, for me as somebody who studies learning and memory, which are processes that are all about rapid updating that to me was really mind blowing that we can now start asking questions about dynamics of circuits on a timescale that's much closer to the timescale of human thought than anything we had before."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The field is definitely opening up in the kinds of questions that can be asked now with these approaches. And I think what you're pointing out is that conceptually it's where we wanted to go anyway. So if there's so much orchestration that happens and a symphony is not a single piece, it's not a single pattern of, of harmony between instruments and, and similar to the brain, symphony of your brain is not a single pattern. It's a very dynamically changing pattern."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In the field we often talk of have having a mental model that we use to make predictions about what's about to happen and really use that to mean kind of a general understanding of what's going on. What does that look like in terms that come from your world of like the configuration of, of a circuit?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think this is the most exciting area of memory research right now I think, which is how people build and remember, you know, and keep with them models of the world over long periods of time. When I think about a mental model, I think about ideas, potential outcomes, potential events, potential actions, and how they all depend on one another. So when we predict what will happen next it would be, I am currently sitting at this piece of the network and I know that there are, there are these possible outcomes. And so I have to get ready for those, you know, four possible outcomes. But that brings this interesting question to the fore, I think which is how does a network system in our mind and our brain create a network model of the world outside? It's almost like there's a reflection in the structure of what's inside in the hardware and what we're building in a very abstract way. And I think that relates to some interesting work that's coming out about the hippocampus too."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We now think of the hippocampus so much in terms of memory but really some of the earliest work in neuroscience on the hippocampus talked about the role of the hippocampus in spatial navigation. And it really exposed I think one of the deepest questions in memory research, or at least from the neuroscience perspective is like, well what is the connection? What is the connection between spatial processing and memory? And why is it that neurons in the hippocampus when an animal is navigating a maze, why is it that there's spatial specialization there? I really do think that this notion of a mental model, a generative model is where those, where memory and space meet."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That makes a lot of sense. And I think that it makes me wonder how we think about places in the abstract, what is a cognitive place, right? And what is, how do we map out the cognitive spaces that we, that our mind moves within in the same way or in a similar way to the spaces that we physically walk in. But I think it opens a lot up, a lot of questions about how individuals make their own maps, right? And then how the way that they choose to make that map will then affect the way that they may respond in the future to a new context or environment."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's really interesting. And I think it also really speaks to the kind of pervasive and circular role of memory, right? Because the maps are dependent on memories, they're built from memories and experiences. So there's this kind of dialogue with memory creating maps, maps creating experiences, experiences creating memories, affecting the maps, and really makes me think even of a question a friend asked me recently about moods and mental health and this feeling of like how do some people get kind of trapped in a state of mind where all they can see is a particular way forward. But then something happens in the world that shifts them to another model."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Which is actually really interesting because you can make different maps in different physical spaces too, right? As you walk into a new room you make a new map of that room. So what are the doorways basically for mental models? And I think that often we sort of fall into this pattern of, of thinking about memory as, as always additive, that we always just keep gathering more information and update what we currently have. We don't as often speak about deleting pieces of information or, or perceptions or something that we thought was a, was a useful fact but actually it's not a fact."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Memories as models or models first and memory as part of what helps build the model starts generating new predictions. Exactly the kind you just brought up or other ways of thinking about things because an efficient model needs to let go of information, right? I just heard a colleague of mine joking about the fact that the principles of neuroscience textbook keeps growing and growing. And that if we had enough strength in theoretical neuroscience, if our models of neuroscience were good enough, that book should shrink back. We know that memory retrieval is essentially construction. And so you don't need to store all those separate memories. You need to construct them. But if you have a good model, let go of all those details and just construct them to feel as if it's a memory. But really all you're doing is using the model to fill the details. It's kind of like the matrix, you know."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Getting way out there, but, but it is a way in which if you have the right model, it should be an efficient one. I'm wondering what you, what you think about what all this means for kind of a redefinition of what memory is, in many ways a revision or expansion of that notion. Would you be willing to try to help me think about how to define it?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think it's information certainly that, that is stored in the brain and that can then affect our behavior. I think getting your behavior in there somewhere seems, seems important. But also is it just a record of the past or is it, you know, our perceptions of, of what happened in the past, or how we've changed how we think about that past event or have we deleted that event completely and then gathered this higher level structure or mental model that then allows us to behave differently in the future? So it's more alive, it's more changing. It's more, I think it's bubbling out and gathering, gathering and growing and becoming more flexible, but it's also sort of bubbling in, in the sense of deleting and removing and forgetting. So yes, I think that what we need to add perhaps is that changeability and perhaps the behavioral relevance of that changeability. I don't know, what do you think?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I agree. I think, you know, as you were speaking I was thinking maybe the most important word to replace there is record. Record implies an etching of something as it was. And maybe what we need instead is that it's a model, it's an approximation, it's an abstraction that can help us create the illusion of constructing your record. But that it's the model that's the important thing that drives the whole thing."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, yeah I agree. I think that's perfect."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yep."
+                }
+            ],
+            "topic": "memory",
+            "level": "colleague",
+            "youtube_link": null
+        }
+    }
+]

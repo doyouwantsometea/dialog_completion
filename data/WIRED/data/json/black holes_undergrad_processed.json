@@ -1,0 +1,79 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Nice to meet you, and where are you studying?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm Jayda, It's nice to meet you."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What is your impression of what a black hole is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm a senior at NYU. I'm studying physics and environmental studies."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So that's a great definition and I wanna pick that apart a little bit. So what you described is just right. Stars, when they run out of thermonuclear fuel are gonna collapse under their own weight. It'll explode in a supernova, it'll leave a core, and if the core itself is heavy enough, it will keep collapsing. It does, as you say, reach this point where not even light can escape. But the amazing thing is it leaves that point, you called it rightly the event horizon, it leaves it behind kind of like an archeological record because the start itself can no more sit at the event horizon than it can race outward at the speed of light. So the core of the star keeps collapsing and where it goes nobody knows. So in a weird way, the black hole isn't anymore a crush of matter. It left it behind in its wake, but the stuff of the star is gone."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So it's a star that has collapsed. It has so much concentrated mass and gravity that there's a point outside of the black hole called the event horizon. So once you get past the event horizon, nothing, not even light can escape from that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It turns out that there are only three quantities that define a black hole, its electric charge, its mass, and its spin. So the most general black hole can also spin and it can also be electrically charged. Whether or not they are has to do with how they formed. If a star collapses, it will likely be spinning when it collapses and the remnant black hole that formsbwill likely be spinning. A black hole of a certain mass, charge, and spin is indistinguishable from any other black hole with those same properties. So in some sense, they're like fundamental particles, which makes them absolutely exceptional for any other astrophysical object. Have you heard the stories about what happens inside a black hole?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've heard of Schwarzschild black holes, which is a black hole that is static, a Kerr black hole or a Kerr-Newman black hole, which is a black hole that rotates, but what makes a black hole static versus rotating? And what's more common?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So from the outside, if you're an astronaut, you're watching your friend, another astronaut going into the black hole, it's as though your times become rotated relative to each other. So the profound thing is as an astronaut on the outside, looking at this round event horizon, you think of the center of black hole as a point in space, but to the person who's fallen in, it's not a point in space at all, it's a point in time. The singularity, or the end of it all, the crush in the center of a black hole is in their future. So they can no more avoid the singularity than you can avoid the next instant of time coming. So the death in the singularity is inevitable. Although we don't really think the singularity necessarily exists."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I remember that once you pass the event horizon space becomes time and time becomes space, in like, a coordinate sense."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So the singularity is definitely predicted in Einstein's general theory of relativity and that's purely a theory of spacetime. And in the theory of spacetime, there is no question that a singularity would form when the star collapses catastrophically inside the black hole. Now, even when people talked about singularities back in the '60s, they thought, you know, quantum mechanics is part of the story of the whole of physics. It's not just gravity. And if we understand quantum gravity we'll realize that singularity probably doesn't ever actually form."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I sort of know what a singularity is. I think of it as something where everything is compacted into one single point, it's a place where the laws of physics don't exactly work out. What did you mean when you said that you don't think the singularity really exists?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I would say to some extent we don't know for sure. What we have found is that the mathematics is so unbelievably powerful that we're able to disprove wrong ideas just in pen and paper. Just very recently, within the past couple of years, the first ever human-procured image of a black hole showed us what we expected to see of the event horizon. So Jayda, after our conversation today, what would you say a black hole is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So since we obviously have never been to a black hole, how do we know for sure, like, what happens after you cross the event horizon or what happens inside a black hole? Is it just like, inferred from the math?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The beauty of being a student of something like black holes is you never stop having new impressions of what this enigmatic phenomena is. So in a year, I'll tell you what I learned that's new."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Something that I had never thought of before is a black hole as kind of a type of quantum fundamental particle. I've also learned how event horizon of a black hole kind of hides a singularity."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Awesome!"
+                }
+            ],
+            "topic": "black holes",
+            "level": "undergrad",
+            "youtube_link": null
+        }
+    }
+]

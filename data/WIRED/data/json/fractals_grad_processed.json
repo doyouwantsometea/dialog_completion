@@ -1,0 +1,115 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hey, thanks for joining us remotely."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, of course it's a pleasure I'm happy to be here."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you have any sense of how you would give a really precise mathematical definition to, you know, what is a fractal?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It would probably have to be some kind of recursive definition, like imaginary numbers. I know the Mandelbrot set we'll use those."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The Mandelbrot set or the Julia set, you know, the idea is always, oh, I'm gonna apply some polynomial over and over again. Z squared plus C or something like that. When I think about fractals, I try to get away from these very specific examples and ask, what is it fundamentally that makes a fractal, a fractal. And one thing that I think you can be precise about, even if you can't really say exactly what a fractal is, is you can talk about this idea of fractal dimension. Have you ever heard of that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, I have not actually."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, great. So, so the real physical paper has some amount of thickness, but when we model this mathematically, we might ignore the thickness and say, yeah, this is really just kind of a two dimensional sheet of paper. And then you have your apple, how many dimensions is the apple?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well on the, on the paper itself, I would say it's two dimensional, but the actual paper would be three dimensions because it has a very small thickness."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And why three?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I would also say three."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Totally, now, as a little experiment, take your piece of paper and just crumple it into a ball. So what is it? Is the paper three dimensional or is it two dimensional?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because it has the pipes and the width. And there's a depth to it as well."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So it's not quite as solid as the apple, but it's also not quite as two dimensional as the original sheet of paper. And so for this reason, people associate this crumpled ball with a fractal dimension, maybe something like 2.5 dimensions instead of two or three, there are a lot of different definitions, precise definitions of fractal dimension. But I think the one that's easiest to understand is this thing called box counting dimension. You have, let's say an image and you want to decide what's the fractal dimension of this image. So what you're gonna do is you're gonna count the number of boxes, or you can imagine big pixels of this image that cover the boundary of this shape. And you're gonna see how does that counting compare with how the counts work for just an ordinary shape? So, so if I have a straight line and I start out with one big box that covers the whole line, and now I shrink my boxes by a factor of two, I just make boxes half as big. How many boxes will I need to cover that line?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It changed and dimensions depending on how it is shaped."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And if I cut that box in half again, how many boxes do I need to cover the line."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "two"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But if you take a more interesting shape, some kind of fractal shape, like let's say the coastline of great Britain and you start doing this box, counting experiment, something really interesting happens as you make these boxes smaller, the number of boxes you need to cover the coastline grows faster than it would for just a straight line."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Four."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so what this box counting is getting at is saying, well, I still can never decide what the length of the coastline is, but what I can do is I can see how quick does the number of boxes grow relative to how it would grow just for an ordinary one dimensional curve, like a line or a circle."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I've, I've heard about that. Where if you, if you change the amount of measurement for a coastline, you can actually change like how much of the coast that, that there is like if you measure in mile lengths, you're gonna get a much different estimate than if you measure in one inch increments."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So procedural computer graphics, which kind of came out of thinking about fractals is one answer to this question about how do you add more detail without for instance, consuming tons of memory or requiring artists to paint ultra detail the textures. So if, if you can instead describe at least some aspect of what you're looking at in a procedural or recursive way, then you can add as much detail as you need when you get close to objects."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is there any other interesting applications of fractals?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah like perlin noise is a great example, right? Perlin noise was one of the early ways of synthesizing additional texture at any level of detail that you needed to make things look natural and realistic."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, you mean like perlin noise?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah like perlin noise is a great example, right? Perlin noise was one of the early ways of synthesizing additional texture at any level of detail that you needed to make things look natural and realistic. I have a, a random question. Do you know how the research into fractals began? You can look pretty far back in history to see kind of glimmers of this idea of fractals in science in the 19th century, people were trying to look for examples of things in mathematics that were very unnatural. So there was, for instance, this guy named Georg Cantor, who was showing that you can have these sets with really strange properties, or you can have functions with really strange properties. This thing called the devil staircase and so on. And it wasn't until about a century later where someone named Mendel Brock said, Oh, actually this strange mathematics that was meant to show how unnatural things can happen is actually a perfect description of things that really do happen in nature. And from there, people really ran with it and said, Oh, okay, well, if these fractal descriptions are good for nature, we can also use that for creating really realistic and believable pictures in computer graphics."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have a, a random question. Do you know how the research into fractals began?"
+                }
+            ],
+            "topic": "fractals",
+            "level": "grad",
+            "youtube_link": null
+        }
+    }
+]

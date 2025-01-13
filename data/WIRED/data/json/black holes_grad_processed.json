@@ -1,0 +1,135 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "And you're in graduate school and you're getting your PhD. What year are you?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm Clare."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Does the Large Magellanic Cloud have a big black hole?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm a second year. So I'm measuring star formation histories in the Small and Large Magellanic Clouds."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, and probably nobody is. Have you heard a lot in your studies about these super massive black holes that we think lurk in the centers of very nearly every galaxy?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, I think the prevailing wisdom for a while was no, but my answer honestly is I'm not sure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, I think it's a really good question. The only mechanism that we know for sure can form black holes is to collapse of very massive stars. So it's sensible to think, well maybe some very massive stars in a young universe collapsed under their own weight and then they merged and after some time they got big enough, but the black holes from stars can be tens of times the mass of the sun, maybe hundreds of times to the mass of the sun if they merge. To get to millions and billions, and if you just do the simple arithmetic of how many years that would take, there aren't enough years in the 14 billion years of the universe's lifetime. So they must have come from somewhere else."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So I don't study AGN a lot, but I do have a long term interest in black holes, it's one of the reasons I entered the field. I always was curious about how a black hole of that size was able to form. Was it the result of mergers between smaller black holes, ultimately creating gravitational well deep enough to contract a protogenic disc for a whole galaxy? Or, man, what happened?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, I think that's right. I think people are really perplexed about how you make something so big in such a short period of time. It's kind of funny, the bigger you make a black hole, it seems maybe counterintuitive, but the less dense the material has to be out of which you make it. So you can, out of something the density almost of air, you can make a supermassive black hole. You can't make a star out of that, but weirdly, if you skip the star phase altogether, it's conceivable that they directly collapse. And so there's suddenly a new way to make black holes that nature has figured out."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I am at a loss to think of what could have possibly happened in between the start of the universe and the formation of our galaxy that could create such a massive object."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Janna] Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We spend all of our time, when we learn about black holes in school, predominantly through star collapse."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There might be many alternate routes. It might be in the very early universe that bubbles in unusual phase transitions from very high energy universe to a low energy universe can make black holes. Like, we haven't really thought of the range of possibilities.And so there could also be primordial black holes that are still around that also skipped the star stage altogether that were formed really in the very earliest phases. And I think the interesting thing is, with your looking at like the Large Magellanic Cloud, is to wonder if we're gonna merge."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I didn't even realize that there was an alternate route to creating a black hole."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Can you tell us about Andromeda?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Absolutely. We thought the canonical picture of the Clouds was essentially that they had formed with the Milky Way, maybe in its halo, and had been in a stable orbit for about a Hubble time, or about 14 billion years. Young guns in the field have thrown a wrench in that theory that they've always been orbiting and that perhaps they're on their first orbit, they're on an unstable orbit. Will they join us?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The local group being a group of galaxies that are not expanding with the expansion of the universe away from each other, they're trapped."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Andromeda is part of the big three in the local group."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, they're all friends."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Gravitationally, all friends."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But when we do merge with Andromeda, presumably our black holes will merge and Andromeda indeed has a very big black hole as well at its center. And then we'll have this just gigantic-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And Andromeda is one of the few galaxies that is traveling towards us and do for a merger event at some point. So given a sufficiently low velocity, we would just have two big galaxies that, for the most part, pass through each other, pass by each other. But given a sufficiently high velocity, we will have some crazy black hole interactions and some crazy star interactions."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, and it's very possible that as you said, the collision won't be so severe that it'll be very disruptive. So our entire solar system could stay intact and here we would go with the sun and all the other planets in orbit around a new black hole."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Supermassive black hole."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We work a lot right now on thinking of black holes as batteries. So a black hole that can take, like a giant magnet, astronomical magnet in the form of another collapsed star, like a neutron star, and flip it around so fast, near the speed of light, that it actually creates an electronic circuit out of this moving magnet. And so that the power that can come out of these electronic circuits created by these batteries can be tremendous."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "They're kind of misunderstood giants in a way. So I was curious, have you heard anything new or interesting in the field of black holes that will shape future discussions?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a great question. I once did a calculation of using a black hole made out of the moon and the strongest magnet we could find on Earth to see if I could make an electronic battery. And honestly, you only get about enough energy to power New York City. But we have to find one in our neighborhood first."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You know, I know that at a certain point for our civilization to become sufficiently advanced, to travel the cosmos beyond, you know, the moon or Mars, we may have to be able to harness the power of our sun. Would it be similarly possible to harness the power of a black hole like you were mentioning, to travel?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So Claire, we've had this pretty fascinating conversation about supermassive black holes in particular. And after our discussion, what is it that has changed for you in your perspective or what is it that excites you?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, wouldn't be my favorite thing."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, I think our discussion kind of exposed a piece of black holes that I don't think of often, which is that they're not just life takers, they're life givers. And they inform a lot about, not just how a galaxy is destroyed or made, but how it's shaped and how it eventually, you know, builds life like ours. So maybe I have to give black holes a little bit more props."
+                }
+            ],
+            "topic": "black holes",
+            "level": "grad",
+            "youtube_link": null
+        }
+    }
+]

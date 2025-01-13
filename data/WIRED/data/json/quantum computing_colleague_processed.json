@@ -1,0 +1,79 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "so steve tell me about your research and the work you've been doing in quantum computing"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm a theoretical physicist. I started out in condensed matter theory, the theory that studies superconductors and magnets and I had to learn a new field of quantum optics and apply those ideas. One of the nice things about being a theorist Is you get to keep learning new things."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "it's something that we've already figured out for classical computing like something that amazes me is all the parallels between what we're going through now for quantum computing and what we went through for classical computing"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "My main focus right now is quantum error correction and trying to understand this concept of fault tolerance which everybody thinks they know it when they see it but nobody in the quantum case can precisely define it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "common myth how many qubits do you have that's the only thing that matters like just add more qubits what's the big deal pattern them on your chip"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I was asking a computer scientist recently where to read about fault tolerance in classical computing. He said oh they don't teach that in computer science classes anymore because the hardware has become so reliable. In a quantum system, when you look at it or make measurements, it can change in a way that's beyond your control. We have the following task, build a nearly perfect computer out of a whole bunch of imperfect parts."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "exactly so i think something that frustrates a lot of people about quantum computing is the concept of decoherence right you can only keep your information quantum for so long right and that limits how many operations you can do in a row before you lose your information"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The great power of a quantum computer is also it's Achilles's heel. That it's very very sensitive to perturbations and noise and environmental effects. You're just multiplying your problems if all your doing is adding qubits."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "it let's talk about some of the things we think need to happen between now and fully fault tolerant quantum computers to get us to that reality i mean there's so many things that need to happen in my mind one of the things we need to do is build all these different layers of abstraction that make it easier for programmers to come in and just enter at the ground level you know"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's the challenge I would say. As much progress as we've made it's a frustration to still be facing it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "another common myth in the next five years quantum computing will solve climate change cancer [Laughter]"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Exactly, so I think there's gonna be a kind of co-evolution of the hardware and the software up here and the sort of middleware, and the whole stack."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "one last myth i think we should bust steve quantum computers are on the verge of breaking into your bank account and breaking encryption and creative cryptography"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "(laughing) Right, in the next five years there'll be tremendous progress in the field but people really have to understand that we're either at the vacuum tube or transistor stage. We're trying to invent the integrated circuit and scale up. It's still very very very early in the development of the field."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "you know now that everybody around the world can access a quantum computer through the cloud people are doing all kinds of cool things they're building games we've seen the emergence of quantum gains right what do you think people want to do with them"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "There does exist an algorithm, Shor's algorithm, which has been proven mathematically that if you had a large enough quantum computer you could find the prime factors of large numbers. The basis of the RSA encryption is the most commonly used thing on the internet. First we're far away from being able to have a quantum computer big enough to execute Shor's algorithm on that scale. Second, there are plenty of other encryption schemes that don't use factoring and I don't think anybody has to be concerned at the moment. And in the end, quantum mechanics goes to the side of privacy enhancement. If you have a quantum communication channel you can encode information and send it through there and it's provably secure based on the laws of physics."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have no idea what people are going to end up using them for I mean if you had gone back 30 years and handed somebody an iPhone they would have called you a wizard, so. Things are gonna happen that we just can't foresee."
+                }
+            ],
+            "topic": "quantum computing",
+            "level": "colleague",
+            "youtube_link": null
+        }
+    }
+]

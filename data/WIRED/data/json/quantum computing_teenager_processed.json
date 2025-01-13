@@ -1,0 +1,175 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "what's your favorite kind of computer smartphone tablet regular laptop pc"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've got to go with my iPhone."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so what do you do with your iphone"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Social media, use it for studying."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "have you ever run out of space on your iphone"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "All the time."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "me too"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, always when I'm trying to take a photo."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so did you know that there's certain kinds of problems that computers sort of run out of space almost like you're trying to solve the problem and just like how you run out of space on your iphone when you're trying to take a picture if you're trying to solve the problem you just run out of space and even if you have the world's biggest supercomputer did you know that can still happen"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so my team is working on building new kinds of computers all together ones that operate by totally different set of rules so do you know what that is"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have no clue."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "it's a quantum computer"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A what?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "you ever heard of a quantum computer"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I haven't."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "have you ever heard of the word quantum "
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "okay so quantum mechanics is a branch of science just like any other branch of science it's a branch of physics it's the study of things that are either really really small really really well isolated and really really cold and this particular branch of science is something we're using to totally reimagine how computing works so we're building totally new kinds of computers based on the laws of quantum mechanics that's what a quantum computer is"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "i'm going to start by telling you about something called superposition so i'm going to explain it using this giant penny"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Heads."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "i don't know what it's worth but uh i can put it face up right in that heads i can put it face down right so at any given time point in time if i ask you is my penny heads or tails probably you could answer it right "
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, I wouldn't know."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "okay but what if i spin the penny"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Wow!"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so let's do it okay so while it's spinning is it heads or tails"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That something's intertwined or--"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "while it's spinning"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's crazy."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "it's sort of it's sort of a combination of heads and tails right would you say so superposition is this idea that my penny is not just either heads or tails it's in this state which is a combination of heads and tails this quantum property is something that we can have in real real physical objects in the world so that's super position and the second thing that we'll talk about is called entanglement so now i'm going to give you a penny"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh my god."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "when we use the word entangled in everyday language what do we mean"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Like what could those chips be used to do?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "exactly that there's two things that are connected in some way and usually we can separate them again"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I mean I'm definitely gonna impress all my friends when I tell them about this, they're gonna be like, quantum what?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "your hair is tangled or whatever you can you can untangle it right"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "but in the quantum world when we entangle things they're really now connected it's much much harder to separate them again so using the same analogy we spin our pennies and eventually eventually they both stop right and when they stop it's either heads or tails right so in my case i got tails and you got heads you see how they're totally disconnected from each other right our pennies in the real world now if our pennies were entangled and we both spun them together right when we stopped them if you measured your penny to be ahead i would measure my penny to be ahead and if you measured your penny to be a tails i would measure my opinion to be a tails if we measured it at exactly the same time we would still find that they were both exactly correlated "
+                },
+                {
+                    "author": "Explainer",
+                    "text": "that's so cool right "
+                },
+                {
+                    "author": "Explainer",
+                    "text": "the way that we are able to actually see these quantum properties is by making our quantum chips really really cold so that's what this is all about actually this is called a dilution refrigerator and it's a refrigerator it doesn't look like a normal refrigerator right but it's something that we use actually there's usually a case around it to cool our quantum chips down cold enough that we can create superpositions and we can entangle qubits and the information isn't lost to the environment "
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so one of the things that we're trying to use quantum computers to do is simulating chemical bonding use a quantum system to model a quantum system"
+                }
+            ],
+            "topic": "quantum computing",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

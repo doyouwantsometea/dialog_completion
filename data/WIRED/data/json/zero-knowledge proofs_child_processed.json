@@ -1,0 +1,91 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What's your favorite subject?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'd say math. Some of the small problems can actually be really big and complicated. It's like a puzzle."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I love math for the same reason. Today, I'm gonna tell you about a thing called zero-knowledge proof. So in a zero-knowledge proof, there are two people. There's a prover and a verifier. And I wanna prove that something is true to you. But the weird thing is, I wanna prove to you that it's true without telling you any reasons why. I remember when I first heard about it, I was like, wait, what? How can that possibly be? Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So what do you see in this photo?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Chelsea] A lot of penguins."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. Hidden along all these penguins is a puffin. Do you wanna try to look for it? Do you see where it is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I know where it is, but I don't wanna tell you. Do you believe me? You're not sure to believe me. Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But what if I could prove to you that I know where the puffin is without revealing to you where it is? Let me show you. I took that photo that we showed you. And I put it behind this poster here. Why don't you go take a look through that hole?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I see the puffin."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So when you look at this board, we don't know where the photo was, right? Was the photo like with the corner here? In which case the puffin would be all the way at this side. Or was the photo with the corner here? In which case the puffin would be on the other side. So this is a really simple example of a zero-knowledge proof. I convinced you that I knew where the puffin was, but you didn't learn anything else."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Why do you study zero-knowledge proof?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "When I first learned about them, I just thought they were so cool. But it turns out they're also really useful, not just for finding like, puffins. If you just type in your password and the hacker hacks into the computer, they can just get your password. Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What if instead, we could somehow use a zero-knowledge proof to log in. You would just be able to prove that, hey, I'm Chelsea, without revealing anything to them. If you could do that, then it would be amazing, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Because then even if the hacker hacked into the computer, he wouldn't learn anything. Because even the computer doesn't learn anything. So Chelsea, in your own words, what is a zero-knowledge proof?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Zero-knowledge proof is proof to a statement. You don't show them why or what. You just show them a tiny segment. Or just do some sort of, weird magic trick [chuckles] that's not really a magic trick, and they will be convinced. And you didn't show them why, or anything like that."
+                }
+            ],
+            "topic": "zero-knowledge proofs",
+            "level": "child",
+            "youtube_link": null
+        }
+    }
+]

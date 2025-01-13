@@ -1,0 +1,303 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Shang-Hua, it's so great to see you again. I think last time we met was in 2017 or something like that."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think we Zoomed once during the pandemic, but it's good to see you in person."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right. Absolutely."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And actually, in '86 I was taking a crypto class with Professor Leonard Edelman, the A of RSA. And he assigned me the paper by Goldwasser, Micali, and Charlie Rackoff on zero-knowledge proof. So that's indeed my first ever presentation, ever, in this country."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Was about zero-knowledge. That's awesome."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Shang-Hua] Was about zero-knowledge, yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's such a almost hypnotic concept."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's also an interesting way how mathematically to formulate those concepts, right. For example, we have data. Then eventually we started from data, like data mining, you can get the information, and then you have this word called knowledge."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Amit] Right"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right. So knowledge has been long debated, even in philosophy. What is knowledge?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Indeed."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But here is a very fascinating way mathematicians or computer scientists"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "want to somehow capture this knowledge. It didn't say zero-information proof."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Amit] Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So what's your take on why knowledge is, rather than information, or zero-data proof. Clearly, there's data there. So can't be zero-data."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely. I don't think we still have a completely satisfactory answer to that question. What was so, such a beautiful insight, as I'm sure you know, is that the idea of zero-knowledge"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "being something that you can already predict. Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If you can already predict the answer, then you must not be gaining any knowledge by that interaction. This insight of being able to predict the future accurately, and that being an evidence of a lack of new knowledge,"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Shang-Hua] Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "was such a beautiful insight, such an amazing insight."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well there's not zero-information here. Fundamentally I, clearly from computing perspective, security perspective, is how much knowledge you're gaining, I guess. More than how much information you've gained."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Indeed."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And how much data you have. Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So that data then immediately imply, a knowledge. But people can't, sometimes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right. Sometimes. I mean, for example, in medical research, how amazing would it be, right, to be able to have a drug, and be able to prove that my drug works in this model."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And yet, not have to actually reveal the structure of the compound."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What, currently, you're saying it would be the next directions in this space."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What's the next big things?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. This concept of zero-knowledge programs would allow you to carry out completely arbitrary computations"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "in a zero-knowledge way, without any interaction, right. I can just take the program, convert it to a zero-knowledge program, or an obfuscated program, and then just send it to you."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And then you can run it and gain the benefit of that computation without having to talk to me anymore."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's right. There's a non-interactive nature."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Amit] The non-interactive nature."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But there's verifiability in it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Indeed."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Sometimes when, for example, when you have multi-protocol exchange that, you know, just like a random number showed up, you have to enter the random number."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "As authentication, yes."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Authentication, right. Now clearly I think in block chain, they also began to incorporate a more"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Indeed."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "general knowledge of proof in the ledger."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We're definitely at this moment now, where zero-knowledge is gonna be used more and more. There are so many conferences and meetings that occur in the zero-knowledge space, where you and I are not invited. Because it's for the people who are developing. You know, the people who are programming, not us mathematicians."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Shang-Hua] Yes, yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And I think that's a sign. That's a sign that our baby has grown up and, you know, it's time for it to be developed."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think, profoundly, the students often also ask me, what are the future direction, both in terms of crypto, zero-knowledge proof, in the real world and how mathematical you see in computing."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a great question. I wish I could see the future. I can't actually, but let me try. The part of that that I'm the most comfortable answering is of course the mathematical side."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think that there is, you know, we've done so much in cryptography over the last few decades, but we understand so little."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know, even today we understand so little. And I think the most fundamental aspect of that is understanding hardness. How do we get hard problems?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "How do we actually build mathematically hard problems so that we can then use them to build efficient zero-knowledge programs."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Shang-Hua] Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And efficient zero-knowledge proofs, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I guess also, in quantum computing, you need even harder problems."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Indeed. Absolutely. You know, now that we have the specter of quantum computing"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Shang-Hua] Yes, yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "coming at us and we all know that quantum computers can break a lot of cryptographic systems."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes. A profound challenge."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a profound challenge. So can we find new sources of hardness that are quantum-resistant?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Shang-Hua] That's right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But I'm sure they will motivate beautiful mathematics."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That even quantum computers can't break. And that's something I've been working on for the last several years. But I'd be very excited to see what happens in that space."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes, that's right. You know, one of the great things about the real world is that people in the real world have demands."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And those demands often sound impossible. And that's where we come in. It's our job to make the impossible possible."
+                }
+            ],
+            "topic": "zero-knowledge proofs",
+            "level": "colleague",
+            "youtube_link": null
+        }
+    }
+]

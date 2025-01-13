@@ -1,0 +1,111 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "You're a PhD student, is that right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, I'm a second year PhD student at the University of Maryland."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Does infinity come up in your mathematics that you're studying?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "One place infinity comes up is in algebraic geometry. Normally we think okay, well if you have two lines like this, you'd keep drawing them, they intersect right here. But in projective space, two parallel lines will also intersect at the point at infinity. Infinity is like this perfect concept for what we can add to a space that allows lines to have this more uniform property. What's your research in?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So one of my main research areas is something called category theory, it's been described as the mathematics of mathematics. It's a language that can be used to prove very general theorems. And an interesting aspect of being a researcher in category theory that doesn't come up as much in other areas is that we have to really pay attention to the axioms of set theory in our work. When you're proving theorems, have you ever used the axiom of choice?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, it's basically this idea that you can put a choice function on any set."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And a choice function does what exactly?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, that's a good question."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So the way I think about it is if you have an infinite or an arbitrary family of sets and you know for sure that none of these sets are empty, then a choice function would allow you to select an element from each set sort of all at once. When you've used the axiom of choice in proofs, do you know which incarnation of this you've used?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I've used it like that. I've also used it in Zorn's lemma and in the well ordering principle."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So there are three well-known famous equivalent forms of the axiom of choice. The well ordering principle is the assumption, the axiom that any set can be well ordered, but there are lots of subsets of real numbers that do not have a minimal element. So that ordering is not a well ordering. So here's the key question. Do you believe the axiom of choice?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I do believe the axiom of choice."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You do believe the axiom of choice, though it leads us to some strange conclusions. So if the axiom choice is true, then it's necessarily the case that there exists a well ordering of the reals. And what that means is that we can perform induction over real numbers like we perform induction over the natural numbers. This is trans-finite induction. It would work for any ordinal. So there must be some uncountably infinite ordinal that represents the order type of the real numbers. And this allows us to prove some crazy things. Imagine three-dimensional Euclidean space. So the space that we live in, extending infinitely in all directions. So it is possible to completely cover three-dimensional Euclidean space by disjoint circles, so infinitesimal circles, disjoint circles of radius one. So what that means is you can put a circle somewhere in space and then put a second circle somewhere in space that can't intersect with the first one because these are solid circles and then another circle can somehow cover every single point in space with no gaps in between."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's crazy."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's not the only crazy thing. Do you have a favorite consequence of the axiom of choice?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I mean the Banach-Tarski paradox is a big one. So basically it says that you can, using just rigid motions I think, you can take one ball--"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "One solid ball with a finite volume."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Cut it up and then rearrange the pieces so that in the end you get two balls which are the exact same size, the exact same volume. So you've actually taken one thing and using just pretty normal operations to it, you can double it, which seems pretty implausible in real life."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right. That seems crazy to me. And yet it's an irrefutable consequence of this axiom that you tell me you believe is true. So how many infinities are there?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, definitely uncountably many infinities."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So there's certainly no stop to this procedure. But could you give a precise cardinality to that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "would be a set of all sets, right?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So Cantor's diagonal argument can be abstracted and then generalized to prove that for an arbitrary set A, its power set has a strictly larger cardinality. And since that's true for any set, we can just iterate this process. When set theory was being discovered or invented or created in the late 19th century, one of the natural question to ask is can there be a universe of all sets? This comes up in my research in category theory because even though there is no set of all sets, we would really like for there to be a category of sets. So what category theorists need to do to make their work rigorous is to add additional axioms to set theory. One of my favorites was introduced by an algebraic geometer Alexander Grothendieck. This is something that we sometimes call a Grothendieck universe, or also an inaccessible cardinal. It's an infinite number that is so big that it cannot be accessed by any of the other constructions within set theory. It's so big that we'll never get to it and this allows us to contemplate the collection of all sets whose cardinality is bounded by this size that will never reach."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So you're just making a cutoff point. You're saying we're never gonna get sets bigger than this anyway, so we might as well make our category only include things smaller than that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right. So a rigorous way to work with a category of sets is to demand that it's a category of sets whose size is bounded by this cardinality, Alpha say. That is then an example of a category that fits into another even still larger Grothendieck universe Beta. So implicitly in a lot of my research, I have to add an additional assumption that there exists maybe countably many inaccessible cardinals."
+                }
+            ],
+            "topic": "infinity",
+            "level": "grad",
+            "youtube_link": null
+        }
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "so what do you think that thing is"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is it some sort of conjecture circuit?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "is it some sort of conjecture circuit that is a really good guess there's parts of that that are definitely about conducting this is the inside of a quantum computer"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "yeah this whole infrastructure is all about creating levels that get progressively colder as you go from top to bottom down to the quantum chip which is how we actually control the state of the cupids"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh wow. So when you say colder, you mean like physically colder?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "yeah like physically colder so room temperature is 300 kelvin as you get down all the way to the bottom of the fridge it's at 10 milli kelvin"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Amanda] Oh wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "yeah amanda what do you study"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So I'm studying computer science, currently a sophomore. And the track that I'm in is the intelligent systems track. Machine learning, artificial intelligence."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "you ever heard of quantum computing"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "From my understanding, with a quantum computer, rather than using transistors, is using spins. You can have superposition of spins, so different states, more combinations means more memory."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so that's pretty good so you mentioned superposition but you can also use other quantum properties like entanglement have you heard of entanglement"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have not."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "okay so it's this idea that you have two objects and when you entangle them together they become connected and then they're sort of permanently connected to each other and they behave in ways that are sort of a system now so superposition is one quantum property that we use entanglement is another quantum property and a third is interference how much you know about interference"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "okay so how do noise-canceling headphones work "
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Not much."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so you can have constructive interference and you can have destructive interference we have constructive interference you have amplitudes wave amplitudes that add until the signal gets larger and if you have destructive interference the amplitudes cancel by using a property like interference we can control quantum states and amplify the kinds of signals that are towards the right answer and then cancel the types of signals that are leading to the wrong answer so given that you know that we're trying to use superposition entanglement and interference for computation how do you think we build these computers"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "They read like ambient wavelengths and then produce like the opposite one to cancel out."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "so step one is you need to be able to have an object or physical device we call it a qubit or quantum bit that can actually handle those things can actually be put into superpositions of states you know two cubit states that you can physically entangle with each other that's not really trivial right and things in our classical world you can't really entangle things in our classical world so easily we need to use devices where they can they can support a quantum state and we can manipulate that quantum state atoms ions and in our case superconducting qubits we make qubits out of superconducting materials"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have no idea."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "it's a perfect question i mean it's very early for quantum computing but we're building assembly languages we're building layers of abstraction that are going to get you to a point as a programmer where you can interchangeably be programming something the way that you already do and then make calls to a quantum computer so that you can bring it in when it makes sense we're not envisioning quantum computers completely replacing classical computers anytime soon we think that quantum computing is going to be used to accelerate the kinds of things that are really hard for for classical machines"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But as like a programmer, how would quantum computing affect a different way of writing a program?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "simulating nature is something that's really hard because if you take something like you know modeling atomic bonding and electronic orbital overlap instead of now writing out a giant summation over many terms you try and actually mimic the system you're trying to simulate directly on a quantum computer which we can do for chemistry and uh we're looking at ways of doing that for other types of things there's a lot of exciting research right now on machine learning trying to use quantum systems to accelerate machine learning problems"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So what exactly are some of those problems?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "couldn't have said it better myself"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So would it be like in five years, or 10 years that I would be able to have like one of these sitting in my laptop just in my dorm?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay so quantum computing creates new possibilities and new ways to approach problems that classical computers have difficulty doing."
+                }
+            ],
+            "topic": "quantum computing",
+            "level": "undergrad",
+            "youtube_link": null
+        }
+    }
+]

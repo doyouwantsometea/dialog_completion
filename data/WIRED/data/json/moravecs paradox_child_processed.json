@@ -1,0 +1,131 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hi, I'm Chelsea, what's your name?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Juliette."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Nice to meet you, Juliette. Today, we'll talk a little bit about a concept called Moravec's paradox."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What's that?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Something that explains what's hard and what's easy for a robot. Something like stacking these two cups. Do you think that's easy or hard?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If it's this way, then it's easy, but if it's this way, you need to balance it or, oh-"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's still pretty easy, right? It turns out that stacking these two cups, it's actually really hard for robots to do that. So, let's think about how we might have a robot stack these two cups. You could program the robot to move its hand right here and then program the robot to close its hand around the cup."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And then program the robot to move over here and open the- "
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And drop it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly, right? That seemed pretty simple for the robot to do. Say we even just move the cup over here. Do you think the robot would still be able to stack the cups?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We can see what happens. So it's gonna, we programed the robot to move to the same exact position as before."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh yeah. So it goes to the same place."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "When we gave it instructions, did we tell it to look at where the cup was? Or did we tell it to just move over here?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "We told it to just move over here."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. So, Moravec's paradox is something that means that these really simple things, like stacking cups, is really, really hard for robots, even though it's really easy for us. While robots are actually really good at really complicated and really difficult things. Think about the task of multiplying two really big numbers together."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Does that seem like a hard task or an easy task?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's easy for me."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You're good at multiplying big numbers together?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Could you multiply 4,100 by-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, I can't do that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But it's actually really easy for a computer to do that."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So how fast were you able to stack the two cups?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Like two seconds. It took me like a couple days when I learned how to stack cups."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. But so it took you a couple days when you learned how to stack cups, but before that, you already knew how to grasp objects, right? You already knew how to pick up cups."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And so you could use that when you were learning to stack cups. We're trying to be inspired by how humans learn to do tasks, to allow robots to do the same kind of things that are very simple for people, like stacking cups. We want robots to be able to do something like that too."
+                }
+            ],
+            "topic": "moravecs paradox",
+            "level": "child",
+            "youtube_link": null
+        }
+    }
+]

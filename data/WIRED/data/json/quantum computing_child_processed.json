@@ -1,0 +1,67 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "yeah what do you think that is"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "what's this"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "i think so too we jokingly call it the chandelier that's real gold you know this is a quantum computer"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "is fancy chandelier"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "it's a really special kind of computer"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's a quantum?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "it calculates things but in a totally different way to how your computer calculates things what do you think this is"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What does it do?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "yeah do you know what your computer thinks that is"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "An A"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "this really specific combination of zeros and ones everything that your computer does showing you pink panther videos on youtube calculating things searching the internet it does all of that with a really specific combination of zeros and ones which is crazy right that would be like saying your computer only understands these quarters for each quarter you need to tell it that you're going to use heads tails and you assign it heads or tails so i can switch between heads and tails and i can switch the zeros and ones in my computer so that it represents what i wanted to represent like an a and with quantum computers we have new rules we get to use too we can actually spin one of our quarters so it doesn't have to choose just one or the other"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Zero, one."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "yeah they can especially if doing your homework involves calculating something or finding information but what if your homework was to discover something totally new a lot of those discovery questions are much harder to solve using the computers we have today so the reason we're building these kinds of computers is because we think that maybe one day they're going to do a lot of really important things like help us understand nature better maybe help us create new medicines to help people"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Can computers help you with your homework? Your really hard homework?"
+                }
+            ],
+            "topic": "quantum computing",
+            "level": "child",
+            "youtube_link": null
+        }
+    }
+]

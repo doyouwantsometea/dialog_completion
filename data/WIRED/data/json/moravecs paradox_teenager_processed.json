@@ -1,0 +1,123 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What grade are you in?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I am about to be a junior."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Have you heard of something called Moravec's paradox?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Never heard of it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Typically you would think that things that are easy for humans, are also easy for robots and computers to do."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And things that are hard for humans should also be hard for robots and humans to do. But it turns out that it's actually the opposite. I wanna try a little demo."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So I have a penny in my hand and I'd like you to pick it up with your right hand and put it into your left hand. So that was pretty easy, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We're gonna make this a little bit harder now. So, can you put these on? And we'll try to do the same thing again with your eyes closed. There you go. Let's try that one more time, and see if you can do any better. So close your eyes."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, there we go."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. So that you're able, with a bit more practice, you're able to figure it out. When it fell on the ground, how did you know to pick it up off the ground?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "From the sound."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So when a robot tries to do something, like pick up an object, not only do you need to program exactly like what the motors should do, the robot also needs to be able to see where the object is. Then this is what's called a perception action loop in robotics. So if the object moves, the robot can then adapt what it's doing and change what it's doing to successfully pick up the object. It's really important for robots to be able to leverage, not just like the past hour of experience, but also ideally many years of experience, in order to do the kinds of things that you did."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's kind of hard for me to understand why like robots can do like all these crazy calculations, but they can't do like all the simple stuff, so."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. It's really unintuitive. In order to survive, we need to pick up objects and everything. Basically many, many, like billions of years of evolution actually created humans and the ability to manipulate objects like that. So, it actually turns out that things that are really basic for us are actually just really complex tasks in general."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So do robots know, like, they messed up? They know."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a great question. So in reinforcement learning, the robot tries the task, and then it gets some sort of reinforcement, some sort of feedback. It's similar to how you might train a dog."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you could give it feedback like that. So it won't necessarily know itself, especially on the first few tries, but it's trying to figure out what the task is even."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Does a robot see like how we see or does it like, just see like a program or something?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We give robots a camera and the camera produces this array of numbers. Basically, each pixel has three different numbers, one for R, for G and for B. And so the robot sees this really massive set of numbers. And it has to be able to figure out, from that massive set of numbers, what is in the world. There is a number of different ways to have the robot see, but we use a technique called neural networks, that tries to take out in those big numbers and form representations of the objects in the world, and where those objects are."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Can a robot ever go off the program?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It depends on how you program the robot. If you program the robot to follow exact motions and follow a very specific program, then it won't go off that program. It will always do those actions. But if something unexpected happens, that the program wasn't designed to handle, then the robot might go off court."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Do you think robots will take over the world? Just being honest."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think that robotics is really, really hard. Having robots do even really basic stuff, like pick up objects, is really, really hard. So if they do take over the world, I think it'll be a very, very, very, very long time from now."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Very long time. Yeah."
+                }
+            ],
+            "topic": "moravecs paradox",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

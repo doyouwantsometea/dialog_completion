@@ -1,0 +1,267 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Our topic today is gonna be quantum sensing. Have you ever heard of it before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "No. Okay, what do you think it might mean, if you just break down the words?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Something on a very small scale because of the word quantum."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The sensing part, I'm not sure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So sensing is really just about measuring stuff."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And at some level, there's different set of rules that seem to come into play 'cause you can have particles at very microscopic scales seem to do really strange things. But one of the quests of quantum sensing is to harvest some of these unique properties at the micro scale. We are really interested in quantum sensors because we think they can give us the ultimate limit of sensitivity. So they're really, really sensitive to small changes, but they're also gonna be really reliable. Every time I make that measurement, I'll always get the same results."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay, measurements on like what kinds of things?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Could be on almost anything you want. Have you ever broken a bone?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, I fractured something though."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, do you remember having an x-ray?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, x-ray and I have had a few MRIs before too."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You've had a few MRIs before."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so, both of those are in some ways a form of sensing and they rely on different types of sensing. Do you know what this image is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe an MRI."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. Yeah. Do you know what an MRI, how an MRI works?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, I don't and I feel like I should because I've gotten them millions of times."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And what the MRI scanner is doing is, it's measuring the signal from all the water molecules that are present and specifically the hydrogen atom. In our bodies, we have these hydrogen atoms that are essentially spinning around magnetic fields all the time and we just don't know them. So in some sense, you've already used a quantum sensor."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, so are MRIs essentially more detailed x-rays?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "They're not."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So this is an x-ray. You don't see any of the soft tissue. The x-ray gave us information about the bone."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Julia] Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Whereas MRIs giving us information about things like the softer tissues."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And in fact, we don't see the bone very well in the MRI."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So there are slightly different reasons why you would choose the two different things. Suppose I could get a higher resolution."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What do you think I would be able to see?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The different atoms and the structures of the particles. Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Start to see the different cells"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And then the different chemicals in the cells. If you look at the MRI images, you can see that they give you the broad features of what the tissue looks like. But if you wanna zoom in a little bit more and see what's actually happening inside a tissue or inside a cell and you need a different type of sensor that's gonna be more sensitive and for something like that, you're gonna need a quantum sensor."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Are there different types of quantum sensors for different things?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So one of the quantum sensors that's related to the work that I do is based on these defects that are called nitrogen-vacancy centers"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In a diamond and people actually now make nano diamonds that they can try to put inside the human body to look at the chemistry inside the cells."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So is that used for drug trials and when testing out new treatments?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We can do it on tissues right now or on the surface, but we can't actually do it inside the body. So right now, we're struggling to figure out which scenarios can we use this to get better information and when can we not do it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Are there any other quantum sensors at the moment that are in the developmental stage anymore that we are using?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So there are quantum sensors that are sold for very specific applications, one of them is a magnetometer and those can be really, really sensitive to measure small variations in magnetic fields. They are trying to develop sensors that are gravitational sensors. Right now, we have no way of probing what's under the ground without digging into the ground."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You talked about a sensor measuring magnetic fields."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What does that help us learn? What is that good for?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, if I wanna navigate, and I know what the structure of the Earth's magnetic fields are, in some ways, that's how birds navigate."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The avian compass."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In fact, people think of that as a quantum sensor."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay, so they've got like built-in."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "A biological quantum sensor."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "They have a built-in sensor and one of the ideas is that, they're using quantum phenomena"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "To figure out what the direction of the Earth's magnetic field is."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's why they're able to be, homing pigeons are able to come back"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "To their original location."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, that's cool. Yeah."
+                }
+            ],
+            "topic": "quantum sensing",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

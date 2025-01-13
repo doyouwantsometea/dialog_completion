@@ -1,0 +1,71 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So you're a student in high school, is that right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, I'm a sophomore."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, we're gonna be talking about computers here today, and we're gonna be talking about the internet. I always like to think of the internet by analogy to say road systems for example, where you have roads in your neighborhood. You have state roads, you have the Interstate Highway System. And so the internet is a lot like that. It's an interconnection of local roads, local networks like the network in your house for example."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How does like all of the networks in my house connect to all the city networks?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Wow. Great question. Often, it's a little blue wire called an ethernet cable. So that cable is able to bring bits of information up into your apartment at say, a billion bits per second. That's pretty fast, right? Literally a wire that goes between a box in your apartment, sometimes called a router or a modem in your apartment that comes from an internet service provider come into this first network and then that network connects to another network connects to another network connects to another network."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You could FaceTime somebody who's like in Australia. You can talk to them at the same time, and like you're reaching the same signals. So how is it that it gets there so fast?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We could talk about that by analogy to a road system. It's not just one big, super highway. It's a lot of smaller super highways that are all interconnected. And those interchanges are what are called routers. That's where the links come together. You're talking about talking to a friend in Australia. So oh, it's coming in from the East Coast of the United States to this router, and it's going out say, that routers in San Francisco, it's going out on an underseas cable over to Australia rather than in this direction up to Japan."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So there is an underseas cable?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The underseas cables are so cool! They're these big cables that are laid down by switches. They cross both the Atlantic, the Pacific, the Indian Ocean. So the undersea cables are how the networks in Europe, United States, Asia are all connected together."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How do you connect wirelessly?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's really what we call the first hop. It's like from your phone, from your tablet, from the computer that you're on, there's no cables coming in. You go over a wireless connection. Wi-Fi is the protocol that allows your computer to talk to that first hop router over a wireless communication link."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And I was wondering how there's so many different movies or TV shows that you can download and they're all there. And if you just play it, it just knows what to play. Like they're all in one spot."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Ah, you said they're all in one spot. In fact, they're in lots of spots in Netflix. And so most applications would like to connect you with a server that's close to you. Server is really just a big computer with a lot of memory, a lot of discs that store all the Netflix movies, and also so that you don't have to cross over too many internet links to get from where the server is to the TV or the device in your home."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So when I'm watching Vampire Diaries in my house, how does it know exactly what to do without getting scrambled up?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Ah, another great question. There's a couple of things that could happen inside the internet. Information is sent in these little packets of information from the Netflix server to your display device. And literally, each packet that arrives says, This is the first packet for Jenna. This is the second. This is the third. This is the fifth. This is the fourth. And they're reordered for you. Matter of fact, your computer will say, using the TCP protocol to the server, Hey, I didn't get packet four, can you resend it again? And again, the Netflix server is very happy to send you packet four again. The other is the internet protocol. If you think about sending letters through the US Postal Service, how you've got an address on it. So every packet that flows from the Netflix server to you has an address on it. It says, This is going to Jenna. It's going to the what's called the Internet Protocol address of your device. Think of all the range of devices that are hooked up to the internet. It's totally amazing, right? Every single one of them has one thing in common, and that is they speak the IP protocol, the Internet Protocol. That was a great question."
+                }
+            ],
+            "topic": "internet",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

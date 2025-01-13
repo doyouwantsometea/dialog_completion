@@ -1,0 +1,183 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I can say that when you reached out to me and I first learned about this program, I immediately went to my computer and I implemented yet another version of like zooming into the Mandelbrot set."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah for sure."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Just because I was so excited, you know? So that the thing is that it took me maybe 30 minutes. A kid at home who's like 13 and 14 who just starts playing around with a simple computer program can make incredibly beautiful fractals."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Or you don't even need computers. Like I remember when I was a kid, I played electric guitar and I had all these guitar pedals with different effects and oh, what happens if you put the output back in the input and just run it through itself, you're gonna start hearing this kind of fractal sound, right? So today we've been telling people, fractals are things that are somehow self-similar, they have detail at all scales. Are there other ways you might introduce fractals to somebody or are there other things you might say, this is what a fractal is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And I think that's one of the things that's exciting about it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think about like the scale and variance of different physical equations, like navier-stokes is, you know, kind of scale and variant, you know, this Reynolds number that tells you how viscous things are, but you can have the same kind of fluid behavior at all different scales. And that's why you get turbulence at all different scales."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think you could get to the reasons why does a coastline look like a coastline at all different scales? It's because the forces of nature tend to work similarly at all different scales. And it's those forces that are doing very, very simple things over and over and over again that are constantly creating the sense of detail."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah I actually actually remember the moment when I finally figured out how to make turbulence in computer graphics, I was working for this company, Maggi and Disney was working on a movie. I think it was weird science where they wanted to have a marble vase. And then about three in the morning, I was at a diner nearby and I was pouring the cream into the coffee and I was watching it and I started watching it swirl around. And I realized that what was happening was really simple that you had this line of cream and then it hits the cup and it folds and then the folds get caught up. And then that folds again. And it's a really simple process of folding within folding. And I just went to the computer and did that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah and I think it's really cool that this kind of fractal description of geometry or physics is also kind of baked into the nature of computation. Computation is recursive kind of biased nature. And so it's kind of a match made in heaven that we happen to build these machines that also-"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And things look like marble and looked like flame. And they looked like clouds and they look like you just keep using those simple techniques"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You know, behave the way that nature does."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "[Ken] Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You just have to understand recursion."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There you go."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So somebody once told me in order to understand recursion, you just have to understand recursion."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And then you get it all."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think that's also, what's so beautiful about fractals is that, you know, if you think about sort of the history of geometry as well, Felix Klein was looking at geometry by saying, well, geometry is all about in variance. I have some group of transformations and I look at objects that are sort of in variant with respect to these transformations. So if you just look at translations, okay, what kinds of shapes remain the same under translations? Will you get tiling? You get wallpaper. And if you start asking that same question, what if I allow scaling in my transformations then boom, you have fractal."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But I think it's this point that that point with the coffee is important because the forces we're operating at one scale, they're operating at the scale of the coffee cup. But over time they kept making details that were smaller and smaller. Process at one scale, plus time you get fractals."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Keenan] Come out of nowhere."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Immediately, right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Keenan] Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And when everybody understands scaling."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Now you work on kind of the future of virtual reality and augmented reality and extended reality. But it's kind of interesting because I think if I think about exploring these infinite fractal landscapes in some way, they still feel a little bit lonely or they feel a little bit poor of the kind of richness that we have in the real world."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Scaling is a simple thing yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "People outside of computer graphics and engineering and science and so forth have also thought a lot about and used fractals as a language for talking about nature, for characterizing shapes and behaviors and so forth tissue or friction, or all sorts of really important phenomena. Do you think that computer graphics has kind of dropped the ball in terms of saying, you know, this is not something that's exciting anymore to work on procedural descriptions and we're, we're moving on from that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "This is where machine learning starts coming in, because you can start saying, okay, this is a very, very rich virtual world, but it's informed by, you know, my favorite mountains that I saw in Italy once. So you can start training these fractal worlds on things about the real world that have particular emotional resonance for us."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right? Lazy evaluation, we love being lazy in computer graphics."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, I mean, if you look at any Hollywood movie or you look at any of the game worlds that people are spending all their time in they're highly procedural, they have to be, and they have to make use of fractal techniques because it's basically a way to get enormous complexity without having to explicitly store the complexity. And because they're able to use these relatively simple fractal techniques to make very complex looking natural things."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, it's also, it's not even possible to explore, to store an entire world in your computer."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So one of the things I guess that touches on is this question about controllability or the ease of, with which everybody can create these worlds. Not just people, not just mathematicians, not just, you know, trained computer scientists. One thing when I think about Ken Musgraves working about this program, Bryce, this one I felt like I could really use, what do you think we still need to do in terms of putting these kinds of tools in, in people's hands, making it easier for people to use procedural machine learning, to build these kind of worlds?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "You wanna be able to sort of generate it on the fly. I'm looking forward to things getting better. We're not there yet."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So- He made a lot of happy little trees."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think in that case, it came down to the fact that Ken in particular had a mission to make accessible tools for people without sacrificing the power and the richness of making beautiful things. I mean, in a sense he was kind of the computer graphic, Bob Ross. You know? So- "
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. And I think this is what what's so beautiful also about Mandelbrot's work is him saying, you know, it's not really about these exotic examples. Like even the Mandelbrot set or Julia sets or whatever. Yeah they're like really interesting mathematical curiosities, but they get at this idea that fractals are kind of inevitable. And Bob Ross probably never, as far as I know, never sat down and you know, thought about recursive descriptions of trees or anything like that. But it's just something that naturally comes to you as an artist."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, yeah, yeah. Which, I mean, when you, when you think about the techniques of somebody like a Bob Ross they're fractal."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah it's really part of human nature or human's connection to nature. Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, I mean, you can go back to all the classic artists da Vinci's notebooks were just full of like, this thing looks like that thing at completely different scales. So he didn't have a fancy word for it, but he completely understood it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                }
+            ],
+            "topic": "fractals",
+            "level": "colleague",
+            "youtube_link": null
+        }
+    }
+]

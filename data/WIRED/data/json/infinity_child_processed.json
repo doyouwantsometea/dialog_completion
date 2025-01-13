@@ -1,0 +1,99 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So what do you know about infinity?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think it means that it's really just something that's infinite, that never ends."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a great way to think about it. Infinity is something that never ends, where finite, the opposite of infinity, refers to a process or a quantity that we could actually count all the way through, at least in theory if given enough time. So if you had to guess, how many Skittles are in this jar?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I would say about like 217."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "217. And if we wanted to figure out the exact number, how would we find out? We could put them all out and divide them into pieces of five and then we could use that. Yeah, absolutely. In fact, I did that before you got here, and it's 649 Skittles. Here's a much harder question. How many pieces of glitter do you think are in that jar?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe like 4,012."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'll admit. I have absolutely no idea. Do you think it's a finite number or an infinite number?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Finite because I can see them all in here."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, you can see them all. And in fact, if we were really, really, really patient, we could do the same thing as with the Skittles. But here's another question. You said that there's a finite amount of glitter in that jar, and I agree. So how many jars would we need to hold an infinite amount of glitter?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "An infinite amount of jars."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Very good. Why do you say that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because if there's unlimited pieces of glitter, we need unlimited pieces of jar."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So let's try and imagine infinitely many jars. Would they fit in this room?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, absolutely not. Because this room holds only a finite amount of space. And in fact, infinitely many jars would not even fit in something called the observable universe, which is the portion of the universe that astronomers can see. Really how does that make you feel?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That makes me feel like my brain is exploding."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, that makes me feel like my brain is exploding."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Can infinity ever get bigger?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a wonderful question, a very rich question. What do you think?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think maybe because you said it was unlimited."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You have very good intuition. So there are ways that mathematicians can build infinite collections of things. And if you repeat those processes, it's in fact possible to build even bigger and bigger sizes of infinity. So what have you learned today about infinity?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've learned that even if it's unlimited, there are many different ways of making infinity and you can never actually see it all."
+                }
+            ],
+            "topic": "infinity",
+            "level": "child",
+            "youtube_link": null
+        }
+    }
+]

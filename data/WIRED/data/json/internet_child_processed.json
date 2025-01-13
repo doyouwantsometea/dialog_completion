@@ -1,0 +1,119 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hi, it's really, really nice to meet you. What's your name?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "My name is Skylar."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Skylar, we're here to talk about the internet, and I bet you must use the internet a lot, right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What's your conception about what the internet is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The internet? For me, it's just something to use when I need like to search up something or watch videos."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "The internet is, physically, these computers that all talk to each other. Billions of computers, in the case of the internet. The internet allows us to do a lot of really, really interesting, what we call applications. You ever think about how that video gets to you over the internet?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I have no idea."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Got a favorite movie?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Matilda."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Matilda. All right. We're gonna actually build an internet. I've got a couple of things here that I wanna show you, or a couple of toys, actually. Okay, let's pretend that these round balls are computers. And the internet is something that connects them. And right now, the internet is just one communication link. And Matilda is sent over the internet from this computer to your computer. So the internet is a network for carrying information from one computer to another. Now this network here looks pretty simple, doesn't it? Right? It's just one thing. Should we add some more friends in?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Let's say we want to get a video from here, over to here. How do you think that video would sort of travel through this network?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe it could go to here, to here, to here, to here."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right. So that's pretty cool. There are actually lots of different ways to actually go through the internet to get from what we call a source, the place that's sending the information, to the receiver, the place that's actually gathering the information together. And that's something we actually call routing."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Huh, but wouldn't it just be easier for it to go from here to here, instead of going from here to here, to here to here?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. So that's a really good observation. In most pieces of the internet, that's exactly what would happen. We want to take what's called a shortest path. But still, there are multiple paths. And why do you think that might be valuable?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe one way is messed up or broken. So you go the other way."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. So, Skylar, that was a great discussion about what we just built. And I wanted to talk to you about, or ask you about maybe one other really important part about networks. And it's not so much the thing itself, the physical thing, but more about the rules about communication. That's governed by something that are called protocols. Are you up for one?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Knock, knock."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Who's there?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Lettuce."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Lettuce who?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Lettuce go on. [Skylar and Jim laughing] A knock, knock joke is an example of a protocol, right? The computer that you are using say, makes a request, you ask for something, you get something in return. In the internet, there are protocols everywhere. So that two computers that have never talked to each other before know the rules for talking to each other. This global internet with billions of people using it are just lots of smaller networks that are all hooked together to each other. But also, what the internet allows are all of these what we call applications, Zoom, video playing services, can all run on top of the same internet."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, so there's one internet for all of 'em."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. There's one internet and lots and lots and lots of things that you can do on top of it."
+                }
+            ],
+            "topic": "internet",
+            "level": "child",
+            "youtube_link": null
+        }
+    }
+]

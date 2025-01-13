@@ -1,0 +1,143 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What year are you in?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm a senior, I'm studying physics right now."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Cool. What do you think of when you hear the words quantum sensing?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think that using some sort of quantum computing to sense some quantum level molecules or particles, like interactions and stuff, maybe."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. It is exactly using quantum phenomena to sense and measure things and the idea is that, if I can harness quantum phenomena and I can push the limits that are possible, I can get something that's ultimately more precise and potentially more accurate over time too."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "We believe quantum mechanics tells us what the true laws of physics are, and so a quantum sensor, in that sense, would reach the limits of what's attainable."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It would be the top tier."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It would be the top tier."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What are you doing? Like, what are you studying?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So I study spins. And so, spins are one of the platforms that people have suggested is a useful platform for building quantum technologies and I study spins on the solid state. And one of the platforms I work on is nitrogen-vacancy centers in diamond."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Which is a really nice platform because the spins show their quantum properties, even at room temperature."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, are you studying the spins of the electrons?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So in some sense, the phenomena we're studying essentially is nuclear magnetic resonance or electron spin resonance which is a very similar phenomena, but uses the spin of the electron rather than the spin of the nuclei."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So you mentioned the diamonds that are used to create the sensors."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So how long does it take to make a sensor and to make that diamond? Is that created? Do you like, put energy into it or?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you can implant nitrogen into a diamond and then you bombard it with electrons to create the vacancies and then you heat it up and anneal it, and then you get these nitrogen-vacancy centers in your system. So you mentioned quantum computing earlier. So have you heard of the idea of superposition?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm, yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So that's in some ways the key to both quantum sensing, as well as quantum computing. It's the idea that you can take a system and put it in a superposition of two states. Normally we think of classically a bit can be a zero or a one. So switch is either on or off. Whereas in a quantum system, it can be in what's called a superposition. So it can be partially on and partially off. But one of the challenges with quantum systems is that these superpositions are really hard to maintain because we don't see superpositions in the world around us. In quantum computing, you try really hard to isolate everything so that you can maintain this quantum property and the fact that it's actually going to lose its quantum properties as it interacts with the world also makes it a great sensor because now you're actually, you're using that fact that it's interacting with the world to say, wait, it's sensing something."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay, so it's like using like, the quantum computer would be kind of like the base level and then like you take it out into the world and see how like it differs?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So rather than trying to build a lot of complex algorithms and gates with it, what you do is, you take these quantum bits and you take them out into the world and say, what do you see? What are you sensitive to? So you can use an idea called entanglement to make an even more sensitive quantum sensor, but it's even more fragile. So there's always this trade-off between being super fragile and being super sensitive at the same time."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How does entanglement work into it?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So entanglement is the idea that two particles are correlated. They're essentially in the same quantum state, so that you can't disturb one particle without disturbing the second particle. And so, if I have a large number of quantum sensors that are entangled, then they're all going to interact much more strongly than if I just had one of them interact at a time."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And so that gives you a boost in sensitivity when you have an entangled"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And so, it's more precise. If you have it entangled."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's more precise, Absolutely."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay. Is an atomic clock a quantum sensor?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In some ways, it is and you know, atomic clocks are remarkable devices and being able to measure time that precisely has really important consequences. In fact, our old GPS system is based on the accuracy of atomic clocks. They're a set of satellites, each of which has an atomic clock on board and they send out a timestamp and so, once it gets a signal from three different satellites, it can triangulate and figure out exactly where you are. Now, if you could make those clocks even more precise, you could actually accurately position where you are even more accurately."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Okay, that's really cool."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So some ways, you know, when atomic clocks were designed and built, we didn't necessarily think of GPS, but technology often works that way is that, there are new discoveries and then someone else comes along and says, hey, this is a great tool for some other application."
+                }
+            ],
+            "topic": "quantum sensing",
+            "level": "undergrad",
+            "youtube_link": null
+        }
+    }
+]

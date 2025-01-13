@@ -1,0 +1,175 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What are you studying?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm a first-year computer science student at USC Viterbi. I'm interested in all things like, data and internet and blockchain and cryptocurrency."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Have you ever heard of zero-knowledge proofs?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Only in passing."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So actually, in the blockchain space is one of the spaces where we are seeing zero-knowledge proofs being implemented. And I think it's just the beginning. Let's talk about zero-knowledge proofs. At its core, a zero-knowledge proof is an interaction between two people. Then I should be able to convince you that some statement is true, but you won't have any idea why it's true."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Will I, like, understand that it's true because like, you know, the operations performed in the proof are like, of a certain, like, you know, they have like, certain attributes that would make them true?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What you're basically asking is, wait, what? Right? Right. So this is what makes zero-knowledge proof so fascinating, and so counter-intuitive. And I think the best way I can explain it to you is by means of an example. But before we do that, I have to decide what I'm gonna prove to you in a, with a zero-knowledge proof."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Sounds good."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And the way we're gonna approach this is through something called NP-completeness. What an NP-complete problem is, it's a problem that's really hard to solve. But if you can solve it, you can solve any problem that's in the class NP. And that includes a vast number of problems. And what we're gonna do is we're gonna use an NP-complete problem to actually prove an incredible variety of statements through a zero-knowledge proof. And the specific Np-complete problem that we're gonna be looking at is called map three-coloring. Okay, so here we have a map. Okay. And these are a bunch of countries. And we've arranged them so that no countries that have the same color share a border. That's what makes a map like this validly colored. And now you might think, well, why should we care? It turns out that whether or not a map can be three-colored in this way is an example of an NP-complete problem. And it turns out that, you know, maybe what you really wanna do, is you wanna give a zero-knowledge proof that you have at least 0.3 Bitcoins, right? That would be cool."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Without revealing what the address is of your account. It turns out I can take that statement that I have at least 0.2 Bitcoins, and convert it into a map of countries. And that map of countries will be three-colorable like this only if you have at least 0.2 Bitcoins."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How would we turn something like this into a zero-knowledge proof?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Of course, the first step is we have to erase all the colors. What I've done is I've put a color inside each of these envelopes. Now, how do you know that it's a valid coloring? You don't. Right? You have to pick any two neighboring countries. You can pick them however you like. At random."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Can I get these two?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "These two?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "All right. Sounds good. Right? Here we have green, right? And over here, we have blue. Okay. And as you can see, they're two different colors."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right? So you have a little bit of confidence, right, that I have managed to color this correctly. but not that much confidence. 'Cause I've only shown you two of the countries."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right? So now, of course, one way to get more confidence is to open up more of them for you, but that would be revealing information to you. I don't wanna do that. So instead, I'm gonna ask you to please turn around. And now, let's change up these colors. Can you pick two countries at random and we'll reveal two of the colors again."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'll take this one and this one."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Nice. And that's smart of you to check with the same one of the ones you already had. Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But as you'll see, now it's not green, it's blue. And this one on the other hand, is green. Okay. The colors I showed you last time, don't work with these new colors, right? This wouldn't have worked before."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, because of this one, right?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. Right. But it works for this coloring that I'm showing you right now. So what we've done is we've made it impossible for you to put the pieces together. And if you do this, let's say, a thousand times. And if I correctly showed you different colors, each thousand times, you'd be really convinced. And that's it. That's the entire zero-knowledge proof."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh, okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So is it like, there's no actual, like, explicit, like, step one, step two, step three."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Amit] No."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's just like, a probabilistic proof all."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, in actual implementations we wouldn't use envelopes."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You would use encryption. Right. But it's really, this is the protocol."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So what are the broader implications of like, zero-knowledge proofs. Are they supposed to be like, more practical for like, implementation, and or, are they supposed to like, structurally prove something?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's not about making something more efficient. It's about doing things that we just didn't know how to do before. I can actually prove to you without revealing to you any of my secrets that I use to behave honestly. Right? I could prove to you that I signed some encrypted document correctly. Right? Without revealing to you what that secret document was. That ability to change the game. Like, really just change what we can do is what zero-knowledge brings to the table."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Where do you think we could build like, more trust using like, zero-knowledge proofs?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And it's implementations?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "One great example is like in elections. If you could prove that an election was correctly conducted. That every vote was counted, and it all added up to one person winning with a particular total, in zero-knowledge, then you don't have to give up the actual votes of any person. And yet everyone could see that, hey, yeah, it was done correctly."
+                }
+            ],
+            "topic": "zero-knowledge proofs",
+            "level": "undergrad",
+            "youtube_link": null
+        }
+    }
+]

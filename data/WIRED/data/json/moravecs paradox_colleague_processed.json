@@ -1,0 +1,63 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So great to see you, Michael. Thanks for coming."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's my pleasure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So over the past four levels, we've been talking about Moravec's paradox. I'm curious to get your perspective. There are still a lot of open questions for how to leverage previous experience and learn cumulatively over time."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's funny because I'm kind of at the heart, a developmental psychologist. And so when we talk about babies, a lot of what we're talking about is how they become human. I started to try to build computer models of little tiny bits of babies cognition. And I would ask people, and they'd say, You have to assume that you can recognize objects, because actually recognizing objects is impossible. And I was like, 'Wait, it's impossible? What about AI?' And they're like, 'That's, that's really hard.'"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Why do you think it's so hard to build these things into AI systems and robots?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I guess if you think about a quintessentially human task, like playing chess or solving arithmetic problem, things that other creatures just don't do, when you're a human being, you have to learn that in cultural time. And so there's a limited amount of data you have. But if you're talking about seeing the world interacting with the world, using your effectors properly, that's the combination of this massive amount of evolutionary time. When you look at that, it's like the 56 games of chess I played in chess club that doesn't look like a lot of training data. You work so hard to make a robot, do one particular thing or one class of task, and then seems like people must always come up to you and say, 'So, okay, but what about my other task? Okay. You can fold the sock or stack a cup. How about my dishes?' Is that frustrating? Is that a challenge? Is it interesting?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think it's interesting. And also a huge challenge. I think that it's interesting that if a person sees a robot doing something that seems very capable, they assume that the robot can do all sorts of other capable things. It's a huge challenge, because that's actually not the case."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "When we think about babies on their social cognition, we actually start from the idea that they have a notion of what an agent is. An agent is something that's self-propelled, that has its own internal states, like goals and beliefs. And so, it's very natural to imagine that when you see a seemingly, they call it propulsive, action by a robot, you're thinking, 'Hey, this thing has a desire. It has a goal. It's accomplishing it with its. So what if I give it a different goal? Why couldn't it do that?' They call it promiscuous generalization about agents, right? I think that the electrical outlet looks like a face. I think that my computer's mad at me. And so I think it, the challenge actually is to stop people from doing that, and to recognize limitations where there are some. Or we bring to bear our knowledge, sometimes incredibly quickly, to parse an uncertain image. So our experiences go all the way down to our very first impressions of the sensory signal."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I like that description, because it conveys how much complexity there is to these really basic tasks that we're doing. Is there a definition for the simple tasks that we do versus things that are more complex, like playing chess?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I guess I like to think about this hierarchical cascade, where, at first, vision starts with the sensory signal and parses it into gradually more complex units. I think it does make sense to talk about lower level, meaning closer to sensation and perception and action, and higher level meaning more deliberative, more mediated by memory and language and judgment."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That notion of hierarchy is really interesting, because it is these higher level things, like playing chess, for example, that are easier for AI systems. And the reason why they're easier is that we're providing the abstraction for the system already, then when we give the game of chess to an AI system, we abstract away all the challenges of like picking up pieces and moving them, and we say, 'Okay, there's this board of however many boxes on it.' And you just need to figure out within that very narrow, small world, what to do. But handling and learning what those abstractions should be and handling everything from low level sensory inputs to that higher level processing is really, really hard."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Our impression that it's purely discrete and symbolic might be, just that might be an impression, because we talk about it in a language. And actually, the fact that it's connected up to all these perception and sensation and action systems means that it's probably grounded in a more continuous set of representations. I wonder, is there gonna be a point where what you really want to know is what are the experiences that a human has? [indistinct] human speech own project. His idea was, 'Well, I need the exact data that my son gets in order to train my robot to be like my son.' Or do you think that we're gonna end up in a world that's more like the large language models and that'll have to do?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I suspect that we'll start by doing whatever is most convenient, 'cause that's whatever we can get. But I think that for robots to be capable alongside humans, in a world with humans, I think that we may need to actually use human experience, human learning, to inform how robots learn, if we want them to follow the same kind of mistake pattern as humans, so that humans can interpret robots, and humans can understand what robots will and will not do."
+                }
+            ],
+            "topic": "moravecs paradox",
+            "level": "colleague",
+            "youtube_link": null
+        }
+    }
+]

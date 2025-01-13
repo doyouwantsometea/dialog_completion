@@ -1,0 +1,135 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What's your name?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Namina."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Our topic today is quantum sensing. So quantum is about the study of stuff that's really, really, really small and sensing is about measuring. So the word sensing comes from kind of like our senses. So do you know what your five senses are?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Seeing, hearing, tasting and smelling."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, and touch."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Touch, exactly. So it's kind of really important for us to be able to have these senses, so we know what's happening in the world around us, right? In doing quantum sensing is we're trying to measure things that can be hard to see. Let me show you. Can you see inside it with your eyes?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No, I don't think so. No? Okay."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Can you bounce it for me?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Do you know what makes it bounce?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think like inside of it, it's foam that's fluffy, but my second answer is, I think it's very soft."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's a great description. Can we cut one open and see what it looks like?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You think that's a good idea? Here's a ball that's been cut straight in half and you look inside."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's hard. It is."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What gives it a certain texture?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's like, the texture of like the top of a crayon."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Oh, but you were right that it was like foam. It would be really cool if we could see inside the ball without cutting it open, right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But you could use a magnifying glass and then look at the ball."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But with the magnifying glass, you'd only be able to see what's right near the surface, right? Just."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You wouldn't be able to see into the middle. If you had the right tools, you could start to think about ways to look inside the ball without cutting it open. That would then, you'd still have your ball. We could still play with it."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, yeah, it would be cool if we like used something like an x-ray, we build an x-ray"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That was only made for balls and you could see everything inside it, every single detail, you could zoom in and out"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And you could draw it, print it out."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's exactly the type of thing that we're doing. We are sensing, is we're trying to measure what's inside, and do it without destroying the ball."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "For example, we want to go inside, let's say the human body and see what's happening. Sometimes we can look under the surface of the Earth and see what's underneath it. We can make really, really precise clocks that will tell us, that can measure time really, really accurately. And we can make very, very fine measurements that'll tell us about the rules of science and how the world works around us. But we need to build better tools that allow us to do that."
+                }
+            ],
+            "topic": "quantum sensing",
+            "level": "child",
+            "youtube_link": null
+        }
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So have you ever heard the term zero-knowledge proof before?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have not. No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You have not. Right. It's a way for a prover to convince a verifier that something is true without revealing anything about why it's true, which sounds totally bizarre. Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Like how can that possibly be? What I wanna do is prove to you that I know this combination without revealing the combination to you. And what you could do is you could write a little note, a secret that I definitely wouldn't know. Fold it up, stick it in here. And then, if I know the combination, I should be able to open it and tell you what you wrote. All right. There we go. All right. So,My dog is named Doug. Did you figure out what the combination was?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So nowhere in this interaction, did you see any information that you didn't already know. And yet I convinced you that I know the combination. Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. So what's the exact purpose of a zero-knowledge proof? Is it like proving something but without giving enough information that could endanger whatever it is that you're proving?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you're asking like, why shouldn't I just share my secrets with somebody? People don't trust each other. And if I was able to prove that I've done something correctly to someone without having to reveal my secrets, then that person would trust me more."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How does this relate to computer technology? Like, do you type it into a computer and somebody else receives it? Or is it an in-person interaction?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Suppose you wanted to exchange messages with someone that you knew."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Mm-hmm."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What would you guys do? You'd probably first get together and like, figure out some secret code, right? And then like, write messages to each other in that code. But what if you've never met the person before? What if you wanna exchange secret messages with me and we've never met each other before? How could we possibly do that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have no idea."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It sounds impossible. Right?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It does."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "But it's not. You wouldn't use like, a physical lock, or a physical box. We would instead use mathematics to do these kinds of things. You could take a message and encrypt it using mathematics. And then, I could prove to you that I know the key, I could open it up, and send it back to you. That way I would be proving to you that I know the mathematical key to the mathematical lockbox. So based on what we've discussed today, in your own words, what is a zero-knowledge proof."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's like, if you have this really important secret that you want somebody to know about, but you don't want to tell them everything. You can use a zero-knowledge proof to prove to them that secret, but not give away all of it."
+                }
+            ],
+            "topic": "zero-knowledge proofs",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

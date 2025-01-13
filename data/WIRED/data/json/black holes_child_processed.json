@@ -1,0 +1,111 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Hi, welcome. Tell me your name."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Hi."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I wanted to ask you if you have ever heard of a black hole?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Jude."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So black holes, you describe them as huge. The interesting thing about black holes is they're hugely heavy, but they're actually physically really small. What really matters is the density. Do you know what density is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, I think that they're scary and cool. 'Cause you can get sucked in and get lost forever and get plopped out in a random place. It's like a big, giant, black thingy."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Here, let me show you something. I can ask how heavy it is."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's not weight, but it's how much of it is in it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I can also ask how big it is, which is a question about its volume. If I make it smaller, then what's happening is it's becoming more dense. So imagine I crushed this really, really small. It would weigh the same, it would have the same mass, but it would be much more dense."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "If a star is heavy enough to explode into supernova what's left begins to collapse under its own weight. And if that's heavy enough, the core will not be able to stop collapsing, 'cause it no longer has the thermonuclear fuel, it's run outta fuel. And if it's run outta fuel, it's no longer shining and pushing outward. And without that it itself begins to go dark and there's nothing fighting the collapse anymore. And that's when you form a black hole."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How does it go that small?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, that's a really good question. So interestingly, the sun itself isn't heavy enough. So it has to be heavy enough that when it begins to collapse, it just overcomes all attempts to fight it. If you made something really dense, you would have to travel faster than the speed of light to actually escape. That's 300,000 kilometers per second."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So if like the sun all collapsed on itself, it would form a black hole?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So it goes so fast that it goes completely dark. Any light that veers too close will fall in, will not be able to make it back out again. If a light is shining from the sun near a black hole, the black hole's not touching it. Why does the light get pulled in? Why does that happen?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So it goes so fast that there's it's all dark?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It is taking other stuff, but the funny question was like, if I wanted to move your chair, you'd think it was really strange if I didn't have to come near you and actually grab the chair and move it. One of the things Einstein thought about is he imagined that what the black hole is doing is it's changing the shape of space around it. What do you think of that idea?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because the black hole is taking other stuff?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Isn't it crazy? And then Einstein goes a step further and thinks, well, what black holes must be doing is curving the space so strongly that even light gets caught. Sometimes you can get light caught into a whole orbit, literally the light going round and round in an orbit."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's crazy."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's right. We've been talking for a little while about black holes. What are you gonna walk away with in your impression of what a black hole is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So black hole, it doesn't attract light, it moves the space so that the curve is pointed towards it?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "You said that very beautifully. Does that feel like a different idea of a black hole than the one you had before we spoke?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's kind of curves in space that are all coming to one point. Everything that goes on those curves changes directions to come in and even light can't escape it, nothing can."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, a lot."
+                }
+            ],
+            "topic": "black holes",
+            "level": "child",
+            "youtube_link": null
+        }
+    }
+]

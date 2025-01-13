@@ -1,0 +1,79 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What does infinity mean to you?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Really anything that has no end to it."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, that's absolutely right. So infinity gets used a lot of different ways in mathematics. There's a way that mathematicians think of infinity as a number, just like the number 13, just like the number 10 million. So the reason that mathematicians consider infinity to be a number is that it is a size of a set. So the first example of an infinite set in mathematics is the set of all counting numbers. So one, two, three, four, five, six, seven, et cetera. That list goes on forever. That is an infinite set. And to be a little bit more precise, it's a countably infinite set. But as a number, infinity is pretty strange."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What do you mean by that?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Adding infinities. Multiplying infinities. And there's a sense in which it's very similar to the arithmetic that you learned about already. But it's also totally different. It has some very weird properties. Welcome to Hilbert's Hotel. Unlike an ordinary hotel, has accountably infinitely many rooms. Suppose a new guest shows up, you might think that the new guest could take the room that's all the way down at the end of the hall, all the way at infinity, except there isn't a room like that. The rooms each have a number, and even though there's infinitely many rooms, each room is only a finite distance away. So here's how we're gonna make room for the new guest. I'm gonna ask the guest in room one to move into room two, and then we're gonna ask the guest in room two to move into room three, and we'll continue this all the way along. It looks to me like there's space for the new guest. Where is it? "
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It'll be in room number one."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Room number one. Exactly. I'm gonna use this symbol for infinity, but what we've just shown is that one, the one new guest plus infinity is equal to the same infinity. What happens if we had a second guest?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Would it be two plus infinity equals infinity?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Absolutely. So now I'm gonna make this story a little more complex. That there's another Hilbert's Hotel down the street and they're having plumbing issues and we need to find room for them."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "They can't live together?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "They can't live together. That would be a great solution. I don't know. I think these people don't really get along. So I need to somehow create infinitely many new rooms, but I can only ask each person in the hotel to move a finite distance away. So let's take the guest who is originally in room one and move them into room two. So that's creating one new space for us. And I'm gonna take the guest who was originally in room two and move them into room four. Are you starting to see a pattern here?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes. You're going up one each time?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, I'm increasing by one more each time. So I'm doubling the room number in fact. So this is some of the strange arithmetic of infinity. So we have two Hilbert Hotels, each of which have infinitely many guests, then this is equal to?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Infinity."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Infinity, great. Hilbert's Hotel is a story that mathematicians have been telling themselves for almost 100 years because it's a really visceral way to think about some of the counterintuitive properties of the arithmetic of infinity."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How does infinity come across in mathematics for you?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So when I'm teaching calculus and talking about concepts like limits and derivatives, those are only defined precisely with infinity. Teaching algebra, which is meant in a different sense about number systems, we deal with infinite families of numbers in their operations. Infinite sets are somehow very exotic. They're not found so commonly in their real world, but they're all over mathematics."
+                }
+            ],
+            "topic": "infinity",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Have you heard about black holes?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, I know it has a lot of mass, but it's very small. I know that there are several theories about the universe due to black holes, like, around the universe and how it's made."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So a lot of times stars are born together in two star systems and when they die, if they're heavy enough, they will collapse under their own weight and form a black hole. So here you have a black hole and a big fluffy star. And what will happen is it'll start to tear apart its neighboring star. Literally parts of the star will begin to spill onto the black hole and splatter on the black hole. But let's say both those stars formed black holes. And what these black holes do is they are like mallets on a drum. They create literally waves in the shape of spacetime as they're moving. So imagine mallets on a drum, how the drum ripples. Depending on how the mallets are moving you hear different sounds. So effectively these black holes, as they get very close together in the final stages of their life together, they're orbiting each other at hundreds of times a second. It's this really crazy event, but it's happening in complete darkness. Eventually they bobble together and they merge and then they wring out, the spacetime's going crazy around them, it's this storm in spacetime, and they settle down to a quiet black hole. Then those waves that they created travel through the universe, basically undisturbed. For a long time people thought, well, even if black holes are out there, they're impossible to observe. And then they got very clever. You might wonder how we could possibly hear black holes, that sounds crazy. So I'm gonna show you, but I'm gonna need your help. This demo involves an electric guitar. Do you play at all?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A little bit?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, you wanna do the demo for me? So the LIGO instrument electronically records the ringing of the shape of space with its very complicated instrument. It stands for Laser Interferometric Gravitational-Waves Observatory and the design was incredibly difficult and they didn't know if they would succeed. I think of the instrument as like the body of the electric guitar. And then they take the readout of the motions of the waves that they're recording, just like that guitar is recording the motions of the waves on the string. Now just play it like a little bit. And you can't hear anything, right? You're not meant to hear an electric guitar when it's not plugged in. What's happening is the guitar strings are ringing, but so quietly that we can't actually hear the sound. And this is like the gravitational waves, which are ringing the drum of spacetime, but so quietly that they're not move the air and we're not hearing them. So now play and I'm gonna turn the volume up a little bit. While I can't actually hear the ringing of the strings themselves, I can hear the data of the shape of the string recorded and played through this amplifier. And that's kind of the idea behind the LIGO instrument."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How do you know that it's like the black hole that's making this sound and nothing else?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a great question. If I didn't see you playing the guitar, I would recognize the sound of a guitar. And even if I had never heard of a guitar before I could figure out the frequencies that the string was playing, I could tell how strongly it had been plucked, and I could tell the length of it and where it was pinned down from the harmonics of the string. And I can tell the different lengths of the strings from the notes that they play. So I can actually reconstruct the instrument that's playing it. And it's very similar to LIGO, we can listen to the notes, the amplitude, the harmonics, and we can deduce the size and shape of the objects doing that. And they're very massive and they're very small and they have all the markings of a black hole."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Is there anything that like gets affected on Earth because of those waves?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a really good question. Only this instrument, and that's why it was so hard to build. And by the time it gets here, it's so weak that it's only squeezing and stretching space at like the fraction of a nucleus over very large distances. Has your understanding of black holes changed over the course of our conversation?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I knew there were waves for like everything, but I never thought specifically, oh yeah, black holes have, like, waves. I know more and less."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I know what you mean."
+                }
+            ],
+            "topic": "black holes",
+            "level": "teenager",
+            "youtube_link": null
+        }
+    }
+]

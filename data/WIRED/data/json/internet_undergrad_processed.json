@@ -1,0 +1,139 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "So tell me a little bit about yourself?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I am a senior at New York University. I study computer science."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Have you taken any courses on the internet or studied it at all?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I've taken Applied Internet Technology. So we've talked about backend/frontend frameworks and libraries, things like that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, so really at the application level?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "At the application level, for sure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I wanted to ask you a little bit about what you know about the history of the internet. Have you heard of ARPANET, for example?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I have not heard of ARPANET."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, back into the 1960s, there was a research agency in the United States called DARPA, the Defense Advanced Research Projects Agency. Actually, it was called ARPA at the time. They wanted to build this notion of a packet-switching network. Not a circuit switch network like a phone network where you get a dedicated path and a dedicated set of bandwidth and links from source to destination."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So what would packet switching enable? I'm sure there's something big here, for sure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "There's a lot big, right? And so remember, this was a Department of Defense, was they wanted to have forms of of communication that were very robust, that were survivable. Packets could all find their own ways, be routed differently through the network. So if parts of the network failed, you could route around failures."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Sounds like the reason for like a request response type of structure."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So you can sort of see how the network architecture that wasn't designed to be 100% reliable inside the core of the network, and had that complexity built into the edges of the network. And to me, the really cool thing is you put this infrastructure in place, and then all these super creative people think about amazing things to build on top of it. And you see this proliferation of amazing applications."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Abstraction, I think it's the reason why everything."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Ah ha! Spoken like a real computer scientist, right? You're a computer scientist. I'm a computer scientist. We talk about APIs, application programming interfaces. The API for the internet is something called a socket. And a socket simply says, I can communicate if I know your internet address, you know, 128.119.40.186, that number is the IP address of my server, the University of Massachusetts. If you know that, you can write a program anywhere in the world and send a message, and it'll pop out at my end."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I will be remembering that. [Jim laughs] I've heard that there are like seven keys to the internet, something like that."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay, well I don't know about the number seven, but there's something in the internet that's sort of similar to that. It's called the Domain Name System. The DNS's role is to translate names like gaia.cs.umass.edu, or ibm.com, or facebook.com to an IP address so that your application can actually send a message to that name, to that named service."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "This whatever quantity of people is able to have some form of control?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So that's a great question. Who do you think controls the internet?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm pretty sure the internet is fairly decentralized."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Okay. What does that mean?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "No one authority holds control over any sort of decisions or destinations."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's 98% true. And if you own a network, like you're att.com, or your verizon.com, you can do, within that network, you can do what you want, right? So in that sense, the internet is very decentralized, that the control of the network is up to whoever owns the network. The 2% where you said there's nobody in control, there's a little bit of centralized control. There's an organization called the Internet Corporation for Assigned Names and Numbers. Its responsibility is to handle, as the name ICANN suggests, names and numbers. It's that little bit of centralization, central authority that you need."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "When can we see the next tenfold increase in in Wi-Fi speed?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "In terms of tenfold speeds of increases, depending on what device you're using right now, it's available, all you need to do is upgrade. So the Wi-Fi protocol's called 802.11. And this is sometimes a source of confusion for people. How can it be that I've got a connection at 100 megabits per second from our TV into our router? 100 megabits per second not enough?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Packets dropping?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Where do they get dropped, do you think?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Somewhere in their travel process."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly, right. And maybe they're dropped in your apartment, but much more likely, they're dropped because of congestion somewhere between the Hulu or the Netflix or the Disney server, if you're watching a video, and your home. So even though you've got 200 megabits per second on that last hop, you don't have 200 megabits per second from the server into your apartment."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I see."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm curious, has our conversation sort of changed your view or sort of taught you new things about the internet?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think that I've sort of realized that the internet is a technology that's dependent upon so many other factors. Some more in our control, some less."
+                }
+            ],
+            "topic": "internet",
+            "level": "undergrad",
+            "youtube_link": null
+        }
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "Do you play any video games?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I really like hard stone Minecraft."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What happens in Minecraft if you get really, really close to a shape?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Well, it just looks like a block."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah it looks really blocky. And it's the same thing not only with shapes and games, but also colors and textures. And this is an especially a big problem in virtual reality because you have no control over where people are gonna go. What they're gonna look at, how close they're gonna get to various objects. So fractals on the other hand are these things that have infinitely, you know, nice details you get closer and closer and closer. And so this is something that can help us solve this problem in computer graphics of generating more detail. One of the reasons why fractals are really nice for computer graphics is because the algorithms that we use to draw images also have this kind of recursive flavor. What's recursion?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Recursion is a function that uses itself or calls itself in it's definition. And basically with that, you can figure out minute details such as searching for a value in a binary tree. It's kind of like iterating through itself, but it's often more sophisticated in that it's easier to write."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "They're easy for a computer to execute, right? It just has to run this recursive procedure over and over and over again. We can kind of get as much detail as we want or need. When I think about fractals and kind of what they've done for computer graphics. The example I think is subdivision surfaces. Did you, did you encounter subdivision surfaces in your graphics class at all?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "The name doesn't really ring a bell."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So subdivision surface is a way of describing a smooth shape on a computer rather than some complicated fractal shape. So meshes and computer graphics are usually made of these flat polygons with kind of sharp edges. And so the question is how can I get something nice and round and smooth out of these sharp looking polygons? What I can do is I can start cutting one at a time, the corners of this paper off, it still looks very angular. I still have these really sharp points."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right why are we doing this?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Because I want to draw a smooth curve on the screen, but all my computer can do is draw straight lines. And that's actually too true of GPUs. It's kind of interesting. GPUs are basically really fast machines that can only draw one thing and that's a flat triangle. And so if we keep doing this with our paper, you kind of get pretty quickly the idea of what's gonna happen. So when you go to see a Pixar movie, for instance, every surface has been subdivided down. So you have tiny little triangles called micro polygons that are even smaller than the size of a pixel."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How long does this process take?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Well, because people who really need to use these subdivision services for everything, people who worked hard over the years to make this super, super fast. In fact, subdivision services were invented basically at Pixar. There's this guy, Ed Capel, and he was harshly responsible for one of the most famous kinds of subdivision surfaces called Capel Clark subdivision surfaces. And in fact recently won the touring award for these subdivision services."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "What do you think are the current shortcomings in, I guess applying fractals to computer science right now, what are, what is the cutting edge?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So we've, talked a little bit about the positive features of fractals and procedural graphics, which is you can write one simple recursive program and the computer creates a lot of detail for you. So that's really nice, right? It's saving you a lot of work, but the downside is you lose a lot of control. So because the only thing you're describing is this short little program, you don't have complete control over how this is gonna end up. And so adding more controllability to procedural graphics is something people have been thinking about for many years. So how has our conversation changed your understanding of what fractals are all about?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think it's really interesting to see the different ways, fractals will be not only useful, but necessary in being able to render these games and these different programs that are interesting in the metaverse or different media to be really beautiful."
+                }
+            ],
+            "topic": "fractals",
+            "level": "undergrad",
+            "youtube_link": null
+        }
+    }
+]

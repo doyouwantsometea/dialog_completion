@@ -1,0 +1,171 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "It's so great to have you here and to talk with you, Eli. Can you tell me a little bit about your research?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "My research is in cryptography. Specifically, I'm working on some various multi-party computation protocols. The one I'm working on right now is a system for computing aggregate statistics. So that service providers like, Google Chrome or Tesla, can collect those statistics without learning anything about individual user's data."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's awesome."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I, as a user, don't have to let Firefox know that my favorite website is mylittlepony.com. But they can know how many users go to mylittlepony.com every day."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's near and dear to my heart. Multi-party computations."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Obviously, zero-knowledge proofs are about proving things to another person without revealing the details of what it is that you're proving. But, you know, in my mind, zero-knowledge actually goes even further beyond that. It's like this overarching concept that you can see a lot in multi-party computation, where you wanna accomplish some sort of task without revealing anything more than exactly what you need to accomplish that task."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right, and it allows you to prove that you've been behaving honestly, without revealing any of the secrets involved that you use to actually behave honestly. So we of course know that zero-knowledge proofs for NP-complete languages plays such a huge role in cryptography. I'm curious. What was your first experience with Np-completeness like?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, so my first encounter with NP-completeness was in my very first algorithms class that I took as an undergraduate. So that was my first introduction. Is that an NP-complete language is this amazing problem that not only tells you about itself, but solving this problem can actually tell you about an entire class of really interesting problems."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "When you first start to think about proofs as an interactive game where we're talking to each other, did that make zero-knowledge possible?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Absolutely."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "[Amit] Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And the idea that randomness"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "could be useful for proving something. Again, seems so counter-intuitive if we think about this platonic ideal of a proof, right? There's no randomness, there's no non-determinism that's present there."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. And it has to do with, you know, this whole idea of flipping a proof on its head. You know, in an old classical proof, randomness is specifically against the goal of what you're trying to do."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because you're trying to make everything obvious, and you're trying to reveal the flow of information."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Indeed."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "But once you flip that on its head and you're no longer trying to do that, suddenly all of the bad properties of randomness become good."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. Right. Because random is unpredictable and that's what we want. Right. We want that unpredictability around us to be utilized, to actually hide the information that we wanna hide. How have you used your knowledge in the projects that you've worked on? What are the challenges that you find?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "In my experience, usually the hardest part is figuring out exactly where the best place is to use it. I've written some papers in the past that have used zero-knowledge in a more theoretical way. But when it comes to applications, some of the most exciting applications that I've seen so far have been in the blockchain space."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So what are some of the efficiency bottlenecks that you find?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "In terms of efficiency, one of the coolest things about zero-knowledge proofs is that there's so many kinds."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I like to call them flavors. I think that in general, when you're using zero-knowledge proofs in application, the main bottleneck tends to lie on the prover."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Can you take the prover's job and split it up into lots of parallel computations?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Ooh. That's such a fun question."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's such a great question. And yeah, I think we still don't know the answer to that, as a field."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "One of the coolest things I've seen over the past, you know, three or four years, when I've been working on this kind of stuff, is the transition from theoretical to applied."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "And seeing all of these amazing systems that people have thought of in the past 30 years, start to actually get efficient enough to be actually made."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "No doubt. And especially with cloud computing, exploiting the power of the cloud to enable zero-knowledge proofs, and to make use of zero-knowledge proofs, would be amazing."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah. Absolutely."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "And also in the blockchain space, for example, if you wanna speed up the generation of proofs, if that could be done in a distributed way, then that would be great. One of the hopes that I have is that the power of multi-party computation is about bringing people together who are mutually distrustful."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So can we take that power that's there in the cryptography, and use it to somehow help with the tremendous level of mistrust"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "that exists in society right now, in helping to bring groups of people together?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I think that's one of the reasons that I was so drawn to multi-party computation in the first place. In my mind, one of the most important problems in the world is the fact that so many people don't trust each other. And to be able to actually use math to create technology that can allow people to work together without having to trust each other, is a really cool and awesome mission, I think."
+                }
+            ],
+            "topic": "zero-knowledge proofs",
+            "level": "grad",
+            "youtube_link": null
+        }
+    }
+]

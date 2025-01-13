@@ -1,0 +1,83 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What year are you in your PhD?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm just finishing up my first year. Studying food manipulation and also bimanual manipulations, and just enabling robots to have these capabilities, so that, eventually, we can use it in like a home robot use case, for example."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What are some of the challenges that you've run into when trying to work with robots and do these tasks?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So, I was really interested in the problem of scooping peas on a plate. They're relatively homogenous, but when it came to more complex foods, like broccoli, or deformable foods, like tofu, that can crumble, that gets a lot more complex to simulate."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "One thing I find really fascinating about robotics is that the things that are so simple for us, like feeding yourself broccoli, so second nature to us, are really hard for robotics. When you try to take a robot and train it to do a task and simulation, and the simulation isn't perfectly accurate, it's really hard to actually model the physics of how tofu crumbles."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Right."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "What algorithms do you think are most promising for handling non-rigid deformable objects and the other things you've been looking at?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "For most of my past work, which have been relatively more complex tasks, I lean towards the imitation learning type of algorithm approach, behavioral clonning and all that. Mostly because, if it's hard to simulate an interaction with an object, then I think RL is harder to go with, because it's not as sample efficient as imitation learning can be. And a lot of the times I'll be learning some high level policy of what to do, and then hard coding a lot of the, like action primitives that I want to select between my task."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "How can we get robots to learn more efficiently or learn faster?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "From my experience, it's a matter of how much support you give the, like, robot when it's learning. One could be like a narrower task range. Another is maybe like also biasing the types of samples that you're collecting can bias towards interactions that are gonna be useful where the hands actually interact with each other, rather than just off doing their own things. What have you found to be like your go-tos between the different styles?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I think I have a somewhat similar perspective to you in that, if we provide more structure and support, and sort of forms of prior knowledge or experience in the algorithm, that should make it more efficient. And so if we can acquire those kinds of priors about the world and about interaction from previous data, maybe offline data, then I think we should be able to make learning of new tasks more efficient."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "It's similar to like skill transfer style of things, because some skills are just repeatable. Like if I know how to pick up a cylinder, then maybe I know also how to pick up a mug."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah. So you may not transfer the exact strategy or the exact policy that the robot takes, but you should be able to learn some general heuristics about performing manipulation."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "There's this gap between the simulators that we have now and what we actually experience in reality. So what do you think are promising directions to try out for actually making our simulations match reality more closely?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "It's a really, really hard problem. A lot of simulators, they don't simulate the world as a fine enough time granularity to really accurately capture things like skewing an object, for example. One thing that I think is promising is to try to not build simulators entirely from first principles, from our knowledge of physics. But instead to look at real data and see how real data might inform our simulations and try to build, allow robots to build models of the world, build simulators of the world, based on data and based on experiences. There's a little bit of a chicken and egg problem, because if we wanna use simulators to get lots of data, and we also need data to get good simulators, then there's no way to get around this."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So when you say building simulators that don't rely on first principles, are you saying like, kind of like a learn simulator? We have all these videos of humans interacting with the world, and that can be your, like, physics data that you then use to inform when you're building a simulator, that's learning based on those videos."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. I think we can use machine learning to learn about physics and to build these kinds of physics simulators."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's really cool. That's a cool idea."
+                }
+            ],
+            "topic": "moravecs paradox",
+            "level": "grad",
+            "youtube_link": null
+        }
+    }
+]

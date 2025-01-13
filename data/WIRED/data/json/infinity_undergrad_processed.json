@@ -1,0 +1,151 @@
+[
+    {
+        "data": {
+            "dialogue": [
+                {
+                    "author": "Explainer",
+                    "text": "What do you know about infinity?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "A property of something being endless."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Great. So today we're gonna focus on infinity as a cardinality, and what cardinality means is it's a size of a set. What are you studying?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I'm studying computer science"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Studying computer science. Are you taking any math courses right now?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yeah, right now I'm taking calculus two."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Calculus involves the study of functions. Functions are one of the most fundamental concepts in mathematics, but they aren't always so clearly defined. What would you say a function is?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I would say a function is a procedure that takes an input and does some operation and returns an output."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "That's the computer science brain thinking right there. So we wanna think of a function as procedure or mapping between sets. So a function defines a one-to-one correspondence if it defines a perfect matching between the elements of its domain set and the elements of its output set. We call such functions bijections or isomorphisms. So the reason I'm so interested in this idea of a bijective function or a one-to-one correspondence that guarantees that every element of one set gets matched with an element of the other set, no matter how many elements there are, these bijections or these one-to-one correspondences as they help mathematicians reason about infinity."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "How can you compare something that is endless?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Today we're gonna think about infinity as a cardinality, which is a technical term for a number that could be a size of a set. And we're gonna use this idea of one-to-one correspondence to try and investigate the question of whether all infinite sets have the same size. So what I've drawn here are some pictures of some of the infinite sets that appear in mathematics. So the natural numbers are the prototypical example of an infinite set. So the natural numbers are clearly a subset of the integers. Both of these are infinite sets. Are they the same size infinity or different size infinities?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Yes, the integers would, there'd be more integers than natural numbers."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "I'm gonna now try and convince you that they are in fact the same size infinity. And this is using this idea of a one-to-one correspondence which was applied in this context by Georg Cantor. What he says is if we can match up the elements of the integers with the elements of the natural numbers so that there's nothing left over, so that there's a bijective function between them, then that's a proof that there's exactly as many natural numbers as there are integers. Start by matching zero with zero and one with one. But then we wanna include the negatives in the list. So which natural number would we match with negative one?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Maybe two."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Maybe two. Why not? Because now we're starting to make progress on matching all the negatives. We can match the natural number three with the integer two, the natural number four with the integer minus two. And do you see a pattern?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "All of the positive integers would be odd numbers and all of the negative integers would be even numbers?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Great. So now I have a much harder question. So we have the same challenge, again, evidently there are way, way, way more rational numbers than there are integers. Does that mean this is a larger infinite set than the integers? What do you think?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "By intuition I would say yes, but that was the same case with the integers. I would imagine there might be some bijective function for mapping natural numbers to rational numbers."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So I'm going to use this picture to count the rational numbers by actually counting the elements of this larger set because it'll be clearer geometrically. What I've drawn in this picture is the integer lattice. So Z cross Z refers to the set of all of these dots. So I'll start by counting the number at the origin, and you can see I'm just labeling the dots around the origin, moving in a counterclockwise fashion and getting progressively further away. And this process could continue, but maybe by now you see the pattern, though it'd be a little bit difficult to describe as a function."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh is it for each rational number, there's a pair of integers that represent that rational number?"
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yeah, that's exactly right. And now for each pair of integers, I'm gonna represent it by a corresponding natural number. That's what's going on with this counting. And when I compose those operations, what I've done is I've encoded rational numbers as natural numbers in a way that reveals that they can be no larger, there are no more rational numbers than natural numbers."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "So this slope is represented by three, two, and three, two is in here as 25."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Exactly. That's exactly right. So we were hoping to compare the size of infinity of the rational numbers with the size of infinity of the natural numbers. What we've done is introduced an intermediate set, these pair of integer points, and this proves that this size of infinity is smaller than this size of infinity. Since we also have an injective function the other way, this size of infinity is smaller than this size of infinity so therefore they must be the same size."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "That's wild."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Now there's one final collection of numbers that we haven't yet discussed, which are the real numbers, all of the points on the number line. Do you think that's the same size infinity?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I guess again, intuition seems like it must be much larger, but I don't know, I haven't been on a roll."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Georg Cantor proved that it is impossible to count all real numbers like we've just counted the rational numbers or just counted the integers. This is called the cardinality of the continuum, it is uncountable. What I'm going to do now is form a new real number that I guarantee is not on this list. Okay, so here's how we do this. What I'm gonna do is I'm gonna look at the diagonal elements. So I'll highlight them. This continues forever, and now I'm going to form a new real number by changing all of these."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "If you just like added one to them, then that would be something that doesn't exist in any of the other ones."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Yes. You see the idea right away. So I'm gonna form a new real number whose first digit is different from this one. And you've already convinced yourself that this number is not on this list anywhere. Why is that?"
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Because at every point there's at least one change from a number in there."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Great. That's exactly right. So what we've proven is that this number is missing, and therefore it is impossible to define a bijection between the natural numbers and the real numbers."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "Oh wow."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "So we've started to explore some of the counterintuitive properties of infinity. On the one hand there are infinite sets that feel very different like the natural numbers, the integers, the rational numbers that nevertheless have the same size or the same infinite cardinality. While there are other infinities that are larger. So there's more than one size of infinity, not all infinities are created equal."
+                },
+                {
+                    "author": "Explainee",
+                    "text": "I was wondering what the kind of practical implications are, what you can do with this sort of knowledge."
+                },
+                {
+                    "author": "Explainer",
+                    "text": "Really glad you asked me that. There's a practical implication for computer science. Alan Turing, he came up with a mathematical model of a computer, something called a Turing machine. So Turing was wondering is it possible to compute every real number, an arbitrary real number to within arbitrary precision in finite time? He defined a real number to be computable< if you could calculate its value, maybe not exactly, but as accurately as you'd like in a finite amount of time. And because there are uncountably infinitely many real numbers, but only a countably infinitely many Turing machines, what that means is that the vast majority of real numbers are uncomputable. So we'll never be able to access them with a computer program."
+                }
+            ],
+            "topic": "infinity",
+            "level": "undergrad",
+            "youtube_link": null
+        }
+    }
+]
