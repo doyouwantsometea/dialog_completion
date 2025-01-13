@@ -19,3 +19,5 @@ data/WIRED/*
 !data/WIRED/data
 data/WIRED/data/*
 !data/WIRED/data/json
+
+!data/final_results
