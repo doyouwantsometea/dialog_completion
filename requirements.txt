@@ -1,8 +1,9 @@
 anthropic==0.35.0
+lxml-html-clean
 nltk==3.6.7
 numpy==1.24.3
 pandas==2.2.3
-readability_lxml==0.8.1
+readability
 Requests==2.32.3
 spacy==3.8.2
 textstat==0.7.3
