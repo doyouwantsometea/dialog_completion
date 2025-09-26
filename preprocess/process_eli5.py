@@ -14,7 +14,7 @@ ids = [(6, 7),
        (8, 50),
        (10, 40)]
 
-target_dir = 'data/ELI5/processed'
+target_dir = 'data_resample/ELI5/processed'
 os.makedirs(target_dir, exist_ok=True)
 
 for id_1, id_2 in ids:
@@ -49,5 +49,5 @@ for id_1, id_2 in ids:
 
 
 files = os.listdir(target_dir)
-for file in sample(files, len(files)-255):
+for file in sample(files, len(files)-1000):
     os.remove(os.path.join(target_dir, file))
