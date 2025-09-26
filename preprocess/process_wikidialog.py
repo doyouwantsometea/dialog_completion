@@ -8,7 +8,7 @@ from nltk import word_tokenize, pos_tag, ne_chunk
 
 df = pd.read_json('data/WikiDialog/data_validation.jsonl.gz', lines=True)
 
-target_dir = 'data_resample/WikiDialog/processed'
+target_dir = 'data/WikiDialog/processed'
 os.makedirs(target_dir, exist_ok=True)
 
 print(df.head())
@@ -43,5 +43,5 @@ print(f'Skipped {skipped_files_short} short dialogues and {skipped_files_name} d
 
 
 files = os.listdir(target_dir)
-for file in sample(files, len(files)-2000):
+for file in sample(files, len(files)-255):
     os.remove(os.path.join(target_dir, file))
