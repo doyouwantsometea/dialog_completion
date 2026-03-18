@@ -1,11 +1,13 @@
 import os
 import pandas as pd
-from tqdm import tqdm
+import time
 from argparse import ArgumentParser
+from tqdm import tqdm
+
 from data_loader import DataLoader
+from model_loader import AnthropicModelLoader, HFModelLoader, OpenAIModelLoader
 from prompter import Prompter
-from model_loader import HFModelLoader, AnthropicModelLoader
-from utils import extract_json, remove_training_set
+from utils import extract_json
 
 
 def dataset_to_path(dataset: str):
@@ -29,7 +31,8 @@ def arguments():
 
     parser.add_argument('-d', dest='dataset',
                         type=str, required=True,
-                        help='Dataset to be loaded and processed. Currently available options: WIRED, WikiDialog, ELI5.')
+                        help='Dataset to be loaded and processed. '
+                             'Currently available options: WIRED, WikiDialog, ELI5.')
     
     parser.add_argument('-m', dest='model',
                         type=str, required=True,
@@ -40,8 +43,8 @@ def arguments():
                         help='Download LLM to local device from HuggingFace. (Not applicable to Anthropic models.)')
 
     parser.add_argument('-l', dest='turn_len',
-                        type=int, default=100,
-                        help='Minimum token number of utternace to be filled in. (Default=100)')
+                        type=int, default=30,
+                        help='Minimum token number of utternace to be filled in.')
     
     parser.add_argument('-r', dest='role',
                         type=str, default='Explainer',
@@ -85,13 +88,39 @@ if __name__ == "__main__":
 
     if 'claude' in args.model:
         model_loader = AnthropicModelLoader(model_name=args.model)
+    elif 'deepseek' in args.model:
+        model_loader = OpenAIModelLoader(model_name=args.model)
     else:
         model_loader = HFModelLoader(model_name=args.model,
                                      local=args.local)
 
+    path = dataset_to_path(args.dataset)
 
+    os.makedirs(f'data/results/{args.dataset}', exist_ok=True)
 
-    path = dataset_to_path(args.dataset)    
+    optional_args = [f'{"topic" if args.topic else ""}',
+                     f'{"speakers" if args.speakers else ""}',
+                     f'{"context" if args.context else ""}',
+                     f'{"openend" if args.open_end else ""}']
+    file_name_suffix = str()
+    for arg in optional_args:
+        if arg != '':
+            file_name_suffix += f'_{arg}'
+
+    file_name = f'{args.dataset}_{args.model}_l{args.turn_len}_w{args.window}'
+    output_file_path = f'data/results/{args.dataset}/{file_name}{file_name_suffix}.json'
+
+    if os.path.exists(output_file_path):
+        print(f"Resuming from existing progress at {output_file_path}")
+        df = pd.read_json(output_file_path)
+        # Keep track of what has already been processed to skip them
+        processed_set = set(zip(df['file'], df['index']))
+    else:
+        print(f"Starting fresh. Results will be saved to {output_file_path}")
+        df = pd.DataFrame(columns=['file', 'turn_len', 'role', 'window', 'index',
+                                   'target_turn', 'dialogue', 'model', 'topic',
+                                   'explainer', 'explainee', 'footer_context', 'model_output'])
+        processed_set = set()
 
     for root, dirs, files in os.walk(path):
         # print(len(files))
@@ -114,6 +143,9 @@ if __name__ == "__main__":
             explainer, explainee = data_loader.get_dialog_lvl()
 
             for index in index_list:
+                if (file, index) in processed_set:
+                    continue
+
                 target_turn, diaolgue = data_loader.parse_diaolgue(index=index,
                                                                    open_end=args.open_end)
 
@@ -132,10 +164,20 @@ if __name__ == "__main__":
                 print(prompt)
                 
                 raw_output = model_loader.prompt(prompt).replace(prompt, '')
+
+                try:
+                    raw_output = model_loader.prompt(prompt).replace(prompt, '')
+                except Exception as e:
+                    print(f"API Error on file {file}, index {index}: {e}")
+                    print("Sleeping for 10 seconds before continuing...")
+                    time.sleep(10)
+                    continue
+
                 # print(raw_output)
                 json_output = extract_json(raw_output)
                 # print(json_output)
                 if not json_output:
+                    print("Failed to extract JSON. Skipping...")
                     continue
                 
                 model_output = json_output.get('missing part', None)
@@ -158,18 +200,7 @@ if __name__ == "__main__":
                 }
 
                 df.loc[len(df)] = new_row
-                print(df.head())
-        
-    os.makedirs(f'data/results/{args.dataset}', exist_ok=True)
 
-    optional_args = [f'{"topic" if args.topic else ""}',
-                     f'{"speakers" if args.speakers else ""}',
-                     f'{"context" if args.context else ""}',
-                     f'{"openend" if args.open_end else ""}']
-    file_name_suffix = str()
-    for arg in optional_args:
-        if arg != '':
-            file_name_suffix += f'_{arg}'
-
-    file_name = f'{args.dataset}_{args.model}_l{args.turn_len}_w{args.window}'
-    df.to_json(f'data/results/{args.dataset}/{file_name}{file_name_suffix}.json')
+                processed_set.add((file, index))
+                df.to_json(output_file_path)
+                time.sleep(1)
