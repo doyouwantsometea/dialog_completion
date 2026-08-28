@@ -84,3 +84,35 @@ python3 instruct_tuning.py -d WIRED -m Meta-Llama-3.1-8B-Instruct -n 3
 `--original_prompt`: adapt the prompt for the dialogue completion task; otherwise use a different structure for tuning.</br>
 
 The output can be found under `data/tuned_results/{dataset}`.
+
+## Analysis scripts (camera-ready)
+
+The following standalone scripts reproduce the additional analyses reported in the camera-ready version (Discussion and Appendix). They read from `data/final_results/` (the curated score set) and, unless noted otherwise, print their tables to stdout.
+
+**Refinement significance and clusters:**
+
+- `rebuttal_stats.py` — cluster-grouped paired t-tests (Engagement / Fluency / Other) for tuned vs. task output across all nine dataset × model cells on the vanilla prompt.
+- `calculate_significance.py` — paired t-tests and Cohen's *d* on FED scores for a single result file (edit the filenames at the top).
+- `final_fed_scores.py` — comparison of `w=2` vs. `w=4` context-window results.
+
+**FED bias diagnostics:**
+
+- `surface_feature_diagnostic.py` — Pearson correlations between FED scores on human reference turns and four surface features (token count, mean word length, punctuation density, type–token ratio).
+- `length_residualized_fed.py` — re-scores FED with the surface-feature contribution subtracted (linear regression fitted on human reference turns only) and re-runs the tuned-vs-task comparison on the residualized scores.
+
+**IXQuisite-only refinement ablation:**
+
+- `run_ixqonly_tuning.py` — step 1: re-runs refinement using only the six IXQuisite features in the worst-feature selection (no FED signal).
+- `run_ixqonly_eval.py` — step 2: re-evaluates the ablation outputs with the full FED+IXQuisite pipeline.
+- `analyse_ixqonly_ablation.py` — step 3: compares the ablation against the original FED+IXQ-tuned outputs.
+
+**LLM-as-a-judge study:**
+
+- `judge.py` — Gemini 2.5 Pro blind 3-way ranking (human / task / tuned) on a stratified 300-turn sample; writes to `judgements/`.
+- `judge_claude.py` — second judge (Claude Haiku 4.5) on the byte-identical sample and label seeding.
+- `compute_judge_agreement.py` — inter-judge agreement (Cohen's κ on the 3-way exact and binary "human-best" verdicts).
+
+**Explanatory-turn spot-check:**
+
+- `prepare_spotcheck_sample.py` — draws 30 random ReWIRED target turns for manual explanation-bearing labelling.
+- `score_spotcheck.py` — computes the explanation-bearing rate from the labelled file.

@@ -42,6 +42,7 @@ if __name__ == "__main__":
         model, tokenizer = fed.load_models('microsoft/DialoGPT-large')
 
     path = f'data/tuned_results/{args.dataset}' if args.tuned else f'data/results/{args.dataset}'
+    os.makedirs(f'data/evaluated_results/{args.dataset}', exist_ok=True)
     for root, dirs, files in os.walk(path):
         for file in files:
             
@@ -112,7 +113,8 @@ if __name__ == "__main__":
                         df.at[index, 'specific-tuned'] = round(scores['specific'] * 100, 4)
                         df.at[index, 'relevant-tuned'] = round(scores['relevant'], 4)
                         df.at[index, 'correct-tuned'] = round(scores['correct'], 4)
-                        df.at[index, 'semantically appropriate-tuned'] = round(scores['semantically appropriate'] * 100, 4)
+                        df.at[index, 'semantically appropriate-tuned'] = round(
+                            scores['semantically appropriate'] * 100, 4)
                         df.at[index, 'understandable-tuned'] = round(scores['understandable'] * 100, 4)
                         df.at[index, 'fluent-tuned'] = round(scores['fluent'] * 100, 4)
                         df.at[index, 'coherent-tuned'] = round(scores['coherent'], 4)
@@ -159,7 +161,8 @@ if __name__ == "__main__":
                         df.at[index, 'specific-original'] = round(scores_original['specific'] * 100, 4)
                         df.at[index, 'relevant-original'] = round(scores_original['relevant'], 4)
                         df.at[index, 'correct-original'] = round(scores_original['correct'], 4)
-                        df.at[index, 'semantically appropriate-original'] = round(scores_original['semantically appropriate'] * 100, 4)
+                        df.at[index, 'semantically appropriate-original'] = round(
+                            scores_original['semantically appropriate'] * 100, 4)
                         df.at[index, 'understandable-original'] = round(scores_original['understandable'] * 100, 4)
                         df.at[index, 'fluent-original'] = round(scores_original['fluent'] * 100, 4)
                         df.at[index, 'coherent-original'] = round(scores_original['coherent'], 4)
@@ -215,5 +218,6 @@ if __name__ == "__main__":
                         df.at[index, 'reading_grade-original'] = scores_original['reading_grade']
                         df.at[index, 'adaptation-original'] = scores_original['adaptation']
             
-            os.makedirs(f'data/evaluated_results/{args.dataset}', exist_ok=True)
+                if index % 100 == 0:
+                    df.to_json(f'data/evaluated_results/{args.dataset}/{file.split(".json")[0]}_eval.json')
             df.to_json(f'data/evaluated_results/{args.dataset}/{file.split(".json")[0]}_eval.json')
