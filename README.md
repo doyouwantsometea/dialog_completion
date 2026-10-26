@@ -1,6 +1,6 @@
 # Evaluating LLM-generated Explanatory Utterances through Dialogue Completion
 
-Python implementation for paper submission *Evaluating LLM-generated Explanatory Dialogue Turns through Dialogue Completion*.
+Python implementation for paper submission [*Evaluating LLM-generated Explanatory Dialogue Turns through Dialogue Completion*](https://aclanthology.org/2026.emnlp-main.72/).
 
 The experiments involve instructing LLMs to complete explanatory dialogues, as well as evaluating and tuning model output. Descriptions of each step are provided in detail as below.
 
